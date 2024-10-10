@@ -1,0 +1,14 @@
+@prefix ex: <http://example.org/> .
+
+ex:A a ex:Streamer ;
+    ex:title "Streamer A" .
+
+ex:B a ex:Streamer ;
+    ex:title "Streamer B" .
+
+ex:C a ex:Streamer ;
+    ex:title "Streamer C" .
+
+ex:A ex:reactsTo ex:B .
+ex:B ex:reactsTo ex:C .
+ex:C ex:reactsTo ex:A .
