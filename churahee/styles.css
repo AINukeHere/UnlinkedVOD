@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-list li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.version-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.version-list li {
+  margin: 5px 0;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.version-list {
+  display: flex; /* Flexbox 사용 */
+  flex-wrap: wrap; /* 내용이 공간을 초과하면 다음 줄로 감싸기 */
+  gap: 10px; /* 썸네일 간의 간격 */
+  list-style-type: none; /* 리스트 스타일 제거 */
+  padding: 0; /* 기본 패딩 제거 */
+  margin: 0; /* 기본 마진 제거 */
+}
+
+.version-list li {
+  display: flex;
+  flex-direction: column; /* 썸네일과 링크가 세로로 쌓이도록 설정 */
+  align-items: center; /* 내용 가운데 정렬 */
+  max-width: 150px; /* 썸네일의 최대 너비 설정 */
+}

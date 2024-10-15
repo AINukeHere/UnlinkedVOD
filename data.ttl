@@ -1,14 +1,31 @@
 @prefix ex: <http://example.org/> .
 
-ex:A a ex:Streamer ;
+# Streamers
+ex:StreamerA a ex:Streamer ;
     ex:title "Streamer A" .
 
-ex:B a ex:Streamer ;
+ex:StreamerB a ex:Streamer ;
     ex:title "Streamer B" .
 
-ex:C a ex:Streamer ;
-    ex:title "Streamer C" .
+# VODs
+ex:마카오톡에_온_음향_아저씨 a ex:VOD ;
+    ex:streamedBy ex:StreamerA ;
+    ex:title "VOD 1 by Streamer A" .
 
-ex:A ex:reactsTo ex:B .
-ex:B ex:reactsTo ex:C .
-ex:C ex:reactsTo ex:A .
+ex:VOD2 a ex:VOD ;
+    ex:streamedBy ex:StreamerB ;
+    ex:title "VOD 2 by Streamer B" .
+
+# Reactions
+ex:VOD1 ex:reactedToBy ex:VOD2 ;
+       ex:reactedToBy ex:VOD3 .
+
+ex:VOD2 ex:reactedToBy ex:VOD1 ;
+       ex:reactedToBy ex:VOD3 .
+
+# Another reaction
+ex:VOD3 a ex:VOD ;
+    ex:streamedBy ex:StreamerA ;
+    ex:title "VOD 3 by Streamer A" ;
+    ex:reactedToBy ex:VOD1 .
+

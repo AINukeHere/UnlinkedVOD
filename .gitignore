@@ -1,3 +1,5 @@
-*.html
-*.js
-*.css
+.vscode
+
+/*.html
+/*.js
+/*.css
