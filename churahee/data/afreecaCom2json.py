@@ -13,11 +13,13 @@ for line in lines:
     timeline = res[1].replace(']','')
     recommended = False
     noMistake = False
-    if '☆' in timeline:
+    if '☆' in timeline or '★' in timeline:
         timeline = timeline.replace('☆','')
+        timeline = timeline.replace('★','')
         recommended = True
-    if '●' in timeline:
+    if '●' in timeline or '○' in timeline:
         timeline = timeline.replace('●','')
+        timeline = timeline.replace('○','')
         noMistake = True
     title = title.strip()
     timeline = timeline.strip()

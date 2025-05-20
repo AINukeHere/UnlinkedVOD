@@ -19,20 +19,22 @@ def time_to_seconds(time_str):
 
     return h * 3600 + m * 60 + s
 
-# date 겹치는지 체크용
-date_dict = {}
+# url 겹치는지 체크용
+url_dict = {}
 
 songs_dict = {}
 for history in json_data['history']:
     if "template" in history:
         continue
-    date = history['date']
-    if date in date_dict:
-        print(f'[중복] date: {date}')
-    else:
-        date_dict[date] = True
-    videoTitle = history['title']
+    
     url_base = history['url']
+    if url_base in url_dict:
+        print(f'[중복] url: {url_base}')
+    else:
+        url_dict[url_base] = True
+
+    date = history['date']
+    videoTitle = history['title']
     # 썸네일 URL 생성
     thumbnail_url =  history["thumbnail"]
     
