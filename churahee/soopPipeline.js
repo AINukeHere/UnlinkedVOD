@@ -87,6 +87,18 @@ async function getSoopComments(videoId, vodInfo) {
 /** Time regex: H:M:S or H:MM:SS or MM:SS 등 (분·초 한 자리 허용) */
 const TIME_REGEX = /(\d{1,2}:\d{1,2}(?::\d{1,2})?)/;
 
+/** Decode common HTML entities in text (e.g. API returns "You &amp; I"). */
+function decodeHtmlEntities(s) {
+  if (!s || typeof s !== 'string') return s;
+  return s
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'");
+}
+
 /**
  * Parse one line into { title, time, noMistake?, recommended?, needsReview? } or null.
  * Line may be "제목 3:25:43" or "3:25:43 제목" with optional ☆★●○. "?" present → needsReview.
@@ -112,6 +124,7 @@ function parseTimelineLine(line) {
   }
   if (!title) return null;
   title = title.replace(/\\:/g, ':');
+  title = decodeHtmlEntities(title);
 
   const info = { title, time: timeStr };
   if (noMistake) info.noMistake = true;
