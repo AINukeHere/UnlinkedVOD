@@ -3,13 +3,6 @@ function getListSort() {
   return (el && el.value) || 'title';
 }
 
-function getListFilters() {
-  return {
-    noMistakeOnly: document.getElementById('filterNoMistake')?.checked ?? false,
-    recommendedOnly: document.getElementById('filterRecommended')?.checked ?? false,
-  };
-}
-
 function getVersionSort() {
   const el = document.getElementById('versionSort');
   return (el && el.value) || 'dateDesc';
@@ -77,7 +70,6 @@ function loadSongs(searchTerm = '') {
   const container = document.getElementById('songList');
   if (!container) return;
 
-  const listFilters = getListFilters();
   const versionFilters = getVersionFilters();
   const versionSort = getVersionSort();
 
@@ -91,13 +83,6 @@ function loadSongs(searchTerm = '') {
       filteredVersions: applyVersionFilterOnly(song.versions, versionFilters),
     }))
     .filter(({ filteredVersions }) => filteredVersions.length >= 1);
-
-  if (listFilters.noMistakeOnly) {
-    list = list.filter(({ filteredVersions }) => filteredVersions.some((v) => v.noMistake));
-  }
-  if (listFilters.recommendedOnly) {
-    list = list.filter(({ filteredVersions }) => filteredVersions.some((v) => v.recommended));
-  }
 
   const listSort = getListSort();
   if (listSort === 'title') {
@@ -239,7 +224,7 @@ window.onload = () => {
   document.getElementById('searchBar')?.addEventListener('keyup', searchSongs);
   document.getElementById('listSort')?.addEventListener('change', onFilterOrSortChange);
   document.getElementById('versionSort')?.addEventListener('change', onFilterOrSortChange);
-  ['filterNoMistake', 'filterRecommended', 'filterVersionNoMistake', 'filterVersionRecommended'].forEach((id) => {
+  ['filterVersionNoMistake', 'filterVersionRecommended'].forEach((id) => {
     document.getElementById(id)?.addEventListener('change', onFilterOrSortChange);
   });
 };
