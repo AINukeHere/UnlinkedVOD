@@ -88,16 +88,17 @@ async function getSoopComments(videoId, vodInfo) {
 const TIME_REGEX = /(\d{1,2}:\d{1,2}(?::\d{1,2})?)/;
 
 /**
- * Parse one line into { title, time, noMistake?, recommended? } or null.
- * Line may be "제목 3:25:43" or "3:25:43 제목" with optional ☆★●○.
+ * Parse one line into { title, time, noMistake?, recommended?, needsReview? } or null.
+ * Line may be "제목 3:25:43" or "3:25:43 제목" with optional ☆★●○. "?" present → needsReview.
  */
 function parseTimelineLine(line) {
   line = line.replace(/\s+/g, ' ').trim();
   if (!line) return null;
 
+  const needsReview = line.includes('?');
   let recommended = /[☆★]/.test(line);
   let noMistake = /[○●]/.test(line);
-  line = line.replace(/[☆★○●□■]/g, '').trim();
+  line = line.replace(/[☆★○●□■?]/g, '').trim();
 
   const m = line.match(TIME_REGEX);
   if (!m) return null;
@@ -115,6 +116,7 @@ function parseTimelineLine(line) {
   const info = { title, time: timeStr };
   if (noMistake) info.noMistake = true;
   if (recommended) info.recommended = true;
+  if (needsReview) info.needsReview = true;
   return info;
 }
 
@@ -122,7 +124,7 @@ const TIMELINE_LINE_PREFIX = '🎤';
 
 /**
  * @param {string} commentHtml - e.g. "🎤 Square 3:25:43 <br />\\n🎤 무릎 3:31:59<br />\\n..."
- * @returns {Array<{ title: string, time: string, noMistake?: boolean, recommended?: boolean }>}
+ * @returns {Array<{ title: string, time: string, noMistake?: boolean, recommended?: boolean, needsReview?: boolean }>}
  */
 function parseCommentHtmlToSongInfo(commentHtml) {
   if (!commentHtml || typeof commentHtml !== 'string') return [];

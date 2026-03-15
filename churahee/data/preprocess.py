@@ -44,11 +44,14 @@ for history in json_data['history']:
         vod_url = f"{url_base}?change_second={time_in_seconds}"
         noMistake = False
         recommended = False
+        needsReview = False
         if 'noMistake' in song:
             noMistake = song['noMistake']
         if 'recommended' in song:
             recommended = song['recommended']
-        
+        if 'needsReview' in song:
+            needsReview = song['needsReview']
+
         # 기존 노래 타이틀이 이미 존재하면 versions에 추가
         if title in songs_dict:
             songs_dict[title]["versions"].append({
@@ -58,7 +61,8 @@ for history in json_data['history']:
                 "views": 1000,  # 기본 조회수는 1000으로 설정 (변경 가능)
                 "thumbnail": thumbnail_url,
                 "noMistake": noMistake,
-                "recommended": recommended
+                "recommended": recommended,
+                "needsReview": needsReview
             })
         # 새로운 노래 타이틀이면 새로운 항목 생성
         else:
@@ -72,7 +76,8 @@ for history in json_data['history']:
                         "views": 1000,
                         "thumbnail": thumbnail_url,
                         "noMistake": noMistake,
-                        "recommended": recommended
+                        "recommended": recommended,
+                        "needsReview": needsReview
                     }
                 ]
             }

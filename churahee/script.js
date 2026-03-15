@@ -12,6 +12,7 @@ function getVersionFilters() {
   return {
     noMistakeOnly: document.getElementById('filterVersionNoMistake')?.checked ?? false,
     recommendedOnly: document.getElementById('filterVersionRecommended')?.checked ?? false,
+    needsReviewOnly: document.getElementById('filterVersionNeedsReview')?.checked ?? false,
   };
 }
 
@@ -38,6 +39,7 @@ function applyVersionFilterOnly(versions, versionFilters) {
   let list = versions ? [...versions] : [];
   if (versionFilters.noMistakeOnly) list = list.filter((v) => v.noMistake);
   if (versionFilters.recommendedOnly) list = list.filter((v) => v.recommended);
+  if (versionFilters.needsReviewOnly) list = list.filter((v) => v.needsReview);
   return list;
 }
 
@@ -45,6 +47,7 @@ function applyVersionFilterAndSort(versions, versionSort, versionFilters) {
   let list = versions ? [...versions] : [];
   if (versionFilters.noMistakeOnly) list = list.filter((v) => v.noMistake);
   if (versionFilters.recommendedOnly) list = list.filter((v) => v.recommended);
+  if (versionFilters.needsReviewOnly) list = list.filter((v) => v.needsReview);
   if (versionSort === 'dateAsc') {
     list.sort((a, b) => parseVodDate(a.date) - parseVodDate(b.date));
   } else {
@@ -57,6 +60,7 @@ function versionIconsHtml(version) {
   const parts = [];
   if (version.noMistake) parts.push('<span class="version-icon" title="실수 없음">○</span>');
   if (version.recommended) parts.push('<span class="version-icon" title="추천">☆</span>');
+  if (version.needsReview) parts.push('<span class="version-icon version-icon-review" title="검토 필요">?</span>');
   return parts.length ? '<span class="version-icons">' + parts.join('') + '</span>' : '';
 }
 
@@ -224,7 +228,7 @@ window.onload = () => {
   document.getElementById('searchBar')?.addEventListener('keyup', searchSongs);
   document.getElementById('listSort')?.addEventListener('change', onFilterOrSortChange);
   document.getElementById('versionSort')?.addEventListener('change', onFilterOrSortChange);
-  ['filterVersionNoMistake', 'filterVersionRecommended'].forEach((id) => {
+  ['filterVersionNoMistake', 'filterVersionRecommended', 'filterVersionNeedsReview'].forEach((id) => {
     document.getElementById(id)?.addEventListener('change', onFilterOrSortChange);
   });
 };

@@ -276,6 +276,11 @@ body {
   color: var(--accent);
 }
 
+.version-icon-review {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
 .version-card-title {
   font-size: 0.78rem;
   color: var(--text-muted);
