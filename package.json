@@ -1,0 +1,12 @@
+{
+  "name": "unlinked-vod",
+  "version": "1.0.0",
+  "description": "Streamer Reactions Hub and Community Site",
+  "scripts": {
+    "churahee:add": "node churahee/addVod.js",
+    "churahee:migrate": "node churahee/data/migrateAfreecaToSoop.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,127 +1,245 @@
-const N = 5; // 탑 N개의 버전을 보여줄 개수
+function getListSort() {
+  const el = document.getElementById('listSort');
+  return (el && el.value) || 'title';
+}
 
-function loadSongs(searchTerm = "") {
-  const songList = document.getElementById('songList');
-  songList.innerHTML = ''; // 기존 목록 초기화
-  
-  const filteredSongs = songs.filter(song =>
-    song.title.toLowerCase().includes(searchTerm.toLowerCase())
+function getListFilters() {
+  return {
+    noMistakeOnly: document.getElementById('filterNoMistake')?.checked ?? false,
+    recommendedOnly: document.getElementById('filterRecommended')?.checked ?? false,
+  };
+}
+
+function getVersionSort() {
+  const el = document.getElementById('versionSort');
+  return (el && el.value) || 'dateDesc';
+}
+
+function getVersionFilters() {
+  return {
+    noMistakeOnly: document.getElementById('filterVersionNoMistake')?.checked ?? false,
+    recommendedOnly: document.getElementById('filterVersionRecommended')?.checked ?? false,
+  };
+}
+
+function parseVodDate(dateStr) {
+  if (!dateStr) return 0;
+  const part = String(dateStr).trim().slice(0, 10);
+  const t = new Date(part).getTime();
+  return Number.isNaN(t) ? 0 : t;
+}
+
+function maxDateFromVersions(versions) {
+  if (!versions || !versions.length) return 0;
+  const timestamps = versions.map((v) => parseVodDate(v.date)).filter((t) => t > 0);
+  return timestamps.length ? Math.max(...timestamps) : 0;
+}
+
+function minDateFromVersions(versions) {
+  if (!versions || !versions.length) return 0;
+  const timestamps = versions.map((v) => parseVodDate(v.date)).filter((t) => t > 0);
+  return timestamps.length ? Math.min(...timestamps) : 0;
+}
+
+function applyVersionFilterOnly(versions, versionFilters) {
+  let list = versions ? [...versions] : [];
+  if (versionFilters.noMistakeOnly) list = list.filter((v) => v.noMistake);
+  if (versionFilters.recommendedOnly) list = list.filter((v) => v.recommended);
+  return list;
+}
+
+function applyVersionFilterAndSort(versions, versionSort, versionFilters) {
+  let list = versions ? [...versions] : [];
+  if (versionFilters.noMistakeOnly) list = list.filter((v) => v.noMistake);
+  if (versionFilters.recommendedOnly) list = list.filter((v) => v.recommended);
+  if (versionSort === 'dateAsc') {
+    list.sort((a, b) => parseVodDate(a.date) - parseVodDate(b.date));
+  } else {
+    list.sort((a, b) => parseVodDate(b.date) - parseVodDate(a.date));
+  }
+  return list;
+}
+
+function versionIconsHtml(version) {
+  const parts = [];
+  if (version.noMistake) parts.push('<span class="version-icon" title="실수 없음">○</span>');
+  if (version.recommended) parts.push('<span class="version-icon" title="추천">☆</span>');
+  return parts.length ? '<span class="version-icons">' + parts.join('') + '</span>' : '';
+}
+
+function escapeHtml(s) {
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+function loadSongs(searchTerm = '') {
+  const container = document.getElementById('songList');
+  if (!container) return;
+
+  const listFilters = getListFilters();
+  const versionFilters = getVersionFilters();
+  const versionSort = getVersionSort();
+
+  let list = songs.filter((song) =>
+    song.title.toLowerCase().includes((searchTerm || '').toLowerCase())
   );
-  
-  filteredSongs.forEach(song => {
-    const li = document.createElement('li');
-    const songTitle = document.createElement('h3');
-    const versionPreviewDiv = document.createElement('div');
-    versionPreviewDiv.className = 'versionPreview'
-    songTitle.innerText = song.title;
 
-    const versionButton = document.createElement('button');
-    versionButton.innerText = `${song.versions.length}개의 버전 보기`;
-    versionButton.onclick = () => showTopNVersions(song);
+  list = list
+    .map((song) => ({
+      song,
+      filteredVersions: applyVersionFilterOnly(song.versions, versionFilters),
+    }))
+    .filter(({ filteredVersions }) => filteredVersions.length >= 1);
 
-    li.appendChild(songTitle);
-    li.appendChild(versionButton);
-    li.appendChild(versionPreviewDiv);
-    li.id = song.title;
-    songList.appendChild(li);
-  });
-}
+  if (listFilters.noMistakeOnly) {
+    list = list.filter(({ filteredVersions }) => filteredVersions.some((v) => v.noMistake));
+  }
+  if (listFilters.recommendedOnly) {
+    list = list.filter(({ filteredVersions }) => filteredVersions.some((v) => v.recommended));
+  }
 
-function showTopNVersions(song) {
-  // const container = document.querySelector('.container');
-  // container.innerHTML = `<h2>${song.title}</h2>`;
-  const songListItem = document.getElementById(`${song.title}`);
-  const container = songListItem.lastChild
-  container.innerHTML = ''
-  const ul = document.createElement('ul');
-  ul.classList.add('version-list');
+  const listSort = getListSort();
+  if (listSort === 'title') {
+    list.sort((a, b) => (a.song.title || '').localeCompare(b.song.title || '', 'ko'));
+  } else if (listSort === 'dateDesc') {
+    list.sort((a, b) => maxDateFromVersions(b.filteredVersions) - maxDateFromVersions(a.filteredVersions));
+  } else if (listSort === 'dateAsc') {
+    list.sort((a, b) => minDateFromVersions(a.filteredVersions) - minDateFromVersions(b.filteredVersions));
+  } else if (listSort === 'versionCountDesc') {
+    list.sort((a, b) => b.filteredVersions.length - a.filteredVersions.length);
+  }
 
-  // 버전들을 조회수 기준으로 정렬한 후 탑 N개를 가져옴
-  const topVersions = song.versions
-    // .sort((a, b) => b.views - a.views)
-    // .slice(0, N);
+  container.innerHTML = '';
 
-  topVersions.forEach(version => {
-    const li = document.createElement('li');
+  list.forEach(({ song, filteredVersions }) => {
+    const versionsToShow = applyVersionFilterAndSort(song.versions, versionSort, versionFilters);
 
-    // 이미지에 링크 추가
-    li.innerHTML = `
-      <div>
-        <a href="${version.url}" target="_blank">
-          <img src="${version.thumbnail}" alt="Thumbnail" width="150" height="100" />
-        </a>
-        <a href="${version.url}" target="_blank">${version.date} 방송<br>${version.videoTitle}</a>
-      </div>
-    `;
-    ul.appendChild(li);
-  });
+    const row = document.createElement('section');
+    row.className = 'song-row';
 
-  container.appendChild(ul);
-}
+    const titleEl = document.createElement('h2');
+    titleEl.className = 'song-row-title';
+    titleEl.textContent = song.title;
 
+    const strip = document.createElement('div');
+    strip.className = 'version-strip';
 
-function searchSongs() {
-  const searchTerm = document.getElementById('searchBar').value;
-  loadSongs(searchTerm);
-}
-// 노래 버전들을 화면에 추가하는 함수
-function displaySongVersions(versions, songTitle) {
-  const versionContainer = document.getElementById('versionContainer');
-
-  // 제목 추가 (노래 클릭 시 해당 노래의 제목 표시)
-  const titleElement = document.createElement('h3');
-  titleElement.textContent = songTitle;
-
-  // 제목을 컨테이너에 추가
-  versionContainer.appendChild(titleElement);
-
-  versions.forEach(version => {
-    // 노래 버전의 각 요소 생성
-    const versionElement = document.createElement('div');
-    versionElement.classList.add('version-item');
-
-    // 썸네일 이미지에 링크 추가
-    const thumbnailLink = document.createElement('a');
-    thumbnailLink.href = version.url;  // 썸네일 이미지를 클릭하면 VOD URL로 이동
-    thumbnailLink.target = "_blank";   // 새 창에서 열기
-
-    const thumbnail = document.createElement('img');
-    thumbnail.src = version.thumbnail;
-    thumbnail.alt = `${version.date} 버전의 썸네일`;
-
-    // 썸네일 이미지를 링크 안에 추가
-    thumbnailLink.appendChild(thumbnail);
-
-    // 텍스트 정보 (날짜와 조회수) 추가
-    const infoText = document.createElement('p');
-    infoText.textContent = `날짜: ${version.date} | 조회수: ${version.views}`;
-
-    // 버전 요소에 썸네일 링크와 텍스트 정보 추가
-    versionElement.appendChild(thumbnailLink);
-    versionElement.appendChild(infoText);
-
-    // 버전 컨테이너에 이 버전 추가
-    versionContainer.appendChild(versionElement);
-  });
-}
-
-// 노래 리스트를 표시하는 함수 (각 노래를 클릭할 수 있게 처리)
-function displaySongs(songs) {
-  const songList = document.getElementById('songList');
-  songList.innerHTML = ''; // 기존 노래 리스트 초기화
-
-  songs.forEach(song => {
-    const songElement = document.createElement('li');
-    songElement.textContent = song.title;
-
-    // 노래를 클릭하면 해당 노래의 버전들이 표시되도록 이벤트 추가
-    songElement.addEventListener('click', () => {
-      // 기존에 선택된 노래의 버전들을 추가로 표시
-      displaySongVersions(song.versions, song.title);
+    versionsToShow.forEach((v) => {
+      const icons = versionIconsHtml(v);
+      const card = document.createElement('a');
+      card.href = v.url;
+      card.target = '_blank';
+      card.rel = 'noopener';
+      card.className = 'version-card';
+      card.innerHTML = `
+        <span class="version-card-thumb">
+          <img src="${escapeHtml(v.thumbnail)}" alt="" loading="lazy" />
+        </span>
+        <span class="version-card-info">
+          <span class="version-card-meta">
+            <span class="version-card-date">${escapeHtml(v.date)}</span>
+            ${icons ? `<span class="version-card-icons">${icons}</span>` : ''}
+          </span>
+          <span class="version-card-title">${escapeHtml(v.videoTitle || '')}</span>
+        </span>
+      `;
+      strip.appendChild(card);
     });
 
-    songList.appendChild(songElement);
+    row.appendChild(titleEl);
+    row.appendChild(strip);
+    container.appendChild(row);
   });
 }
 
-window.onload = () => loadSongs();
+function searchSongs() {
+  loadSongs(document.getElementById('searchBar')?.value ?? '');
+}
+
+function onFilterOrSortChange() {
+  loadSongs(document.getElementById('searchBar')?.value ?? '');
+}
+
+(function setupStripDragScroll() {
+  const DRAG_THRESHOLD = 5;
+  let state = { strip: null, startX: 0, startScroll: 0, didMove: false };
+  let preventClick = false;
+
+  function getStrip(el) {
+    return el && el.closest ? el.closest('.version-strip') : null;
+  }
+
+  function isStripBackground(target) {
+    const strip = getStrip(target);
+    return strip && target === strip;
+  }
+
+  function endDrag(allowPreventClick) {
+    if (state.strip) {
+      if (state.didMove && allowPreventClick) preventClick = true;
+      state.strip.classList.remove('dragging');
+      state = { strip: null, startX: 0, startScroll: 0, didMove: false };
+    }
+  }
+
+  document.addEventListener('mousedown', (e) => {
+    if (!isStripBackground(e.target)) return;
+    const strip = getStrip(e.target);
+    state = { strip, startX: e.clientX, startScroll: strip.scrollLeft, didMove: false };
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!state.strip) return;
+    const dx = state.startX - e.clientX;
+    if (!state.didMove && Math.abs(dx) > DRAG_THRESHOLD) {
+      state.didMove = true;
+      state.strip.classList.add('dragging');
+    }
+    if (state.didMove) state.strip.scrollLeft = state.startScroll + dx;
+  });
+
+  document.addEventListener('mouseup', () => endDrag(true));
+  window.addEventListener('mouseup', () => endDrag(true), true);
+  document.addEventListener('mouseleave', (e) => {
+    if (e.target === document.documentElement || e.target === document.body) endDrag(false);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (preventClick && getStrip(e.target)) {
+      e.preventDefault();
+      e.stopPropagation();
+      preventClick = false;
+    }
+  }, true);
+
+  document.addEventListener('touchstart', (e) => {
+    if (!isStripBackground(e.target) || e.touches.length !== 1) return;
+    const strip = getStrip(e.target);
+    state = { strip, startX: e.touches[0].clientX, startScroll: strip.scrollLeft, didMove: false };
+  }, { passive: true });
+
+  document.addEventListener('touchmove', (e) => {
+    if (!state.strip || e.touches.length !== 1) return;
+    const dx = state.startX - e.touches[0].clientX;
+    if (!state.didMove && Math.abs(dx) > DRAG_THRESHOLD) {
+      state.didMove = true;
+      state.strip.classList.add('dragging');
+    }
+    if (state.didMove) state.strip.scrollLeft = state.startScroll + dx;
+  }, { passive: true });
+
+  document.addEventListener('touchend', () => endDrag(true));
+  document.addEventListener('touchcancel', () => endDrag(false));
+})();
+
+window.onload = () => {
+  loadSongs();
+  document.getElementById('searchBar')?.addEventListener('input', searchSongs);
+  document.getElementById('searchBar')?.addEventListener('keyup', searchSongs);
+  document.getElementById('listSort')?.addEventListener('change', onFilterOrSortChange);
+  document.getElementById('versionSort')?.addEventListener('change', onFilterOrSortChange);
+  ['filterNoMistake', 'filterRecommended', 'filterVersionNoMistake', 'filterVersionRecommended'].forEach((id) => {
+    document.getElementById(id)?.addEventListener('change', onFilterOrSortChange);
+  });
+};

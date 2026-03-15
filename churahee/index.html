@@ -3,30 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>츄라희의 노래 모음집</title>
+  <title>츄라희의 노래 기록</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <h1>츄라희의 노래 모음집</h1>
+  <header class="site-header">
+    <h1 class="site-title">츄라희의 노래 기록</h1>
+    <div class="toolbar">
+      <input type="text" id="searchBar" class="search-input" placeholder="노래 검색" autocomplete="off" />
+      <div class="toolbar-group">
+        <span class="toolbar-label">정렬</span>
+        <select id="listSort" class="select" aria-label="노래 정렬">
+          <option value="title">가나다순</option>
+          <option value="dateDesc">최신 방송순</option>
+          <option value="dateAsc">오래된 방송순</option>
+          <option value="versionCountDesc">버전 많은 순</option>
+        </select>
+      </div>
+      <div class="toolbar-group">
+        <label class="chip-label"><input type="checkbox" id="filterNoMistake" /> 실수 없는 노래만</label>
+        <label class="chip-label"><input type="checkbox" id="filterRecommended" /> 추천만</label>
+      </div>
+      <div class="toolbar-divider"></div>
+      <div class="toolbar-group">
+        <span class="toolbar-label">버전</span>
+        <select id="versionSort" class="select" aria-label="버전 정렬">
+          <option value="dateDesc">최신순</option>
+          <option value="dateAsc">오래된순</option>
+        </select>
+        <label class="chip-label"><input type="checkbox" id="filterVersionNoMistake" /> 실수 없는 버전만</label>
+        <label class="chip-label"><input type="checkbox" id="filterVersionRecommended" /> 추천 버전만</label>
+      </div>
+    </div>
   </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Song List</a>
-  </nav>
-  
-  <div class="container">
-    <h2>노래 목록</h2>
-    
-    <input type="text" id="searchBar" placeholder="노래 검색..." onkeyup="searchSongs()" />
-    
-    <ul class="song-list" id="songList">
-      <!-- JavaScript로 채워질 노래 목록 -->
-    </ul>
-  </div>
+  <main class="main">
+    <div id="songList" class="song-rows">
+      <!-- 노래별 행이 JS로 채워짐 -->
+    </div>
+  </main>
 
   <script src="songs.js"></script>
   <script src="script.js"></script>
