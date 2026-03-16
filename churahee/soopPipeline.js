@@ -100,6 +100,26 @@ function decodeHtmlEntities(s) {
 }
 
 /**
+ * Load churahee/data/config.json. authorUserId / debug는 config 우선, 없으면 환경변수.
+ * @param {string} repoRoot
+ * @returns {{ authorUserId: string, debug: boolean }}
+ */
+function loadChuraheeConfig(repoRoot) {
+  const p = path.join(repoRoot, 'churahee', 'data', 'config.json');
+  let authorUserId = process.env.CHURAHEE_AUTHOR_USER_ID || '';
+  let debug = !!(process.env.CHURAHEE_DEBUG || process.env.DEBUG);
+  try {
+    const raw = fs.readFileSync(p, 'utf8');
+    const config = JSON.parse(raw);
+    if (config.authorUserId != null && String(config.authorUserId).trim() !== '') {
+      authorUserId = String(config.authorUserId).trim();
+    }
+    if (config.debug != null) debug = !!config.debug;
+  } catch (_) {}
+  return { authorUserId, debug };
+}
+
+/**
  * Parse one line into { title, time, noMistake?, recommended?, needsReview? } or null.
  * Line may be "제목 3:25:43" or "3:25:43 제목" with optional ☆★●○. "?" present → needsReview.
  */
@@ -220,11 +240,30 @@ async function runPipeline(vodUrl, repoRoot) {
   if (!vodInfo) throw new Error(`Failed to fetch VOD info for ${videoId}`);
 
   const comments = await getSoopComments(videoId, vodInfo);
-  const AUTHOR_USER_ID = process.env.CHURAHEE_AUTHOR_USER_ID || '';
+  const config = loadChuraheeConfig(repoRoot);
+  const AUTHOR_USER_ID = config.authorUserId;
+  const debug = config.debug;
+
+  if (debug) {
+    console.error('[DEBUG] 댓글 총 개수:', comments.length);
+    console.error('[DEBUG] authorUserId (config 또는 환경변수):', AUTHOR_USER_ID || '(비어 있음)');
+  }
+
   let songInfo = [];
   for (const c of comments) {
     if (!AUTHOR_USER_ID || (c.user_id || '') !== AUTHOR_USER_ID) continue;
-    songInfo = songInfo.concat(parseCommentHtmlToSongInfo(c.comment));
+    const parsed = parseCommentHtmlToSongInfo(c.comment);
+    if (debug && parsed.length > 0) {
+      console.error('[DEBUG] 작성자 댓글 한 건 → 파싱된 곡:', parsed.length, parsed.map((p) => `${p.title}${p.artist ? ` (${p.artist})` : ''} ${p.time}`));
+    }
+    songInfo = songInfo.concat(parsed);
+  }
+
+  if (debug) {
+    console.error('[DEBUG] 합친 songInfo 개수:', songInfo.length);
+    if (songInfo.length === 0 && comments.length > 0) {
+      console.error('[DEBUG] 작성자 댓글이 없거나 🎤 형식이 아님. user_id 확인 또는 댓글 앞에 🎤 있는지 확인.');
+    }
   }
 
   const date = getBroadcastDate(vodInfo);
@@ -256,6 +295,7 @@ module.exports = {
   parseVodUrl,
   getSoopVodInfo,
   getSoopComments,
+  loadChuraheeConfig,
   parseCommentHtmlToSongInfo,
   mergeVodIntoSource,
   runPipeline,

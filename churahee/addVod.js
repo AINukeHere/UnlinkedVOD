@@ -3,7 +3,7 @@
  * Add or update a VOD from a Soop URL. Run from repo root.
  * Usage: node churahee/addVod.js "https://vod.sooplive.co.kr/player/189435111"
  */
-const { runPipeline } = require('./soopPipeline');
+const { runPipeline, loadChuraheeConfig } = require('./soopPipeline');
 const { spawnSync } = require('child_process');
 const path = require('path');
 
@@ -34,7 +34,12 @@ async function main() {
     }
     console.log('songs.js updated.');
   } catch (err) {
-    console.error(err.message);
+    const { debug } = loadChuraheeConfig(repoRoot);
+    if (debug) {
+      console.error(err);
+    } else {
+      console.error(err.message);
+    }
     process.exit(1);
   }
 }

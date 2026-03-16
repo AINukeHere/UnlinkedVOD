@@ -19,6 +19,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# churahee local config (author user ID)
+churahee/data/config.json
+
 # Logs
 logs
 *.log

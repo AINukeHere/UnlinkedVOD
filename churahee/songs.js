@@ -4360,7 +4360,7 @@ const songs = [
     ]
   },
   {
-    "title": "Villain",
+    "title": "Villain (스텔라장)",
     "versions": [
       {
         "date": "2024-08-09",
@@ -4369,6 +4369,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240809_FF37B743_274974820_2_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-07-25",
+        "url": "https://vod.sooplive.co.kr/player/166958959?change_second=14568",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250725_139BA380_286104230_2_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -7920,7 +7930,7 @@ const songs = [
     ]
   },
   {
-    "title": "VILLAIN - K/DA",
+    "title": "VILLAIN (K/DA)",
     "versions": [
       {
         "date": "2026-01-05",
@@ -7928,6 +7938,16 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/182858141?change_second=7032",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-11-29",
+        "url": "https://vod.sooplive.co.kr/player/179259721?change_second=6987",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251129_357A19D8_289553758_1_r&column=2&t=1764836695",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8869,21 +8889,6 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251129_357A19D8_289553758_1_r&column=2&t=1764836695",
         "noMistake": true,
-        "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "KDA - VILLAIN",
-    "versions": [
-      {
-        "date": "2025-11-29",
-        "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/179259721?change_second=6987",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251129_357A19D8_289553758_1_r&column=2&t=1764836695",
-        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -10294,21 +10299,6 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250725_139BA380_286104230_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "빌런",
-    "versions": [
-      {
-        "date": "2025-07-25",
-        "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/166958959?change_second=14568",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250725_139BA380_286104230_2_r",
-        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
