@@ -1,107 +1,66 @@
-# UnlinkedVOD - Streamer Reactions Hub
+# UnlinkedVOD
 
-스트리머 반응 영상과 커뮤니티를 위한 웹 서비스입니다.
+스트리머 VOD·노래 기록을 위한 정적 웹 프로젝트입니다.
 
-## 기능
+## 현재 상태
 
-- 🎬 **스트리머 반응 영상 시각화**: RDF 데이터를 사용한 인터랙티브 그래프
-- 🎵 **츄라희 노래 모음집**: 노래 검색 및 관리
-- 💬 **커뮤니티**: 글 작성, 댓글, 좋아요 기능
-- 📸 **이미지 업로드**: 글에 이미지 첨부 가능
+| 서비스 | 경로 | 상태 |
+|--------|------|------|
+| **반응 클립 연결 그래프** | `/` (루트) | 준비 중 (더미 페이지) |
+| **츄라희의 노래 기록** | `/churahee/` | 사용 가능 |
+
+## GitHub Pages
+
+저장소 **Settings → Pages** 에서 Source를 설정하면 아래 주소로 접속할 수 있습니다.
+
+- **메인(루트)**: [https://ainukehere.github.io/UnlinkedVOD/](https://ainukehere.github.io/UnlinkedVOD/)
+- **츄라희 노래 기록**: [https://ainukehere.github.io/UnlinkedVOD/churahee/](https://ainukehere.github.io/UnlinkedVOD/churahee/)
 
 ## 기술 스택
 
-- **Backend**: Node.js + Express
-- **Frontend**: HTML, CSS, JavaScript
-- **Data Visualization**: D3.js, RDF.js
-- **File Upload**: Multer
-- **Deployment**: Railway
+- **배포**: GitHub Pages (정적)
+- **로컬 확인**: Live Server 등으로 `churahee/index.html` 또는 루트 열기
+- **데이터 추가**: Node.js + Python (로컬 전용, `churahee` 파이프라인)
 
-## 로컬 개발 환경 설정
+## 로컬에서 사용하기
 
-1. **의존성 설치**
+1. **의존성** (데이터 추가 시에만 필요)
    ```bash
    npm install
    ```
+   현재 `package.json`에는 서버 의존성 없음. `churahee:add` 등 스크립트 실행 시 Node만 필요.
 
-2. **개발 서버 실행**
+2. **사이트 확인**
+   - 루트: `index.html` — 반응 클립 그래프 안내(준비 중)
+   - 노래 기록: `churahee/index.html` — Live Server로 열거나 GitHub Pages 배포 후 `/churahee/` 접속
+
+3. **노래 기록에 VOD 추가**
    ```bash
-   npm run dev
+   npm run churahee:add -- "https://vod.sooplive.co.kr/player/{videoId}"
    ```
-
-3. **브라우저에서 확인**
-   - 메인 페이지: http://localhost:3000
-   - 노래 모음집: http://localhost:3000/churahee
-   - 커뮤니티: http://localhost:3000/community
-
-## Railway 배포
-
-### 1. Railway 계정 생성
-- [Railway.app](https://railway.app)에서 GitHub 계정으로 가입
-
-### 2. 프로젝트 배포
-1. Railway 대시보드에서 "New Project" 클릭
-2. "Deploy from GitHub repo" 선택
-3. 이 저장소 선택
-4. 자동으로 배포 시작
-
-### 3. 환경 변수 설정 (선택사항)
-Railway 대시보드에서 환경 변수 설정:
-- `NODE_ENV=production`
-- 기타 필요한 환경 변수
-
-### 4. 도메인 설정
-- Railway에서 제공하는 기본 도메인 사용
-- 또는 커스텀 도메인 연결 가능
-
-## API 엔드포인트
-
-### 글 관련
-- `POST /api/posts` - 새 글 작성
-- `GET /api/posts` - 글 목록 조회
-- `GET /api/posts/:id` - 글 상세 조회
-- `POST /api/posts/:id/like` - 좋아요
-- `POST /api/posts/:id/comments` - 댓글 추가
-
-### 노래 관련
-- `GET /api/songs` - 노래 목록 조회
-- `POST /api/songs` - 노래 추가
-
-### 기타
-- `GET /api/rdf` - RDF 데이터 조회
+   자세한 절차·환경 변수(`CHURAHEE_AUTHOR_USER_ID`)는 **[churahee/README.md](churahee/README.md)** 참고.
 
 ## 프로젝트 구조
 
 ```
-├── public/                 # 정적 파일
-│   ├── index.html         # 메인 페이지
-│   ├── community.html     # 커뮤니티 페이지
-│   ├── churahee/          # 노래 모음집
-│   └── uploads/           # 업로드된 파일
-├── server.js              # Express 서버
-├── package.json           # 의존성 관리
-├── railway.json           # Railway 배포 설정
-└── data.ttl              # RDF 데이터
+├── index.html          # 루트 더미 페이지 (반응 클립 그래프 준비 중)
+├── package.json        # churahee:add, churahee:migrate 스크립트
+├── churahee/           # 츄라희 노래 기록 (정적 앱)
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   ├── songs.js        # preprocess로 생성
+│   ├── addVod.js       # VOD 추가 CLI
+│   ├── soopPipeline.js # Soop API·댓글 파싱
+│   ├── data/
+│   │   ├── source.json # 원본 타임라인 데이터
+│   │   ├── preprocess.py
+│   │   └── migrateAfreecaToSoop.js
+│   └── README.md       # 데이터 추가 방법
+├── data.ttl            # (기타 RDF 등)
+└── README.md
 ```
-
-## 개발 가이드
-
-### 새 기능 추가
-1. `server.js`에 API 엔드포인트 추가
-2. `public/` 폴더에 프론트엔드 파일 추가
-3. 필요시 데이터베이스 스키마 수정
-
-### 데이터베이스 마이그레이션
-현재는 메모리 저장소를 사용하지만, 프로덕션에서는 PostgreSQL 등 실제 데이터베이스를 사용하는 것을 권장합니다.
 
 ## 라이선스
 
 MIT License
-
-## 기여하기
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
