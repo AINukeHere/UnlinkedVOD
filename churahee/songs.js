@@ -289,13 +289,13 @@ const songs = [
       },
       {
         "date": "2024-07-28",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=4887",
+        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=4889",
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2026-02-24",
@@ -1001,16 +1001,6 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
-      },
-      {
-        "date": "2024-08-06",
-        "url": "https://vod.sooplive.co.kr/player/132446317?change_second=14441",
-        "videoTitle": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
       }
     ]
   },
@@ -1549,13 +1539,13 @@ const songs = [
       },
       {
         "date": "2024-07-28",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=10530",
+        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=10531",
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2023-11-10",
@@ -2338,11 +2328,21 @@ const songs = [
         "needsReview": false
       },
       {
-        "date": "2024-08-06",
+        "date": "2024-08-05",
         "url": "https://vod.sooplive.co.kr/player/132446317?change_second=2985",
         "videoTitle": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-08-02",
+        "url": "https://vod.sooplive.co.kr/player/132128949?change_second=8150",
+        "videoTitle": "소통 - 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240802_DDC3BCFD_274539852_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3708,16 +3708,6 @@ const songs = [
         "needsReview": false
       },
       {
-        "date": "2024-08-06",
-        "url": "https://vod.sooplive.co.kr/player/132446317?change_second=13694",
-        "videoTitle": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
         "date": "2026-02-11",
         "url": "https://vod.sooplive.co.kr/player/186523695?change_second=4220",
         "videoTitle": "소통 - 노래 재활",
@@ -4127,7 +4117,7 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/132128949?change_second=7788",
         "videoTitle": "소통 - 별별랭킹",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240802_DDC3BCFD_274539852_1_l",
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240802_DDC3BCFD_274539852_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -4398,16 +4388,6 @@ const songs = [
         "needsReview": false
       },
       {
-        "date": "2024-08-06",
-        "url": "https://vod.sooplive.co.kr/player/132446317?change_second=15580",
-        "videoTitle": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
         "date": "2026-01-07",
         "url": "https://vod.sooplive.co.kr/player/183042697?change_second=7198",
         "videoTitle": "소통 - 팬캐릭터 정하기 - 노래",
@@ -4460,127 +4440,17 @@ const songs = [
     ]
   },
   {
-    "title": "피날레",
-    "versions": [
-      {
-        "date": "2024-08-06",
-        "videoTitle": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
-        "url": "https://vod.sooplive.co.kr/player/132446317?change_second=4860",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-12-24",
-        "url": "https://vod.sooplive.co.kr/player/181610193?change_second=3580",
-        "videoTitle": "소통 - 노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251224_BA89A873_290199702_1_r&column=2&t=1766930799",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-11-08",
-        "url": "https://vod.sooplive.co.kr/player/177235495?change_second=7650",
-        "videoTitle": "소통 - 별별랭킹 - 노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251108_30ECB817_288988218_1_r&column=2&t=1762927521",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=20750",
-        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "화조도",
-    "versions": [
-      {
-        "date": "2024-08-06",
-        "videoTitle": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
-        "url": "https://vod.sooplive.co.kr/player/132446317?change_second=13070",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-05-27",
-        "url": "https://vod.sooplive.co.kr/player/161348165?change_second=7943",
-        "videoTitle": "소통 - 싱크룸(w.시로코 펭퀸)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250527_B197ED61_284292014_2_r",
-        "noMistake": false,
-        "recommended": true,
-        "needsReview": false
-      },
-      {
-        "date": "2023-08-07",
-        "url": "https://vod.sooplive.co.kr/player/105616031?change_second=2203",
-        "videoTitle": "[유플릭스 인턴] 기차 버스킹",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
-        "noMistake": true,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-05-14",
-        "url": "https://vod.sooplive.co.kr/player/160086025?change_second=8967",
-        "videoTitle": "소통 - 싱크룸(w.나비 움츠키) - 후열 노래 - 후후열 오버워치",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250514_CCB8A965_283924764_2_r",
-        "noMistake": true,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-06-09",
-        "url": "https://vod.sooplive.co.kr/player/162605907?change_second=1795",
-        "videoTitle": "소통 - 짧 노래방 - 칼바람(w. 콧시)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250609_35E20808_284763908_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-12-13",
-        "url": "https://vod.sooplive.co.kr/player/180592397?change_second=8146",
-        "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
-        "recommended": true,
-        "needsReview": false
-      }
-    ]
-  },
-  {
     "title": "제주도의 푸른 밤",
     "versions": [
       {
         "date": "2024-07-28",
         "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=9467",
+        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=9468",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       },
       {
         "date": "2025-07-12",
@@ -4604,8 +4474,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       },
       {
         "date": "2024-07-24",
@@ -4665,12 +4535,12 @@ const songs = [
       {
         "date": "2024-07-28",
         "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=18660",
+        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=18661",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-07-28",
@@ -7191,6 +7061,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-03-17",
+        "url": "https://vod.sooplive.co.kr/player/189990561?change_second=9560",
+        "videoTitle": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8248,6 +8128,51 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251119_F4EF4AA1_289287796_1_r&column=2&t=1764231560",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-17",
+        "url": "https://vod.sooplive.co.kr/player/189990561?change_second=9362",
+        "videoTitle": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "피날레",
+    "versions": [
+      {
+        "date": "2025-12-24",
+        "videoTitle": "소통 - 노래",
+        "url": "https://vod.sooplive.co.kr/player/181610193?change_second=3580",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251224_BA89A873_290199702_1_r&column=2&t=1766930799",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-11-08",
+        "url": "https://vod.sooplive.co.kr/player/177235495?change_second=7650",
+        "videoTitle": "소통 - 별별랭킹 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251108_30ECB817_288988218_1_r&column=2&t=1762927521",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-08-28",
+        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=20750",
+        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -9545,6 +9470,61 @@ const songs = [
     ]
   },
   {
+    "title": "화조도",
+    "versions": [
+      {
+        "date": "2025-05-27",
+        "videoTitle": "소통 - 싱크룸(w.시로코 펭퀸)",
+        "url": "https://vod.sooplive.co.kr/player/161348165?change_second=7943",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250527_B197ED61_284292014_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-07",
+        "url": "https://vod.sooplive.co.kr/player/105616031?change_second=2203",
+        "videoTitle": "[유플릭스 인턴] 기차 버스킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-05-14",
+        "url": "https://vod.sooplive.co.kr/player/160086025?change_second=8967",
+        "videoTitle": "소통 - 싱크룸(w.나비 움츠키) - 후열 노래 - 후후열 오버워치",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250514_CCB8A965_283924764_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-06-09",
+        "url": "https://vod.sooplive.co.kr/player/162605907?change_second=1795",
+        "videoTitle": "소통 - 짧 노래방 - 칼바람(w. 콧시)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250609_35E20808_284763908_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-12-13",
+        "url": "https://vod.sooplive.co.kr/player/180592397?change_second=8146",
+        "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "우르릉 쾅쾅쾅",
     "versions": [
       {
@@ -10688,6 +10668,66 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/134599327?change_second=14939",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "타상연화",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "videoTitle": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+        "url": "https://vod.sooplive.co.kr/player/189990561?change_second=7830",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "내일 또 보자",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "videoTitle": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+        "url": "https://vod.sooplive.co.kr/player/189990561?change_second=8164",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Lemon",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "videoTitle": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+        "url": "https://vod.sooplive.co.kr/player/189990561?change_second=8792",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "그래서 나는 음악을 그만두었다",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "videoTitle": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+        "url": "https://vod.sooplive.co.kr/player/189990561?change_second=9173",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

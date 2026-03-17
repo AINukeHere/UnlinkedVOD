@@ -816,33 +816,14 @@
         },
         {
             "title": "소통 - 싱크룸 합방(w.해이) - 후열 배그(w. 성하늘 은초롱 해이)",
-            "date": "2024-08-06",
+            "date": "2024-08-05",
             "url": "https://vod.sooplive.co.kr/player/132446317",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_l",
+            "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240805_37E60505_274746810_2_r",
             "songInfo": [
                 {
                     "title": "뭔가 잘못됐어",
-                    "time": "49:45"
-                },
-                {
-                    "title": "피날레",
-                    "time": "01:21:00"
-                },
-                {
-                    "title": "화조도",
-                    "time": "03:37:50"
-                },
-                {
-                    "title": "Love wins all",
-                    "time": "03:48:14"
-                },
-                {
-                    "title": "하루하루",
-                    "time": "04:00:41"
-                },
-                {
-                    "title": "부엉이",
-                    "time": "04:19:40"
+                    "time": "49:45",
+                    "artist": "권진아"
                 }
             ]
         },
@@ -850,11 +831,17 @@
             "title": "소통 - 별별랭킹",
             "date": "2024-08-02",
             "url": "https://vod.sooplive.co.kr/player/132128949",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20240802_DDC3BCFD_274539852_1_l",
+            "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240802_DDC3BCFD_274539852_1_r",
             "songInfo": [
                 {
                     "title": "한숨",
-                    "time": "02:09:48"
+                    "time": "2:09:48",
+                    "artist": "이하이"
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "2:15:50",
+                    "artist": "권진아"
                 }
             ]
         },
@@ -866,28 +853,31 @@
             "songInfo": [
                 {
                     "title": "마음을 드려요",
-                    "time": "1:21:27",
-                    "needsReview": true
+                    "time": "1:21:29",
+                    "artist": "아이유"
                 },
                 {
                     "title": "제주도의 푸른 밤",
-                    "time": "2:37:47",
-                    "needsReview": true
+                    "time": "2:37:48",
+                    "recommended": true,
+                    "artist": "최성원"
                 },
                 {
                     "title": "스물다섯, 스물하나",
-                    "time": "2:55:30",
-                    "needsReview": true
+                    "time": "2:55:31",
+                    "noMistake": true,
+                    "artist": "자우림"
                 },
                 {
                     "title": "서른 즈음에",
                     "time": "3:01:47",
-                    "needsReview": true
+                    "recommended": true,
+                    "artist": "김광석"
                 },
                 {
                     "title": "여행",
-                    "time": "5:11:00",
-                    "needsReview": true
+                    "time": "5:11:01",
+                    "artist": "볼빨간사춘기"
                 }
             ]
         },
@@ -5163,6 +5153,44 @@
                 {
                     "title": "피날레",
                     "time": "5:45:50"
+                }
+            ]
+        },
+        {
+            "title": "더켓몬 두개재ㅣ방셀 룰렛 100/500",
+            "date": "2026-03-17",
+            "url": "https://vod.sooplive.co.kr/player/189990561",
+            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
+            "songInfo": [
+                {
+                    "title": "타상연화",
+                    "time": "2:10:30",
+                    "artist": ""
+                },
+                {
+                    "title": "내일 또 보자",
+                    "time": "2:16:04",
+                    "artist": ""
+                },
+                {
+                    "title": "Lemon",
+                    "time": "2:26:32",
+                    "artist": ""
+                },
+                {
+                    "title": "그래서 나는 음악을 그만두었다",
+                    "time": "2:32:53",
+                    "artist": ""
+                },
+                {
+                    "title": "꽃에 망령",
+                    "time": "2:36:02",
+                    "artist": "요루시카"
+                },
+                {
+                    "title": "봄 도둑",
+                    "time": "2:39:20",
+                    "artist": "요루시카"
                 }
             ]
         }

@@ -120,6 +120,106 @@ function loadChuraheeConfig(repoRoot) {
 }
 
 /**
+ * Load artist reference (canonical artist + aliases).
+ * File: churahee/data/artistReference.json. Missing or invalid → null.
+ * @param {string} repoRoot
+ * @returns {Array<{ artist: string, aliases?: string[] }>|null}
+ */
+function loadArtistReference(repoRoot) {
+  const p = path.join(repoRoot, 'churahee', 'data', 'artistReference.json');
+  try {
+    const raw = fs.readFileSync(p, 'utf8');
+    const list = JSON.parse(raw);
+    return Array.isArray(list) ? list : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+/**
+ * Load song reference (canonical title+artist, titleAliases for title only).
+ * File: churahee/data/songReference.json. Missing or invalid → null.
+ * @param {string} repoRoot
+ * @returns {Array<{ title: string, artist: string, titleAliases?: string[] }>|null}
+ */
+function loadSongReference(repoRoot) {
+  const p = path.join(repoRoot, 'churahee', 'data', 'songReference.json');
+  try {
+    const raw = fs.readFileSync(p, 'utf8');
+    const list = JSON.parse(raw);
+    return Array.isArray(list) ? list : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+/**
+ * Resolve artist string to canonical artist using artistReference.
+ * @param {Array<{ artist: string, aliases?: string[] }>|null} artistRef
+ * @param {string} rawArtist
+ * @returns {string} canonical artist or rawArtist unchanged
+ */
+function resolveArtist(artistRef, rawArtist) {
+  const s = (rawArtist || '').trim();
+  if (!s || !artistRef || !artistRef.length) return s;
+  for (const entry of artistRef) {
+    const canonical = (entry.artist || '').trim();
+    const aliases = entry.aliases && Array.isArray(entry.aliases) ? entry.aliases : [];
+    if (s === canonical || aliases.some((a) => String(a).trim() === s)) return canonical;
+  }
+  return s;
+}
+
+/**
+ * Resolve title string to canonical title for a given canonical artist using songReference.
+ * @param {Array<{ title: string, artist: string, titleAliases?: string[] }>|null} songRef
+ * @param {string} rawTitle
+ * @param {string} canonicalArtist
+ * @returns {{ title: string, artist: string }|null} canonical title+artist or null if no match
+ */
+function resolveTitle(songRef, rawTitle, canonicalArtist) {
+  const s = (rawTitle || '').trim();
+  if (!songRef || !songRef.length) return null;
+  for (const entry of songRef) {
+    const canonicalTitle = (entry.title || '').trim();
+    const entryArtist = (entry.artist || '').trim();
+    const titleAliases = Array.isArray(entry.titleAliases)
+      ? entry.titleAliases
+      : Array.isArray(entry.aliases)
+        ? entry.aliases
+        : [];
+    const titleMatch =
+      s === canonicalTitle || titleAliases.some((a) => String(a).trim() === s);
+    const artistMatch =
+      canonicalArtist === '' || entryArtist === canonicalArtist;
+    if (titleMatch && artistMatch) return { title: canonicalTitle, artist: entryArtist };
+  }
+  return null;
+}
+
+/**
+ * Resolve parsed (title, artist?) to canonical title+artist using songReference and artistReference.
+ * Resolves artist first, then title (by title/titleAliases for that artist). No match → keep as-is.
+ * @param {string} repoRoot
+ * @param {{ title: string, artist?: string, [k: string]: unknown }} item
+ * @returns {{ title: string, artist: string, [k: string]: unknown }}
+ */
+function resolveToCanonical(repoRoot, item) {
+  const artistRef = loadArtistReference(repoRoot);
+  const songRef = loadSongReference(repoRoot);
+
+  const rawTitle = (item.title || '').trim();
+  const rawArtist = (item.artist || '').trim();
+  const resolvedArtist = resolveArtist(artistRef, rawArtist);
+  const resolvedSong = resolveTitle(songRef, rawTitle, resolvedArtist);
+
+  if (resolvedSong) {
+    return { ...item, title: resolvedSong.title, artist: resolvedSong.artist };
+  }
+  return { ...item, title: rawTitle, artist: resolvedArtist };
+}
+
+/**
  * Parse one line into { title, time, noMistake?, recommended?, needsReview? } or null.
  * Line may be "제목 3:25:43" or "3:25:43 제목" with optional ☆★●○. "?" present → needsReview.
  */
@@ -132,10 +232,11 @@ function parseTimelineLine(line) {
   let noMistake = /[○●]/.test(line);
   line = line.replace(/[☆★○●□■?]/g, '').trim();
 
-  const m = line.match(TIME_REGEX);
-  if (!m) return null;
-  const timeStr = m[1];
-  const idx = line.indexOf(timeStr);
+  const timeMatches = [...line.matchAll(new RegExp(TIME_REGEX.source, 'g'))];
+  if (!timeMatches.length) return null;
+  const lastMatch = timeMatches[timeMatches.length - 1];
+  const timeStr = lastMatch[1];
+  const idx = lastMatch.index;
   let title;
   if (idx === 0) {
     title = line.slice(timeStr.length).replace(/^[\s:]+|[\s:]+$/g, '').trim();
@@ -146,7 +247,21 @@ function parseTimelineLine(line) {
   title = title.replace(/\\:/g, ':');
   title = decodeHtmlEntities(title);
 
+  let artist = '';
+  const stripArtistFromTitle = (raw) => {
+    const lastOpen = raw.lastIndexOf(' (');
+    if (lastOpen === -1) return { title: raw, artist: '' };
+    const tail = raw.slice(lastOpen);
+    if (!/^ \([^)]*\)\s*$/.test(tail)) return { title: raw, artist: '' };
+    const inner = tail.slice(2, tail.length - 1).trim();
+    return { title: raw.slice(0, lastOpen).trim(), artist: inner };
+  };
+  const parsed = stripArtistFromTitle(title);
+  title = parsed.title;
+  artist = parsed.artist;
+
   const info = { title, time: timeStr };
+  if (artist) info.artist = artist;
   if (noMistake) info.noMistake = true;
   if (recommended) info.recommended = true;
   if (needsReview) info.needsReview = true;
@@ -173,8 +288,9 @@ function parseCommentHtmlToSongInfo(commentHtml) {
     if (!line.startsWith(TIMELINE_LINE_PREFIX)) continue;
     const lineWithoutPrefix = line.slice(TIMELINE_LINE_PREFIX.length).trim();
     const info = parseTimelineLine(lineWithoutPrefix);
-    if (info && !seen.has(info.title + '|' + info.time)) {
-      seen.add(info.title + '|' + info.time);
+    const dedupeKey = (info.title || '') + '|' + (info.artist || '') + '|' + (info.time || '');
+    if (info && !seen.has(dedupeKey)) {
+      seen.add(dedupeKey);
       songInfo.push(info);
     }
   }
@@ -259,6 +375,8 @@ async function runPipeline(vodUrl, repoRoot) {
     songInfo = songInfo.concat(parsed);
   }
 
+  songInfo = songInfo.map((item) => resolveToCanonical(repoRoot, item));
+
   if (debug) {
     console.error('[DEBUG] 합친 songInfo 개수:', songInfo.length);
     if (songInfo.length === 0 && comments.length > 0) {
@@ -296,6 +414,11 @@ module.exports = {
   getSoopVodInfo,
   getSoopComments,
   loadChuraheeConfig,
+  loadArtistReference,
+  loadSongReference,
+  resolveArtist,
+  resolveTitle,
+  resolveToCanonical,
   parseCommentHtmlToSongInfo,
   mergeVodIntoSource,
   runPipeline,
