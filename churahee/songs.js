@@ -810,7 +810,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-04-26",
@@ -1360,7 +1360,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1603,9 +1603,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -1698,9 +1698,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2024-08-28",
@@ -1800,7 +1800,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1930,7 +1930,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1990,7 +1990,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -2443,9 +2443,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       },
       {
         "date": "2025-09-12",
@@ -4564,8 +4564,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -6123,9 +6123,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       },
       {
         "date": "2025-09-03",
@@ -6288,9 +6288,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -6645,7 +6645,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -7018,9 +7018,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-03",
@@ -7490,7 +7490,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-07-30",
@@ -7678,9 +7678,9 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -7999,13 +7999,13 @@ const songs = [
       },
       {
         "date": "2025-12-13",
-        "url": "https://vod.sooplive.co.kr/player/180592397?change_second=19390",
+        "url": "https://vod.sooplive.co.kr/player/180592397?change_second=19670",
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -9298,6 +9298,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2025-12-13",
+        "url": "https://vod.sooplive.co.kr/player/180592397?change_second=19390",
+        "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2025-10-04",
         "url": "https://vod.sooplive.co.kr/player/173882179?change_second=4164",
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
@@ -10428,9 +10438,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/180592397?change_second=7646",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
