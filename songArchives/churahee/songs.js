@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-18T20:55:31.273557+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-18T22:12:54.148978+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -840,7 +840,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
         "noMistake": false,
-        "recommended": false,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -4491,7 +4491,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-12",
@@ -4626,7 +4626,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2024-08-28",
@@ -4919,9 +4919,9 @@ const songs = [
         "videoTitle": "소통 - 괴담 읽기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -10294,8 +10294,8 @@ const songs = [
         "videoTitle": "소통 - 괴담 읽기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -10861,7 +10861,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10876,7 +10876,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10891,7 +10891,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10904,9 +10904,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/158350057?change_second=13880",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
