@@ -222,7 +222,31 @@ function onFilterOrSortChange() {
   document.addEventListener('touchcancel', () => endDrag(false));
 })();
 
+function renderDataLastUpdated() {
+  const el = document.getElementById('dataLastUpdated');
+  if (!el) return;
+  if (typeof SONGS_DATA_LAST_UPDATED !== 'string' || !SONGS_DATA_LAST_UPDATED) {
+    el.textContent = '';
+    return;
+  }
+  const d = new Date(SONGS_DATA_LAST_UPDATED);
+  if (Number.isNaN(d.getTime())) {
+    el.textContent = '데이터 갱신: ' + SONGS_DATA_LAST_UPDATED;
+    el.title = SONGS_DATA_LAST_UPDATED;
+    return;
+  }
+  el.textContent =
+    '데이터 갱신: ' +
+    d.toLocaleString('ko-KR', {
+      dateStyle: 'medium',
+      timeStyle: 'short',
+      timeZone: 'Asia/Seoul',
+    });
+  el.title = 'UTC: ' + d.toISOString();
+}
+
 window.onload = () => {
+  renderDataLastUpdated();
   loadSongs();
   document.getElementById('searchBar')?.addEventListener('input', searchSongs);
   document.getElementById('searchBar')?.addEventListener('keyup', searchSongs);

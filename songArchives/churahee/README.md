@@ -31,7 +31,7 @@ npm run chebi2:add -- "https://vod.sooplive.co.kr/player/{videoId}"
 2. 해당 스트리머의 **parseConfig**(`songArchives/{streamer}/data/parseConfig.json`)로 댓글 라인을 파싱합니다.
 3. 옵션으로 해당 스트리머의 **songReference/artistReference**로 제목·가수를 정규화합니다.
 4. `songArchives/{streamer}/data/source.json`에 반영합니다(같은 videoId면 교체, 없으면 추가).
-5. `python songArchives/common/preprocess.py {streamer}`로 `{streamer}/songs.js`를 다시 만듭니다.
+5. `python songArchives/common/preprocess.py {streamer}`로 `{streamer}/songs.js`를 다시 만듭니다. 이때 **데이터 갱신 시각**이 `songs.js`에 기록되며, 보관소 페이지 헤더 우측에 표시됩니다.
 
 ### 3. 배포
 

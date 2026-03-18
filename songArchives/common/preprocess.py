@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+from datetime import datetime, timezone
 
 # Archive root = parent of this file's directory (songArchives/common → songArchives).
 # Run: python songArchives/common/preprocess.py [streamerId]  (cwd 무관)
@@ -93,8 +94,12 @@ for history in json_data['history']:
             }
 
 songs_js_data = list(songs_dict.values())  # 딕셔너리 값을 배열로 변환
-# 결과 출력 (songs.js 형태로 변환)
-songs_js = f"const songs = {json.dumps(songs_js_data, indent=2, ensure_ascii=False)};"
+# 데이터 빌드 시각 (UTC ISO) — 페이지 상단에 표시
+last_updated = datetime.now(timezone.utc).isoformat()
+songs_js = (
+    f"const SONGS_DATA_LAST_UPDATED = {json.dumps(last_updated)};\n"
+    f"const songs = {json.dumps(songs_js_data, indent=2, ensure_ascii=False)};"
+)
 # print(songs_js)
 
 # 변환된 songs.js 파일로 저장
