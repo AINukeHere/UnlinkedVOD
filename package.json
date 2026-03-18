@@ -4,7 +4,8 @@
   "description": "Streamer Reactions Hub and Community Site",
   "scripts": {
     "churahee:add": "node churahee/addVod.js",
-    "churahee:migrate": "node churahee/data/migrateAfreecaToSoop.js"
+    "churahee:migrate": "node churahee/data/migrateAfreecaToSoop.js",
+    "chebi2:add": "node chebi2/addVod.js"
   },
   "engines": {
     "node": ">=18.0.0"

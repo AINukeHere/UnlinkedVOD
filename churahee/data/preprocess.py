@@ -1,6 +1,15 @@
 import json
+import os
+import sys
 
-with open("churahee/data/source.json","rt", encoding='utf-8') as f:
+# Run from repo root: python churahee/data/preprocess.py [streamerId]
+# e.g. python churahee/data/preprocess.py chebi
+repo_root = os.getcwd()
+streamer_id = sys.argv[1] if len(sys.argv) > 1 else "churahee"
+source_path = os.path.join(repo_root, streamer_id, "data", "source.json")
+songs_js_path = os.path.join(repo_root, streamer_id, "songs.js")
+
+with open(source_path, "rt", encoding="utf-8") as f:
     json_data = json.load(f)
 
 
@@ -88,5 +97,5 @@ songs_js = f"const songs = {json.dumps(songs_js_data, indent=2, ensure_ascii=Fal
 # print(songs_js)
 
 # 변환된 songs.js 파일로 저장
-with open("churahee/songs.js", "w", encoding="utf-8") as f:
+with open(songs_js_path, "w", encoding="utf-8") as f:
     f.write(songs_js)

@@ -19,8 +19,10 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# churahee local config (author user ID)
+# streamer local config (author user ID)
 churahee/data/config.json
+chebi2/data/config.json
+chebi2
 
 # Logs
 logs
