@@ -2,12 +2,13 @@ import json
 import os
 import sys
 
-# Run from repo root: python churahee/data/preprocess.py [streamerId]
-# e.g. python churahee/data/preprocess.py chebi
-repo_root = os.getcwd()
+# Archive root = parent of this file's directory (songArchives/common → songArchives).
+# Run: python songArchives/common/preprocess.py [streamerId]  (cwd 무관)
+_script_dir = os.path.dirname(os.path.abspath(__file__))
+archive_root = os.path.dirname(_script_dir)
 streamer_id = sys.argv[1] if len(sys.argv) > 1 else "churahee"
-source_path = os.path.join(repo_root, streamer_id, "data", "source.json")
-songs_js_path = os.path.join(repo_root, streamer_id, "songs.js")
+source_path = os.path.join(archive_root, streamer_id, "data", "source.json")
+songs_js_path = os.path.join(archive_root, streamer_id, "songs.js")
 
 with open(source_path, "rt", encoding="utf-8") as f:
     json_data = json.load(f)
