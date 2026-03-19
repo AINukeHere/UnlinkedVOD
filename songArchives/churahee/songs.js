@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-18T22:12:54.148978+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-19T12:38:51.905191+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -2721,7 +2721,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -6389,9 +6389,9 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -7444,9 +7444,9 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -8314,9 +8314,9 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -8714,9 +8714,9 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -9279,9 +9279,9 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-12",
@@ -9829,9 +9829,9 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10921,7 +10921,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
