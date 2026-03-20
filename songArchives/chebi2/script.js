@@ -16,6 +16,14 @@ function getVersionFilters() {
   };
 }
 
+function getMinVersionCount() {
+  const el = document.getElementById('minVersionCount');
+  const raw = el?.value;
+  const n = Number.parseInt(raw, 10);
+  if (Number.isNaN(n)) return 1;
+  return Math.max(1, n);
+}
+
 function parseVodDate(dateStr) {
   if (!dateStr) return 0;
   const part = String(dateStr).trim().slice(0, 10);
@@ -35,12 +43,93 @@ function minDateFromVersions(versions) {
   return timestamps.length ? Math.min(...timestamps) : 0;
 }
 
+function noMistakeRatio(versions) {
+  if (!versions || !versions.length) return 0;
+  const total = versions.length;
+  if (!total) return 0;
+  const ok = versions.filter((v) => v.noMistake).length;
+  return ok / total;
+}
+
+function noMistakeCount(versions) {
+  if (!versions || !versions.length) return 0;
+  return versions.filter((v) => v.noMistake).length;
+}
+
 function applyVersionFilterOnly(versions, versionFilters) {
   let list = versions ? [...versions] : [];
   if (versionFilters.noMistakeOnly) list = list.filter((v) => v.noMistake);
   if (versionFilters.recommendedOnly) list = list.filter((v) => v.recommended);
   if (versionFilters.needsReviewOnly) list = list.filter((v) => v.needsReview);
   return list;
+}
+
+function sortVersionsByVersionSort(versions, versionSort) {
+  let list = versions ? [...versions] : [];
+  if (versionSort === 'dateAsc') {
+    list.sort((a, b) => parseVodDate(a.date) - parseVodDate(b.date));
+  } else {
+    list.sort((a, b) => parseVodDate(b.date) - parseVodDate(a.date));
+  }
+  return list;
+}
+
+function getListSortLabel(listSort) {
+  switch (listSort) {
+    case 'title':
+      return '가나다순';
+    case 'dateDesc':
+      return '최신 방송순';
+    case 'dateAsc':
+      return '오래된 방송순';
+    case 'versionCountDesc':
+      return '버전 많은 순';
+    case 'noMistakeRatioDesc':
+      return '실수 없음 비율 높은 순';
+    case 'noMistakeRatioAsc':
+      return '실수 없음 비율 낮은 순';
+    default:
+      return '가나다순';
+  }
+}
+
+function getVersionSortLabel(versionSort) {
+  switch (versionSort) {
+    case 'dateAsc':
+      return '오래된순';
+    case 'dateDesc':
+    default:
+      return '최신순';
+  }
+}
+
+function getCheckedDisplayLabels(versionFilters) {
+  const labels = [];
+  if (versionFilters.noMistakeOnly) labels.push('실수 없음');
+  if (versionFilters.recommendedOnly) labels.push('추천');
+  if (versionFilters.needsReviewOnly) labels.push('검토 필요');
+  if (!labels.length) return ['전체 버전'];
+  return labels;
+}
+
+function renderFilterDescription(minVersionCount, listSort, versionSort, versionFilters) {
+  const el = document.getElementById('filterDescription');
+  if (!el) return;
+
+  const listLabel = getListSortLabel(listSort);
+  const versionLabel = getVersionSortLabel(versionSort);
+  const kindsLabel = getCheckedDisplayLabels(versionFilters).join(' ');
+
+  el.textContent =
+    '기록이 최소 ' +
+    minVersionCount +
+    '개 있는 곡을 ' +
+    listLabel +
+    '으로 정렬합니다. | 기록은 ' +
+    versionLabel +
+    '으로 정렬합니다. | ' +
+    kindsLabel +
+    '만 표시합니다.';
 }
 
 function applyVersionFilterAndSort(versions, versionSort, versionFilters) {
@@ -76,33 +165,67 @@ function loadSongs(searchTerm = '') {
 
   const versionFilters = getVersionFilters();
   const versionSort = getVersionSort();
-
-  let list = songs.filter((song) =>
-    song.title.toLowerCase().includes((searchTerm || '').toLowerCase())
-  );
-
-  list = list
-    .map((song) => ({
-      song,
-      filteredVersions: applyVersionFilterOnly(song.versions, versionFilters),
-    }))
-    .filter(({ filteredVersions }) => filteredVersions.length >= 1);
+  const minVersionCount = getMinVersionCount();
 
   const listSort = getListSort();
+
+  renderFilterDescription(minVersionCount, listSort, versionSort, versionFilters);
+
+  let list = songs
+    .filter((song) => song.title.toLowerCase().includes((searchTerm || '').toLowerCase()))
+    .map((song) => ({
+      song,
+      versions: song.versions || [],
+    }))
+    // 체크박스 필터는 아직 적용하지 않고, 곡 정렬을 위한 기준(최소 버전 수)만 먼저 적용
+    .filter(({ versions }) => versions.length >= minVersionCount);
+
   if (listSort === 'title') {
     list.sort((a, b) => (a.song.title || '').localeCompare(b.song.title || '', 'ko'));
   } else if (listSort === 'dateDesc') {
-    list.sort((a, b) => maxDateFromVersions(b.filteredVersions) - maxDateFromVersions(a.filteredVersions));
+    list.sort((a, b) => maxDateFromVersions(b.versions) - maxDateFromVersions(a.versions));
   } else if (listSort === 'dateAsc') {
-    list.sort((a, b) => minDateFromVersions(a.filteredVersions) - minDateFromVersions(b.filteredVersions));
+    list.sort((a, b) => minDateFromVersions(a.versions) - minDateFromVersions(b.versions));
   } else if (listSort === 'versionCountDesc') {
-    list.sort((a, b) => b.filteredVersions.length - a.filteredVersions.length);
+    list.sort((a, b) => b.versions.length - a.versions.length);
+  } else if (listSort === 'noMistakeRatioDesc') {
+    list.sort(
+      (a, b) =>
+        noMistakeRatio(b.versions) - noMistakeRatio(a.versions) ||
+        b.versions.length - a.versions.length
+    );
+  } else if (listSort === 'noMistakeRatioAsc') {
+    list.sort(
+      (a, b) =>
+        noMistakeRatio(a.versions) - noMistakeRatio(b.versions) ||
+        a.versions.length - b.versions.length
+    );
+  } else if (listSort === 'noMistakeCountDesc') {
+    list.sort(
+      (a, b) =>
+        noMistakeCount(b.versions) - noMistakeCount(a.versions) ||
+        b.versions.length - a.versions.length
+    );
+  } else if (listSort === 'noMistakeCountAsc') {
+    list.sort(
+      (a, b) =>
+        noMistakeCount(a.versions) - noMistakeCount(b.versions) ||
+        a.versions.length - b.versions.length
+    );
   }
 
   container.innerHTML = '';
 
-  list.forEach(({ song, filteredVersions }) => {
-    const versionsToShow = applyVersionFilterAndSort(song.versions, versionSort, versionFilters);
+  list.forEach(({ song, versions }) => {
+    // 1) 버전 정렬(versionSort) 먼저 수행
+    const versionsSorted = sortVersionsByVersionSort(versions, versionSort);
+    // 2) 체크박스에 해당하는 버전은 우선 표시, 나머지는 뒤로 보내고 희미하게 처리
+    const versionsMatching = applyVersionFilterOnly(versionsSorted, versionFilters);
+    const matchingSet = new Set(versionsMatching);
+    const versionsToDisplay = [
+      ...versionsMatching,
+      ...versionsSorted.filter((v) => !matchingSet.has(v)),
+    ];
 
     const row = document.createElement('section');
     row.className = 'song-row';
@@ -114,13 +237,14 @@ function loadSongs(searchTerm = '') {
     const strip = document.createElement('div');
     strip.className = 'version-strip';
 
-    versionsToShow.forEach((v) => {
+    versionsToDisplay.forEach((v) => {
       const icons = versionIconsHtml(v);
       const card = document.createElement('a');
       card.href = v.url;
       card.target = '_blank';
       card.rel = 'noopener';
-      card.className = 'version-card';
+      const isMatching = matchingSet.has(v);
+      card.className = 'version-card' + (isMatching ? '' : ' version-card-faded');
       card.innerHTML = `
         <span class="version-card-thumb">
           <img src="${escapeHtml(v.thumbnail)}" alt="" loading="lazy" />
@@ -252,6 +376,7 @@ window.onload = () => {
   document.getElementById('searchBar')?.addEventListener('keyup', searchSongs);
   document.getElementById('listSort')?.addEventListener('change', onFilterOrSortChange);
   document.getElementById('versionSort')?.addEventListener('change', onFilterOrSortChange);
+  document.getElementById('minVersionCount')?.addEventListener('input', onFilterOrSortChange);
   ['filterVersionNoMistake', 'filterVersionRecommended', 'filterVersionNeedsReview'].forEach((id) => {
     document.getElementById(id)?.addEventListener('change', onFilterOrSortChange);
   });

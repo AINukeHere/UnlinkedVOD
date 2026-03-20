@@ -18,25 +18,45 @@
     </div>
     <div class="toolbar">
       <input type="text" id="searchBar" class="search-input" placeholder="노래 검색" autocomplete="off" />
-      <div class="toolbar-group">
-        <span class="toolbar-label">정렬</span>
-        <select id="listSort" class="select" aria-label="노래 정렬">
+      <span class="toolbar-divider" aria-hidden="true"></span>
+
+      <div class="logic-sentence" aria-label="필터링 및 정렬 적용 방식">
+        <span>기록이 최소</span>
+        <input
+          type="number"
+          id="minVersionCount"
+          class="min-version-input"
+          min="1"
+          step="1"
+          value="1"
+          aria-label="최소 버전 수"
+        />
+        <span>개 있는 곡을</span>
+        <select id="listSort" class="select" aria-label="곡 정렬 옵션">
           <option value="title">가나다순</option>
           <option value="dateDesc">최신 방송순</option>
           <option value="dateAsc">오래된 방송순</option>
           <option value="versionCountDesc">버전 많은 순</option>
+          <option value="noMistakeRatioDesc">실수 없음 비율 높은 순</option>
+          <option value="noMistakeRatioAsc">실수 없음 비율 낮은 순</option>
+          <option value="noMistakeCountDesc">실수 없음 많은 순</option>
+          <option value="noMistakeCountAsc">실수 없음 적은 순</option>
         </select>
-      </div>
-      <div class="toolbar-divider"></div>
-      <div class="toolbar-group">
-        <span class="toolbar-label">버전</span>
-        <select id="versionSort" class="select" aria-label="버전 정렬">
+        <span>으로 정렬합니다.</span>
+        <span class="logic-sep" aria-hidden="true">|</span>
+        <span>기록은</span>
+        <select id="versionSort" class="select" aria-label="버전 정렬 옵션">
           <option value="dateDesc">최신순</option>
           <option value="dateAsc">오래된순</option>
         </select>
-        <label class="chip-label"><input type="checkbox" id="filterVersionNoMistake" /> 실수 없음</label>
-        <label class="chip-label"><input type="checkbox" id="filterVersionRecommended" /> 추천</label>
-        <label class="chip-label"><input type="checkbox" id="filterVersionNeedsReview" /> 검토 필요</label>
+        <span>으로 정렬하고</span>
+        <span class="logic-sep" aria-hidden="true">|</span>
+        <div class="logic-checkbox-group" role="group" aria-label="표시 우선 기준">
+          <label class="chip-label"><input type="checkbox" id="filterVersionNoMistake" /> 실수 없음</label>
+          <label class="chip-label"><input type="checkbox" id="filterVersionRecommended" /> 추천</label>
+          <label class="chip-label"><input type="checkbox" id="filterVersionNeedsReview" /> 검토 필요</label>
+        </div>
+        <span>를 우선적으로 표시합니다.</span>
       </div>
     </div>
   </header>
