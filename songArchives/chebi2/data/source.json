@@ -400,6 +400,89 @@
             "url": "https://vod.sooplive.co.kr/player/189339337",
             "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260310_061ABFB8_292282951_1_r&column=2&t=1773172793",
             "songInfo": []
+        },
+        {
+            "title": "쳅이",
+            "date": "2026-03-20",
+            "url": "https://vod.sooplive.co.kr/player/190318617",
+            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+            "songInfo": [
+                {
+                    "title": "Why",
+                    "time": "01:23:45",
+                    "artist": "태연"
+                },
+                {
+                    "title": "Help",
+                    "time": "01:33:30",
+                    "artist": "10cm"
+                },
+                {
+                    "title": "Antifreeze",
+                    "time": "01:41:22",
+                    "artist": "백예린"
+                },
+                {
+                    "title": "그라데이션",
+                    "time": "01:47:50",
+                    "artist": "10cm"
+                },
+                {
+                    "title": "꽃이 피고 지듯이",
+                    "time": "01:53:10",
+                    "artist": "조승우"
+                },
+                {
+                    "title": "도망가자",
+                    "time": "01:58:34",
+                    "artist": "선우정아"
+                },
+                {
+                    "title": "Free",
+                    "time": "02:07:23",
+                    "artist": "케데헌 OST"
+                },
+                {
+                    "title": "Older Than I Am",
+                    "time": "02:12:42",
+                    "artist": "Lennon Stella"
+                },
+                {
+                    "title": "Carry you",
+                    "time": "02:19:26",
+                    "artist": "Ruelle"
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "02:30:15",
+                    "artist": "이수현"
+                },
+                {
+                    "title": "기다린 만큼, 더",
+                    "time": "02:37:32",
+                    "artist": "검정치마"
+                },
+                {
+                    "title": "Drowning",
+                    "time": "02:43:19",
+                    "artist": "우즈"
+                },
+                {
+                    "title": "좋아하나봐",
+                    "time": "02:51:33",
+                    "artist": "샘김"
+                },
+                {
+                    "title": "난춘",
+                    "time": "03:01:46",
+                    "artist": "새소년"
+                },
+                {
+                    "title": "ERROR",
+                    "time": "03:06:43",
+                    "artist": "niki"
+                }
+            ]
         }
     ]
 }

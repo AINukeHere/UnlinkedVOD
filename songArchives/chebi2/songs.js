@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-18T01:09:23.477142+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-20T22:13:12.263872+00:00";
 const songs = [
   {
     "title": "체끼송",
@@ -154,6 +154,16 @@ const songs = [
         "videoTitle": "[역팬 & 확정방셀]",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260312_C223FF97_292340033_1_r&column=2&t=1773356935",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=11203",
+        "videoTitle": "쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -344,6 +354,16 @@ const songs = [
         "videoTitle": "[역팬 & 확정방셀] 분내 품멜파티",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260313_E66A0429_292366011_1_r&column=2&t=1773430946",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=10906",
+        "videoTitle": "쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -582,6 +602,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=6082",
+        "videoTitle": "쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -594,6 +624,16 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/189628799?change_second=17362",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260313_E66A0429_292366011_1_r&column=2&t=1773430946",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=7643",
+        "videoTitle": "쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -984,6 +1024,171 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/189437929?change_second=31320",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260311_1A68CA02_292305021_1_r&column=2&t=1773257723",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Why",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=5025",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Help",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=5610",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "그라데이션",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=6470",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "꽃이 피고 지듯이",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=6790",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "도망가자",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=7114",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Older Than I Am",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=7962",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Carry you",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=8366",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "연의 편지",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=9015",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "기다린 만큼, 더",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=9452",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Drowning",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=9799",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "좋아하나봐",
+    "versions": [
+      {
+        "date": "2026-03-20",
+        "videoTitle": "쳅이",
+        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=10293",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

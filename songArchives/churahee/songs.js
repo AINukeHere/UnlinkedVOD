@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-19T12:38:51.905191+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-22T04:18:39.906116+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -571,7 +571,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -640,7 +640,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
         "noMistake": false,
-        "recommended": false,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -1441,7 +1441,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1624,8 +1624,8 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -2516,7 +2516,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-03",
@@ -2579,9 +2579,9 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -2831,7 +2831,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -4094,7 +4094,7 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -4434,9 +4434,9 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(never ending story)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250730_AAF9C227_286237712_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -4501,7 +4501,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-05-21",
@@ -5154,8 +5154,8 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -5364,7 +5364,7 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250723_A7188D84_286048382_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -5425,8 +5425,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -5765,12 +5765,12 @@ const songs = [
       },
       {
         "date": "2025-07-16",
-        "url": "https://vod.sooplive.co.kr/player/166136423?change_second=5395",
+        "url": "https://vod.sooplive.co.kr/player/166136423?change_second=5463",
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -5900,6 +5900,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250719_B27DD2CC_285942110_5_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-21",
+        "url": "https://vod.sooplive.co.kr/player/190370079?change_second=23683",
+        "videoTitle": "후열 더켓몬ㅣ더켓몬 방셀 룰렛 100/500",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260321_71460726_292569597_2_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -6281,7 +6291,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-03",
@@ -6685,8 +6695,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250730_AAF9C227_286237712_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -7319,9 +7329,9 @@ const songs = [
         "videoTitle": "소통 - 노래 - 기생충 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -7569,9 +7579,9 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -7694,9 +7704,9 @@ const songs = [
         "videoTitle": "소통 - 네링의 아티스트",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-03",
@@ -7706,7 +7716,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -7811,7 +7821,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-09-03",
@@ -7819,9 +7829,9 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -8049,9 +8059,9 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(never ending story)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250730_AAF9C227_286237712_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-07-26",
@@ -8591,7 +8601,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -8624,9 +8634,9 @@ const songs = [
         "videoTitle": "소통 - 네링의 아티스트",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -9011,7 +9021,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-07-26",
@@ -9289,9 +9299,9 @@ const songs = [
         "videoTitle": "소통 - 네링의 아티스트",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -9450,13 +9460,13 @@ const songs = [
       },
       {
         "date": "2025-09-03",
-        "url": "https://vod.sooplive.co.kr/player/170827999?change_second=6725",
+        "url": "https://vod.sooplive.co.kr/player/170827999?change_second=6724",
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -9559,7 +9569,7 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -9614,9 +9624,9 @@ const songs = [
         "videoTitle": "소통 - 노래 - 기생충 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -9960,7 +9970,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
         "noMistake": false,
-        "recommended": false,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -9981,7 +9991,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250730_AAF9C227_286237712_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10004,8 +10014,8 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -10039,7 +10049,7 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -10144,9 +10154,9 @@ const songs = [
         "videoTitle": "소통 - 노래 - 기생충 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10171,7 +10181,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-07-26",
@@ -10204,8 +10214,8 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -10936,7 +10946,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10949,9 +10959,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/171721159?change_second=11684",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10964,9 +10974,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/171721159?change_second=12507",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-07-30",
@@ -10976,7 +10986,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250730_AAF9C227_286237712_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10991,7 +11001,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -11006,7 +11016,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250903_3FBF579F_287199142_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
