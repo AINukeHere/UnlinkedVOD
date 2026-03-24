@@ -1256,7 +1256,79 @@
             "date": "2023-11-21",
             "url": "https://vod.sooplive.co.kr/player/109822199",
             "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
-            "songInfo": []
+            "songInfo": [
+                {
+                    "title": "겨울봄",
+                    "time": "2:19:03",
+                    "artist": "이세계아이돌"
+                },
+                {
+                    "title": "Lonely Night",
+                    "time": "2:27:17",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "권진아"
+                },
+                {
+                    "title": "가로수 그늘아래 서면",
+                    "time": "2:33:14",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "이문세"
+                },
+                {
+                    "title": "첫 키스에 내 심장은 120BPM",
+                    "time": "2:40:37",
+                    "artist": "경서예지"
+                },
+                {
+                    "title": "Grip!",
+                    "time": "2:47:05",
+                    "noMistake": true,
+                    "artist": "서현진"
+                },
+                {
+                    "title": "Super Shy",
+                    "time": "2:52:08",
+                    "noMistake": true,
+                    "artist": ""
+                },
+                {
+                    "title": "Blueming",
+                    "time": "2:58:18",
+                    "noMistake": true,
+                    "artist": "아이유"
+                },
+                {
+                    "title": "꽃길",
+                    "time": "3:06:16",
+                    "artist": "세정"
+                },
+                {
+                    "title": "하늘바라기",
+                    "time": "3:17:17",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "정은지"
+                },
+                {
+                    "title": "미워도 사랑하니까",
+                    "time": "3:23:56",
+                    "artist": "다비치"
+                },
+                {
+                    "title": "서른 즈음에",
+                    "time": "3:31:59",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "김광석"
+                },
+                {
+                    "title": "에잇",
+                    "time": "3:38:01",
+                    "artist": ""
+                }
+            ]
         },
         {
             "title": "소통 - 푸클리 콘서트 - 마카오톡 [제랄즈]",
@@ -5334,42 +5406,49 @@
                 {
                     "title": "혼자라고 생각말기",
                     "time": "3:28:13",
-                    "needsReview": true
+                    "noMistake": true,
+                    "artist": "에일리"
                 },
                 {
                     "title": "장마",
                     "time": "3:34:49",
-                    "needsReview": true
+                    "artist": "정준일"
                 },
                 {
                     "title": "눈사람",
                     "time": "3:40:49",
-                    "needsReview": true
+                    "noMistake": true,
+                    "artist": "정승환"
                 },
                 {
                     "title": "마음을 드려요",
                     "time": "3:51:31",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "아이유"
                 },
                 {
                     "title": "운이 좋았지",
                     "time": "4:01:01",
-                    "needsReview": true
+                    "noMistake": true,
+                    "artist": "권진아"
                 },
                 {
                     "title": "소나기",
                     "time": "4:09:57",
-                    "needsReview": true
+                    "artist": "아이오아이 (I.O.I)"
                 },
                 {
                     "title": "11:11",
                     "time": "4:18:00",
-                    "needsReview": true
+                    "artist": "태연"
                 },
                 {
                     "title": "Rain",
                     "time": "4:27:08",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "태연"
                 }
             ]
         },
@@ -5381,7 +5460,30 @@
             "songInfo": [
                 {
                     "title": "무릎",
-                    "time": "02:14:41"
+                    "time": "1:59:44",
+                    "recommended": true,
+                    "artist": "아이유"
+                },
+                {
+                    "title": "무릎",
+                    "time": "2:14:41",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "나는 나만의 것",
+                    "time": "2:27:42",
+                    "recommended": true,
+                    "artist": ""
+                },
+                {
+                    "title": "시든 꽃에 물을 주듯",
+                    "time": "2:33:50",
+                    "artist": "HYNN (박혜원)"
+                },
+                {
+                    "title": "부엉이",
+                    "time": "5:36:16",
+                    "artist": "이문세"
                 }
             ]
         },

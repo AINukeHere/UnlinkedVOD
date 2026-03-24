@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-22T04:18:39.906116+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-24T03:32:49.232069+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -99,9 +99,9 @@ const songs = [
         "videoTitle": "소통 - 노래 대회 반응 보기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -434,9 +434,9 @@ const songs = [
         "videoTitle": "소통 - 노래 대회 반응 보기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -651,7 +651,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-02-28",
@@ -1037,6 +1037,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2023-12-29",
+        "url": "https://vod.sooplive.co.kr/player/112045899?change_second=9230",
+        "videoTitle": "소통 - 구슬요 미니 콘서트 다시보기 - 잠깐 노래 - 푸클리 - 후열 마카오톡 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231229_8BBF2ECF_250595093_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1244,6 +1254,16 @@ const songs = [
         "videoTitle": "소통 - 해초마을 노래방",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20241002_4125EC80_277324054_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=9637",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1521,7 +1541,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1651,6 +1671,16 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20241009_4524A33C_277586158_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=8837",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -3554,6 +3584,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=10025",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2026-03-09",
         "url": "https://vod.sooplive.co.kr/player/189169907?change_second=11369",
         "videoTitle": "모닝츄",
@@ -3591,6 +3631,16 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240924_75691EA2_276981390_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=9194",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -3749,6 +3799,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=11837",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
         "date": "2026-02-21",
         "url": "https://vod.sooplive.co.kr/player/187530811?change_second=10202",
         "videoTitle": "소통 - 신곡 발표회 - 노래",
@@ -3800,6 +3860,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250728_814A3959_286185420_1_r",
         "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2023-12-29",
+        "url": "https://vod.sooplive.co.kr/player/112045899?change_second=7184",
+        "videoTitle": "소통 - 구슬요 미니 콘서트 다시보기 - 잠깐 노래 - 푸클리 - 후열 마카오톡 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231229_8BBF2ECF_250595093_2_r",
+        "noMistake": false,
         "recommended": true,
         "needsReview": false
       },
@@ -4399,6 +4469,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=11176",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2025-12-10",
         "url": "https://vod.sooplive.co.kr/player/180307499?change_second=3958",
         "videoTitle": "소통 - 노래",
@@ -4629,6 +4709,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2023-12-29",
+        "url": "https://vod.sooplive.co.kr/player/112045899?change_second=20176",
+        "videoTitle": "소통 - 구슬요 미니 콘서트 다시보기 - 잠깐 노래 - 푸클리 - 후열 마카오톡 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231229_8BBF2ECF_250595093_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2024-08-28",
         "url": "https://vod.sooplive.co.kr/player/134599327?change_second=6464",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
@@ -4696,6 +4786,16 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240413_CD13CACD_262263072_2_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=12719",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -5211,7 +5311,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -5394,6 +5494,16 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/121586183?change_second=4223",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240410_F0A5D9DD_261917110_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-11-21",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=8343",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -5711,6 +5821,106 @@ const songs = [
     ]
   },
   {
+    "title": "Super Shy",
+    "versions": [
+      {
+        "date": "2023-11-21",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=10328",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Blueming",
+    "versions": [
+      {
+        "date": "2023-11-21",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=10698",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-07",
+        "url": "https://vod.sooplive.co.kr/player/105616031?change_second=8426",
+        "videoTitle": "[유플릭스 인턴] 기차 버스킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-06-06",
+        "url": "https://vod.sooplive.co.kr/player/162357203?change_second=16116",
+        "videoTitle": "소통 - 시케이 님 뮤직케이 - 후열 오버워치",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250606_DD3A6EAF_284688250_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-13",
+        "url": "https://vod.sooplive.co.kr/player/168825917?change_second=18283",
+        "videoTitle": "소통 - R.E.P.O(w. 리츠 성하늘 히무루) - 후열 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250813_47D9ACCB_286635378_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "미워도 사랑하니까",
+    "versions": [
+      {
+        "date": "2023-11-21",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=12236",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-11-10",
+        "url": "https://vod.sooplive.co.kr/player/109394118?change_second=6589",
+        "videoTitle": "[유플릭스] 소통 - 노래방 - 후열 [제랄즈]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
+      }
+    ]
+  },
+  {
+    "title": "에잇",
+    "versions": [
+      {
+        "date": "2023-11-21",
+        "videoTitle": "[유플릭스] 소통 - 노래 - 롤 시참 - 후열 [제랄즈]",
+        "url": "https://vod.sooplive.co.kr/player/109822199?change_second=13081",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231121_DFC25E81_249184760_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "운이 좋았지",
     "versions": [
       {
@@ -5789,9 +5999,9 @@ const songs = [
         "videoTitle": "소통 - 노래 대회 반응 보기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -5822,21 +6032,6 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "미워도 사랑하니까",
-    "versions": [
-      {
-        "date": "2023-11-10",
-        "videoTitle": "[유플릭스] 소통 - 노래방 - 후열 [제랄즈]",
-        "url": "https://vod.sooplive.co.kr/player/109394118?change_second=6589",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
       }
     ]
   },
@@ -7114,9 +7309,9 @@ const songs = [
         "videoTitle": "소통 - 노래 대회 반응 보기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10024,9 +10219,9 @@ const songs = [
         "videoTitle": "소통 - 노래 대회 반응 보기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -10081,41 +10276,6 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "Blueming",
-    "versions": [
-      {
-        "date": "2023-08-07",
-        "videoTitle": "[유플릭스 인턴] 기차 버스킹",
-        "url": "https://vod.sooplive.co.kr/player/105616031?change_second=8426",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-06-06",
-        "url": "https://vod.sooplive.co.kr/player/162357203?change_second=16116",
-        "videoTitle": "소통 - 시케이 님 뮤직케이 - 후열 오버워치",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250606_DD3A6EAF_284688250_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-08-13",
-        "url": "https://vod.sooplive.co.kr/player/168825917?change_second=18283",
-        "videoTitle": "소통 - R.E.P.O(w. 리츠 성하늘 히무루) - 후열 노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250813_47D9ACCB_286635378_2_r",
-        "noMistake": true,
-        "recommended": true,
         "needsReview": false
       }
     ]
@@ -11046,6 +11206,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "나는 나만의 것",
+    "versions": [
+      {
+        "date": "2023-12-29",
+        "videoTitle": "소통 - 구슬요 미니 콘서트 다시보기 - 잠깐 노래 - 푸클리 - 후열 마카오톡 [제랄즈]",
+        "url": "https://vod.sooplive.co.kr/player/112045899?change_second=8862",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231229_8BBF2ECF_250595093_2_r",
+        "noMistake": false,
+        "recommended": true,
         "needsReview": false
       }
     ]
