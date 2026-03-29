@@ -5705,13 +5705,46 @@
             "title": "후열 더켓몬ㅣ더켓몬 방셀 룰렛 100/500",
             "date": "2026-03-21",
             "url": "https://vod.sooplive.co.kr/player/190370079",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260321_71460726_292569597_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260321_71460726_292569597_2_r",
             "songInfo": [
                 {
                     "title": "수고했어, 오늘도",
                     "time": "6:34:43",
                     "noMistake": true,
                     "artist": "옥상달빛"
+                }
+            ]
+        },
+        {
+            "title": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+            "date": "2026-03-27",
+            "url": "https://vod.sooplive.co.kr/player/190970809",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+            "songInfo": [
+                {
+                    "title": "타상연화",
+                    "time": "1:40:38",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": ""
+                },
+                {
+                    "title": "세상은 사랑에 빠져있어",
+                    "time": "2:46:51",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": ""
+                },
+                {
+                    "title": "JANE DOE",
+                    "time": "3:46:13",
+                    "noMistake": true,
+                    "artist": ""
+                },
+                {
+                    "title": "세상은 사랑에 빠져있어",
+                    "time": "6:34:07",
+                    "artist": ""
                 }
             ]
         }

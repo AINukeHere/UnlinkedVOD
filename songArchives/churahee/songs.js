@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-24T03:32:49.232069+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-27T17:50:47.459065+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -6103,7 +6103,7 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/190370079?change_second=23683",
         "videoTitle": "후열 더켓몬ㅣ더켓몬 방셀 룰렛 100/500",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260321_71460726_292569597_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260321_71460726_292569597_2_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -11282,6 +11282,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-03-27",
+        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=6038",
+        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -11325,6 +11335,46 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_132CADEE_292461335_2_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "세상은 사랑에 빠져있어",
+    "versions": [
+      {
+        "date": "2026-03-27",
+        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=10011",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-27",
+        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=23647",
+        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "JANE DOE",
+    "versions": [
+      {
+        "date": "2026-03-27",
+        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=13573",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
