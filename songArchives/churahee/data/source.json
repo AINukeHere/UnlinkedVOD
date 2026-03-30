@@ -1351,63 +1351,76 @@
                 {
                     "title": "Heaven",
                     "time": "1:39:08",
-                    "needsReview": true
+                    "noMistake": true,
+                    "artist": "에일리"
                 },
                 {
                     "title": "비행기",
-                    "time": "1:46:15"
+                    "time": "1:46:15",
+                    "artist": "거북이"
                 },
                 {
                     "title": "미워도 사랑하니까",
                     "time": "1:49:49",
-                    "needsReview": true
+                    "artist": "다비치"
                 },
                 {
                     "title": "시간을 거슬러",
                     "time": "1:57:40",
-                    "needsReview": true
+                    "artist": "린"
                 },
                 {
                     "title": "겨울봄",
                     "time": "2:06:16",
-                    "needsReview": true
+                    "artist": "이세계아이돌"
                 },
                 {
                     "title": "수고했어, 오늘도",
-                    "time": "2:13:08"
+                    "time": "2:13:08",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "옥상달빛"
                 },
                 {
                     "title": "A Thousand Years",
                     "time": "2:20:07",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "Christina Perri"
                 },
                 {
                     "title": "스물다섯, 스물하나",
-                    "time": "2:27:11"
+                    "time": "2:27:11",
+                    "recommended": true,
+                    "artist": "자우림"
                 },
                 {
                     "title": "비행소녀",
                     "time": "2:41:48",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "마지 (Magie)"
                 },
                 {
                     "title": "달에 지다",
                     "time": "2:50:16",
-                    "needsReview": true
+                    "noMistake": true,
+                    "artist": "베이지 (추노 OST)"
                 },
                 {
                     "title": "너에게로",
                     "time": "2:55:56",
-                    "needsReview": true
+                    "artist": "서영은"
                 },
                 {
                     "title": "도망가자",
-                    "time": "3:01:28"
+                    "time": "3:01:28",
+                    "artist": "선우정아"
                 },
                 {
                     "title": "혼자라고 생각말기",
                     "time": "3:29:24",
-                    "needsReview": true
+                    "artist": "에일리"
                 }
             ]
         },
@@ -5491,58 +5504,61 @@
             "title": "소통 - 노래 - lck 중계",
             "date": "2025-05-21",
             "url": "https://vod.sooplive.co.kr/player/160774703",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
             "songInfo": [
                 {
                     "title": "첫 키스에 내 심장은 120BPM",
                     "time": "45:27",
-                    "needsReview": true
+                    "artist": "경서예지"
                 },
                 {
                     "title": "Pretender",
                     "time": "58:12",
-                    "needsReview": true
+                    "artist": "Official髭男dism"
                 },
                 {
                     "title": "최종화",
                     "time": "1:11:23",
-                    "needsReview": true
+                    "artist": "이승윤"
                 },
                 {
                     "title": "주옥같다",
                     "time": "1:18:05",
-                    "needsReview": true
+                    "artist": "이승윤"
                 },
                 {
                     "title": "Viva la Vida",
                     "time": "1:28:15",
-                    "needsReview": true
+                    "artist": "Coldplay"
                 },
                 {
                     "title": "Square",
                     "time": "1:33:31",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "백예린"
                 },
                 {
                     "title": "오르막길",
                     "time": "1:44:04",
-                    "needsReview": true
+                    "artist": "정인"
                 },
                 {
                     "title": "무릎",
                     "time": "1:53:07",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "아이유"
                 },
                 {
                     "title": "서쪽하늘",
                     "time": "2:08:17",
-                    "needsReview": true
+                    "artist": "이승철"
                 },
                 {
                     "title": "월하의 그대에게",
                     "time": "2:18:08",
-                    "needsReview": true
+                    "noMistake": true,
+                    "artist": "이세계아이돌"
                 }
             ]
         },
@@ -5550,22 +5566,18 @@
             "title": "소통 - 추르미즈 멸망전",
             "date": "2025-02-28",
             "url": "https://vod.sooplive.co.kr/player/152742273",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
             "songInfo": [
                 {
                     "title": "장마",
-                    "time": "26:36",
-                    "needsReview": true
-                },
-                {
-                    "title": "장마",
                     "time": "2:45:51",
-                    "needsReview": true
+                    "artist": "정준일"
                 },
                 {
                     "title": "소로",
                     "time": "03:58:12",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "심규선"
                 }
             ]
         },

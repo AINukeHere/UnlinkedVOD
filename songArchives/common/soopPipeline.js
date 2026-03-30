@@ -1,20 +1,20 @@
 /**
  * Soop API pipeline: fetch VOD info + comments, parse to songInfo, merge into source.json.
- * For use from local addVod.js only. Input URL: vod.sooplive.co.kr/player/{videoId}
+ * For use from local addVod.js only. Input URL: vod.sooplive.com/player/{videoId}
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const SOOP_VOD_INFO_URL = 'https://api.m.sooplive.co.kr/station/video/a/view';
-const SOOP_COMMENT_URL = 'https://stbbs.sooplive.co.kr/api/bbs_memo_action.php';
+const SOOP_VOD_INFO_URL = 'https://api.m.sooplive.com/station/video/a/view';
+const SOOP_COMMENT_URL = 'https://stbbs.sooplive.com/api/bbs_memo_action.php';
 
 /**
- * @param {string} url - e.g. "https://vod.sooplive.co.kr/player/189435111"
+ * @param {string} url - e.g. "https://vod.sooplive.com/player/189435111"
  * @returns {{ videoId: string } | null}
  */
 function parseVodUrl(url) {
-  const m = url.match(/vod\.sooplive\.co\.kr\/player\/(\d+)/);
+  const m = url.match(/vod\.sooplive\.com\/player\/(\d+)/);
   return m ? { videoId: m[1] } : null;
 }
 
@@ -28,7 +28,7 @@ async function getSoopVodInfo(videoId) {
     headers: {
       accept: 'application/json, text/plain, */*',
       'content-type': 'application/x-www-form-urlencoded',
-      Referer: `https://vod.sooplive.co.kr/player/${videoId}`,
+      Referer: `https://vod.sooplive.com/player/${videoId}`,
     },
     body: `nTitleNo=${videoId}&nApiLevel=11&nPlaylistIdx=0`,
   });
@@ -68,7 +68,7 @@ async function getSoopComments(videoId, vodInfo) {
       headers: {
         accept: 'application/json, text/plain, */*',
         'content-type': 'application/x-www-form-urlencoded',
-        Referer: `https://vod.sooplive.co.kr/player/${videoId}`,
+        Referer: `https://vod.sooplive.com/player/${videoId}`,
       },
       body,
     });
@@ -417,14 +417,14 @@ function mergeVodIntoSource(historyEntry, sourcePath) {
 
 /**
  * Full pipeline: URL -> fetch VOD + comments -> parse (streamer-specific) -> resolve -> merge.
- * @param {string} vodUrl - https://vod.sooplive.co.kr/player/{videoId}
+ * @param {string} vodUrl - https://vod.sooplive.com/player/{videoId}
  * @param {string} repoRoot - path to repo root
  * @param {string} [streamerId='churahee'] - e.g. 'churahee', 'chebi' (data + parseConfig under that folder)
  * @returns {Promise<{ videoId: string, title: string, date: string, songCount: number, replaced: boolean }>}
  */
 async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee') {
   const parsed = parseVodUrl(vodUrl);
-  if (!parsed) throw new Error('Invalid URL. Use: https://vod.sooplive.co.kr/player/{videoId}');
+  if (!parsed) throw new Error('Invalid URL. Use: https://vod.sooplive.com/player/{videoId}');
 
   const { videoId } = parsed;
   const vodInfo = await getSoopVodInfo(videoId);
@@ -466,7 +466,7 @@ async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee') {
   const date = getBroadcastDate(vodInfo);
   const title = vodInfo.full_title || vodInfo.title || '';
   const thumb = vodInfo.thumb || '';
-  const url = `https://vod.sooplive.co.kr/player/${videoId}`;
+  const url = `https://vod.sooplive.com/player/${videoId}`;
 
   const historyEntry = {
     title,

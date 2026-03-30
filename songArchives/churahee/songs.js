@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-27T17:50:47.459065+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-03-29T21:58:11.822397+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -41,7 +41,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2026-01-10",
@@ -655,23 +655,13 @@ const songs = [
       },
       {
         "date": "2025-02-28",
-        "url": "https://vod.sooplive.co.kr/player/152742273?change_second=1596",
-        "videoTitle": "소통 - 추르미즈 멸망전",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
-      },
-      {
-        "date": "2025-02-28",
         "url": "https://vod.sooplive.co.kr/player/152742273?change_second=9951",
         "videoTitle": "소통 - 추르미즈 멸망전",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -858,7 +848,7 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/152742273?change_second=14292",
         "videoTitle": "소통 - 추르미즈 멸망전",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250228_1E701DB5_281774576_2_r",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -1211,7 +1201,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2026-02-28",
@@ -1313,10 +1303,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=2727",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1615,7 +1605,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
         "noMistake": false,
-        "recommended": false,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -3723,10 +3713,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=3492",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -3778,10 +3768,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=8288",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
-        "noMistake": false,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -3888,7 +3878,7 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=6787",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -4588,10 +4578,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=4685",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -5108,10 +5098,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=6244",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -5224,9 +5214,9 @@ const songs = [
         "videoTitle": "[유플릭스] 소통 - 노래방 - 후열 [제랄즈]",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       },
       {
         "date": "2025-09-05",
@@ -5516,7 +5506,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2025-05-14",
@@ -5638,10 +5628,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=7697",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -5901,7 +5891,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -6014,9 +6004,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/109394118?change_second=5948",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -6044,8 +6034,8 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/109394118?change_second=7988",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       },
       {
@@ -6119,9 +6109,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/109394118?change_second=8407",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -6134,9 +6124,9 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/109394118?change_second=10216",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -6151,7 +6141,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231110_16E3B006_249027838_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -6553,7 +6543,7 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=5611",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -8963,10 +8953,10 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=5295",
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -11233,10 +11223,10 @@ const songs = [
         "videoTitle": "소통 - 노래 - lck 중계",
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=4283",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
