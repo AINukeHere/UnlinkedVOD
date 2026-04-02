@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-29T21:58:11.822397+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-01T21:33:13.937042+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -100,6 +100,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250707_E8B4A9E6_285615176_1_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-22",
+        "url": "https://vod.sooplive.com/player/139998689?change_second=764",
+        "videoTitle": "소통 - 비세라 클린업(w.성하늘 순우리)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241022_B688D942_278017246_1_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -1222,6 +1232,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2024-10-22",
+        "url": "https://vod.sooplive.com/player/139998689?change_second=2655",
+        "videoTitle": "소통 - 비세라 클린업(w.성하늘 순우리)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241022_B688D942_278017246_1_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -1852,6 +1872,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=7709",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1904,6 +1934,16 @@ const songs = [
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=6053",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -1990,6 +2030,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=7385",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -3382,6 +3432,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=7155",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3714,6 +3774,16 @@ const songs = [
         "videoTitle": "소통 - 노래 - lck 중계",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-11-04",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=9862",
+        "videoTitle": "소통 - 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -4504,6 +4574,16 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(never ending story)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250730_AAF9C227_286237712_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=4771",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -5632,6 +5712,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=8266",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -5804,6 +5894,16 @@ const songs = [
         "videoTitle": "소통",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-11-04",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=7282",
+        "videoTitle": "소통 - 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -6629,6 +6729,16 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/189169907?change_second=12840",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-11-04",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=11018",
+        "videoTitle": "소통 - 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -7517,6 +7627,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2024-11-04",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=13901",
+        "videoTitle": "소통 - 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8101,6 +8221,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250613_B54FAADD_284954870_1_r",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-22",
+        "url": "https://vod.sooplive.com/player/139998689?change_second=1049",
+        "videoTitle": "소통 - 비세라 클린업(w.성하늘 순우리)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241022_B688D942_278017246_1_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -8785,6 +8915,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250912_4C2B7151_287449608_1_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=5677",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -9812,6 +9952,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2024-11-04",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=8899",
+        "videoTitle": "소통 - 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10039,6 +10189,16 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/176491011?change_second=2891",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251031_D9D4AB38_288779396_1_r&column=2&t=1762927402",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=4351",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -11037,6 +11197,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2024-10-23",
+        "url": "https://vod.sooplive.com/player/140075313?change_second=5243",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11224,6 +11394,36 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/160774703?change_second=4283",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "내가 죽으려고 생각한 것은",
+    "versions": [
+      {
+        "date": "2024-11-04",
+        "videoTitle": "소통 - 별별랭킹",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=9438",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "그여자",
+    "versions": [
+      {
+        "date": "2024-11-04",
+        "videoTitle": "소통 - 별별랭킹",
+        "url": "https://vod.sooplive.com/player/141252863?change_second=10794",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

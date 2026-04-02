@@ -373,9 +373,319 @@ function renderDataLastUpdated() {
   el.title = 'UTC: ' + d.toISOString();
 }
 
+/** 다시보기 플레이어 URL에서 쿼리를 제거한 페이지 주소 (동일 방송 중복 제거용) */
+function vodPageUrl(rawUrl) {
+  try {
+    const u = new URL(rawUrl, typeof location !== 'undefined' ? location.href : undefined);
+    u.search = '';
+    return u.toString();
+  } catch {
+    const s = String(rawUrl);
+    const i = s.indexOf('?');
+    return i >= 0 ? s.slice(0, i) : s;
+  }
+}
+
+const VOD_CAL_WEEKDAYS = ['일', '월', '화', '수', '목', '금', '토'];
+
+let vodIndexCache = null;
+
+function buildVodIndex() {
+  const byBase = new Map();
+  if (typeof songs === 'undefined' || !Array.isArray(songs)) {
+    return { entries: [], byDate: new Map() };
+  }
+
+  for (const song of songs) {
+    const versions = song.versions || [];
+    for (const v of versions) {
+      if (!v || !v.url) continue;
+      const base = vodPageUrl(v.url);
+      const datePart = String(v.date || '').trim().slice(0, 10);
+      const ts = parseVodDate(datePart);
+      const existing = byBase.get(base);
+      if (!existing) {
+        byBase.set(base, {
+          pageUrl: base,
+          date: datePart,
+          ts,
+          videoTitle: v.videoTitle || '',
+          thumbnail: v.thumbnail || '',
+        });
+      } else {
+        if (ts > existing.ts) {
+          existing.date = datePart;
+          existing.ts = ts;
+        }
+        if (!existing.videoTitle && v.videoTitle) existing.videoTitle = v.videoTitle;
+        if (!existing.thumbnail && v.thumbnail) existing.thumbnail = v.thumbnail;
+      }
+    }
+  }
+
+  const entries = Array.from(byBase.values());
+  const byDate = new Map();
+  for (const e of entries) {
+    if (!e.date) continue;
+    if (!byDate.has(e.date)) byDate.set(e.date, []);
+    byDate.get(e.date).push(e);
+  }
+  for (const [, arr] of byDate) {
+    arr.sort((a, b) => (a.pageUrl || '').localeCompare(b.pageUrl || ''));
+  }
+  return { entries, byDate };
+}
+
+function getVodIndex() {
+  if (!vodIndexCache) vodIndexCache = buildVodIndex();
+  return vodIndexCache;
+}
+
+function getVodPanelDateSort() {
+  const el = document.getElementById('vodPanelDateSort');
+  return (el && el.value) || 'dateDesc';
+}
+
+function getVodPanelViewMode() {
+  const el = document.getElementById('vodPanelViewMode');
+  return (el && el.value) || 'list';
+}
+
+function sortedVodEntries(entries, sortMode) {
+  const list = entries ? [...entries] : [];
+  if (sortMode === 'dateAsc') {
+    list.sort((a, b) => (a.ts || 0) - (b.ts || 0) || (a.pageUrl || '').localeCompare(b.pageUrl || ''));
+  } else {
+    list.sort((a, b) => (b.ts || 0) - (a.ts || 0) || (a.pageUrl || '').localeCompare(b.pageUrl || ''));
+  }
+  return list;
+}
+
+function renderVodPanelList() {
+  const ul = document.getElementById('vodPanelList');
+  if (!ul) return;
+  const { entries } = getVodIndex();
+  const sortMode = getVodPanelDateSort();
+  const sorted = sortedVodEntries(entries, sortMode);
+
+  ul.innerHTML = '';
+  sorted.forEach((e) => {
+    const li = document.createElement('li');
+    li.className = 'vod-panel-item';
+    const a = document.createElement('a');
+    a.className = 'vod-panel-link';
+    a.href = e.pageUrl;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    const dateSpan = document.createElement('span');
+    dateSpan.className = 'vod-panel-date';
+    dateSpan.textContent = e.date || '날짜 없음';
+    a.appendChild(dateSpan);
+    if (e.videoTitle) {
+      const t = document.createElement('span');
+      t.className = 'vod-panel-link-title';
+      t.textContent = e.videoTitle;
+      a.appendChild(t);
+    }
+    li.appendChild(a);
+    ul.appendChild(li);
+  });
+}
+
+/** 한국(서울) 기준 오늘이 속한 연-월 `YYYY-MM` */
+function getCurrentYearMonthSeoul() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+  }).formatToParts(new Date());
+  const y = parts.find((p) => p.type === 'year')?.value;
+  const mRaw = parts.find((p) => p.type === 'month')?.value;
+  if (!y || mRaw == null || mRaw === '') {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
+  }
+  return `${y}-${String(mRaw).padStart(2, '0')}`;
+}
+
+function enumerateYearMonths(minDateStr, maxDateStr, newestFirst) {
+  const months = [];
+  const min = String(minDateStr || '').slice(0, 7);
+  const max = String(maxDateStr || '').slice(0, 7);
+  if (!min || min.length < 7 || !max || max.length < 7) return months;
+
+  const [y0, m0] = min.split('-').map((x) => Number.parseInt(x, 10));
+  const [y1, m1] = max.split('-').map((x) => Number.parseInt(x, 10));
+  if (!Number.isFinite(y0) || !Number.isFinite(m0) || !Number.isFinite(y1) || !Number.isFinite(m1)) {
+    return months;
+  }
+
+  let y = y0;
+  let m = m0;
+  const endKey = y1 * 12 + (m1 - 1);
+  for (;;) {
+    const key = y * 12 + (m - 1);
+    if (key > endKey) break;
+    months.push({ y, m });
+    m += 1;
+    if (m > 12) {
+      m = 1;
+      y += 1;
+    }
+  }
+  if (newestFirst) months.reverse();
+  return months;
+}
+
+function primaryVodForDay(dayEntries, sortMode) {
+  if (!dayEntries || !dayEntries.length) return null;
+  const copy = [...dayEntries];
+  if (sortMode === 'dateAsc') {
+    copy.sort((a, b) => (a.pageUrl || '').localeCompare(b.pageUrl || ''));
+  } else {
+    copy.sort((a, b) => (b.pageUrl || '').localeCompare(a.pageUrl || ''));
+  }
+  return copy[0];
+}
+
+function renderVodPanelCalendar() {
+  const wrap = document.getElementById('vodPanelCalendarWrap');
+  if (!wrap) return;
+  const { entries, byDate } = getVodIndex();
+  if (!entries.length) {
+    wrap.innerHTML = '';
+    return;
+  }
+
+  const sortMode = getVodPanelDateSort();
+  const chron = sortedVodEntries(entries, 'dateAsc');
+  const firstDataDate = chron[0]?.date;
+  const firstYm = String(firstDataDate || '').slice(0, 7);
+  const curYm = getCurrentYearMonthSeoul();
+  if (!firstYm || firstYm.length < 7) {
+    wrap.innerHTML = '';
+    return;
+  }
+  /* 가장 오래된 기록 월 ~ 오늘(서울)이 속한 월 (ISO YYYY-MM 문자열 비교) */
+  const minRangeYm = firstYm <= curYm ? firstYm : curYm;
+  const maxRangeYm = firstYm <= curYm ? curYm : firstYm;
+  const months = enumerateYearMonths(
+    `${minRangeYm}-01`,
+    `${maxRangeYm}-01`,
+    sortMode === 'dateDesc'
+  );
+
+  wrap.innerHTML = '';
+  months.forEach(({ y, m }) => {
+    const section = document.createElement('section');
+    section.className = 'vod-cal-month';
+    const h3 = document.createElement('h3');
+    h3.className = 'vod-cal-month-title';
+    h3.textContent = `${y}년 ${m}월`;
+    section.appendChild(h3);
+
+    const grid = document.createElement('div');
+    grid.className = 'vod-cal-grid';
+    VOD_CAL_WEEKDAYS.forEach((wd) => {
+      const h = document.createElement('div');
+      h.className = 'vod-cal-weekday';
+      h.textContent = wd;
+      grid.appendChild(h);
+    });
+
+    const first = new Date(y, m - 1, 1);
+    const lastDay = new Date(y, m, 0).getDate();
+    const startPad = first.getDay();
+    for (let i = 0; i < startPad; i += 1) {
+      const pad = document.createElement('div');
+      pad.className = 'vod-cal-day is-pad';
+      pad.setAttribute('aria-hidden', 'true');
+      grid.appendChild(pad);
+    }
+
+    for (let d = 1; d <= lastDay; d += 1) {
+      const mm = String(m).padStart(2, '0');
+      const dd = String(d).padStart(2, '0');
+      const dateStr = `${y}-${mm}-${dd}`;
+      const dayList = byDate.get(dateStr);
+      if (dayList && dayList.length) {
+        const primary = primaryVodForDay(dayList, sortMode);
+        const a = document.createElement('a');
+        a.className = 'vod-cal-day';
+        a.href = primary ? primary.pageUrl : '#';
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.title =
+          dayList.length > 1
+            ? `${dateStr} · 다시보기 ${dayList.length}건`
+            : primary?.videoTitle
+              ? `${dateStr} — ${primary.videoTitle}`
+              : dateStr;
+        const inner = document.createElement('span');
+        inner.className = 'vod-cal-day-inner';
+        inner.textContent = String(d);
+        if (dayList.length > 1) {
+          const badge = document.createElement('span');
+          badge.className = 'vod-cal-day-count';
+          badge.textContent = String(dayList.length);
+          inner.appendChild(badge);
+        }
+        a.appendChild(inner);
+        grid.appendChild(a);
+      } else {
+        const span = document.createElement('div');
+        span.className = 'vod-cal-day';
+        span.textContent = String(d);
+        grid.appendChild(span);
+      }
+    }
+
+    section.appendChild(grid);
+    wrap.appendChild(section);
+  });
+}
+
+function updateVodPanelVisibility() {
+  const mode = getVodPanelViewMode();
+  const listWrap = document.getElementById('vodPanelListWrap');
+  const calWrap = document.getElementById('vodPanelCalendarWrap');
+  if (listWrap && calWrap) {
+    const isList = mode === 'list';
+    listWrap.classList.toggle('is-hidden', !isList);
+    listWrap.toggleAttribute('hidden', !isList);
+    calWrap.classList.toggle('is-hidden', isList);
+    calWrap.toggleAttribute('hidden', isList);
+  }
+}
+
+function renderVodPanel() {
+  updateVodPanelVisibility();
+  const mode = getVodPanelViewMode();
+  if (mode === 'list') {
+    renderVodPanelList();
+  } else {
+    renderVodPanelCalendar();
+  }
+}
+
+function setupVodPanel() {
+  const panel = document.getElementById('vodPanel');
+  const toggle = document.getElementById('vodPanelToggle');
+  if (toggle && panel) {
+    toggle.addEventListener('click', () => {
+      const collapsed = panel.classList.toggle('is-collapsed');
+      toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+    });
+  }
+  document.getElementById('vodPanelViewMode')?.addEventListener('change', renderVodPanel);
+  document.getElementById('vodPanelDateSort')?.addEventListener('change', renderVodPanel);
+  renderVodPanel();
+}
+
 window.onload = () => {
   renderDataLastUpdated();
   loadSongs();
+  setupVodPanel();
   document.getElementById('searchBar')?.addEventListener('input', searchSongs);
   document.getElementById('searchBar')?.addEventListener('keyup', searchSongs);
   document.getElementById('listSort')?.addEventListener('change', onFilterOrSortChange);

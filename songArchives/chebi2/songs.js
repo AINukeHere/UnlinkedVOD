@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-03-30T19:33:37.054820+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-02T19:09:16.547061+00:00";
 const songs = [
   {
     "title": "체끼송",
@@ -157,6 +157,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=9694",
+        "videoTitle": "체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -289,6 +299,16 @@ const songs = [
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-30",
+        "url": "https://vod.sooplive.com/player/191289407?change_second=18586",
+        "videoTitle": "MZ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -477,6 +497,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-03-30",
+        "url": "https://vod.sooplive.com/player/191289407?change_second=5734",
+        "videoTitle": "MZ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -589,6 +619,16 @@ const songs = [
         "url": "https://vod.sooplive.com/player/189739257?change_second=11442",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260314_5B5CE7EA_292393177_1_r&column=2&t=1773518099",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-30",
+        "url": "https://vod.sooplive.com/player/191289407?change_second=18287",
+        "videoTitle": "MZ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -937,6 +977,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=12202",
+        "videoTitle": "체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -974,6 +1024,16 @@ const songs = [
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=15651",
+        "videoTitle": "체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1557,6 +1617,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-03-30",
+        "url": "https://vod.sooplive.com/player/191289407?change_second=4990",
+        "videoTitle": "MZ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1689,6 +1759,16 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/190527127?change_second=5575",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-03-30",
+        "url": "https://vod.sooplive.com/player/191289407?change_second=17284",
+        "videoTitle": "MZ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1884,6 +1964,111 @@ const songs = [
         "url": "https://vod.sooplive.co.kr/player/190135929?change_second=14522",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "김철수 씨 이야기",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=10076",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "섬",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=14048",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "그대만 있다면",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=14677",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "달빛에 그려지는 (미연)\\",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=15049",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "에잇 (Prod.&Feat. SUGA of BTS)/아이유",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=15398",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "운이 좋았지",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=16090",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "해요 (2022)/#안녕",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "체비",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=16465",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

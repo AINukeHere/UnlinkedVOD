@@ -5584,23 +5584,130 @@
         {
             "title": "소통 - 별별랭킹",
             "date": "2024-11-04",
-            "url": "https://vod.sooplive.co.kr/player/141252863",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
-            "songInfo": []
+            "url": "https://vod.sooplive.com/player/141252863",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241104_521B77DA_278394158_2_r",
+            "songInfo": [
+                {
+                    "title": "고양이 소리를 따라해 보자",
+                    "time": "2:01:22",
+                    "artist": "Feng Timo"
+                },
+                {
+                    "title": "Slow Motion",
+                    "time": "2:28:19",
+                    "artist": "AKMU"
+                },
+                {
+                    "title": "내가 죽으려고 생각한 것은",
+                    "time": "2:37:18",
+                    "noMistake": true,
+                    "artist": ""
+                },
+                {
+                    "title": "Pretender",
+                    "time": "2:44:22",
+                    "artist": "Official髭男dism"
+                },
+                {
+                    "title": "그여자",
+                    "time": "2:59:54",
+                    "artist": ""
+                },
+                {
+                    "title": "잊지 말아요",
+                    "time": "3:03:38",
+                    "artist": "백지영"
+                },
+                {
+                    "title": "산책",
+                    "time": "3:51:41",
+                    "noMistake": true,
+                    "artist": "백예린"
+                }
+            ]
         },
         {
             "title": "소통 - 노래",
             "date": "2024-10-23",
-            "url": "https://vod.sooplive.co.kr/player/140075313",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
-            "songInfo": []
+            "url": "https://vod.sooplive.com/player/140075313",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
+            "songInfo": [
+                {
+                    "title": "기적은 없어도",
+                    "time": "1:12:31",
+                    "artist": "정승환"
+                },
+                {
+                    "title": "꽃길",
+                    "time": "1:19:31",
+                    "noMistake": true,
+                    "artist": "세정"
+                },
+                {
+                    "title": "밤양갱",
+                    "time": "1:27:23",
+                    "artist": "비비 (BIBI)"
+                },
+                {
+                    "title": "밤하늘의 별을",
+                    "time": "1:34:37",
+                    "noMistake": true,
+                    "artist": "경서"
+                },
+                {
+                    "title": "오늘 헤어졌어요",
+                    "time": "1:40:53",
+                    "noMistake": true,
+                    "artist": "윤하"
+                },
+                {
+                    "title": "만약에",
+                    "time": "1:59:15",
+                    "artist": "태연"
+                },
+                {
+                    "title": "어른",
+                    "time": "2:03:05",
+                    "noMistake": true,
+                    "artist": "Sondia"
+                },
+                {
+                    "title": "이름에게",
+                    "time": "2:08:29",
+                    "noMistake": true,
+                    "artist": "아이유"
+                },
+                {
+                    "title": "서쪽하늘",
+                    "time": "2:17:46",
+                    "artist": "이승철"
+                }
+            ]
         },
         {
             "title": "소통 - 비세라 클린업(w.성하늘 순우리)",
             "date": "2024-10-22",
-            "url": "https://vod.sooplive.co.kr/player/139998689",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20241022_B688D942_278017246_1_r",
-            "songInfo": []
+            "url": "https://vod.sooplive.com/player/139998689",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241022_B688D942_278017246_1_r",
+            "songInfo": [
+                {
+                    "title": "혼자라고 생각말기",
+                    "time": "00:12:44",
+                    "artist": "에일리"
+                },
+                {
+                    "title": "Track 9",
+                    "time": "00:17:29",
+                    "artist": "이소라"
+                },
+                {
+                    "title": "시간을 거슬러",
+                    "time": "00:44:15",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "린"
+                }
+            ]
         },
         {
             "title": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",

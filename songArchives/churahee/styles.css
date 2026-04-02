@@ -218,6 +218,307 @@ body {
   cursor: pointer;
 }
 
+/* ─── 본문 + 오른쪽 다시보기 패널 ─── */
+.page-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  max-width: 100%;
+}
+
+.main-area {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* ─── 오른쪽: 다시보기 패널 ─── */
+.vod-panel {
+  flex: 0 0 auto;
+  width: min(300px, 100vw - 2rem);
+  position: sticky;
+  top: 5.75rem;
+  align-self: flex-start;
+  max-height: calc(100vh - 6rem);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-elevated);
+  border-left: 1px solid var(--border);
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.04);
+  z-index: 5;
+}
+
+.vod-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 0.5rem 0.65rem 0.35rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  background: var(--bg-elevated);
+}
+
+.vod-panel-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+}
+
+.vod-panel-toggle {
+  flex: 0 0 auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: none;
+  background: var(--bg);
+  border-radius: 6px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  color: var(--text-muted);
+}
+
+.vod-panel-toggle:hover {
+  color: var(--text);
+  background: var(--border);
+}
+
+.vod-panel-toggle-icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  margin-left: -0.15rem;
+  transition: transform 0.15s ease;
+}
+
+.vod-panel.is-collapsed .vod-panel-toggle-icon {
+  transform: rotate(135deg);
+  margin-left: 0.1rem;
+}
+
+.vod-panel-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.vod-panel.is-collapsed .vod-panel-body {
+  display: none;
+}
+
+.vod-panel.is-collapsed {
+  width: auto;
+  min-width: 2.75rem;
+  max-height: none;
+  box-shadow: none;
+  border-left: none;
+}
+
+.vod-panel.is-collapsed .vod-panel-header {
+  border-bottom: none;
+  flex-direction: column;
+  padding: 0.5rem 0.35rem;
+}
+
+.vod-panel.is-collapsed .vod-panel-title {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  max-height: 15rem;
+  overflow: hidden;
+}
+
+.vod-panel-toolbar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  column-gap: 0.45rem;
+  row-gap: 0.35rem;
+  padding: 0.6rem 0.65rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.vod-panel-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.vod-panel-select {
+  width: 100%;
+  min-width: 0;
+  font-size: 0.8rem;
+}
+
+.vod-panel-list-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0.35rem 0.25rem 1rem;
+}
+
+.vod-panel-list-wrap.is-hidden {
+  display: none !important;
+}
+
+.vod-panel-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vod-panel-item {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.vod-panel-item:last-child {
+  border-bottom: none;
+}
+
+.vod-panel-link {
+  display: block;
+  padding: 0.5rem 0.5rem 0.55rem;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 6px;
+  transition: background 0.12s ease;
+}
+
+.vod-panel-link:hover {
+  background: var(--bg);
+}
+
+.vod-panel-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.vod-panel-date {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.vod-panel-link-title {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  line-height: 1.35;
+  margin-top: 0.2rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.vod-panel-calendar-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0.5rem 0.5rem 1rem;
+}
+
+.vod-panel-calendar-wrap.is-hidden {
+  display: none !important;
+}
+
+.vod-cal-month {
+  margin-bottom: 1.25rem;
+}
+
+.vod-cal-month:last-child {
+  margin-bottom: 0.5rem;
+}
+
+.vod-cal-month-title {
+  margin: 0 0 0.45rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.vod-cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  font-size: 0.7rem;
+}
+
+.vod-cal-weekday {
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-muted);
+  padding: 0.2rem 0;
+}
+
+.vod-cal-day {
+  aspect-ratio: 1;
+  min-height: 1.65rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: var(--text-muted);
+  background: var(--bg);
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+.vod-cal-day.is-pad {
+  visibility: hidden;
+  pointer-events: none;
+  background: transparent;
+}
+
+a.vod-cal-day {
+  position: relative;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+a.vod-cal-day:hover {
+  background: color-mix(in srgb, var(--accent) 28%, var(--bg));
+}
+
+a.vod-cal-day:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.vod-cal-day-count {
+  position: absolute;
+  font-size: 0.55rem;
+  font-weight: 700;
+  color: var(--accent-hover);
+  top: 1px;
+  right: 2px;
+  line-height: 1;
+}
+
+.vod-cal-day-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ─── 메인: 노래별 행 ─── */
 .main {
   padding: 0.5rem 1.25rem 3rem;
@@ -395,6 +696,30 @@ body {
 
 .version-card:hover .version-card-title {
   color: var(--text);
+}
+
+@media (max-width: 900px) {
+  .page-layout {
+    flex-direction: column;
+  }
+
+  .vod-panel {
+    position: relative;
+    width: 100%;
+    max-height: none;
+    border-left: none;
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.04);
+  }
+
+  .vod-panel.is-collapsed .vod-panel-title {
+    writing-mode: horizontal-tb;
+    max-height: none;
+  }
+
+  .vod-panel.is-collapsed .vod-panel-header {
+    flex-direction: row;
+  }
 }
 
 @media (max-width: 640px) {
