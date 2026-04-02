@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-02T19:34:19.700328+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-02T19:39:55.998891+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",

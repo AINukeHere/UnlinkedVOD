@@ -61,11 +61,40 @@
     </div>
   </header>
 
-  <main class="main">
-    <div id="songList" class="song-rows">
-      <!-- 노래별 행이 JS로 채워짐 -->
-    </div>
-  </main>
+  <div class="page-layout">
+    <main class="main main-area">
+      <div id="songList" class="song-rows">
+        <!-- 노래별 행이 JS로 채워짐 -->
+      </div>
+    </main>
+
+    <aside id="vodPanel" class="vod-panel" aria-label="노래 기록이 있는 날짜">
+      <div class="vod-panel-header">
+        <button type="button" id="vodPanelToggle" class="vod-panel-toggle" aria-expanded="true" aria-controls="vodPanelBody" title="패널 접기/펼치기">
+          <span class="vod-panel-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <h2 class="vod-panel-title">노래 기록이 있는 날짜</h2>
+      </div>
+      <div id="vodPanelBody" class="vod-panel-body">
+        <div class="vod-panel-toolbar">
+          <label class="vod-panel-label" for="vodPanelViewMode">보기 형식</label>
+          <select id="vodPanelViewMode" class="select vod-panel-select" aria-label="노래 기록 날짜 패널 표시 방식">
+            <option value="list">목록</option>
+            <option value="calendar" selected>달력</option>
+          </select>
+          <label class="vod-panel-label" for="vodPanelDateSort">날짜 정렬</label>
+          <select id="vodPanelDateSort" class="select vod-panel-select" aria-label="노래 기록 날짜 정렬">
+            <option value="dateDesc">최근순</option>
+            <option value="dateAsc">오래된 순</option>
+          </select>
+        </div>
+        <div id="vodPanelListWrap" class="vod-panel-list-wrap is-hidden" hidden>
+          <ul id="vodPanelList" class="vod-panel-list"></ul>
+        </div>
+        <div id="vodPanelCalendarWrap" class="vod-panel-calendar-wrap"></div>
+      </div>
+    </aside>
+  </div>
 
   <script src="songs.js"></script>
   <script src="script.js"></script>
