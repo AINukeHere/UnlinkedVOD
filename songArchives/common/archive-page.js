@@ -246,7 +246,7 @@ function loadSongs(searchTerm = '') {
       const card = document.createElement('a');
       card.href = v.url;
       card.target = '_blank';
-      card.rel = 'noopener';
+      card.rel = 'noopener noreferrer';
       const isMatching = matchingSet.has(v);
       card.className = 'version-card' + (isMatching ? '' : ' version-card-faded');
       card.innerHTML = `
@@ -681,6 +681,32 @@ function setupVodPanel() {
   document.getElementById('vodPanelDateSort')?.addEventListener('change', renderVodPanel);
   renderVodPanel();
 }
+
+/**
+ * 스트리머 폴더 index.html 상단: window.SONG_ARCHIVE_PAGE = { siteTitle: '…', favicon?: '…png' };
+ * (favicon 경로는 해당 스트리머 폴더 기준 상대 URL)
+ */
+function applySongArchivePageConfig() {
+  const c = typeof window !== 'undefined' ? window.SONG_ARCHIVE_PAGE : null;
+  if (!c || typeof c !== 'object') return;
+  if (c.siteTitle) {
+    document.title = c.siteTitle;
+    const h1 = document.querySelector('.site-title');
+    if (h1) h1.textContent = c.siteTitle;
+  }
+  if (c.favicon) {
+    let link = document.querySelector('link[rel="icon"]');
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'icon';
+      link.type = 'image/png';
+      document.head.insertBefore(link, document.head.firstChild);
+    }
+    link.href = c.favicon;
+  }
+}
+
+applySongArchivePageConfig();
 
 window.onload = () => {
   renderDataLastUpdated();
