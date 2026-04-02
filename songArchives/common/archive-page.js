@@ -682,9 +682,37 @@ function setupVodPanel() {
   renderVodPanel();
 }
 
+/** Soop CDN 프로필 로고 (webp). fetch 불필요 — <link rel="icon">은 CORS 제한 없이 로드됨. */
+function soopProfileLogoWebpUrl(channelId) {
+  const id = String(channelId).trim().toLowerCase();
+  if (!id) return null;
+  const enc = encodeURIComponent(id);
+  return `https://stimg.sooplive.com/LOGO/ch/${enc}/m/${enc}.webp`;
+}
+
+function guessFaviconMimeType(href) {
+  const lower = String(href).toLowerCase();
+  if (lower.includes('.webp')) return 'image/webp';
+  if (lower.includes('.svg')) return 'image/svg+xml';
+  if (lower.includes('.ico')) return 'image/x-icon';
+  return 'image/png';
+}
+
+function ensureStimgPreconnect() {
+  const origin = 'https://stimg.sooplive.com';
+  if (document.querySelector(`link[rel="preconnect"][href="${origin}"]`)) return;
+  const pc = document.createElement('link');
+  pc.rel = 'preconnect';
+  pc.href = origin;
+  pc.crossOrigin = 'anonymous';
+  document.head.insertBefore(pc, document.head.firstChild);
+}
+
 /**
- * 스트리머 폴더 index.html 상단: window.SONG_ARCHIVE_PAGE = { siteTitle: '…', favicon?: '…png' };
- * (favicon 경로는 해당 스트리머 폴더 기준 상대 URL)
+ * 스트리머 폴더 index.html: window.SONG_ARCHIVE_PAGE
+ * - siteTitle (선택)
+ * - favicon (선택): 절대 URL 또는 스트리머 폴더 기준 상대 경로. 있으면 Soop CDN보다 우선.
+ * - soopChannelId (선택): Soop 채널 슬러그(로고 URL 경로의 ch/{id}/m/{id}.webp). stimg에서 webp 파비콘.
  */
 function applySongArchivePageConfig() {
   const c = typeof window !== 'undefined' ? window.SONG_ARCHIVE_PAGE : null;
@@ -694,16 +722,29 @@ function applySongArchivePageConfig() {
     const h1 = document.querySelector('.site-title');
     if (h1) h1.textContent = c.siteTitle;
   }
-  if (c.favicon) {
-    let link = document.querySelector('link[rel="icon"]');
-    if (!link) {
-      link = document.createElement('link');
-      link.rel = 'icon';
-      link.type = 'image/png';
-      document.head.insertBefore(link, document.head.firstChild);
+
+  let iconHref = null;
+  let iconType = 'image/png';
+  if (typeof c.favicon === 'string' && c.favicon.trim()) {
+    iconHref = c.favicon.trim();
+    iconType = guessFaviconMimeType(iconHref);
+  } else if (typeof c.soopChannelId === 'string' && c.soopChannelId.trim()) {
+    iconHref = soopProfileLogoWebpUrl(c.soopChannelId);
+    if (iconHref) {
+      iconType = 'image/webp';
+      ensureStimgPreconnect();
     }
-    link.href = c.favicon;
   }
+  if (!iconHref) return;
+
+  let link = document.querySelector('link[rel="icon"]');
+  if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.head.insertBefore(link, document.head.firstChild);
+  }
+  link.type = iconType;
+  link.href = iconHref;
 }
 
 applySongArchivePageConfig();
