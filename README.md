@@ -34,7 +34,7 @@
 
 3. **VOD 추가**
    ```bash
-   npm run churahee:add -- "https://vod.sooplive.co.kr/player/{videoId}"
+   npm run add -- "https://vod.sooplive.co.kr/player/{videoId}"
    ```
    상세: **[songArchives/churahee/README.md](songArchives/churahee/README.md)** · 아카이브 구조: **[songArchives/README.md](songArchives/README.md)**
 

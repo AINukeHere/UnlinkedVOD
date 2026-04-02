@@ -1,6 +1,6 @@
 /**
  * Soop API pipeline: fetch VOD info + comments, parse to songInfo, merge into source.json.
- * For use from local addVod.js only. Input URL: vod.sooplive.com/player/{videoId}
+ * For use from local addVod.js only. Input URL: vod.sooplive(.co.kr|.com)/player/{videoId}
  */
 
 const fs = require('fs');
@@ -10,12 +10,106 @@ const SOOP_VOD_INFO_URL = 'https://api.m.sooplive.com/station/video/a/view';
 const SOOP_COMMENT_URL = 'https://stbbs.sooplive.com/api/bbs_memo_action.php';
 
 /**
- * @param {string} url - e.g. "https://vod.sooplive.com/player/189435111"
+ * @param {string} url - e.g. "https://vod.sooplive.com/player/189435111" or .co.kr, optional ?query #hash
  * @returns {{ videoId: string } | null}
  */
 function parseVodUrl(url) {
-  const m = url.match(/vod\.sooplive\.com\/player\/(\d+)/);
+  if (!url || typeof url !== 'string') return null;
+  const base = url.trim().split(/[#]/)[0].split('?')[0].replace(/\/+$/, '');
+  const m =
+    base.match(/vod\.sooplive\.co\.kr\/player\/(\d+)/i) ||
+    base.match(/vod\.sooplive\.com\/player\/(\d+)/i);
   return m ? { videoId: m[1] } : null;
+}
+
+function normalizeSoopUserId(id) {
+  return String(id == null ? '' : id).trim().toLowerCase();
+}
+
+/**
+ * List `songArchives/{id}` dirs that have `data/config.json` (excludes `common`).
+ * @param {string} songArchivesRoot
+ * @returns {string[]}
+ */
+function listConfiguredStreamerIds(songArchivesRoot) {
+  const ids = [];
+  let entries;
+  try {
+    entries = fs.readdirSync(songArchivesRoot, { withFileTypes: true });
+  } catch {
+    return ids;
+  }
+  for (const e of entries) {
+    if (!e.isDirectory() || e.name === 'common') continue;
+    const cfgPath = path.join(songArchivesRoot, e.name, 'data', 'config.json');
+    if (fs.existsSync(cfgPath)) ids.push(e.name);
+  }
+  return ids;
+}
+
+/**
+ * Soop VOD 메타에는 아직 `writer_id` 필드명으로 오는 스트리머(BJ) 식별자가 들어 있음 → 여기서는 vod_streamer_id 등으로 취급.
+ * 아카이브 매칭 후보: config `streamer_id`(선택), 레거시 `soopWriterId`, `comment_author_id`, 레거시 `authorUserId`, 폴더 이름.
+ * @param {Record<string, unknown>} cfg
+ * @param {string} folderName - songArchives 직하위 폴더명
+ * @returns {Set<string>} normalized ids
+ */
+function collectArchiveStreamerMatchKeys(cfg, folderName) {
+  const keys = new Set();
+  const add = (v) => {
+    const n = normalizeSoopUserId(v);
+    if (n) keys.add(n);
+  };
+  if (cfg.streamer_id != null && String(cfg.streamer_id).trim() !== '') {
+    add(cfg.streamer_id);
+  }
+  if (cfg.soopWriterId != null && String(cfg.soopWriterId).trim() !== '') {
+    add(cfg.soopWriterId);
+  }
+  if (cfg.comment_author_id != null && String(cfg.comment_author_id).trim() !== '') {
+    add(cfg.comment_author_id);
+  }
+  if (cfg.authorUserId != null && String(cfg.authorUserId).trim() !== '') {
+    add(cfg.authorUserId);
+  }
+  add(folderName);
+  return keys;
+}
+
+/**
+ * Soop VOD 응답의 스트리머 id(`writer_id` 필드 값)로 `songArchives/{archiveId}` 결정.
+ * @param {string} songArchivesRoot - path to `songArchives`
+ * @param {string|number} vodStreamerId - getSoopVodInfo().writer_id (API 필드명 유지)
+ * @returns {{ streamerId: string } | { streamerId: null, reason: 'none'|'ambiguous'|'no_vod_streamer_id', matches: string[], configuredIds: string[] }}
+ */
+function findArchiveFolderByVodStreamerId(songArchivesRoot, vodStreamerId) {
+  const w = normalizeSoopUserId(vodStreamerId);
+  const configuredIds = listConfiguredStreamerIds(songArchivesRoot);
+  if (!w) {
+    return {
+      streamerId: null,
+      reason: 'no_vod_streamer_id',
+      matches: [],
+      configuredIds,
+    };
+  }
+  const matches = [];
+  for (const id of configuredIds) {
+    const p = path.join(songArchivesRoot, id, 'data', 'config.json');
+    let cfg;
+    try {
+      cfg = JSON.parse(fs.readFileSync(p, 'utf8'));
+    } catch {
+      continue;
+    }
+    const keys = collectArchiveStreamerMatchKeys(cfg, id);
+    if (keys.has(w)) matches.push(id);
+  }
+  if (matches.length === 1) return { streamerId: matches[0] };
+  if (matches.length === 0) {
+    return { streamerId: null, reason: 'none', matches: [], configuredIds };
+  }
+  return { streamerId: null, reason: 'ambiguous', matches, configuredIds };
 }
 
 /**
@@ -40,7 +134,7 @@ async function getSoopVodInfo(videoId) {
 
 /**
  * @param {string} videoId
- * @param {object} vodInfo - from getSoopVodInfo (station_no, bbs_no, title_no, writer_id)
+ * @param {object} vodInfo - from getSoopVodInfo (station_no, bbs_no, title_no, writer_id = API의 스트리머/BJ id)
  * @returns {Promise<Array<{ comment: string }>>} - list_data from all pages
  */
 async function getSoopComments(videoId, vodInfo) {
@@ -153,24 +247,34 @@ function loadParseConfig(repoRoot, streamerId) {
 }
 
 /**
- * Load streamer/data/config.json. authorUserId / debug.
+ * Load streamer/data/config.json. comment_author_id(댓글 작성자) / debug.
+ * 파일 키: `comment_author_id` 우선, 없으면 레거시 `authorUserId`.
+ * 환경 변수: `CHURAHEE_COMMENT_AUTHOR_ID` 또는 `CHURAHEE_AUTHOR_USER_ID`(및 `{STREAMER}_*`).
  * @param {string} repoRoot
- * @param {string} streamerId - e.g. 'churahee', 'chebi'
- * @returns {{ authorUserId: string, debug: boolean }}
+ * @param {string} streamerId - e.g. 'churahee', 'chebi2'
+ * @returns {{ commentAuthorId: string, debug: boolean }}
  */
 function loadStreamerConfig(repoRoot, streamerId) {
   const p = path.join(repoRoot, streamerId, 'data', 'config.json');
-  let authorUserId = process.env.CHURAHEE_AUTHOR_USER_ID || process.env[`${streamerId.toUpperCase()}_AUTHOR_USER_ID`] || '';
+  const su = streamerId.toUpperCase();
+  let commentAuthorId =
+    process.env.CHURAHEE_COMMENT_AUTHOR_ID ||
+    process.env[`${su}_COMMENT_AUTHOR_ID`] ||
+    process.env.CHURAHEE_AUTHOR_USER_ID ||
+    process.env[`${su}_AUTHOR_USER_ID`] ||
+    '';
   let debug = !!(process.env.CHURAHEE_DEBUG || process.env.DEBUG);
   try {
     const raw = fs.readFileSync(p, 'utf8');
     const config = JSON.parse(raw);
-    if (config.authorUserId != null && String(config.authorUserId).trim() !== '') {
-      authorUserId = String(config.authorUserId).trim();
+    if (config.comment_author_id != null && String(config.comment_author_id).trim() !== '') {
+      commentAuthorId = String(config.comment_author_id).trim();
+    } else if (config.authorUserId != null && String(config.authorUserId).trim() !== '') {
+      commentAuthorId = String(config.authorUserId).trim();
     }
     if (config.debug != null) debug = !!config.debug;
   } catch (_) {}
-  return { authorUserId, debug };
+  return { commentAuthorId, debug };
 }
 
 /** @deprecated Use loadStreamerConfig(repoRoot, 'churahee') */
@@ -418,34 +522,38 @@ function mergeVodIntoSource(historyEntry, sourcePath) {
 /**
  * Full pipeline: URL -> fetch VOD + comments -> parse (streamer-specific) -> resolve -> merge.
  * @param {string} vodUrl - https://vod.sooplive.com/player/{videoId}
- * @param {string} repoRoot - path to repo root
- * @param {string} [streamerId='churahee'] - e.g. 'churahee', 'chebi' (data + parseConfig under that folder)
+ * @param {string} repoRoot - path to `songArchives`
+ * @param {string} [streamerId='churahee'] - e.g. 'churahee', 'chebi2' (data + parseConfig under that folder)
+ * @param {object|null} [preloadedVodInfo] - if set, skip getSoopVodInfo (same object as returned by getSoopVodInfo)
  * @returns {Promise<{ videoId: string, title: string, date: string, songCount: number, replaced: boolean }>}
  */
-async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee') {
+async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee', preloadedVodInfo = null) {
   const parsed = parseVodUrl(vodUrl);
-  if (!parsed) throw new Error('Invalid URL. Use: https://vod.sooplive.com/player/{videoId}');
+  if (!parsed) {
+    throw new Error('Invalid URL. Use: https://vod.sooplive.com/player/{videoId} or https://vod.sooplive.co.kr/player/{videoId}');
+  }
 
   const { videoId } = parsed;
-  const vodInfo = await getSoopVodInfo(videoId);
+  const vodInfo =
+    preloadedVodInfo != null ? preloadedVodInfo : await getSoopVodInfo(videoId);
   if (!vodInfo) throw new Error(`Failed to fetch VOD info for ${videoId}`);
 
   const comments = await getSoopComments(videoId, vodInfo);
   const config = loadStreamerConfig(repoRoot, streamerId);
   const parseConfig = loadParseConfig(repoRoot, streamerId);
-  const AUTHOR_USER_ID = config.authorUserId;
+  const COMMENT_AUTHOR_ID = config.commentAuthorId;
   const debug = config.debug;
 
   if (debug) {
     console.error('[DEBUG] streamer:', streamerId);
     console.error('[DEBUG] 댓글 총 개수:', comments.length);
-    console.error('[DEBUG] authorUserId:', AUTHOR_USER_ID || '(비어 있음)');
+    console.error('[DEBUG] comment_author_id:', COMMENT_AUTHOR_ID || '(비어 있음)');
   }
 
   let songInfo = [];
   for (const c of comments) {
-    if (!AUTHOR_USER_ID || (c.user_id || '') !== AUTHOR_USER_ID) continue;
-    if (debug) console.error('[DEBUG] --- 작성자 댓글 1건 파싱 시작 ---');
+    if (!COMMENT_AUTHOR_ID || (c.user_id || '') !== COMMENT_AUTHOR_ID) continue;
+    if (debug) console.error('[DEBUG] --- comment_author_id 댓글 1건 파싱 시작 ---');
     const parsedList = parseCommentHtmlToSongInfo(c.comment, parseConfig, debug);
     if (debug) console.error('[DEBUG] --- 파싱 완료 → 곡 수:', parsedList.length);
     if (debug && parsedList.length > 0) {
@@ -459,7 +567,7 @@ async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee') {
   if (debug) {
     console.error('[DEBUG] 합친 songInfo 개수:', songInfo.length);
     if (songInfo.length === 0 && comments.length > 0) {
-      console.error('[DEBUG] 작성자 댓글이 없거나 linePrefix 형식이 아님. config/parseConfig 확인.');
+      console.error('[DEBUG] comment_author_id 댓글이 없거나 linePrefix 형식이 아님. config/parseConfig 확인.');
     }
   }
 
@@ -504,4 +612,8 @@ module.exports = {
   parseCommentHtmlToSongInfo,
   mergeVodIntoSource,
   runPipeline,
+  normalizeSoopUserId,
+  listConfiguredStreamerIds,
+  collectArchiveStreamerMatchKeys,
+  findArchiveFolderByVodStreamerId,
 };

@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-01T21:33:13.937042+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-02T19:34:19.700328+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -3905,10 +3905,10 @@ const songs = [
       },
       {
         "date": "2026-03-11",
-        "url": "https://vod.sooplive.co.kr/player/189435111?change_second=12719",
-        "videoTitle": "후열 배그(w. 꾸름달 깅뜨사 산동)",
+        "url": "https://vod.sooplive.com/player/189435111?change_second=12719",
+        "videoTitle": "소통 - 노래 알려주기(w. 산동) - 싱크룸(w. 꾸름달 깅뜨사 산동) - 후열 배그",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260311_F30EDEBA_292299771_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260311_ABB86253_292299771_1_r&column=2&t=1773754763",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -6350,10 +6350,10 @@ const songs = [
       },
       {
         "date": "2026-03-11",
-        "url": "https://vod.sooplive.co.kr/player/189435111?change_second=14069",
-        "videoTitle": "후열 배그(w. 꾸름달 깅뜨사 산동)",
+        "url": "https://vod.sooplive.com/player/189435111?change_second=14069",
+        "videoTitle": "소통 - 노래 알려주기(w. 산동) - 싱크룸(w. 꾸름달 깅뜨사 산동) - 후열 배그",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260311_F30EDEBA_292299771_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260311_ABB86253_292299771_1_r&column=2&t=1773754763",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -6610,10 +6610,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-11",
-        "videoTitle": "후열 배그(w. 꾸름달 깅뜨사 산동)",
-        "url": "https://vod.sooplive.co.kr/player/189435111?change_second=12343",
+        "videoTitle": "소통 - 노래 알려주기(w. 산동) - 싱크룸(w. 꾸름달 깅뜨사 산동) - 후열 배그",
+        "url": "https://vod.sooplive.com/player/189435111?change_second=12343",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260311_F30EDEBA_292299771_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260311_ABB86253_292299771_1_r&column=2&t=1773754763",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

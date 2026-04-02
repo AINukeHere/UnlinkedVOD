@@ -1572,23 +1572,26 @@
             ]
         },
         {
-            "title": "후열 배그(w. 꾸름달 깅뜨사 산동)",
+            "title": "소통 - 노래 알려주기(w. 산동) - 싱크룸(w. 꾸름달 깅뜨사 산동) - 후열 배그",
             "date": "2026-03-11",
-            "url": "https://vod.sooplive.co.kr/player/189435111",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260311_F30EDEBA_292299771_2_r",
+            "url": "https://vod.sooplive.com/player/189435111",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260311_ABB86253_292299771_1_r&column=2&t=1773754763",
             "songInfo": [
                 {
                     "title": "Square",
-                    "time": "3:25:43"
+                    "time": "3:25:43",
+                    "artist": "백예린"
                 },
                 {
                     "title": "무릎",
-                    "time": "3:31:59"
+                    "time": "3:31:59",
+                    "artist": "아이유"
                 },
                 {
                     "title": "진심이었던 사람만 바보가 돼",
                     "time": "3:54:29",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "권진아"
                 }
             ]
         },
