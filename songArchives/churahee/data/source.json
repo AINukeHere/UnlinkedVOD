@@ -5715,44 +5715,75 @@
         {
             "title": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
             "date": "2024-08-28",
-            "url": "https://vod.sooplive.co.kr/player/134599327",
+            "url": "https://vod.sooplive.com/player/134599327",
             "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
             "songInfo": [
                 {
                     "title": "Lonely Night",
-                    "time": "1:12:10"
+                    "time": "1:12:11",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "권진아"
                 },
                 {
                     "title": "부엉이",
-                    "time": "1:47:44"
+                    "time": "1:47:45",
+                    "artist": "이문세"
                 },
                 {
                     "title": "뭔가 잘못됐어",
-                    "time": "2:05:22"
+                    "time": "2:05:23",
+                    "artist": "권진아"
                 },
                 {
                     "title": "고백",
-                    "time": "2:27:56"
+                    "time": "2:27:56",
+                    "noMistake": true,
+                    "artist": "델리스파이스"
                 },
                 {
                     "title": "I Love You",
-                    "time": "3:25:12"
+                    "time": "3:25:12",
+                    "artist": "나비"
                 },
                 {
                     "title": "우주를 건너",
-                    "time": "3:33:58"
+                    "time": "3:33:59",
+                    "artist": "백예린"
+                },
+                {
+                    "title": "OHAYO MYNIGHT",
+                    "time": "3:40:55",
+                    "artist": ""
+                },
+                {
+                    "title": "특 S-Class",
+                    "time": "3:53:36",
+                    "artist": ""
+                },
+                {
+                    "title": "기다리다",
+                    "time": "3:55:22",
+                    "artist": "윤하"
                 },
                 {
                     "title": "잘 된 일이야",
-                    "time": "4:08:59"
+                    "time": "4:08:58",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "나비"
                 },
                 {
                     "title": "뭔가 잘못됐어",
-                    "time": "5:37:00"
+                    "time": "5:37:02",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "권진아"
                 },
                 {
                     "title": "피날레",
-                    "time": "5:45:50"
+                    "time": "5:45:51",
+                    "artist": "DAY6"
                 }
             ]
         },

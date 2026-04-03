@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-02T19:39:55.998891+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-03T04:46:54.804438+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -1437,6 +1437,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2024-08-28",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=14122",
+        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1775,12 +1785,12 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=4330",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=4331",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -2600,7 +2610,7 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=7522",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=7523",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
@@ -2610,12 +2620,12 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=20220",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=20222",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -4790,7 +4800,7 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=6464",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=6465",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
@@ -5410,11 +5420,11 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=8876",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=8876",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -9160,7 +9170,7 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=20750",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=20751",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
@@ -10020,7 +10030,7 @@ const songs = [
       },
       {
         "date": "2024-08-28",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=12838",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=12839",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
@@ -11436,7 +11446,37 @@ const songs = [
       {
         "date": "2024-08-28",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=12312",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=12312",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "OHAYO MYNIGHT",
+    "versions": [
+      {
+        "date": "2024-08-28",
+        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=13255",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "특 S-Class",
+    "versions": [
+      {
+        "date": "2024-08-28",
+        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=14016",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
         "noMistake": false,
@@ -11451,11 +11491,11 @@ const songs = [
       {
         "date": "2024-08-28",
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
-        "url": "https://vod.sooplive.co.kr/player/134599327?change_second=14939",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=14938",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
-        "noMistake": false,
-        "recommended": false,
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
