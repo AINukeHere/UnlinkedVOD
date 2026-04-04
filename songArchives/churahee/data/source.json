@@ -860,7 +860,7 @@
         {
             "title": "소통 - 노래",
             "date": "2024-07-28",
-            "url": "https://vod.sooplive.co.kr/player/131667807",
+            "url": "https://vod.sooplive.com/player/131667807",
             "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
             "songInfo": [
                 {
@@ -869,10 +869,26 @@
                     "artist": "아이유"
                 },
                 {
+                    "title": "꿀뚝마을의 푸펠",
+                    "time": "1:32:25",
+                    "artist": ""
+                },
+                {
+                    "title": "헤픈 우연",
+                    "time": "1:58:06",
+                    "noMistake": true,
+                    "artist": "헤이즈"
+                },
+                {
                     "title": "제주도의 푸른 밤",
                     "time": "2:37:48",
                     "recommended": true,
                     "artist": "최성원"
+                },
+                {
+                    "title": "I Love You",
+                    "time": "2:08:49",
+                    "artist": "나비"
                 },
                 {
                     "title": "스물다섯, 스물하나",
@@ -5898,6 +5914,108 @@
                     "title": "세상은 사랑에 빠져있어",
                     "time": "6:34:07",
                     "artist": ""
+                }
+            ]
+        },
+        {
+            "title": "나비 ck 두개재",
+            "date": "2026-04-03",
+            "url": "https://vod.sooplive.com/player/191693311",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_65A7979C_292926259_2_r",
+            "songInfo": [
+                {
+                    "title": "illa illa",
+                    "time": "48:27",
+                    "artist": "B.I"
+                }
+            ]
+        },
+        {
+            "title": "5000년만에 츄이봤🩵",
+            "date": "2026-04-01",
+            "url": "https://vod.sooplive.com/player/191427341",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+            "songInfo": [
+                {
+                    "title": "고맙습니다",
+                    "time": "1:01:26",
+                    "recommended": true,
+                    "artist": ""
+                },
+                {
+                    "title": "위로",
+                    "time": "1:08:40",
+                    "recommended": true,
+                    "artist": ""
+                },
+                {
+                    "title": "끝이 아닌 것 같아서",
+                    "time": "1:15:44",
+                    "artist": "바닐라 어쿠스틱",
+                    "recommended": true
+                },
+                {
+                    "title": "천년의 사랑",
+                    "time": "1:34:54",
+                    "artist": ""
+                },
+                {
+                    "title": "진심이었던 사람만 바보가 돼",
+                    "time": "1:53:42",
+                    "artist": "권진아"
+                },
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "2:05:33",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "자우림"
+                },
+                {
+                    "title": "오늘 뭐 했는지 말해 봐",
+                    "time": "2:13:13",
+                    "artist": ""
+                },
+                {
+                    "title": "Lonely Night",
+                    "time": "2:23:20",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "권진아"
+                },
+                {
+                    "title": "비행소녀",
+                    "time": "2:38:15",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "마지 (Magie)"
+                },
+                {
+                    "title": "Way Back Home",
+                    "time": "2:48:18",
+                    "noMistake": true,
+                    "artist": "숀"
+                },
+                {
+                    "title": "있잖아",
+                    "time": "2:56:51",
+                    "artist": "보라미유",
+                    "noMistake": true
+                },
+                {
+                    "title": "외톨이",
+                    "time": "3:20:28",
+                    "artist": ""
+                },
+                {
+                    "title": "몽환의 숲",
+                    "time": "3:26:06",
+                    "artist": "키네틱 플로우"
+                },
+                {
+                    "title": "REBEL HEART",
+                    "time": "3:36:25",
+                    "artist": "태연"
                 }
             ]
         }

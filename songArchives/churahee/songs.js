@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-03T04:46:54.804438+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-04T23:07:23.301673+00:00";
 const songs = [
   {
     "title": "혼자라고 생각말기",
@@ -300,7 +300,7 @@ const songs = [
       },
       {
         "date": "2024-07-28",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=4889",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=4889",
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
@@ -1610,7 +1610,7 @@ const songs = [
       },
       {
         "date": "2024-07-28",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=10531",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=10531",
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
@@ -1674,6 +1674,16 @@ const songs = [
         "videoTitle": "소통 -노래 - 싱크룸(w. 강하나)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251213_EFD66D14_289917654_1_r&column=2&t=1765864840",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=7533",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -1789,6 +1799,16 @@ const songs = [
         "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=8600",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -4811,12 +4831,52 @@ const songs = [
     ]
   },
   {
+    "title": "꿀뚝마을의 푸펠",
+    "versions": [
+      {
+        "date": "2024-07-28",
+        "videoTitle": "소통 - 노래",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=5545",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "헤픈 우연",
+    "versions": [
+      {
+        "date": "2024-07-28",
+        "videoTitle": "소통 - 노래",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=7086",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-05-07",
+        "url": "https://vod.sooplive.co.kr/player/159413793?change_second=8078",
+        "videoTitle": "소통 - 노래 - 후열 오버워치",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250507_03D12248_283729328_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "제주도의 푸른 밤",
     "versions": [
       {
         "date": "2024-07-28",
         "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=9468",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=9468",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
@@ -4836,12 +4896,37 @@ const songs = [
     ]
   },
   {
+    "title": "I Love You",
+    "versions": [
+      {
+        "date": "2024-07-28",
+        "videoTitle": "소통 - 노래",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=7729",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2024-08-28",
+        "url": "https://vod.sooplive.com/player/134599327?change_second=12312",
+        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "서른 즈음에",
     "versions": [
       {
         "date": "2024-07-28",
         "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=10907",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=10907",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
@@ -4926,7 +5011,7 @@ const songs = [
       {
         "date": "2024-07-28",
         "videoTitle": "소통 - 노래",
-        "url": "https://vod.sooplive.co.kr/player/131667807?change_second=18661",
+        "url": "https://vod.sooplive.com/player/131667807?change_second=18661",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240728_638433CF_274302488_2_r",
         "noMistake": false,
@@ -5334,6 +5419,16 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=9495",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -6444,6 +6539,16 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251210_4CB9223C_289839402_1_r&column=2&t=1765864497",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=6822",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8777,6 +8882,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=10611",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10562,6 +10677,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=10098",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10587,18 +10712,13 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "헤픈 우연",
-    "versions": [
+      },
       {
-        "date": "2025-05-07",
-        "videoTitle": "소통 - 노래 - 후열 오버워치",
-        "url": "https://vod.sooplive.co.kr/player/159413793?change_second=8078",
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=12985",
+        "videoTitle": "5000년만에 츄이봤🩵",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250507_03D12248_283729328_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -10829,6 +10949,16 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250725_139BA380_286104230_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=12366",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -11192,6 +11322,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-03",
+        "url": "https://vod.sooplive.com/player/191693311?change_second=2907",
+        "videoTitle": "나비 ck 두개재",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_65A7979C_292926259_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11441,21 +11581,6 @@ const songs = [
     ]
   },
   {
-    "title": "I Love You",
-    "versions": [
-      {
-        "date": "2024-08-28",
-        "videoTitle": "소통 - 싱크룸 합방(w. 성피아 마이리) - 후열 노래 - 후열 칼바람",
-        "url": "https://vod.sooplive.com/player/134599327?change_second=12312",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
     "title": "OHAYO MYNIGHT",
     "versions": [
       {
@@ -11605,6 +11730,96 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "고맙습니다",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=3686",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "위로",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=4120",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "끝이 아닌 것 같아서",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=4544",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "천년의 사랑",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=5694",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "오늘 뭐 했는지 말해 봐",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=7993",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "외톨이",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "videoTitle": "5000년만에 츄이봤🩵",
+        "url": "https://vod.sooplive.com/player/191427341?change_second=12028",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
