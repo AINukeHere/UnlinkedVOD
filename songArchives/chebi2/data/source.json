@@ -1206,6 +1206,78 @@
                     "artist": "데이먼스 이어"
                 }
             ]
+        },
+        {
+            "title": "체비",
+            "date": "2026-04-03",
+            "url": "https://vod.sooplive.com/player/191699627",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_2B9068EE_292934821_1_r&column=2&t=1775235798",
+            "songInfo": [
+                {
+                    "title": "별이 되지 않아도 돼",
+                    "time": "01:16:20",
+                    "artist": "109"
+                },
+                {
+                    "title": "시가 될 이야기",
+                    "time": "01:21:10",
+                    "artist": "신지훈"
+                },
+                {
+                    "title": "문득",
+                    "time": "01:27:03",
+                    "artist": "BE'O"
+                },
+                {
+                    "title": "breathin",
+                    "time": "01:31:39",
+                    "artist": "Ariana Grande"
+                },
+                {
+                    "title": "What Was I Made For",
+                    "time": "01:36:35",
+                    "artist": "Billie Eilish",
+                    "needsReview": true
+                },
+                {
+                    "title": "Free",
+                    "time": "01:43:33",
+                    "artist": "케데헌 OST"
+                },
+                {
+                    "title": "미안해요",
+                    "time": "01:48:04",
+                    "artist": "탑현"
+                },
+                {
+                    "title": "Mermaid",
+                    "time": "01:53:31",
+                    "artist": "볼빨간사춘기"
+                },
+                {
+                    "title": "고쳐주세요",
+                    "time": "02:00:52",
+                    "artist": "볼빨간사춘기"
+                }
+            ]
+        },
+        {
+            "title": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+            "date": "2026-04-04",
+            "url": "https://vod.sooplive.com/player/191817915",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+            "songInfo": [
+                {
+                    "title": "JANE DOE",
+                    "time": "00:24:44",
+                    "artist": "Kenshi Yonezu, Hikaru Utada"
+                },
+                {
+                    "title": "아직도 나는 너를 그리워만 해",
+                    "time": "01:56:56",
+                    "artist": "송푸름"
+                }
+            ]
         }
     ]
 }
