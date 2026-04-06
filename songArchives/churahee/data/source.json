@@ -1873,26 +1873,30 @@
         {
             "title": "소통 - 싱크룸(w. 강하나 김다나 카아암)",
             "date": "2026-02-22",
-            "url": "https://vod.sooplive.co.kr/player/187652915",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
+            "url": "https://vod.sooplive.com/player/187652915",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
             "songInfo": [
                 {
                     "title": "오늘 뭐 했는지 말해봐",
-                    "time": "00:34:53"
+                    "time": "00:34:53",
+                    "artist": "어반자카파"
                 },
                 {
                     "title": "배웅",
                     "time": "00:45:39",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "박혜원"
                 },
                 {
                     "title": "오랜 날 오랜 밤",
                     "time": "00:54:16",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "AKMU"
                 },
                 {
-                    "title": "별의 조각 - 츄라희",
-                    "time": "3:17:29"
+                    "title": "별의 조각",
+                    "time": "3:17:29",
+                    "artist": "윤하"
                 }
             ]
         },
@@ -4986,8 +4990,8 @@
         {
             "title": "소통 - 괴담 읽기 - 후열 노래",
             "date": "2025-04-26",
-            "url": "https://vod.sooplive.co.kr/player/158350057",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
+            "url": "https://vod.sooplive.com/player/158350057",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
             "songInfo": [
                 {
                     "title": "illa illa",
@@ -5011,9 +5015,9 @@
                     "artist": "비비 (BIBI)"
                 },
                 {
-                    "title": "낙화",
+                    "title": "낙하",
                     "time": "3:45:28",
-                    "artist": "자우림"
+                    "artist": ""
                 },
                 {
                     "title": "변하지 않는 것",
