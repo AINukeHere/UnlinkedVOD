@@ -753,50 +753,59 @@
         {
             "title": "노래 - 츄라희 노래교실(?)(w.성하늘)",
             "date": "2024-08-09",
-            "url": "https://vod.sooplive.co.kr/player/132812057",
+            "url": "https://vod.sooplive.com/player/132812057",
             "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240809_FF37B743_274974820_2_r",
             "songInfo": [
                 {
                     "title": "스물다섯, 스물하나",
                     "time": "3:40",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "자우림"
                 },
                 {
                     "title": "뭔가 잘못됐어",
                     "time": "11:27",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "권진아"
                 },
                 {
                     "title": "마음을 드려요",
                     "time": "20:40",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "아이유"
                 },
                 {
                     "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
                     "time": "28:51",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "AKMU"
                 },
                 {
                     "title": "소로",
                     "time": "36:54",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "심규선"
                 },
                 {
                     "title": "너무 보고싶어",
-                    "time": "43:35"
+                    "time": "43:35",
+                    "artist": "어쿠스틱 콜라보"
                 },
                 {
                     "title": "오스카",
-                    "time": "58:58"
+                    "time": "58:58",
+                    "artist": "이승윤"
                 },
                 {
-                    "title": "Villain (스텔라장)",
-                    "time": "1:05:20"
+                    "title": "Villain",
+                    "time": "1:05:20",
+                    "artist": "스텔라장"
                 },
                 {
                     "title": "U R",
                     "time": "1:15:50",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "태연"
                 }
             ]
         },
@@ -912,7 +921,7 @@
         {
             "title": "소통 - 노래 - 영화 보기(파묘)",
             "date": "2024-07-24",
-            "url": "https://vod.sooplive.co.kr/player/131313181",
+            "url": "https://vod.sooplive.com/player/131313181",
             "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240724_197B4823_274104172_2_r",
             "songInfo": [
                 {
@@ -968,11 +977,13 @@
                 {
                     "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
                     "time": "2:31:07",
+                    "recommended": true,
                     "artist": "AKMU"
                 },
                 {
                     "title": "Love poem",
                     "time": "2:49:17",
+                    "noMistake": true,
                     "artist": "아이유"
                 },
                 {
@@ -2226,39 +2237,46 @@
         {
             "title": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
             "date": "2026-01-05",
-            "url": "https://vod.sooplive.co.kr/player/182858141",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
+            "url": "https://vod.sooplive.com/player/182858141",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
             "songInfo": [
                 {
                     "title": "물고기자리",
                     "time": "01:27:27",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "이수영"
                 },
                 {
                     "title": "있잖아",
-                    "time": "01:37:12"
+                    "time": "01:37:12",
+                    "artist": "아이유"
                 },
                 {
                     "title": "진심이었던 사람만 바보가 돼",
-                    "time": "01:43:28"
+                    "time": "01:43:28",
+                    "artist": "권진아"
                 },
                 {
                     "title": "Melt Away",
-                    "time": "01:50:57"
+                    "time": "01:50:57",
+                    "artist": "태연"
                 },
                 {
-                    "title": "VILLAIN (K/DA)",
-                    "time": "01:57:12"
+                    "title": "VILLAIN",
+                    "time": "01:57:12",
+                    "artist": "K/DA"
                 },
                 {
                     "title": "Gravity",
                     "time": "02:04:16",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "FIFTY FIFTY"
                 },
                 {
                     "title": "Nothing",
                     "time": "03:24:41",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "ITZY (채령)"
                 }
             ]
         },
@@ -2314,36 +2332,43 @@
         {
             "title": "소통 - 싱크룸(w. 체비)",
             "date": "2025-12-31",
-            "url": "https://vod.sooplive.co.kr/player/182400239",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251231_F5679354_290388378_1_r&column=2&t=1767615103",
+            "url": "https://vod.sooplive.com/player/182400239",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251231_F5679354_290388378_1_r&column=2&t=1767615103",
             "songInfo": [
                 {
                     "title": "Maniac",
-                    "time": "00:24:15"
+                    "time": "00:24:15",
+                    "artist": "Stray Kids"
                 },
                 {
                     "title": "Ghost Town",
-                    "time": "2:27:51"
+                    "time": "2:27:51",
+                    "artist": "Benson Boone"
                 },
                 {
                     "title": "Never Ending Story",
-                    "time": "02:45:04"
+                    "time": "02:45:04",
+                    "artist": "부활"
                 },
                 {
                     "title": "서른 즈음에",
-                    "time": "02:53:14"
+                    "time": "02:53:14",
+                    "artist": "김광석"
                 },
                 {
                     "title": "한 페이지가 될 수 있게",
-                    "time": "02:59:44"
+                    "time": "02:59:44",
+                    "artist": "DAY6"
                 },
                 {
-                    "title": "Welcome To The Show",
-                    "time": "03:05:56"
+                    "title": "Welcome to the Show",
+                    "time": "03:05:56",
+                    "artist": ""
                 },
                 {
                     "title": "시작의 아이",
-                    "time": "3:12:31"
+                    "time": "3:12:31",
+                    "artist": "히구치 아이"
                 }
             ]
         },
@@ -2783,67 +2808,81 @@
         {
             "title": "소통 - 노래",
             "date": "2025-11-29",
-            "url": "https://vod.sooplive.co.kr/player/179259721",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251129_357A19D8_289553758_1_r&column=2&t=1764836695",
+            "url": "https://vod.sooplive.com/player/179259721",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251129_357A19D8_289553758_1_r&column=2&t=1764836695",
             "songInfo": [
                 {
                     "title": "겨울아이",
                     "time": "56:28",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "이종용"
                 },
                 {
                     "title": "마음을 드려요",
                     "time": "1:02:49",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "아이유"
                 },
                 {
                     "title": "첫눈처럼 너에게 가겠다",
-                    "time": "1:13:11"
+                    "time": "1:13:11",
+                    "artist": "에일리"
                 },
                 {
                     "title": "Almond Chocolate",
-                    "time": "1:20:04"
+                    "time": "1:20:04",
+                    "artist": "ILLIT"
                 },
                 {
                     "title": "배웅",
-                    "time": "1:31:39"
+                    "time": "1:31:39",
+                    "artist": "박혜원"
                 },
                 {
                     "title": "오늘도 빛나는 너에게",
-                    "time": "1:38:47"
+                    "time": "1:38:47",
+                    "artist": "마크툽"
                 },
                 {
                     "title": "Gravity",
-                    "time": "1:48:10"
+                    "time": "1:48:10",
+                    "artist": "FIFTY FIFTY"
                 },
                 {
                     "title": "Melt Away",
-                    "time": "1:52:06"
+                    "time": "1:52:06",
+                    "artist": "태연"
                 },
                 {
-                    "title": "VILLAIN (K/DA)",
-                    "time": "1:56:27"
+                    "title": "VILLAIN",
+                    "time": "1:56:27",
+                    "artist": "K/DA"
                 },
                 {
                     "title": "ATTITUDE",
-                    "time": "2:02:40"
+                    "time": "2:02:40",
+                    "artist": "IVE"
                 },
                 {
                     "title": "만개화",
-                    "time": "2:05:13"
+                    "time": "2:05:13",
+                    "artist": "안예은"
                 },
                 {
                     "title": "계절범죄",
-                    "time": "2:19:13"
+                    "time": "2:19:13",
+                    "artist": "나츠시로 타카아키"
                 },
                 {
                     "title": "잔혹한 천사의 테제",
-                    "time": "2:25:04"
+                    "time": "2:25:04",
+                    "artist": "Takahashi Yoko"
                 },
                 {
                     "title": "OHAYO MY NIGHT",
                     "time": "2:37:24",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "디핵"
                 }
             ]
         },
@@ -4045,42 +4084,50 @@
         {
             "title": "소통 - 노래 - 귀멸의 칼날 같이 보기",
             "date": "2025-08-12",
-            "url": "https://vod.sooplive.co.kr/player/168697459",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250812_F004C555_286599804_1_r",
+            "url": "https://vod.sooplive.com/player/168697459",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250812_F004C555_286599804_1_r",
             "songInfo": [
                 {
                     "title": "Fine",
-                    "time": "00:42:46"
+                    "time": "00:42:46",
+                    "artist": "태연"
                 },
                 {
                     "title": "Viva la Vida",
-                    "time": "00:53:20"
+                    "time": "00:53:20",
+                    "artist": "Coldplay"
                 },
                 {
                     "title": "요즘 너 말야",
-                    "time": "01:07:59"
+                    "time": "01:07:59",
+                    "artist": "제이레빗"
                 },
                 {
                     "title": "상상더하기",
-                    "time": "01:25:28"
+                    "time": "01:25:28",
+                    "artist": "라붐"
                 },
                 {
                     "title": "호랑수월가",
                     "time": "01:35:10",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "상록수"
                 },
                 {
                     "title": "Kissing You",
-                    "time": "01:46:13"
+                    "time": "01:46:13",
+                    "artist": "소녀시대"
                 },
                 {
                     "title": "빌려온 고양이",
                     "time": "01:54:03",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "이승윤"
                 },
                 {
-                    "title": "끝났다는 것은 다시 시작한다는 것을",
-                    "time": "03:34:16"
+                    "title": "끝났다는 것은 다시 시작된다는 것을",
+                    "time": "03:34:16",
+                    "artist": "이승윤"
                 }
             ]
         },
@@ -4244,119 +4291,144 @@
         {
             "title": "소통 - 노래",
             "date": "2025-07-25",
-            "url": "https://vod.sooplive.co.kr/player/166958959",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250725_139BA380_286104230_2_r",
+            "url": "https://vod.sooplive.com/player/166958959",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250725_139BA380_286104230_2_r",
             "songInfo": [
                 {
                     "title": "마음을 드려요",
                     "time": "1:01:51",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "아이유"
                 },
                 {
                     "title": "Dance The Night Away",
-                    "time": "1:09:52"
+                    "time": "1:09:52",
+                    "artist": "트와이스"
                 },
                 {
                     "title": "안녕",
-                    "time": "1:18:04"
+                    "time": "1:18:04",
+                    "artist": "폴킴"
                 },
                 {
                     "title": "별",
-                    "time": "1:27:51"
+                    "time": "1:27:51",
+                    "artist": "유미"
                 },
                 {
                     "title": "우주를 건너",
-                    "time": "1:35:01"
+                    "time": "1:35:01",
+                    "artist": "백예린"
                 },
                 {
                     "title": "Square",
                     "time": "1:43:22",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "백예린"
                 },
                 {
                     "title": "Lonely Night",
-                    "time": "1:50:42"
+                    "time": "1:50:42",
+                    "artist": "권진아"
                 },
                 {
                     "title": "눈물이 많아서",
-                    "time": "1:59:00"
+                    "time": "1:59:00",
+                    "artist": "제이레빗"
                 },
                 {
                     "title": "Ghost Town",
                     "time": "2:07:39",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "Benson Boone"
                 },
                 {
                     "title": "그저 네게 맑아라",
-                    "time": "2:21:39"
+                    "time": "2:21:39",
+                    "artist": "요루시카"
                 },
                 {
                     "title": "낙향",
                     "time": "2:29:15",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "이승윤"
                 },
                 {
                     "title": "봄 도둑",
-                    "time": "2:40:03"
+                    "time": "2:40:03",
+                    "artist": "요루시카"
                 },
                 {
                     "title": "Golden",
-                    "time": "2:49:22"
+                    "time": "2:49:22",
+                    "artist": "HUNTR/X"
                 },
                 {
                     "title": "Golden",
-                    "time": "2:53:29"
+                    "time": "2:53:29",
+                    "artist": "HUNTR/X"
                 },
                 {
                     "title": "Pookie",
-                    "time": "3:05:55"
+                    "time": "3:05:55",
+                    "artist": "FIFTY FIFTY"
                 },
                 {
                     "title": "빌려온 고양이",
                     "time": "3:15:09",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "이승윤"
                 },
                 {
                     "title": "RE : WIND",
                     "time": "3:23:32",
-                    "recommended": true
+                    "recommended": true,
+                    "artist": "이세계아이돌"
                 },
                 {
                     "title": "비밀정원",
-                    "time": "3:33:27"
+                    "time": "3:33:27",
+                    "artist": "오마이걸"
                 },
                 {
                     "title": "Love me or Leave me",
-                    "time": "3:43:50"
+                    "time": "3:43:50",
+                    "artist": "DAY6"
                 },
                 {
                     "title": "아이와 나의 바다",
-                    "time": "3:53:31"
+                    "time": "3:53:31",
+                    "artist": "아이유"
                 },
                 {
-                    "title": "Villain (스텔라장)",
+                    "title": "Villain",
                     "time": "4:02:48",
+                    "artist": "스텔라장",
                     "noMistake": true
                 },
                 {
                     "title": "시대를 초월한 마음",
                     "time": "4:11:14",
-                    "noMistake": true
+                    "noMistake": true,
+                    "artist": "와다 카오루 (이누야샤 OST)"
                 },
                 {
                     "title": "몽환의 숲",
-                    "time": "4:34:17"
+                    "time": "4:34:17",
+                    "artist": "키네틱 플로우"
                 },
                 {
                     "title": "OHAYO MY NIGHT",
-                    "time": "4:36:14"
+                    "time": "4:36:14",
+                    "artist": "디핵"
                 },
                 {
                     "title": "토요일 밤에",
-                    "time": "5:01:45"
+                    "time": "5:01:45",
+                    "artist": "손담비"
                 }
             ]
         },
@@ -5338,8 +5410,8 @@
         {
             "title": "소통 - 노래 - 기생충 같이 보기",
             "date": "2025-07-26",
-            "url": "https://vod.sooplive.co.kr/player/167051259",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
+            "url": "https://vod.sooplive.com/player/167051259",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
             "songInfo": [
                 {
                     "title": "녹아내려요",
@@ -5348,10 +5420,10 @@
                     "artist": "백아연"
                 },
                 {
-                    "title": "Welcome To The Show",
+                    "title": "Welcome to the Show",
                     "time": "1:03:59",
                     "noMistake": true,
-                    "artist": "DAY6"
+                    "artist": ""
                 },
                 {
                     "title": "REBEL HEART",
@@ -5491,7 +5563,7 @@
         {
             "title": "소통 - 구슬요 미니 콘서트 다시보기 - 잠깐 노래 - 푸클리 - 후열 마카오톡 [제랄즈]",
             "date": "2023-12-29",
-            "url": "https://vod.sooplive.co.kr/player/112045899",
+            "url": "https://vod.sooplive.com/player/112045899",
             "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231229_8BBF2ECF_250595093_2_r",
             "songInfo": [
                 {
@@ -5506,7 +5578,7 @@
                     "artist": "아이유"
                 },
                 {
-                    "title": "나는 나만의 것",
+                    "title": "나는 나를 말하는 사람",
                     "time": "2:27:42",
                     "recommended": true,
                     "artist": ""
@@ -6020,6 +6092,109 @@
                     "title": "REBEL HEART",
                     "time": "3:36:25",
                     "artist": "태연"
+                }
+            ]
+        },
+        {
+            "title": "점심 노래뱅🩵ㅣ노래신청 100개",
+            "date": "2026-04-06",
+            "url": "https://vod.sooplive.com/player/191940247",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_4F25F66E_292999001_1_r",
+            "songInfo": [
+                {
+                    "title": "제주도의 푸른 밤",
+                    "time": "52:14",
+                    "artist": "최성원"
+                },
+                {
+                    "title": "출항",
+                    "time": "1:04:16",
+                    "artist": "안예은"
+                },
+                {
+                    "title": "나만 몰랐던 이야기",
+                    "time": "1:13:14",
+                    "artist": ""
+                },
+                {
+                    "title": "Celebrity",
+                    "time": "1:22:57",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "Track 9",
+                    "time": "1:33:43",
+                    "artist": "이소라"
+                },
+                {
+                    "title": "Blueming",
+                    "time": "1:44:38",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "몽유",
+                    "time": "1:52:38",
+                    "noMistake": true,
+                    "artist": "이승윤"
+                },
+                {
+                    "title": "Rain Drop",
+                    "time": "2:04:16",
+                    "recommended": true,
+                    "artist": "아이유"
+                },
+                {
+                    "title": "별의 조각",
+                    "time": "2:15:34",
+                    "recommended": true,
+                    "artist": "윤하"
+                },
+                {
+                    "title": "위로",
+                    "time": "2:23:13",
+                    "recommended": true,
+                    "artist": ""
+                },
+                {
+                    "title": "서른 즈음에",
+                    "time": "2:36:21",
+                    "noMistake": true,
+                    "recommended": true,
+                    "artist": "김광석"
+                },
+                {
+                    "title": "너의 모든 순간",
+                    "time": "2:44:23",
+                    "artist": "성시경"
+                },
+                {
+                    "title": "북두칠성",
+                    "time": "2:57:05",
+                    "artist": "로이킴"
+                },
+                {
+                    "title": "빌려온 고양이",
+                    "time": "3:10:11",
+                    "artist": "이승윤"
+                },
+                {
+                    "title": "히로인",
+                    "time": "3:18:09",
+                    "artist": "이승윤"
+                }
+            ]
+        },
+        {
+            "title": "박치가 하는 리듬게임ㅣ비츠 앤 밥스",
+            "date": "2026-04-07",
+            "url": "https://vod.sooplive.com/player/192031635",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_B3469C2E_293024551_1_r",
+            "songInfo": [
+                {
+                    "title": "고백",
+                    "time": "4:06:53",
+                    "recommended": true,
+                    "artist": "델리스파이스"
                 }
             ]
         }
