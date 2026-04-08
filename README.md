@@ -51,18 +51,15 @@ npm run add -- "https://vod.sooplive.com/player/{videoId}"
 
 댓글에서 뽑은 **제목·가수**를 캐노니컬 표기로 맞춥니다. 파일이 없으면 해당 단계는 건너뜁니다.
 
-**곡** — `songArchives/{스트리머}/data/songReference.json`
+**곡** — `songArchives/common/data/titleReference.json`
 
-- 배열. 항목 예: `{ "title": "캐노니컬 제목", "artist": "캐노니컬 가수", "titleAliases": ["별칭1", "별칭2"] }`
-- `title`, `artist`: 이 프로젝트에서 쓰는 정식 표기.
-- `titleAliases`: 댓글에 나올 수 있는 제목의 다른 표기(오타, 한글/영문 등). **필수 배열.**
-- 댓글 제목이 `title` 또는 `titleAliases` 중 하나와 맞고, 가수도 같은 곡으로 인식되면 `title` / `artist`로 정규화합니다.
+- 배열. 항목 예: `{ "title": "캐노니컬 제목", "aliases": ["별칭1", "별칭2"] }`
+- `aliases`: 댓글에 나올 수 있는 제목의 다른 표기(오타, 한글/영문 등). **필수 배열.**
+- 댓글 제목이 `title` 또는 `aliases` 중 하나와 맞으면 `title`로 정규화합니다.
 
-**가수** — `songArchives/{스트리머}/data/artistReference.json`
+**가수** — `songArchives/common/data/artistReference.json`
 
 - 배열. 항목 예: `{ "artist": "캐노니컬 가수", "aliases": ["별칭1", "별칭2"] }`
 - `aliases`: 댓글에 나올 수 있는 다른 표기. **필수 배열.**
 
-**순서:** (1) 댓글 한 줄 파싱으로 제목·가수 추출 → (2) `artistReference`로 가수 캐노니컬 치환 → (3) 같은 캐노니컬 가수를 가진 항목만 대상으로 `songReference`에서 제목·가수 정규화.
-
-샘플: `songReference.example.json`, `artistReference.example.json`을 각각 `songReference.json`, `artistReference.json`으로 복사해 채웁니다.
+**순서:** (1) 댓글 한 줄 파싱으로 제목·가수 추출 → (2) `titleReference`로 제목 치환 → (3) `artistReference`로 가수 치환 → (4) 스트리머별 `defaultArtistMapping.json`으로 가수 보강.

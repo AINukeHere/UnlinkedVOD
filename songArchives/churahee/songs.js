@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-08T12:50:41.646107+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-08T13:02:38.168757+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -1321,7 +1321,7 @@ const songs = [
     ]
   },
   {
-    "title": "Letter to Myself",
+    "title": "Letter To Myself",
     "artist": "태연",
     "versions": [
       {
@@ -6570,7 +6570,7 @@ const songs = [
   },
   {
     "title": "변하지 않는 것",
-    "artist": "오쿠하나코코",
+    "artist": "오쿠 하나코",
     "versions": [
       {
         "date": "2025-04-26",
@@ -9708,18 +9708,8 @@ const songs = [
   },
   {
     "title": "오랜 날 오랜 밤",
-    "artist": "악동뮤지션",
+    "artist": "AKMU",
     "versions": [
-      {
-        "date": "2026-02-22",
-        "url": "https://vod.sooplive.com/player/187652915?change_second=3256",
-        "videoTitle": "소통 - 싱크룸(w. 강하나 김다나 카아암)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
-        "noMistake": false,
-        "recommended": true,
-        "needsReview": false
-      },
       {
         "date": "2026-01-10",
         "url": "https://vod.sooplive.co.kr/player/183347001?change_second=5606",
@@ -9748,6 +9738,22 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "오랜 날 오랜 밤",
+    "artist": "악동뮤지션",
+    "versions": [
+      {
+        "date": "2026-02-22",
+        "url": "https://vod.sooplive.com/player/187652915?change_second=3256",
+        "videoTitle": "소통 - 싱크룸(w. 강하나 김다나 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
+        "noMistake": false,
+        "recommended": true,
         "needsReview": false
       },
       {

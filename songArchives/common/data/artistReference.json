@@ -15,9 +15,7 @@
     },
     {
         "artist": "경서",
-        "aliases": [
-            "경서예지"
-        ]
+        "aliases": []
     },
     {
         "artist": "고옥희",
@@ -63,15 +61,11 @@
     },
     {
         "artist": "김필선",
-        "aliases": [
-            "EXO-K"
-        ]
+        "aliases": []
     },
     {
-        "artist": "나래",
-        "aliases": [
-            "상록수"
-        ]
+        "artist": "상록수",
+        "aliases": []
     },
     {
         "artist": "나비",
@@ -107,9 +101,7 @@
     },
     {
         "artist": "디지몬 OST",
-        "aliases": [
-            "장숙희"
-        ]
+        "aliases": []
     },
     {
         "artist": "디핵",
@@ -129,19 +121,11 @@
     },
     {
         "artist": "런치",
-        "aliases": [
-            "숀"
-        ]
+        "aliases": []
     },
     {
         "artist": "럼블피쉬",
         "aliases": []
-    },
-    {
-        "artist": "레프티 몬스터P",
-        "aliases": [
-            "레오루 (Reol)"
-        ]
     },
     {
         "artist": "로이킴",
@@ -157,15 +141,11 @@
     },
     {
         "artist": "마골피",
-        "aliases": [
-            "마지 (Magie)"
-        ]
+        "aliases": []
     },
     {
-        "artist": "마크튭",
-        "aliases": [
-            "마크툽"
-        ]
+        "artist": "마크툽",
+        "aliases": []
     },
     {
         "artist": "마틸다",
@@ -181,9 +161,7 @@
     },
     {
         "artist": "명탐정 코난 OST",
-        "aliases": [
-            "Hundred Percent Free"
-        ]
+        "aliases": []
     },
     {
         "artist": "문문",
@@ -201,9 +179,7 @@
     },
     {
         "artist": "바람꽃",
-        "aliases": [
-            "클론"
-        ]
+        "aliases": []
     },
     {
         "artist": "바밍",
@@ -228,7 +204,7 @@
     {
         "artist": "박혜원",
         "aliases": [
-            "HYNN (박혜원)"
+            "HYNN"
         ]
     },
     {
@@ -245,9 +221,7 @@
     },
     {
         "artist": "베이지",
-        "aliases": [
-            "베이지 (추노 OST)"
-        ]
+        "aliases": []
     },
     {
         "artist": "보라미유",
@@ -256,7 +230,7 @@
     {
         "artist": "보아",
         "aliases": [
-            "보아 (BoA)"
+            "BoA"
         ]
     },
     {
@@ -265,9 +239,7 @@
     },
     {
         "artist": "붕괴 OST",
-        "aliases": [
-            "Zhou Shen (주심)"
-        ]
+        "aliases": []
     },
     {
         "artist": "블랙핑크",
@@ -276,7 +248,7 @@
     {
         "artist": "비비",
         "aliases": [
-            "비비 (BIBI)"
+            "BIBI"
         ]
     },
     {
@@ -305,9 +277,7 @@
     },
     {
         "artist": "선우정아",
-        "aliases": [
-            "선우정아 (feat. 아이유)"
-        ]
+        "aliases": []
     },
     {
         "artist": "설아",
@@ -428,10 +398,8 @@
         "aliases": []
     },
     {
-        "artist": "오쿠하나코코",
-        "aliases": [
-            "오쿠 하나코"
-        ]
+        "artist": "오쿠 하나코",
+        "aliases": []
     },
     {
         "artist": "오피셜히게단디즘",

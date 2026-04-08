@@ -283,14 +283,14 @@ function loadChuraheeConfig(repoRoot) {
   return loadStreamerConfig(repoRoot, 'churahee');
 }
 
-/** Global title/artist refs: songArchives/churahee/data (all streamers). */
+/** Global title/artist refs: songArchives/common/data (all streamers). */
 function globalRefDataDir(repoRoot) {
-  return path.join(repoRoot, 'churahee', 'data');
+  return path.join(repoRoot, 'common', 'data');
 }
 
 /**
  * Load artist reference (canonical artist + aliases).
- * File: churahee/data/artistReference.json
+ * File: common/data/artistReference.json
  */
 function loadArtistReference(repoRoot) {
   const p = path.join(globalRefDataDir(repoRoot), 'artistReference.json');
@@ -305,7 +305,7 @@ function loadArtistReference(repoRoot) {
 
 /**
  * Load title reference (canonical title + aliases).
- * File: churahee/data/titleReference.json
+ * File: common/data/titleReference.json
  */
 function loadTitleReference(repoRoot) {
   const p = path.join(globalRefDataDir(repoRoot), 'titleReference.json');
