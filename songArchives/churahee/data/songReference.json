@@ -1,39 +1,23 @@
 [
   {
-    "title": "11:11",
+    "title": "11:11:00",
     "artist": "태연",
     "titleAliases": [
+      "11:11",
       "11시 11분"
     ]
   },
   {
-    "title": "12:45",
+    "title": "12:45:00",
     "artist": "Etham",
-    "titleAliases": []
+    "titleAliases": [
+      "12:45"
+    ]
   },
   {
     "title": "A Thousand Years",
     "artist": "Christina Perri",
     "titleAliases": []
-  },
-  {
-    "title": "ANGELUS",
-    "artist": "ISAK",
-    "titleAliases": []
-  },
-  {
-    "title": "ATTITUDE",
-    "artist": "IVE",
-    "titleAliases": [
-      "어티튜드"
-    ]
-  },
-  {
-    "title": "After LIKE",
-    "artist": "IVE",
-    "titleAliases": [
-      "애프터 라이크"
-    ]
   },
   {
     "title": "Alcohol-Free",
@@ -43,18 +27,11 @@
     ]
   },
   {
-    "title": "All I Want For Christmas Is You",
-    "artist": "Mariah Carey",
-    "titleAliases": [
-      "올 아이 원트 포 크리스마스 이즈 유"
-    ]
-  },
-  {
     "title": "Almond Chocolate",
-    "artist": "ILLIT",
+    "artist": "아일릿",
     "titleAliases": [
-      "아몬드 초콜릿",
-      "Almond Chocolate (Korean Ver.)"
+      "Almond Chocolate (Korean Ver.)",
+      "아몬드 초콜릿"
     ]
   },
   {
@@ -66,11 +43,6 @@
     ]
   },
   {
-    "title": "Butterfly",
-    "artist": "러브홀릭스",
-    "titleAliases": []
-  },
-  {
     "title": "Celebrity",
     "artist": "아이유",
     "titleAliases": [
@@ -78,15 +50,8 @@
     ]
   },
   {
-    "title": "Cinderella",
-    "artist": "다크비 (DKB)",
-    "titleAliases": [
-      "신데렐라"
-    ]
-  },
-  {
     "title": "Cupid",
-    "artist": "FIFTY FIFTY",
+    "artist": "피프티피프티",
     "titleAliases": [
       "큐피드"
     ]
@@ -99,31 +64,10 @@
     ]
   },
   {
-    "title": "Discord",
-    "artist": "QWER",
-    "titleAliases": [
-      "디스코드"
-    ]
-  },
-  {
     "title": "Ditto",
-    "artist": "NewJeans",
+    "artist": "뉴진스",
     "titleAliases": [
       "디토"
-    ]
-  },
-  {
-    "title": "Don't you Worry 'Bout A Thing",
-    "artist": "Tori Kelly",
-    "titleAliases": [
-      "돈트 유 워리 바웃 어 띵"
-    ]
-  },
-  {
-    "title": "Drowning",
-    "artist": "WOODZ (조승연)",
-    "titleAliases": [
-      "드라우닝"
     ]
   },
   {
@@ -134,13 +78,6 @@
     ]
   },
   {
-    "title": "GODS",
-    "artist": "NewJeans",
-    "titleAliases": [
-      "갓스"
-    ]
-  },
-  {
     "title": "Ghost Town",
     "artist": "Benson Boone",
     "titleAliases": [
@@ -148,24 +85,10 @@
     ]
   },
   {
-    "title": "Glassy Sky",
-    "artist": "Donna Burke (Tokyo Ghoul OST)",
-    "titleAliases": [
-      "글래시 스카이"
-    ]
-  },
-  {
     "title": "Golden",
     "artist": "HUNTR/X",
     "titleAliases": [
       "골든"
-    ]
-  },
-  {
-    "title": "Gravity",
-    "artist": "FIFTY FIFTY",
-    "titleAliases": [
-      "그래비티"
     ]
   },
   {
@@ -177,14 +100,10 @@
     ]
   },
   {
-    "title": "Happy Birthday To You",
-    "artist": "조이",
-    "titleAliases": []
-  },
-  {
-    "title": "Happy Things",
-    "artist": "제이레빗",
+    "title": "Happy things",
+    "artist": "제이래빗",
     "titleAliases": [
+      "Happy Things",
       "해피 띵스"
     ]
   },
@@ -203,16 +122,18 @@
     ]
   },
   {
-    "title": "Hello Mr. My Yesterday",
-    "artist": "Hundred Percent Free",
+    "title": "Hello mr. my yesterday",
+    "artist": "명탐정 코난 OST",
     "titleAliases": [
+      "Hello Mr. My Yesterday",
       "헬로 미스터 마이 예스터데이"
     ]
   },
   {
-    "title": "How Do I Say Goodbye",
+    "title": "How do I say Goodbye",
     "artist": "Dean Lewis",
     "titleAliases": [
+      "How Do I Say Goodbye",
       "하우 두 아이 세이 굿바이"
     ]
   },
@@ -224,13 +145,6 @@
     ]
   },
   {
-    "title": "I Dream",
-    "artist": "15&",
-    "titleAliases": [
-      "아이 드림"
-    ]
-  },
-  {
     "title": "I Love You",
     "artist": "나비",
     "titleAliases": [
@@ -238,30 +152,10 @@
     ]
   },
   {
-    "title": "INVU",
-    "artist": "태연",
-    "titleAliases": [
-      "I Envy You"
-    ]
-  },
-  {
-    "title": "IRIS OUT",
-    "artist": "Kenshi Yonezu",
-    "titleAliases": [
-      "아이리스 아웃"
-    ]
-  },
-  {
-    "title": "If You Love Me",
-    "artist": "NS 윤지",
-    "titleAliases": [
-      "이프 유 러브 미"
-    ]
-  },
-  {
-    "title": "Kidding",
+    "title": "KIDDING",
     "artist": "이세계아이돌",
     "titleAliases": [
+      "Kidding",
       "키딩"
     ]
   },
@@ -273,131 +167,73 @@
     ]
   },
   {
-    "title": "LOCKDOWN",
-    "artist": "이세계아이돌",
-    "titleAliases": [
-      "락다운"
-    ]
-  },
-  {
-    "title": "Legend Never Die",
-    "artist": "Against The Current",
-    "titleAliases": [
-      "레전드 네버 다이"
-    ]
-  },
-  {
-    "title": "Lemon Tree",
-    "artist": "Fools Garden",
-    "titleAliases": [
-      "레몬 트리"
-    ]
-  },
-  {
-    "title": "Letter To Myself",
+    "title": "Letter to Myself",
     "artist": "태연",
     "titleAliases": [
+      "Letter To Myself",
       "레터 투 마이셀프"
     ]
   },
   {
-    "title": "Lonely Night",
+    "title": "Lonley night",
     "artist": "권진아",
     "titleAliases": [
+      "Lonely Night",
       "론리 나이트"
     ]
   },
   {
-    "title": "Love Story",
-    "artist": "Taylor Swift",
+    "title": "Love story",
+    "artist": "볼빨간사춘기",
     "titleAliases": [
+      "Love Story",
       "러브 스토리"
     ]
   },
   {
     "title": "Love me or Leave me",
-    "artist": "DAY6",
+    "artist": "데이식스",
     "titleAliases": [
-      "러브 미 오어 리브 미",
-      "Love Me or Leave Me"
+      "Love Me or Leave Me",
+      "러브 미 오어 리브 미"
     ]
   },
   {
-    "title": "Love poem",
+    "title": "Love Poem",
     "artist": "아이유",
     "titleAliases": [
-      "사랑시",
-      "Love Poem"
+      "Love poem",
+      "사랑시"
     ]
   },
   {
     "title": "Love wins all",
     "artist": "아이유",
     "titleAliases": [
-      "러브 윈스 올",
-      "Love Wins All"
+      "Love Wins All",
+      "러브 윈스 올"
     ]
   },
   {
     "title": "Love=Disaster",
-    "artist": "태연",
+    "artist": "프로미스나인",
     "titleAliases": [
       "러브 이퀄 디재스터"
     ]
   },
   {
-    "title": "MEGA PIECE HARMONY",
-    "artist": "아이러브 (I-LOVE)",
-    "titleAliases": [
-      "메가 피스 하모니"
-    ]
-  },
-  {
     "title": "Maniac",
-    "artist": "Stray Kids",
+    "artist": "Conan Gray",
     "titleAliases": [
       "매니악"
     ]
   },
   {
-    "title": "Maria",
-    "artist": "화사 (Hwa Sa)",
-    "titleAliases": [
-      "마리아"
-    ]
-  },
-  {
-    "title": "Melt Away",
-    "artist": "태연",
-    "titleAliases": [
-      "멜트 어웨이"
-    ]
-  },
-  {
-    "title": "Must Have Love",
-    "artist": "SG워너비 & 브라운 아이드 걸스",
-    "titleAliases": []
-  },
-  {
-    "title": "My way",
-    "artist": "이수",
-    "titleAliases": [
-      "마이 웨이"
-    ]
-  },
-  {
     "title": "Never Ending Story",
-    "artist": "부활",
+    "artist": "아이유",
     "titleAliases": [
       "네버 엔딩 스토리",
       "엔딩 없는 이야기"
-    ]
-  },
-  {
-    "title": "Nothing",
-    "artist": "ITZY (채령)",
-    "titleAliases": [
-      "낫씽"
     ]
   },
   {
@@ -416,23 +252,16 @@
   },
   {
     "title": "Pookie",
-    "artist": "FIFTY FIFTY",
+    "artist": "피프티피프티",
     "titleAliases": [
       "푸키"
     ]
   },
   {
     "title": "Pretender",
-    "artist": "Official髭男dism",
+    "artist": "오피셜히게단디즘",
     "titleAliases": [
       "프리텐더"
-    ]
-  },
-  {
-    "title": "Promise",
-    "artist": "코요태",
-    "titleAliases": [
-      "프로미스"
     ]
   },
   {
@@ -444,7 +273,7 @@
   },
   {
     "title": "REBEL HEART",
-    "artist": "태연",
+    "artist": "아이브",
     "titleAliases": [
       "리벌 하트"
     ]
@@ -465,7 +294,7 @@
   },
   {
     "title": "Rubia",
-    "artist": "Zhou Shen (주심)",
+    "artist": "붕괴 OST",
     "titleAliases": [
       "루비아"
     ]
@@ -479,7 +308,7 @@
   },
   {
     "title": "STYLE",
-    "artist": "Taylor Swift",
+    "artist": "하츠투하츠",
     "titleAliases": []
   },
   {
@@ -491,7 +320,7 @@
   },
   {
     "title": "Slow Motion",
-    "artist": "AKMU",
+    "artist": "Karina",
     "titleAliases": [
       "슬로우 모션"
     ]
@@ -504,24 +333,10 @@
     ]
   },
   {
-    "title": "Storm",
-    "artist": "루마니아 (Rumania)",
-    "titleAliases": [
-      "스톰"
-    ]
-  },
-  {
     "title": "Suddenly",
-    "artist": "김범수",
+    "artist": "김보경",
     "titleAliases": [
       "서든리"
-    ]
-  },
-  {
-    "title": "Tears",
-    "artist": "소찬휘",
-    "titleAliases": [
-      "티어스"
     ]
   },
   {
@@ -546,28 +361,16 @@
     ]
   },
   {
-    "title": "VILLAIN (K/DA)",
-    "artist": "알 수 없음",
-    "titleAliases": [
-      "빌런",
-      "K/DA Villain"
-    ]
-  },
-  {
-    "title": "Villain (스텔라장)",
-    "artist": "알 수 없음",
-    "titleAliases": []
-  },
-  {
-    "title": "Viva la Vida",
+    "title": "Viva La Vida",
     "artist": "Coldplay",
     "titleAliases": [
+      "Viva la Vida",
       "비바 라 비다"
     ]
   },
   {
     "title": "Way Back Home",
-    "artist": "숀",
+    "artist": "런치",
     "titleAliases": [
       "웨이 백 홈"
     ]
@@ -580,27 +383,23 @@
     ]
   },
   {
-    "title": "Welcome To The Show",
-    "artist": "DAY6",
+    "title": "Welcome to the show",
+    "artist": "데이식스",
     "titleAliases": [
+      "Welcome To The Show",
       "웰컴 투 더 쇼"
     ]
   },
   {
     "title": "XOXZ",
-    "artist": "이수영",
+    "artist": "아이브",
     "titleAliases": [
       "엑스오엑스지"
     ]
   },
   {
-    "title": "You",
-    "artist": "아이유",
-    "titleAliases": []
-  },
-  {
     "title": "You & I",
-    "artist": "아이유",
+    "artist": "박봄",
     "titleAliases": [
       "You and I",
       "유 앤 아이"
@@ -616,10 +415,10 @@
   },
   {
     "title": "illa illa",
-    "artist": "B.I",
+    "artist": "주니엘",
     "titleAliases": [
-      "일라 일라",
-      "Illa Illa"
+      "Illa Illa",
+      "일라 일라"
     ]
   },
   {
@@ -628,13 +427,8 @@
     "titleAliases": []
   },
   {
-    "title": "가로수 그늘아래 서면",
-    "artist": "이문세",
-    "titleAliases": []
-  },
-  {
     "title": "가을 아침",
-    "artist": "양희은",
+    "artist": "아이유",
     "titleAliases": []
   },
   {
@@ -643,58 +437,40 @@
     "titleAliases": []
   },
   {
-    "title": "거위의 꿈",
-    "artist": "카니발",
-    "titleAliases": []
-  },
-  {
     "title": "겨울봄",
     "artist": "이세계아이돌",
     "titleAliases": []
   },
   {
-    "title": "겨울아이",
-    "artist": "이종용",
-    "titleAliases": []
-  },
-  {
-    "title": "계절범죄",
-    "artist": "나츠시로 타카아키",
-    "titleAliases": []
-  },
-  {
     "title": "고백",
-    "artist": "델리스파이스",
+    "artist": "멜로망스",
     "titleAliases": []
   },
   {
-    "title": "고양이",
-    "artist": "선우정아 (feat. 아이유)",
-    "titleAliases": []
+    "title": "고양이(Feat. 아이유)",
+    "artist": "선우정아",
+    "titleAliases": [
+      "고양이"
+    ]
   },
   {
     "title": "고양이 소리를 따라해 보자",
-    "artist": "Feng Timo",
-    "titleAliases": []
-  },
-  {
-    "title": "고요한 밤",
-    "artist": "아이유",
+    "artist": "펑티모",
     "titleAliases": []
   },
   {
     "title": "곰인형",
-    "artist": "린",
+    "artist": "설아",
     "titleAliases": []
   },
   {
     "title": "괴물이 피는 숲",
-    "artist": "이승윤",
+    "artist": "미로",
     "titleAliases": []
   },
   {
     "title": "굴뚝마을의 푸펠",
-    "artist": "이승윤",
+    "artist": "이무진",
     "titleAliases": []
   },
   {
@@ -704,7 +480,7 @@
   },
   {
     "title": "그리워해요",
-    "artist": "2NE1",
+    "artist": "투에니원",
     "titleAliases": []
   },
   {
@@ -713,28 +489,13 @@
     "titleAliases": []
   },
   {
-    "title": "금요일에 만나요",
-    "artist": "아이유",
-    "titleAliases": []
-  },
-  {
     "title": "기다리다",
     "artist": "윤하",
     "titleAliases": []
   },
   {
-    "title": "기억을 걷는 시간",
-    "artist": "넬",
-    "titleAliases": []
-  },
-  {
-    "title": "기적은 없어도",
-    "artist": "정승환",
-    "titleAliases": []
-  },
-  {
     "title": "꽃길",
-    "artist": "세정",
+    "artist": "김세정",
     "titleAliases": []
   },
   {
@@ -748,33 +509,8 @@
     "titleAliases": []
   },
   {
-    "title": "꿈에",
-    "artist": "조덕배",
-    "titleAliases": []
-  },
-  {
     "title": "꿈을 꾼다",
     "artist": "서영은",
-    "titleAliases": []
-  },
-  {
-    "title": "끝났다는 것은 다시 시작된다는 것을",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "끝났다는 것은 다시 시작한다는 것을",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "나는 반딧불",
-    "artist": "중식이",
-    "titleAliases": []
-  },
-  {
-    "title": "나에게로의 초대",
-    "artist": "정경화",
     "titleAliases": []
   },
   {
@@ -784,42 +520,24 @@
   },
   {
     "title": "낙향",
-    "artist": "이승윤",
+    "artist": "요루시카",
     "titleAliases": []
   },
   {
-    "title": "낙화",
-    "artist": "자우림",
-    "titleAliases": []
-  },
-  {
-    "title": "남자를 몰라",
-    "artist": "버즈",
-    "titleAliases": []
-  },
-  {
-    "title": "너무 보고싶어",
+    "title": "너무 보고 싶어",
     "artist": "어쿠스틱 콜라보",
-    "titleAliases": []
-  },
-  {
-    "title": "너에게 난 나에게 넌",
-    "artist": "자전거 탄 풍경",
-    "titleAliases": []
+    "titleAliases": [
+      "너무 보고싶어"
+    ]
   },
   {
     "title": "너에게로",
-    "artist": "서영은",
-    "titleAliases": []
-  },
-  {
-    "title": "너의 모든 순간",
-    "artist": "성시경",
+    "artist": "박혜원",
     "titleAliases": []
   },
   {
     "title": "너의 의미",
-    "artist": "산울림",
+    "artist": "아이유",
     "titleAliases": []
   },
   {
@@ -829,12 +547,12 @@
   },
   {
     "title": "녹아내려요",
-    "artist": "백아연",
+    "artist": "데이식스",
     "titleAliases": []
   },
   {
     "title": "눈물이 많아서",
-    "artist": "제이레빗",
+    "artist": "수지",
     "titleAliases": []
   },
   {
@@ -844,22 +562,22 @@
   },
   {
     "title": "다시 만날까 봐",
-    "artist": "V.O.S",
+    "artist": "이예준",
     "titleAliases": []
   },
   {
     "title": "달그림자",
-    "artist": "이승윤",
+    "artist": "안예은",
     "titleAliases": []
   },
   {
     "title": "달리기",
-    "artist": "S.E.S.",
+    "artist": "옥상달빛",
     "titleAliases": []
   },
   {
     "title": "달에 지다",
-    "artist": "베이지 (추노 OST)",
+    "artist": "베이지",
     "titleAliases": []
   },
   {
@@ -869,13 +587,15 @@
   },
   {
     "title": "돌아와",
-    "artist": "클론",
+    "artist": "바람꽃",
     "titleAliases": []
   },
   {
-    "title": "동경 캐스터",
-    "artist": "사나 (Sana)",
-    "titleAliases": []
+    "title": "동경캐스터",
+    "artist": "하츠네 미쿠",
+    "titleAliases": [
+      "동경 캐스터"
+    ]
   },
   {
     "title": "들리나요",
@@ -883,18 +603,13 @@
     "titleAliases": []
   },
   {
-    "title": "러브홀릭스",
-    "artist": "러브홀릭",
-    "titleAliases": []
-  },
-  {
     "title": "레오",
-    "artist": "이브 (Eve)",
+    "artist": "유우리",
     "titleAliases": []
   },
   {
     "title": "마마",
-    "artist": "EXO-K",
+    "artist": "김필선",
     "titleAliases": []
   },
   {
@@ -904,12 +619,7 @@
   },
   {
     "title": "마지막 날처럼",
-    "artist": "블랙핑크",
-    "titleAliases": []
-  },
-  {
-    "title": "만개화",
-    "artist": "안예은",
+    "artist": "유럽",
     "titleAliases": []
   },
   {
@@ -918,43 +628,13 @@
     "titleAliases": []
   },
   {
-    "title": "말해 Yes or No",
-    "artist": "지코",
-    "titleAliases": []
-  },
-  {
-    "title": "먼지가 되어",
-    "artist": "이윤수",
-    "titleAliases": []
-  },
-  {
-    "title": "몰라요",
-    "artist": "에이핑크",
-    "titleAliases": []
-  },
-  {
     "title": "몽유",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "몽환의 숲",
-    "artist": "키네틱 플로우",
+    "artist": "잇츠",
     "titleAliases": []
   },
   {
     "title": "무릎",
     "artist": "아이유",
-    "titleAliases": []
-  },
-  {
-    "title": "물고기자리",
-    "artist": "이수영",
-    "titleAliases": []
-  },
-  {
-    "title": "뭐 이런 게 다 있어",
-    "artist": "윤하",
     "titleAliases": []
   },
   {
@@ -978,19 +658,16 @@
     "titleAliases": []
   },
   {
-    "title": "밤 + 시간을 달려서",
-    "artist": "여자친구",
-    "titleAliases": []
-  },
-  {
     "title": "밤양갱",
-    "artist": "비비 (BIBI)",
+    "artist": "비비",
     "titleAliases": []
   },
   {
-    "title": "밤을 달리다",
-    "artist": "YOASOBI",
-    "titleAliases": []
+    "title": "밤을달리다",
+    "artist": "요아소비",
+    "titleAliases": [
+      "밤을 달리다"
+    ]
   },
   {
     "title": "밤편지",
@@ -1008,18 +685,20 @@
     "titleAliases": []
   },
   {
-    "title": "베짱이 찬가",
+    "title": "베짱이찬가",
     "artist": "써니힐",
-    "titleAliases": []
+    "titleAliases": [
+      "베짱이 찬가"
+    ]
   },
   {
     "title": "베텔기우스",
-    "artist": "Yuuri",
+    "artist": "유우리",
     "titleAliases": []
   },
   {
     "title": "변하지 않는 것",
-    "artist": "오쿠 하나코",
+    "artist": "오쿠하나코코",
     "titleAliases": []
   },
   {
@@ -1033,33 +712,20 @@
     "titleAliases": []
   },
   {
-    "title": "별의 조각 - 츄라희",
-    "artist": "알 수 없음",
-    "titleAliases": []
-  },
-  {
-    "title": "별의 하모니",
-    "artist": "QWER",
-    "titleAliases": []
-  },
-  {
     "title": "보여줄게",
     "artist": "에일리",
     "titleAliases": []
   },
   {
-    "title": "봄 도둑",
+    "title": "봄도둑",
     "artist": "요루시카",
-    "titleAliases": []
+    "titleAliases": [
+      "봄 도둑"
+    ]
   },
   {
     "title": "부엉이",
-    "artist": "이문세",
-    "titleAliases": []
-  },
-  {
-    "title": "북두칠성",
-    "artist": "로이킴",
+    "artist": "코키아",
     "titleAliases": []
   },
   {
@@ -1069,12 +735,12 @@
   },
   {
     "title": "붉은 장미",
-    "artist": "이수영",
+    "artist": "우예린",
     "titleAliases": []
   },
   {
     "title": "비가 오는 날엔",
-    "artist": "비스트",
+    "artist": "헤이즈",
     "titleAliases": []
   },
   {
@@ -1094,7 +760,7 @@
   },
   {
     "title": "비와 당신",
-    "artist": "박중훈",
+    "artist": "럼블피쉬",
     "titleAliases": []
   },
   {
@@ -1104,7 +770,7 @@
   },
   {
     "title": "비행소녀",
-    "artist": "마지 (Magie)",
+    "artist": "마골피",
     "titleAliases": []
   },
   {
@@ -1114,7 +780,7 @@
   },
   {
     "title": "빌려온 고양이",
-    "artist": "이승윤",
+    "artist": "아일릿",
     "titleAliases": []
   },
   {
@@ -1128,9 +794,11 @@
     "titleAliases": []
   },
   {
-    "title": "사랑과 우정 사이",
-    "artist": "피노키오",
-    "titleAliases": []
+    "title": "사랑과 우정사이",
+    "artist": "박혜경",
+    "titleAliases": [
+      "사랑과 우정 사이"
+    ]
   },
   {
     "title": "사랑은 은하수 다방에서",
@@ -1138,9 +806,11 @@
     "titleAliases": []
   },
   {
-    "title": "사랑했나봐",
+    "title": "사랑했나 봐",
     "artist": "윤도현",
-    "titleAliases": []
+    "titleAliases": [
+      "사랑했나봐"
+    ]
   },
   {
     "title": "산책",
@@ -1148,9 +818,11 @@
     "titleAliases": []
   },
   {
-    "title": "살다보면",
-    "artist": "권진원",
-    "titleAliases": []
+    "title": "살다 보면",
+    "artist": "차지연",
+    "titleAliases": [
+      "살다보면"
+    ]
   },
   {
     "title": "상사화",
@@ -1169,22 +841,17 @@
   },
   {
     "title": "서쪽하늘",
-    "artist": "이승철",
+    "artist": "울랄라세션",
     "titleAliases": []
   },
   {
     "title": "소나기",
-    "artist": "아이오아이 (I.O.I)",
+    "artist": "아이오아이",
     "titleAliases": []
   },
   {
     "title": "소로",
     "artist": "심규선",
-    "titleAliases": []
-  },
-  {
-    "title": "수고했어, 오늘도",
-    "artist": "옥상달빛",
     "titleAliases": []
   },
   {
@@ -1199,7 +866,7 @@
   },
   {
     "title": "숲의 아이",
-    "artist": "유아 (YooA)",
+    "artist": "유아",
     "titleAliases": []
   },
   {
@@ -1219,17 +886,12 @@
   },
   {
     "title": "시대를 초월한 마음",
-    "artist": "와다 카오루 (이누야샤 OST)",
+    "artist": "이누야샤 OST",
     "titleAliases": []
   },
   {
     "title": "시든 꽃에 물을 주듯",
-    "artist": "HYNN (박혜원)",
-    "titleAliases": []
-  },
-  {
-    "title": "시작의 아이",
-    "artist": "히구치 아이",
+    "artist": "박혜원",
     "titleAliases": []
   },
   {
@@ -1239,17 +901,17 @@
   },
   {
     "title": "아라리",
-    "artist": "시드사운드",
+    "artist": "심규선",
     "titleAliases": []
   },
   {
     "title": "아로아로 봉봉",
-    "artist": "라붐",
+    "artist": "에이몽",
     "titleAliases": []
   },
   {
     "title": "아이돌",
-    "artist": "YOASOBI",
+    "artist": "요아소비",
     "titleAliases": []
   },
   {
@@ -1259,32 +921,22 @@
   },
   {
     "title": "아틀란티스 소녀",
-    "artist": "보아 (BoA)",
+    "artist": "보아",
     "titleAliases": []
   },
   {
     "title": "안녕",
-    "artist": "폴킴",
+    "artist": "조이",
     "titleAliases": []
   },
   {
     "title": "안녕! 디지몬",
-    "artist": "장숙희",
-    "titleAliases": []
-  },
-  {
-    "title": "애인 있어요",
-    "artist": "이은미",
-    "titleAliases": []
-  },
-  {
-    "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
-    "artist": "AKMU",
+    "artist": "디지몬 OST",
     "titleAliases": []
   },
   {
     "title": "어른",
-    "artist": "Sondia",
+    "artist": "손디아",
     "titleAliases": []
   },
   {
@@ -1293,13 +945,8 @@
     "titleAliases": []
   },
   {
-    "title": "얼음돌",
-    "artist": "심규선",
-    "titleAliases": []
-  },
-  {
     "title": "얼음요새",
-    "artist": "디어클라우드",
+    "artist": "김소연",
     "titleAliases": []
   },
   {
@@ -1309,12 +956,12 @@
   },
   {
     "title": "여름이었다",
-    "artist": "오마이걸",
+    "artist": "하이키",
     "titleAliases": []
   },
   {
     "title": "여우야",
-    "artist": "더 클래식",
+    "artist": "조이",
     "titleAliases": []
   },
   {
@@ -1329,18 +976,15 @@
   },
   {
     "title": "예뻤어",
-    "artist": "DAY6",
+    "artist": "데이식스",
     "titleAliases": []
   },
   {
-    "title": "옛사랑",
-    "artist": "이문세",
-    "titleAliases": []
-  },
-  {
-    "title": "오늘 뭐 했는지 말해봐",
-    "artist": "어반자카파",
-    "titleAliases": []
+    "title": "오늘 뭐 했는지 말해 봐",
+    "artist": "권진아",
+    "titleAliases": [
+      "오늘 뭐 했는지 말해봐"
+    ]
   },
   {
     "title": "오늘 헤어졌어요",
@@ -1349,12 +993,12 @@
   },
   {
     "title": "오늘도 빛나는 너에게",
-    "artist": "마크툽",
+    "artist": "마크튭",
     "titleAliases": []
   },
   {
     "title": "오랜 날 오랜 밤",
-    "artist": "AKMU",
+    "artist": "악동뮤지션",
     "titleAliases": []
   },
   {
@@ -1369,22 +1013,27 @@
   },
   {
     "title": "오스카",
-    "artist": "이승윤",
+    "artist": "심규선",
     "titleAliases": []
   },
   {
     "title": "요즘 너 말야",
-    "artist": "제이레빗",
+    "artist": "제이래빗",
     "titleAliases": []
   },
   {
     "title": "우르릉 쾅쾅쾅",
-    "artist": "이승윤",
+    "artist": "스텔라장",
+    "titleAliases": []
+  },
+  {
+    "title": "Villain",
+    "artist": "스텔라장",
     "titleAliases": []
   },
   {
     "title": "우산",
-    "artist": "에픽하이 (feat. 윤하)",
+    "artist": "윤하",
     "titleAliases": []
   },
   {
@@ -1404,12 +1053,12 @@
   },
   {
     "title": "웃으며",
-    "artist": "이승윤",
+    "artist": "신예영",
     "titleAliases": []
   },
   {
     "title": "월하의 그대에게",
-    "artist": "이세계아이돌",
+    "artist": "Xenesus & 쪽빛아리아",
     "titleAliases": []
   },
   {
@@ -1419,7 +1068,7 @@
   },
   {
     "title": "응급실",
-    "artist": "izi",
+    "artist": "IZI",
     "titleAliases": []
   },
   {
@@ -1434,7 +1083,7 @@
   },
   {
     "title": "입술 끝에 두고 온 말",
-    "artist": "신해철",
+    "artist": "하은",
     "titleAliases": []
   },
   {
@@ -1443,13 +1092,8 @@
     "titleAliases": []
   },
   {
-    "title": "잊지 말아요",
-    "artist": "백지영",
-    "titleAliases": []
-  },
-  {
     "title": "잔혹한 천사의 테제",
-    "artist": "Takahashi Yoko",
+    "artist": "타카하시 요코",
     "titleAliases": []
   },
   {
@@ -1459,48 +1103,25 @@
   },
   {
     "title": "장마",
-    "artist": "정준일",
-    "titleAliases": []
-  },
-  {
-    "title": "저녁 하늘",
-    "artist": "에일리",
-    "titleAliases": []
-  },
-  {
-    "title": "전화 한 번 못하니",
-    "artist": "가비엔제이",
+    "artist": "정인",
     "titleAliases": []
   },
   {
     "title": "제주도의 푸른 밤",
-    "artist": "최성원",
+    "artist": "태연",
     "titleAliases": []
   },
   {
     "title": "주옥같다",
-    "artist": "이승윤",
+    "artist": "고옥희",
     "titleAliases": []
   },
   {
-    "title": "지구가 태양을 네번",
+    "title": "지구가 태양을 네 번",
     "artist": "넬",
-    "titleAliases": []
-  },
-  {
-    "title": "지나간 것들에 대하여",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "지우개",
-    "artist": "알리",
-    "titleAliases": []
-  },
-  {
-    "title": "진심이었던 사람만 바보가 돼",
-    "artist": "권진아",
-    "titleAliases": []
+    "titleAliases": [
+      "지구가 태양을 네번"
+    ]
   },
   {
     "title": "창귀",
@@ -1508,14 +1129,18 @@
     "titleAliases": []
   },
   {
-    "title": "천성의 약함",
-    "artist": "164 (GUMI)",
-    "titleAliases": []
+    "title": "천성의 약함(Feat. GUMI)",
+    "artist": "164",
+    "titleAliases": [
+      "천성의 약함"
+    ]
   },
   {
-    "title": "첫 키스에 내 심장은 120BPM",
-    "artist": "경서예지",
-    "titleAliases": []
+    "title": "첫 키스에 내 심장은 120 bpm",
+    "artist": "경서",
+    "titleAliases": [
+      "첫 키스에 내 심장은 120BPM"
+    ]
   },
   {
     "title": "첫눈처럼 너에게 가겠다",
@@ -1524,17 +1149,12 @@
   },
   {
     "title": "청개구리",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "체념",
-    "artist": "빅마마",
+    "artist": "로이킴",
     "titleAliases": []
   },
   {
     "title": "최종화",
-    "artist": "이승윤",
+    "artist": "아이리 칸나",
     "titleAliases": []
   },
   {
@@ -1553,28 +1173,13 @@
     "titleAliases": []
   },
   {
-    "title": "토리토리",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "토요일 밤에",
-    "artist": "손담비",
-    "titleAliases": []
-  },
-  {
     "title": "파탈리테",
-    "artist": "이승윤",
+    "artist": "심규선",
     "titleAliases": []
   },
   {
     "title": "피날레",
-    "artist": "DAY6",
-    "titleAliases": []
-  },
-  {
-    "title": "하나님은 너를 지키시는 자",
-    "artist": "정성실",
+    "artist": "에일",
     "titleAliases": []
   },
   {
@@ -1583,18 +1188,20 @@
     "titleAliases": []
   },
   {
-    "title": "하루종일 비가 내렸어",
+    "title": "하루 종일 비가 내렸어",
     "artist": "디아",
-    "titleAliases": []
+    "titleAliases": [
+      "하루종일 비가 내렸어"
+    ]
   },
   {
     "title": "하루하루",
-    "artist": "빅뱅",
+    "artist": "김보경",
     "titleAliases": []
   },
   {
     "title": "한 페이지가 될 수 있게",
-    "artist": "DAY6",
+    "artist": "데이식스",
     "titleAliases": []
   },
   {
@@ -1604,7 +1211,7 @@
   },
   {
     "title": "행복하니",
-    "artist": "김민석 (멜로망스)",
+    "artist": "케이시",
     "titleAliases": []
   },
   {
@@ -1619,18 +1226,22 @@
   },
   {
     "title": "호랑수월가",
-    "artist": "상록수",
+    "artist": "나래",
     "titleAliases": []
   },
   {
-    "title": "호시아이",
-    "artist": "레오루 (Reol)",
-    "titleAliases": []
+    "title": "호시아이(Feat. GUMI)",
+    "artist": "레프티 몬스터P",
+    "titleAliases": [
+      "호시아이"
+    ]
   },
   {
-    "title": "혼자라고 생각말기",
-    "artist": "에일리",
-    "titleAliases": []
+    "title": "혼자라고 생각 말기",
+    "artist": "김보경",
+    "titleAliases": [
+      "혼자라고 생각말기"
+    ]
   },
   {
     "title": "홀씨",
@@ -1639,32 +1250,17 @@
   },
   {
     "title": "화조도",
-    "artist": "안예은",
+    "artist": "심규선",
     "titleAliases": []
   },
   {
     "title": "후라이의 꿈",
-    "artist": "AKMU",
-    "titleAliases": []
-  },
-  {
-    "title": "희망",
-    "artist": "김동률",
+    "artist": "악동뮤지션",
     "titleAliases": []
   },
   {
     "title": "흰수염고래",
-    "artist": "YB",
-    "titleAliases": []
-  },
-  {
-    "title": "히로인",
-    "artist": "이승윤",
-    "titleAliases": []
-  },
-  {
-    "title": "힐링이 필요해",
-    "artist": "로이킴",
+    "artist": "정은지",
     "titleAliases": []
   }
 ]

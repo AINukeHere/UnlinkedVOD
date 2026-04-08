@@ -1,718 +1,804 @@
 [
-  {
-    "artist": "10CM",
-    "aliases": []
-  },
-  {
-    "artist": "15&",
-    "aliases": []
-  },
-  {
-    "artist": "164 (GUMI)",
-    "aliases": []
-  },
-  {
-    "artist": "2NE1",
-    "aliases": []
-  },
-  {
-    "artist": "AKMU",
-    "aliases": []
-  },
-  {
-    "artist": "Adele",
-    "aliases": []
-  },
-  {
-    "artist": "Against The Current",
-    "aliases": []
-  },
-  {
-    "artist": "B.I",
-    "aliases": []
-  },
-  {
-    "artist": "Benson Boone",
-    "aliases": []
-  },
-  {
-    "artist": "Charlie Puth",
-    "aliases": []
-  },
-  {
-    "artist": "Christina Perri",
-    "aliases": []
-  },
-  {
-    "artist": "Coldplay",
-    "aliases": []
-  },
-  {
-    "artist": "DAY6",
-    "aliases": []
-  },
-  {
-    "artist": "Dean Lewis",
-    "aliases": []
-  },
-  {
-    "artist": "Donna Burke (Tokyo Ghoul OST)",
-    "aliases": []
-  },
-  {
-    "artist": "EXO-K",
-    "aliases": []
-  },
-  {
-    "artist": "Ed Sheeran",
-    "aliases": []
-  },
-  {
-    "artist": "Etham",
-    "aliases": []
-  },
-  {
-    "artist": "FIFTY FIFTY",
-    "aliases": []
-  },
-  {
-    "artist": "Feng Timo",
-    "aliases": []
-  },
-  {
-    "artist": "Fools Garden",
-    "aliases": []
-  },
-  {
-    "artist": "HUNTR/X",
-    "aliases": []
-  },
-  {
-    "artist": "HYNN (박혜원)",
-    "aliases": []
-  },
-  {
-    "artist": "Hundred Percent Free",
-    "aliases": []
-  },
-  {
-    "artist": "ILLIT",
-    "aliases": []
-  },
-  {
-    "artist": "ISAK",
-    "aliases": []
-  },
-  {
-    "artist": "ITZY (채령)",
-    "aliases": []
-  },
-  {
-    "artist": "IVE",
-    "aliases": []
-  },
-  {
-    "artist": "Jeremy Zucker",
-    "aliases": []
-  },
-  {
-    "artist": "Kenshi Yonezu",
-    "aliases": []
-  },
-  {
-    "artist": "Mariah Carey",
-    "aliases": []
-  },
-  {
-    "artist": "NS 윤지",
-    "aliases": []
-  },
-  {
-    "artist": "NewJeans",
-    "aliases": []
-  },
-  {
-    "artist": "Official髭男dism",
-    "aliases": []
-  },
-  {
-    "artist": "QWER",
-    "aliases": []
-  },
-  {
-    "artist": "S.E.S.",
-    "aliases": []
-  },
-  {
-    "artist": "SG워너비 & 브라운 아이드 걸스",
-    "aliases": []
-  },
-  {
-    "artist": "Sondia",
-    "aliases": []
-  },
-  {
-    "artist": "Stray Kids",
-    "aliases": []
-  },
-  {
-    "artist": "Takahashi Yoko",
-    "aliases": []
-  },
-  {
-    "artist": "Taylor Swift",
-    "aliases": []
-  },
-  {
-    "artist": "Tori Kelly",
-    "aliases": []
-  },
-  {
-    "artist": "V.O.S",
-    "aliases": []
-  },
-  {
-    "artist": "WOODZ (조승연)",
-    "aliases": []
-  },
-  {
-    "artist": "YB",
-    "aliases": []
-  },
-  {
-    "artist": "YOASOBI",
-    "aliases": []
-  },
-  {
-    "artist": "Yuuri",
-    "aliases": []
-  },
-  {
-    "artist": "Zhou Shen (주심)",
-    "aliases": []
-  },
-  {
-    "artist": "izi",
-    "aliases": []
-  },
-  {
-    "artist": "가비엔제이",
-    "aliases": []
-  },
-  {
-    "artist": "거북이",
-    "aliases": []
-  },
-  {
-    "artist": "경서",
-    "aliases": []
-  },
-  {
-    "artist": "경서예지",
-    "aliases": []
-  },
-  {
-    "artist": "권진아",
-    "aliases": []
-  },
-  {
-    "artist": "권진원",
-    "aliases": []
-  },
-  {
-    "artist": "김광석",
-    "aliases": []
-  },
-  {
-    "artist": "김나영",
-    "aliases": []
-  },
-  {
-    "artist": "김동률",
-    "aliases": []
-  },
-  {
-    "artist": "김민석 (멜로망스)",
-    "aliases": []
-  },
-  {
-    "artist": "김범수",
-    "aliases": []
-  },
-  {
-    "artist": "나비",
-    "aliases": []
-  },
-  {
-    "artist": "나츠시로 타카아키",
-    "aliases": []
-  },
-  {
-    "artist": "넬",
-    "aliases": []
-  },
-  {
-    "artist": "다비치",
-    "aliases": []
-  },
-  {
-    "artist": "다크비 (DKB)",
-    "aliases": []
-  },
-  {
-    "artist": "더 클래식",
-    "aliases": []
-  },
-  {
-    "artist": "델리스파이스",
-    "aliases": []
-  },
-  {
-    "artist": "디아",
-    "aliases": []
-  },
-  {
-    "artist": "디어클라우드",
-    "aliases": []
-  },
-  {
-    "artist": "디핵",
-    "aliases": []
-  },
-  {
-    "artist": "라붐",
-    "aliases": []
-  },
-  {
-    "artist": "러브홀릭",
-    "aliases": []
-  },
-  {
-    "artist": "러브홀릭스",
-    "aliases": []
-  },
-  {
-    "artist": "럼블피쉬",
-    "aliases": []
-  },
-  {
-    "artist": "레오루 (Reol)",
-    "aliases": []
-  },
-  {
-    "artist": "로이킴",
-    "aliases": []
-  },
-  {
-    "artist": "루마니아 (Rumania)",
-    "aliases": []
-  },
-  {
-    "artist": "린",
-    "aliases": []
-  },
-  {
-    "artist": "마지 (Magie)",
-    "aliases": []
-  },
-  {
-    "artist": "마크툽",
-    "aliases": []
-  },
-  {
-    "artist": "문문",
-    "aliases": []
-  },
-  {
-    "artist": "박중훈",
-    "aliases": []
-  },
-  {
-    "artist": "박혜원",
-    "aliases": []
-  },
-  {
-    "artist": "백아연",
-    "aliases": []
-  },
-  {
-    "artist": "백예린",
-    "aliases": []
-  },
-  {
-    "artist": "백지영",
-    "aliases": []
-  },
-  {
-    "artist": "버즈",
-    "aliases": []
-  },
-  {
-    "artist": "베이지 (추노 OST)",
-    "aliases": []
-  },
-  {
-    "artist": "보아 (BoA)",
-    "aliases": []
-  },
-  {
-    "artist": "볼빨간사춘기",
-    "aliases": []
-  },
-  {
-    "artist": "부활",
-    "aliases": []
-  },
-  {
-    "artist": "블랙핑크",
-    "aliases": []
-  },
-  {
-    "artist": "비비 (BIBI)",
-    "aliases": []
-  },
-  {
-    "artist": "비스트",
-    "aliases": []
-  },
-  {
-    "artist": "빅마마",
-    "aliases": []
-  },
-  {
-    "artist": "빅뱅",
-    "aliases": []
-  },
-  {
-    "artist": "사나 (Sana)",
-    "aliases": []
-  },
-  {
-    "artist": "산들",
-    "aliases": []
-  },
-  {
-    "artist": "산울림",
-    "aliases": []
-  },
-  {
-    "artist": "상록수",
-    "aliases": []
-  },
-  {
-    "artist": "서영은",
-    "aliases": []
-  },
-  {
-    "artist": "서현진",
-    "aliases": []
-  },
-  {
-    "artist": "선우정아",
-    "aliases": []
-  },
-  {
-    "artist": "선우정아 (feat. 아이유)",
-    "aliases": []
-  },
-  {
-    "artist": "성시경",
-    "aliases": []
-  },
-  {
-    "artist": "세정",
-    "aliases": []
-  },
-  {
-    "artist": "소녀시대",
-    "aliases": []
-  },
-  {
-    "artist": "소찬휘",
-    "aliases": []
-  },
-  {
-    "artist": "손담비",
-    "aliases": []
-  },
-  {
-    "artist": "숀",
-    "aliases": []
-  },
-  {
-    "artist": "시드사운드",
-    "aliases": []
-  },
-  {
-    "artist": "신해철",
-    "aliases": []
-  },
-  {
-    "artist": "심규선",
-    "aliases": []
-  },
-  {
-    "artist": "써니힐",
-    "aliases": []
-  },
-  {
-    "artist": "아이러브 (I-LOVE)",
-    "aliases": []
-  },
-  {
-    "artist": "아이오아이 (I.O.I)",
-    "aliases": []
-  },
-  {
-    "artist": "아이유",
-    "aliases": ["IU"]
-  },
-  {
-    "artist": "안예은",
-    "aliases": []
-  },
-  {
-    "artist": "알 수 없음",
-    "aliases": []
-  },
-  {
-    "artist": "알리",
-    "aliases": []
-  },
-  {
-    "artist": "양파",
-    "aliases": []
-  },
-  {
-    "artist": "양희은",
-    "aliases": []
-  },
-  {
-    "artist": "어반자카파",
-    "aliases": []
-  },
-  {
-    "artist": "어쿠스틱 콜라보",
-    "aliases": []
-  },
-  {
-    "artist": "에이핑크",
-    "aliases": []
-  },
-  {
-    "artist": "에일리",
-    "aliases": []
-  },
-  {
-    "artist": "에픽하이 (feat. 윤하)",
-    "aliases": []
-  },
-  {
-    "artist": "여자친구",
-    "aliases": []
-  },
-  {
-    "artist": "오마이걸",
-    "aliases": []
-  },
-  {
-    "artist": "오쿠 하나코",
-    "aliases": []
-  },
-  {
-    "artist": "옥상달빛",
-    "aliases": []
-  },
-  {
-    "artist": "와다 카오루 (이누야샤 OST)",
-    "aliases": []
-  },
-  {
-    "artist": "요루시카",
-    "aliases": []
-  },
-  {
-    "artist": "우효",
-    "aliases": []
-  },
-  {
-    "artist": "유미",
-    "aliases": []
-  },
-  {
-    "artist": "유아 (YooA)",
-    "aliases": []
-  },
-  {
-    "artist": "윤도현",
-    "aliases": []
-  },
-  {
-    "artist": "윤하",
-    "aliases": []
-  },
-  {
-    "artist": "이문세",
-    "aliases": []
-  },
-  {
-    "artist": "이브 (Eve)",
-    "aliases": []
-  },
-  {
-    "artist": "이선희",
-    "aliases": []
-  },
-  {
-    "artist": "이세계아이돌",
-    "aliases": []
-  },
-  {
-    "artist": "이소라",
-    "aliases": []
-  },
-  {
-    "artist": "이수",
-    "aliases": []
-  },
-  {
-    "artist": "이수영",
-    "aliases": []
-  },
-  {
-    "artist": "이승윤",
-    "aliases": []
-  },
-  {
-    "artist": "이승철",
-    "aliases": []
-  },
-  {
-    "artist": "이윤수",
-    "aliases": []
-  },
-  {
-    "artist": "이은미",
-    "aliases": []
-  },
-  {
-    "artist": "이종용",
-    "aliases": []
-  },
-  {
-    "artist": "이하이",
-    "aliases": []
-  },
-  {
-    "artist": "자우림",
-    "aliases": []
-  },
-  {
-    "artist": "자전거 탄 풍경",
-    "aliases": []
-  },
-  {
-    "artist": "장숙희",
-    "aliases": []
-  },
-  {
-    "artist": "정경화",
-    "aliases": []
-  },
-  {
-    "artist": "정성실",
-    "aliases": []
-  },
-  {
-    "artist": "정승환",
-    "aliases": []
-  },
-  {
-    "artist": "정은지",
-    "aliases": []
-  },
-  {
-    "artist": "정인",
-    "aliases": []
-  },
-  {
-    "artist": "정준일",
-    "aliases": []
-  },
-  {
-    "artist": "제이레빗",
-    "aliases": []
-  },
-  {
-    "artist": "조덕배",
-    "aliases": []
-  },
-  {
-    "artist": "조이",
-    "aliases": []
-  },
-  {
-    "artist": "중식이",
-    "aliases": []
-  },
-  {
-    "artist": "지코",
-    "aliases": []
-  },
-  {
-    "artist": "진민호",
-    "aliases": []
-  },
-  {
-    "artist": "최성원",
-    "aliases": []
-  },
-  {
-    "artist": "최유리",
-    "aliases": []
-  },
-  {
-    "artist": "카니발",
-    "aliases": []
-  },
-  {
-    "artist": "코요태",
-    "aliases": []
-  },
-  {
-    "artist": "클론",
-    "aliases": []
-  },
-  {
-    "artist": "키네틱 플로우",
-    "aliases": []
-  },
-  {
-    "artist": "태연",
-    "aliases": ["TAEYEON"]
-  },
-  {
-    "artist": "트와이스",
-    "aliases": []
-  },
-  {
-    "artist": "폴킴",
-    "aliases": []
-  },
-  {
-    "artist": "피노키오",
-    "aliases": []
-  },
-  {
-    "artist": "헤이즈",
-    "aliases": []
-  },
-  {
-    "artist": "화사 (Hwa Sa)",
-    "aliases": []
-  },
-  {
-    "artist": "히구치 아이",
-    "aliases": []
-  }
+    {
+        "artist": "10CM",
+        "aliases": []
+    },
+    {
+        "artist": "164",
+        "aliases": [
+            "164 (GUMI)"
+        ]
+    },
+    {
+        "artist": "거북이",
+        "aliases": []
+    },
+    {
+        "artist": "경서",
+        "aliases": [
+            "경서예지"
+        ]
+    },
+    {
+        "artist": "고옥희",
+        "aliases": []
+    },
+    {
+        "artist": "권진아",
+        "aliases": []
+    },
+    {
+        "artist": "그랜드체이스",
+        "aliases": []
+    },
+    {
+        "artist": "김광석",
+        "aliases": []
+    },
+    {
+        "artist": "김나영",
+        "aliases": []
+    },
+    {
+        "artist": "김동률",
+        "aliases": []
+    },
+    {
+        "artist": "김보경",
+        "aliases": []
+    },
+    {
+        "artist": "김상민",
+        "aliases": []
+    },
+    {
+        "artist": "김세정",
+        "aliases": []
+    },
+    {
+        "artist": "김소연",
+        "aliases": [
+            "디어클라우드"
+        ]
+    },
+    {
+        "artist": "김필선",
+        "aliases": [
+            "EXO-K"
+        ]
+    },
+    {
+        "artist": "나래",
+        "aliases": [
+            "상록수"
+        ]
+    },
+    {
+        "artist": "나비",
+        "aliases": []
+    },
+    {
+        "artist": "나카시마 미카",
+        "aliases": []
+    },
+    {
+        "artist": "넬",
+        "aliases": []
+    },
+    {
+        "artist": "뉴진스",
+        "aliases": [
+            "NewJeans"
+        ]
+    },
+    {
+        "artist": "다비치",
+        "aliases": []
+    },
+    {
+        "artist": "데이식스",
+        "aliases": [
+            "DAY6"
+        ]
+    },
+    {
+        "artist": "디아",
+        "aliases": []
+    },
+    {
+        "artist": "디지몬 OST",
+        "aliases": [
+            "장숙희"
+        ]
+    },
+    {
+        "artist": "디핵",
+        "aliases": []
+    },
+    {
+        "artist": "라붐",
+        "aliases": []
+    },
+    {
+        "artist": "러브홀릭",
+        "aliases": []
+    },
+    {
+        "artist": "러브홀릭스",
+        "aliases": []
+    },
+    {
+        "artist": "런치",
+        "aliases": [
+            "숀"
+        ]
+    },
+    {
+        "artist": "럼블피쉬",
+        "aliases": []
+    },
+    {
+        "artist": "레프티 몬스터P",
+        "aliases": [
+            "레오루 (Reol)"
+        ]
+    },
+    {
+        "artist": "로이킴",
+        "aliases": []
+    },
+    {
+        "artist": "루머스",
+        "aliases": []
+    },
+    {
+        "artist": "린",
+        "aliases": []
+    },
+    {
+        "artist": "마골피",
+        "aliases": [
+            "마지 (Magie)"
+        ]
+    },
+    {
+        "artist": "마크튭",
+        "aliases": [
+            "마크툽"
+        ]
+    },
+    {
+        "artist": "마틸다",
+        "aliases": []
+    },
+    {
+        "artist": "머라이어 캐리",
+        "aliases": []
+    },
+    {
+        "artist": "멜로망스",
+        "aliases": []
+    },
+    {
+        "artist": "명탐정 코난 OST",
+        "aliases": [
+            "Hundred Percent Free"
+        ]
+    },
+    {
+        "artist": "문문",
+        "aliases": []
+    },
+    {
+        "artist": "미로",
+        "aliases": [
+            "Miiro"
+        ]
+    },
+    {
+        "artist": "바닐라 어쿠스틱",
+        "aliases": []
+    },
+    {
+        "artist": "바람꽃",
+        "aliases": [
+            "클론"
+        ]
+    },
+    {
+        "artist": "바밍",
+        "aliases": []
+    },
+    {
+        "artist": "박봄",
+        "aliases": []
+    },
+    {
+        "artist": "박완규",
+        "aliases": []
+    },
+    {
+        "artist": "박정현",
+        "aliases": []
+    },
+    {
+        "artist": "박혜경",
+        "aliases": []
+    },
+    {
+        "artist": "박혜원",
+        "aliases": [
+            "HYNN (박혜원)"
+        ]
+    },
+    {
+        "artist": "백예린",
+        "aliases": []
+    },
+    {
+        "artist": "백지영",
+        "aliases": []
+    },
+    {
+        "artist": "버즈",
+        "aliases": []
+    },
+    {
+        "artist": "베이지",
+        "aliases": [
+            "베이지 (추노 OST)"
+        ]
+    },
+    {
+        "artist": "보라미유",
+        "aliases": []
+    },
+    {
+        "artist": "보아",
+        "aliases": [
+            "보아 (BoA)"
+        ]
+    },
+    {
+        "artist": "볼빨간사춘기",
+        "aliases": []
+    },
+    {
+        "artist": "붕괴 OST",
+        "aliases": [
+            "Zhou Shen (주심)"
+        ]
+    },
+    {
+        "artist": "블랙핑크",
+        "aliases": []
+    },
+    {
+        "artist": "비비",
+        "aliases": [
+            "비비 (BIBI)"
+        ]
+    },
+    {
+        "artist": "빅마마",
+        "aliases": []
+    },
+    {
+        "artist": "산나비",
+        "aliases": []
+    },
+    {
+        "artist": "산들",
+        "aliases": []
+    },
+    {
+        "artist": "서영은",
+        "aliases": []
+    },
+    {
+        "artist": "서인국",
+        "aliases": []
+    },
+    {
+        "artist": "서현진",
+        "aliases": []
+    },
+    {
+        "artist": "선우정아",
+        "aliases": [
+            "선우정아 (feat. 아이유)"
+        ]
+    },
+    {
+        "artist": "설아",
+        "aliases": []
+    },
+    {
+        "artist": "성시경",
+        "aliases": []
+    },
+    {
+        "artist": "소녀시대",
+        "aliases": []
+    },
+    {
+        "artist": "손담비",
+        "aliases": []
+    },
+    {
+        "artist": "손디아",
+        "aliases": [
+            "Sondia"
+        ]
+    },
+    {
+        "artist": "수지",
+        "aliases": []
+    },
+    {
+        "artist": "스텔라장",
+        "aliases": [
+            "스텔라 장"
+        ]
+    },
+    {
+        "artist": "스트레이 키즈",
+        "aliases": []
+    },
+    {
+        "artist": "시드사운드",
+        "aliases": []
+    },
+    {
+        "artist": "신예영",
+        "aliases": []
+    },
+    {
+        "artist": "심규선",
+        "aliases": []
+    },
+    {
+        "artist": "써니힐",
+        "aliases": []
+    },
+    {
+        "artist": "아웃사이더",
+        "aliases": []
+    },
+    {
+        "artist": "아이리 칸나",
+        "aliases": []
+    },
+    {
+        "artist": "아이브",
+        "aliases": []
+    },
+    {
+        "artist": "아이오아이",
+        "aliases": [
+            "I.O.I"
+        ]
+    },
+    {
+        "artist": "아이유",
+        "aliases": [
+            "IU"
+        ]
+    },
+    {
+        "artist": "아일릿",
+        "aliases": [
+            "ILLIT"
+        ]
+    },
+    {
+        "artist": "안예은",
+        "aliases": []
+    },
+    {
+        "artist": "알리",
+        "aliases": []
+    },
+    {
+        "artist": "양파",
+        "aliases": []
+    },
+    {
+        "artist": "어쿠스틱 콜라보",
+        "aliases": []
+    },
+    {
+        "artist": "에이몽",
+        "aliases": []
+    },
+    {
+        "artist": "에이핑크",
+        "aliases": []
+    },
+    {
+        "artist": "에일리",
+        "aliases": []
+    },
+    {
+        "artist": "에픽세븐",
+        "aliases": []
+    },
+    {
+        "artist": "오마이걸",
+        "aliases": []
+    },
+    {
+        "artist": "오쿠하나코코",
+        "aliases": [
+            "오쿠 하나코"
+        ]
+    },
+    {
+        "artist": "오피셜히게단디즘",
+        "aliases": [
+            "Official髭男dism"
+        ]
+    },
+    {
+        "artist": "옥상달빛",
+        "aliases": [
+            "S.E.S."
+        ]
+    },
+    {
+        "artist": "요네즈 켄시",
+        "aliases": []
+    },
+    {
+        "artist": "요루시카",
+        "aliases": []
+    },
+    {
+        "artist": "요아소비",
+        "aliases": [
+            "YOASOBI"
+        ]
+    },
+    {
+        "artist": "우예린",
+        "aliases": []
+    },
+    {
+        "artist": "우효",
+        "aliases": []
+    },
+    {
+        "artist": "울랄라세션",
+        "aliases": []
+    },
+    {
+        "artist": "유럽",
+        "aliases": [
+            "ULUV"
+        ]
+    },
+    {
+        "artist": "유우리",
+        "aliases": [
+            "Yuuri"
+        ]
+    },
+    {
+        "artist": "윤도현",
+        "aliases": []
+    },
+    {
+        "artist": "윤하",
+        "aliases": []
+    },
+    {
+        "artist": "이누야샤",
+        "aliases": []
+    },
+    {
+        "artist": "이누야샤 OST",
+        "aliases": [
+            "와다 카오루 (이누야샤 OST)"
+        ]
+    },
+    {
+        "artist": "이무진",
+        "aliases": []
+    },
+    {
+        "artist": "이문세",
+        "aliases": []
+    },
+    {
+        "artist": "이선희",
+        "aliases": []
+    },
+    {
+        "artist": "이세계아이돌",
+        "aliases": []
+    },
+    {
+        "artist": "이소라",
+        "aliases": []
+    },
+    {
+        "artist": "이안",
+        "aliases": []
+    },
+    {
+        "artist": "이예준",
+        "aliases": []
+    },
+    {
+        "artist": "이은미",
+        "aliases": []
+    },
+    {
+        "artist": "이종용",
+        "aliases": []
+    },
+    {
+        "artist": "이하이",
+        "aliases": []
+    },
+    {
+        "artist": "인순이",
+        "aliases": []
+    },
+    {
+        "artist": "잇츠",
+        "aliases": []
+    },
+    {
+        "artist": "자우림",
+        "aliases": []
+    },
+    {
+        "artist": "자전거 탄 풍경",
+        "aliases": []
+    },
+    {
+        "artist": "정경화",
+        "aliases": []
+    },
+    {
+        "artist": "정승환",
+        "aliases": []
+    },
+    {
+        "artist": "정은지",
+        "aliases": []
+    },
+    {
+        "artist": "정인",
+        "aliases": []
+    },
+    {
+        "artist": "제이래빗",
+        "aliases": [
+            "제이레빗"
+        ]
+    },
+    {
+        "artist": "조수아",
+        "aliases": []
+    },
+    {
+        "artist": "조이",
+        "aliases": []
+    },
+    {
+        "artist": "주니엘",
+        "aliases": []
+    },
+    {
+        "artist": "진민호",
+        "aliases": []
+    },
+    {
+        "artist": "차지연",
+        "aliases": []
+    },
+    {
+        "artist": "최유리",
+        "aliases": []
+    },
+    {
+        "artist": "케이시",
+        "aliases": []
+    },
+    {
+        "artist": "콜드플레이",
+        "aliases": [
+            "Coldplay"
+        ]
+    },
+    {
+        "artist": "키네틱 플로우",
+        "aliases": []
+    },
+    {
+        "artist": "타카하시 요코",
+        "aliases": [
+            "Takahashi Yoko"
+        ]
+    },
+    {
+        "artist": "태연",
+        "aliases": [
+            "TAEYEON"
+        ]
+    },
+    {
+        "artist": "투에니원",
+        "aliases": [
+            "2NE1"
+        ]
+    },
+    {
+        "artist": "트와이스",
+        "aliases": []
+    },
+    {
+        "artist": "펀치",
+        "aliases": []
+    },
+    {
+        "artist": "펑티모",
+        "aliases": [
+            "fengtimo"
+        ]
+    },
+    {
+        "artist": "폴킴",
+        "aliases": []
+    },
+    {
+        "artist": "프랭크 시나트라",
+        "aliases": []
+    },
+    {
+        "artist": "프로미스나인",
+        "aliases": []
+    },
+    {
+        "artist": "피프티피프티",
+        "aliases": [
+            "FIFTY FIFTY"
+        ]
+    },
+    {
+        "artist": "하은",
+        "aliases": []
+    },
+    {
+        "artist": "하이키",
+        "aliases": []
+    },
+    {
+        "artist": "하츠네 미쿠",
+        "aliases": []
+    },
+    {
+        "artist": "하츠투하츠",
+        "aliases": []
+    },
+    {
+        "artist": "헤이즈",
+        "aliases": []
+    },
+    {
+        "artist": "황가람",
+        "aliases": []
+    },
+    {
+        "artist": "Adele",
+        "aliases": []
+    },
+    {
+        "artist": "AKMU",
+        "aliases": [
+            "악뮤",
+            "악동뮤지션",
+            "악동 뮤지션"
+        ]
+    },
+    {
+        "artist": "Back Number",
+        "aliases": [
+            "백 넘버"
+        ]
+    },
+    {
+        "artist": "Benson Boone",
+        "aliases": []
+    },
+    {
+        "artist": "Charlie Puth",
+        "aliases": []
+    },
+    {
+        "artist": "Christina Perri",
+        "aliases": []
+    },
+    {
+        "artist": "Coldplay",
+        "aliases": []
+    },
+    {
+        "artist": "Conan Gray",
+        "aliases": []
+    },
+    {
+        "artist": "Dean Lewis",
+        "aliases": []
+    },
+    {
+        "artist": "Ed Sheeran",
+        "aliases": []
+    },
+    {
+        "artist": "Etham",
+        "aliases": []
+    },
+    {
+        "artist": "HUNTR/X",
+        "aliases": []
+    },
+    {
+        "artist": "IVE",
+        "aliases": []
+    },
+    {
+        "artist": "IZI",
+        "aliases": [
+            "izi"
+        ]
+    },
+    {
+        "artist": "Jeremy Zucker",
+        "aliases": []
+    },
+    {
+        "artist": "K/DA",
+        "aliases": []
+    },
+    {
+        "artist": "Karina",
+        "aliases": []
+    },
+    {
+        "artist": "KOKIA",
+        "aliases": [
+            "코키아"
+        ]
+    },
+    {
+        "artist": "League of Legends",
+        "aliases": []
+    },
+    {
+        "artist": "M.C The Max",
+        "aliases": []
+    },
+    {
+        "artist": "QWER",
+        "aliases": []
+    },
+    {
+        "artist": "SG워너비 & 브라운아이드걸스",
+        "aliases": []
+    },
+    {
+        "artist": "VIVIZ",
+        "aliases": []
+    },
+    {
+        "artist": "WOODZ",
+        "aliases": []
+    },
+    {
+        "artist": "Xenesus & 쪽빛아리아",
+        "aliases": []
+    }
 ]

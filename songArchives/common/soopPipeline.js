@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline/promises');
 
 const SOOP_VOD_INFO_URL = 'https://api.m.sooplive.com/station/video/a/view';
 const SOOP_COMMENT_URL = 'https://stbbs.sooplive.com/api/bbs_memo_action.php';
@@ -282,12 +283,17 @@ function loadChuraheeConfig(repoRoot) {
   return loadStreamerConfig(repoRoot, 'churahee');
 }
 
+/** Global title/artist refs: songArchives/churahee/data (all streamers). */
+function globalRefDataDir(repoRoot) {
+  return path.join(repoRoot, 'churahee', 'data');
+}
+
 /**
  * Load artist reference (canonical artist + aliases).
- * File: {streamerId}/data/artistReference.json. Missing or invalid → null.
+ * File: churahee/data/artistReference.json
  */
-function loadArtistReference(repoRoot, streamerId) {
-  const p = path.join(repoRoot, streamerId, 'data', 'artistReference.json');
+function loadArtistReference(repoRoot) {
+  const p = path.join(globalRefDataDir(repoRoot), 'artistReference.json');
   try {
     const raw = fs.readFileSync(p, 'utf8');
     const list = JSON.parse(raw);
@@ -298,11 +304,11 @@ function loadArtistReference(repoRoot, streamerId) {
 }
 
 /**
- * Load song reference (canonical title+artist, titleAliases for title only).
- * File: {streamerId}/data/songReference.json. Missing or invalid → null.
+ * Load title reference (canonical title + aliases).
+ * File: churahee/data/titleReference.json
  */
-function loadSongReference(repoRoot, streamerId) {
-  const p = path.join(repoRoot, streamerId, 'data', 'songReference.json');
+function loadTitleReference(repoRoot) {
+  const p = path.join(globalRefDataDir(repoRoot), 'titleReference.json');
   try {
     const raw = fs.readFileSync(p, 'utf8');
     const list = JSON.parse(raw);
@@ -313,81 +319,323 @@ function loadSongReference(repoRoot, streamerId) {
 }
 
 /**
- * Resolve artist string to canonical artist using artistReference.
- * @param {Array<{ artist: string, aliases?: string[] }>|null} artistRef
- * @param {string} rawArtist
- * @returns {string} canonical artist or rawArtist unchanged
+ * Per-streamer default artist per song title (제목 문자열 키만).
+ * File: {streamerId}/data/defaultArtistMapping.json
  */
-function resolveArtist(artistRef, rawArtist) {
-  const s = (rawArtist || '').trim();
-  if (!s || !artistRef || !artistRef.length) return s;
-  for (const entry of artistRef) {
-    const canonical = (entry.artist || '').trim();
-    const aliases = entry.aliases && Array.isArray(entry.aliases) ? entry.aliases : [];
-    if (s === canonical || aliases.some((a) => String(a).trim() === s)) return canonical;
+function loadDefaultArtistMapping(repoRoot, streamerId) {
+  const p = path.join(repoRoot, streamerId, 'data', 'defaultArtistMapping.json');
+  try {
+    const raw = fs.readFileSync(p, 'utf8');
+    const o = JSON.parse(raw);
+    return o && typeof o === 'object' && !Array.isArray(o) ? o : {};
+  } catch (_) {
+    return {};
   }
-  return s;
 }
 
 /**
- * Resolve title string to canonical title for a given canonical artist using songReference.
- * @param {Array<{ title: string, artist: string, titleAliases?: string[] }>|null} songRef
- * @param {string} rawTitle
- * @param {string} canonicalArtist
- * @returns {{ title: string, artist: string }|null} canonical title+artist or null if no match
+ * @param {Array<{ title: string, aliases?: string[], titleAliases?: string[] }>|null} titleRef
+ * @returns {string|null} canonical title or null
  */
-function resolveTitle(songRef, rawTitle, canonicalArtist) {
+function resolveTitleCanonical(titleRef, rawTitle) {
   const s = (rawTitle || '').trim();
-  if (!songRef || !songRef.length) return null;
-  for (const entry of songRef) {
-    const canonicalTitle = (entry.title || '').trim();
-    const entryArtist = (entry.artist || '').trim();
-    const titleAliases = Array.isArray(entry.titleAliases)
-      ? entry.titleAliases
-      : Array.isArray(entry.aliases)
-        ? entry.aliases
+  if (!s || !titleRef || !titleRef.length) return null;
+  for (const entry of titleRef) {
+    const canonical = (entry.title || '').trim();
+    const aliases = Array.isArray(entry.aliases)
+      ? entry.aliases
+      : Array.isArray(entry.titleAliases)
+        ? entry.titleAliases
         : [];
-    const titleMatch =
-      s === canonicalTitle || titleAliases.some((a) => String(a).trim() === s);
-    const artistMatch =
-      canonicalArtist === '' || entryArtist === canonicalArtist;
-    if (titleMatch && artistMatch) return { title: canonicalTitle, artist: entryArtist };
+    if (s === canonical || aliases.some((a) => String(a).trim() === s)) return canonical;
   }
   return null;
 }
 
 /**
- * Resolve parsed (title, artist?) to canonical title+artist using songReference and artistReference.
- * Resolves artist first, then title (by title/titleAliases for that artist). No match → keep as-is.
- * @param {string} repoRoot
- * @param {{ title: string, artist?: string, [k: string]: unknown }} item
- * @param {string} streamerId - e.g. 'churahee', 'chebi'
- * @returns {{ title: string, artist: string, [k: string]: unknown }}
+ * @param {Array<{ artist: string, aliases?: string[] }>|null} artistRef
+ * @returns {string|null} canonical artist or null
  */
-function resolveToCanonical(repoRoot, item, streamerId) {
-  const artistRef = loadArtistReference(repoRoot, streamerId);
-  const songRef = loadSongReference(repoRoot, streamerId);
-
-  const rawTitle = (item.title || '').trim();
-  const rawArtist = (item.artist || '').trim();
-  const resolvedArtist = resolveArtist(artistRef, rawArtist);
-  const resolvedSong = resolveTitle(songRef, rawTitle, resolvedArtist);
-
-  if (resolvedSong) {
-    return { ...item, title: resolvedSong.title, artist: resolvedSong.artist };
+function resolveArtistCanonical(artistRef, rawArtist) {
+  const s = (rawArtist || '').trim();
+  if (!s || !artistRef || !artistRef.length) return null;
+  for (const entry of artistRef) {
+    const canonical = (entry.artist || '').trim();
+    const aliases = entry.aliases && Array.isArray(entry.aliases) ? entry.aliases : [];
+    if (s === canonical || aliases.some((a) => String(a).trim() === s)) return canonical;
   }
-  return { ...item, title: rawTitle, artist: resolvedArtist };
+  return null;
+}
+
+/** defaultArtistMapping 에서 해당 제목 키의 가수만 조회. */
+function defaultArtistForCanonicalTitle(mapping, canonicalTitle) {
+  if (!mapping || typeof mapping !== 'object') return '';
+  const t = (canonicalTitle || '').trim();
+  if (!t) return '';
+  const v = mapping[t];
+  return v != null && String(v).trim() !== '' ? String(v).trim() : '';
+}
+
+function readJsonArray(filePath) {
+  try {
+    const list = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    return Array.isArray(list) ? list : [];
+  } catch (_) {
+    return [];
+  }
+}
+
+function writeJsonData(filePath, data) {
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 4), 'utf8');
+}
+
+function appendTitleReferenceFile(filePath, canonicalTitle) {
+  const t = (canonicalTitle || '').trim();
+  if (!t) return;
+  const list = readJsonArray(filePath);
+  if (list.some((e) => (e.title || '').trim() === t)) return;
+  list.push({ title: t, aliases: [] });
+  list.sort((a, b) => (a.title || '').localeCompare(b.title || '', 'ko'));
+  writeJsonData(filePath, list);
+}
+
+function artistEntryExists(list, s) {
+  const x = (s || '').trim();
+  if (!x) return false;
+  for (const e of list) {
+    const c = (e.artist || '').trim();
+    const aliases = e.aliases && Array.isArray(e.aliases) ? e.aliases : [];
+    if (c === x || aliases.some((a) => String(a).trim() === x)) return true;
+  }
+  return false;
+}
+
+function appendArtistReferenceFile(filePath, canonicalArtist) {
+  const t = (canonicalArtist || '').trim();
+  if (!t) return;
+  const list = readJsonArray(filePath);
+  if (artistEntryExists(list, t)) return;
+  list.push({ artist: t, aliases: [] });
+  list.sort((a, b) => (a.artist || '').localeCompare(b.artist || '', 'ko'));
+  writeJsonData(filePath, list);
+}
+
+/** 제목 키만 가나다순(ko) 정렬. 레거시 `__default__` 키는 제거한다. */
+function reorderDefaultArtistMapping(obj) {
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return {};
+  const rest = { ...obj };
+  delete rest.__default__;
+  const sortedKeys = Object.keys(rest).sort((a, b) => String(a).localeCompare(String(b), 'ko'));
+  const out = {};
+  for (const k of sortedKeys) out[k] = rest[k];
+  return out;
+}
+
+function setDefaultArtistForTitle(filePath, titleKey, artistStr) {
+  let o;
+  try {
+    o = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  } catch (_) {
+    o = {};
+  }
+  if (!o || typeof o !== 'object' || Array.isArray(o)) o = {};
+  o[titleKey] = artistStr;
+  writeJsonData(filePath, reorderDefaultArtistMapping(o));
+}
+
+function createResolveContext(repoRoot, streamerId) {
+  const dir = globalRefDataDir(repoRoot);
+  const ctx = {
+    repoRoot,
+    streamerId,
+    paths: {
+      titleRef: path.join(dir, 'titleReference.json'),
+      artistRef: path.join(dir, 'artistReference.json'),
+      defaultMap: path.join(repoRoot, streamerId, 'data', 'defaultArtistMapping.json'),
+    },
+    titleRef: [],
+    artistRef: [],
+    defaultMap: {},
+    reloadFromDisk() {
+      ctx.titleRef = readJsonArray(ctx.paths.titleRef);
+      ctx.artistRef = readJsonArray(ctx.paths.artistRef);
+      ctx.defaultMap = loadDefaultArtistMapping(repoRoot, streamerId);
+    },
+  };
+  return ctx;
+}
+
+async function askYesNo(rl, message) {
+  if (!rl) return false;
+  const ans = (await rl.question(message)).trim().toUpperCase();
+  return ans === 'Y' || ans === 'YES';
+}
+
+async function askArtistChoice(rl, defaultArt, rawArt) {
+  if (!rl) return 1;
+  const msg =
+    `가수 불일치 — 제목 기준 기본값 "${defaultArt}" vs 댓글 "${rawArt}"\n` +
+    `  [1] 기본값 사용\n` +
+    `  [2] 댓글 가수 사용 (artistReference에 추가)\n` +
+    `선택 (1/2): `;
+  const a = (await rl.question(msg)).trim();
+  return a === '2' ? 2 : 1;
+}
+
+function mergeSongMeta(item, title, artistStorage) {
+  const out = { ...item, title };
+  if (artistStorage == null || String(artistStorage).trim() === '') {
+    out.artist = null;
+  } else {
+    out.artist = String(artistStorage).trim();
+  }
+  return out;
 }
 
 /**
- * Parse one line into { title, time, artist?, noMistake?, recommended?, needsReview? } or null.
+ * @param {import('readline').Interface | null} rl
+ */
+async function resolveItemInteractive(rl, ctx, item, caches, interactive, debug) {
+  const rawTitle = (item.title || '').trim();
+  const rawArtistRaw = item.artist;
+  const hadRawArtistInComment = rawArtistRaw != null && String(rawArtistRaw).trim() !== '';
+  const rawArtist = hadRawArtistInComment ? String(rawArtistRaw).trim() : '';
+
+  let titleRef = ctx.titleRef;
+  let artistRef = ctx.artistRef;
+  const titleRefPath = ctx.paths.titleRef;
+  const artistRefPath = ctx.paths.artistRef;
+  const defaultMapPath = ctx.paths.defaultMap;
+
+  let canonicalTitle = resolveTitleCanonical(titleRef, rawTitle);
+
+  if (!canonicalTitle) {
+    const cacheKey = rawTitle;
+    let registerNew = false;
+    if (interactive && rl) {
+      if (!caches.titleNewSong.has(cacheKey)) {
+        const yn = await askYesNo(
+          rl,
+          `[새 노래?] titleReference에 없는 제목입니다 (오타 확인).\n` +
+            `  rawTitle="${rawTitle}"  rawArtist="${rawArtist || '(댓글 생략)'}"\n` +
+            `  새 노래로 등록하고 레퍼런스에 추가할까요? [Y/N]: `
+        );
+        caches.titleNewSong.set(cacheKey, yn);
+      }
+      registerNew = caches.titleNewSong.get(cacheKey);
+    }
+
+    if (registerNew) {
+      appendTitleReferenceFile(titleRefPath, rawTitle);
+      if (rawArtist) appendArtistReferenceFile(artistRefPath, rawArtist);
+      ctx.reloadFromDisk();
+      titleRef = ctx.titleRef;
+      artistRef = ctx.artistRef;
+      canonicalTitle = rawTitle;
+    } else {
+      canonicalTitle = rawTitle;
+    }
+  }
+
+  if (debug) {
+    console.error('[DEBUG] resolve:', { rawTitle, canonicalTitle, rawArtist, hadRawArtistInComment });
+  }
+
+  if (!hadRawArtistInComment) {
+    const defBlank = defaultArtistForCanonicalTitle(ctx.defaultMap, canonicalTitle);
+    if (defBlank) {
+      return mergeSongMeta(item, canonicalTitle, defBlank);
+    }
+    if (interactive && rl) {
+      const cacheKeyBlank = `blankArtist:${canonicalTitle}`;
+      if (!caches.blankArtistAnswer.has(cacheKeyBlank)) {
+        const typed = (
+          await rl.question(
+            `[가수 없음] 댓글에 가수가 없고 defaultArtistMapping에 제목 "${canonicalTitle}" 항목이 없습니다.\n` +
+              `기록할 가수명을 입력하세요 (비우면 source에는 null, 레퍼런스/매핑은 변경 안 함): `
+          )
+        ).trim();
+        caches.blankArtistAnswer.set(cacheKeyBlank, typed);
+      }
+      const typed = caches.blankArtistAnswer.get(cacheKeyBlank);
+      if (!typed) {
+        return mergeSongMeta(item, canonicalTitle, null);
+      }
+      if (!artistEntryExists(ctx.artistRef, typed)) {
+        appendArtistReferenceFile(artistRefPath, typed);
+        ctx.reloadFromDisk();
+        artistRef = ctx.artistRef;
+      }
+      const canonFromTyped =
+        resolveArtistCanonical(ctx.artistRef, typed) || String(typed).trim();
+      setDefaultArtistForTitle(defaultMapPath, canonicalTitle, canonFromTyped);
+      ctx.reloadFromDisk();
+      return mergeSongMeta(item, canonicalTitle, canonFromTyped);
+    }
+    return mergeSongMeta(item, canonicalTitle, null);
+  }
+
+  let canonicalArtist = resolveArtistCanonical(artistRef, rawArtist);
+  if (canonicalArtist) {
+    return mergeSongMeta(item, canonicalTitle, canonicalArtist);
+  }
+
+  const def = defaultArtistForCanonicalTitle(ctx.defaultMap, canonicalTitle);
+
+  if (def && rawArtist === def) {
+    return mergeSongMeta(item, canonicalTitle, def);
+  }
+
+  if (!interactive || !rl) {
+    const pick = def || rawArtist;
+    return mergeSongMeta(item, canonicalTitle, pick || null);
+  }
+
+  const pickKey = `${canonicalTitle}\t${rawArtist}\t${def}`;
+  if (!caches.artistPick.has(pickKey)) {
+    const choice = await askArtistChoice(rl, def || '(없음)', rawArtist);
+    caches.artistPick.set(pickKey, choice);
+  }
+  const choice = caches.artistPick.get(pickKey);
+
+  if (choice === 1) {
+    const pick = def || rawArtist;
+    return mergeSongMeta(item, canonicalTitle, pick || null);
+  }
+
+  appendArtistReferenceFile(artistRefPath, rawArtist);
+  ctx.reloadFromDisk();
+  artistRef = ctx.artistRef;
+  canonicalArtist = resolveArtistCanonical(artistRef, rawArtist) || rawArtist;
+
+  const updKey = `upd:${canonicalTitle}\t${canonicalArtist}`;
+  let doUpd = caches.updateDefault.get(updKey);
+  if (doUpd === undefined) {
+    doUpd = await askYesNo(
+      rl,
+      `defaultArtistMapping.json 에서 "${canonicalTitle}" 의 기본 가수를 "${canonicalArtist}" 로 바꿀까요? [Y/N]: `
+    );
+    caches.updateDefault.set(updKey, doUpd);
+  }
+  if (doUpd) {
+    setDefaultArtistForTitle(defaultMapPath, canonicalTitle, canonicalArtist);
+    ctx.reloadFromDisk();
+  }
+
+  return mergeSongMeta(item, canonicalTitle, canonicalArtist);
+}
+
+/**
+ * Parse one line into { title, time, artist, noMistake?, recommended?, needsReview? } or null.
  * Uses parseConfig.parts + regexSequence: build regex from sequence, match line; then detect symbols (●○☆★?) on the line.
+ * After regex capture, `resolveOpts`가 있으면 레퍼런스/매핑 resolve를 적용해 title·artist를 확정한다.
  * @param {string} line - line without linePrefix (already stripped)
  * @param {{ parts: Record<string, string>, regexSequence: string }} parseConfig
  * @param {boolean} [debug] - when true, log parsing steps to stderr
- * @returns {object|null}
+ * @param {null|{ rl: import('readline').Interface | null, ctx: object, caches: object, interactive: boolean }} [resolveOpts]
+ * @returns {Promise<object|null>}
  */
-function parseTimelineLine(line, parseConfig, debug) {
+async function parseTimelineLine(line, parseConfig, debug, resolveOpts = null) {
   line = line.replace(/\s+/g, ' ').trim();
   if (debug) console.error('[DEBUG] parseTimelineLine 입력:', JSON.stringify(line));
   if (!line) return null;
@@ -426,13 +674,30 @@ function parseTimelineLine(line, parseConfig, debug) {
     return null;
   }
 
-  const info = { title, time: timeStr };
-  if (artist) info.artist = artist;
-  if (noMistake) info.noMistake = true;
-  if (recommended) info.recommended = true;
-  if (needsReview) info.needsReview = true;
-  if (debug) console.error('[DEBUG]   결과:', info);
-  return info;
+  const preInfo = {
+    title,
+    time: timeStr,
+    artist: artist || null,
+    ...(noMistake ? { noMistake: true } : {}),
+    ...(recommended ? { recommended: true } : {}),
+    ...(needsReview ? { needsReview: true } : {}),
+  };
+
+  if (resolveOpts) {
+    const resolved = await resolveItemInteractive(
+      resolveOpts.rl,
+      resolveOpts.ctx,
+      preInfo,
+      resolveOpts.caches,
+      resolveOpts.interactive,
+      debug
+    );
+    if (debug) console.error('[DEBUG]   결과(resolve 후):', resolved);
+    return resolved;
+  }
+
+  if (debug) console.error('[DEBUG]   결과(raw):', preInfo);
+  return preInfo;
 }
 
 /**
@@ -441,9 +706,10 @@ function parseTimelineLine(line, parseConfig, debug) {
  * @param {string} commentHtml - e.g. "🎤 Square 3:25:43 <br />\\n..."
  * @param {{ linePrefix: string, parts: Record<string, string>, regexSequence: string }} parseConfig
  * @param {boolean} [debug] - when true, log parsing steps to stderr
- * @returns {Array<{ title: string, time: string, artist?: string, ... }>}
+ * @param {null|{ rl: import('readline').Interface | null, ctx: object, caches: object, interactive: boolean }} [resolveOpts] - 있으면 줄마다 resolve 포함
+ * @returns {Promise<Array<{ title: string, time: string, artist: string|null, ... }>>}
  */
-function parseCommentHtmlToSongInfo(commentHtml, parseConfig, debug) {
+async function parseCommentHtmlToSongInfo(commentHtml, parseConfig, debug, resolveOpts = null) {
   if (!commentHtml || typeof commentHtml !== 'string') return [];
   const prefix = (parseConfig && parseConfig.linePrefix) || DEFAULT_PARSE_CONFIG.linePrefix;
   const lines = commentHtml
@@ -465,8 +731,9 @@ function parseCommentHtmlToSongInfo(commentHtml, parseConfig, debug) {
     }
     const lineWithoutPrefix = line.split(prefix).join('').trim();
     if (debug) console.error('[DEBUG]   줄', i + 1, '→ linePrefix 제거 후:', JSON.stringify(lineWithoutPrefix.slice(0, 80)));
-    const info = parseTimelineLine(lineWithoutPrefix, parseConfig || DEFAULT_PARSE_CONFIG, debug);
-    const dedupeKey = (info && ((info.title || '') + '|' + (info.artist || '') + '|' + (info.time || ''))) || '';
+    const info = await parseTimelineLine(lineWithoutPrefix, parseConfig || DEFAULT_PARSE_CONFIG, debug, resolveOpts);
+    const dedupeKey =
+      (info && (info.title || '') + '|' + (info.artist == null ? '' : info.artist) + '|' + (info.time || '')) || '';
     if (info && !seen.has(dedupeKey)) {
       seen.add(dedupeKey);
       songInfo.push(info);
@@ -550,19 +817,34 @@ async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee', preloadedV
     console.error('[DEBUG] comment_author_id:', COMMENT_AUTHOR_ID || '(비어 있음)');
   }
 
-  let songInfo = [];
-  for (const c of comments) {
-    if (!COMMENT_AUTHOR_ID || (c.user_id || '') !== COMMENT_AUTHOR_ID) continue;
-    if (debug) console.error('[DEBUG] --- comment_author_id 댓글 1건 파싱 시작 ---');
-    const parsedList = parseCommentHtmlToSongInfo(c.comment, parseConfig, debug);
-    if (debug) console.error('[DEBUG] --- 파싱 완료 → 곡 수:', parsedList.length);
-    if (debug && parsedList.length > 0) {
-      console.error('[DEBUG] 파싱된 곡:', parsedList.map((p) => `${p.title}${p.artist ? ` (${p.artist})` : ''} ${p.time}`));
-    }
-    songInfo = songInfo.concat(parsedList);
-  }
+  const interactive = !!(process.stdin.isTTY && !process.env.ADD_VOD_NON_INTERACTIVE);
+  const rl = interactive ? readline.createInterface({ input: process.stdin, output: process.stdout }) : null;
 
-  songInfo = songInfo.map((item) => resolveToCanonical(repoRoot, item, streamerId));
+  const ctx = createResolveContext(repoRoot, streamerId);
+  ctx.reloadFromDisk();
+    const caches = {
+      titleNewSong: new Map(),
+      artistPick: new Map(),
+      updateDefault: new Map(),
+      blankArtistAnswer: new Map(),
+    };
+  const resolveOpts = { rl, ctx, caches, interactive };
+
+  let songInfo = [];
+  try {
+    for (const c of comments) {
+      if (!COMMENT_AUTHOR_ID || (c.user_id || '') !== COMMENT_AUTHOR_ID) continue;
+      if (debug) console.error('[DEBUG] --- comment_author_id 댓글 파싱 시작 ---');
+      const parsedList = await parseCommentHtmlToSongInfo(c.comment, parseConfig, debug, resolveOpts);
+      if (debug) console.error('[DEBUG] --- 파싱 완료 → 곡 수:', parsedList.length);
+      if (debug && parsedList.length > 0) {
+        console.error('[DEBUG] 파싱된 곡:', parsedList.map((p) => `${p.title}${p.artist ? ` (${p.artist})` : ''} ${p.time}`));
+      }
+      songInfo = songInfo.concat(parsedList);
+    }
+  } finally {
+    if (rl) rl.close();
+  }
 
   if (debug) {
     console.error('[DEBUG] 합친 songInfo 개수:', songInfo.length);
@@ -603,11 +885,13 @@ module.exports = {
   loadChuraheeConfig,
   loadStreamerConfig,
   loadParseConfig,
+  globalRefDataDir,
   loadArtistReference,
-  loadSongReference,
-  resolveArtist,
-  resolveTitle,
-  resolveToCanonical,
+  loadTitleReference,
+  loadDefaultArtistMapping,
+  reorderDefaultArtistMapping,
+  resolveTitleCanonical,
+  resolveArtistCanonical,
   parseTimelineLine,
   parseCommentHtmlToSongInfo,
   mergeVodIntoSource,

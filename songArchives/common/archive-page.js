@@ -175,8 +175,13 @@ function loadSongs(searchTerm = '') {
 
   renderFilterDescription(minVersionCount, listSort, versionSort, versionFilters);
 
+  const q = (searchTerm || '').toLowerCase();
   let list = songs
-    .filter((song) => song.title.toLowerCase().includes((searchTerm || '').toLowerCase()))
+    .filter((song) => {
+      const t = (song.title || '').toLowerCase();
+      const a = (song.artist || '').toLowerCase();
+      return t.includes(q) || a.includes(q);
+    })
     .map((song) => ({
       song,
       versions: song.versions || [],
@@ -185,7 +190,11 @@ function loadSongs(searchTerm = '') {
     .filter(({ versions }) => versions.length >= minVersionCount);
 
   if (listSort === 'title') {
-    list.sort((a, b) => (a.song.title || '').localeCompare(b.song.title || '', 'ko'));
+    list.sort((a, b) => {
+      const c = (a.song.title || '').localeCompare(b.song.title || '', 'ko');
+      if (c !== 0) return c;
+      return (a.song.artist || '').localeCompare(b.song.artist || '', 'ko');
+    });
   } else if (listSort === 'dateDesc') {
     list.sort((a, b) => maxDateFromVersions(b.versions) - maxDateFromVersions(a.versions));
   } else if (listSort === 'dateAsc') {
@@ -234,9 +243,20 @@ function loadSongs(searchTerm = '') {
     const row = document.createElement('section');
     row.className = 'song-row';
 
+    const heading = document.createElement('div');
+    heading.className = 'song-row-heading';
+
     const titleEl = document.createElement('h2');
     titleEl.className = 'song-row-title';
     titleEl.textContent = song.title;
+    heading.appendChild(titleEl);
+
+    if (song.artist) {
+      const artistEl = document.createElement('span');
+      artistEl.className = 'song-row-artist';
+      artistEl.textContent = song.artist;
+      heading.appendChild(artistEl);
+    }
 
     const strip = document.createElement('div');
     strip.className = 'version-strip';
@@ -264,7 +284,7 @@ function loadSongs(searchTerm = '') {
       strip.appendChild(card);
     });
 
-    row.appendChild(titleEl);
+    row.appendChild(heading);
     row.appendChild(strip);
     container.appendChild(row);
   });

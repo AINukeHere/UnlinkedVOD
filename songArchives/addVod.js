@@ -2,6 +2,7 @@
 /**
  * Add or update a VOD from a Soop URL. Archive = match VOD streamer id (API field `writer_id`) to config/folder.
  * Usage (repo root): npm run add -- "https://vod.sooplive.com/player/{videoId}"
+ * 비대화형(제목/가수 확인 프롬프트 생략): ADD_VOD_NON_INTERACTIVE=1 npm run add -- "<url>"
  */
 const { spawnSync } = require('child_process');
 const path = require('path');
