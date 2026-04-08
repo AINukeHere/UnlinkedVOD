@@ -1278,6 +1278,50 @@
                     "artist": "송푸름"
                 }
             ]
+        },
+        {
+            "title": "노래 하고 가야대가야대",
+            "date": "2026-04-07",
+            "url": "https://vod.sooplive.com/player/192016805",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
+            "songInfo": [
+                {
+                    "title": "Antifreeze",
+                    "time": "03:51:40",
+                    "artist": "백예린"
+                },
+                {
+                    "title": "Rain",
+                    "time": "03:58:45",
+                    "artist": "태연"
+                },
+                {
+                    "title": "히로인(ヒロイン)",
+                    "time": "04:07:46",
+                    "artist": "back number"
+                },
+                {
+                    "title": "소로",
+                    "time": "04:15:13",
+                    "artist": "심규선"
+                },
+                {
+                    "title": "Can i love",
+                    "time": "04:21:16",
+                    "artist": "유라",
+                    "needsReview": true
+                },
+                {
+                    "title": "소녀",
+                    "time": "04:26:53",
+                    "artist": "우예린"
+                },
+                {
+                    "title": "It's You",
+                    "time": "04:33:07",
+                    "artist": "한요한"
+                }
+            ]
         }
     ]
 }

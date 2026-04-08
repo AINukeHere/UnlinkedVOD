@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-05T13:42:45.838669+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-08T01:20:55.756679+00:00";
 const songs = [
   {
     "title": "체끼송",
@@ -74,6 +74,16 @@ const songs = [
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=15313",
+        "videoTitle": "노래 하고 가야대가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -722,6 +732,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": true
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=15676",
+        "videoTitle": "노래 하고 가야대가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -849,6 +869,16 @@ const songs = [
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=13900",
+        "videoTitle": "노래 하고 가야대가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2204,6 +2234,66 @@ const songs = [
         "url": "https://vod.sooplive.com/player/191699627?change_second=7252",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_2B9068EE_292934821_1_r&column=2&t=1775235798",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Rain",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "videoTitle": "노래 하고 가야대가야대",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=14325",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "히로인(ヒロイン)",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "videoTitle": "노래 하고 가야대가야대",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=14866",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "소녀",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "videoTitle": "노래 하고 가야대가야대",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=16013",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "It's You",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "videoTitle": "노래 하고 가야대가야대",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=16387",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
