@@ -1148,14 +1148,14 @@
                     "artist": "너드 커넥션"
                 },
                 {
-                    "title": "달빛에 그려지는 (미연)\\",
+                    "title": "달빛에 그려지는",
                     "time": "04:10:49",
-                    "artist": ""
+                    "artist": "미연"
                 },
                 {
-                    "title": "에잇 (Prod.&Feat. SUGA of BTS)/아이유",
+                    "title": "에잇",
                     "time": "04:16:38",
-                    "artist": ""
+                    "artist": "아이유"
                 },
                 {
                     "title": "좋아하니까",
@@ -1168,9 +1168,9 @@
                     "artist": "권진아"
                 },
                 {
-                    "title": "해요 (2022)/#안녕",
+                    "title": "해요 (2022)",
                     "time": "04:34:25",
-                    "artist": ""
+                    "artist": "#안녕"
                 }
             ]
         },
@@ -1320,6 +1320,54 @@
                     "title": "It's You",
                     "time": "04:33:07",
                     "artist": "한요한"
+                }
+            ]
+        },
+        {
+            "title": "즐찾 5천 찍고 십어요",
+            "date": "2026-04-07",
+            "url": "https://vod.sooplive.com/player/192105735",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+            "songInfo": [
+                {
+                    "title": "첫 키스에 내 심장은 120BPM",
+                    "time": "01:23:26",
+                    "artist": "경서"
+                },
+                {
+                    "title": "바람",
+                    "time": "01:28:18",
+                    "artist": "송푸름"
+                },
+                {
+                    "title": "난춘",
+                    "time": "01:35:47",
+                    "artist": "새소년"
+                },
+                {
+                    "title": "기다린만큼, 더",
+                    "time": "01:42:46",
+                    "artist": "검정치마"
+                },
+                {
+                    "title": "마음",
+                    "time": "01:47:50",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "Ref:rain",
+                    "time": "01:52:36",
+                    "artist": "Aimer"
+                },
+                {
+                    "title": "내일 또 보자",
+                    "time": "02:00:04",
+                    "artist": "ENE"
+                },
+                {
+                    "title": "끝났다는 것은 다시 시작된다는 것을",
+                    "time": "02:06:55",
+                    "artist": "강아윤 / 산나비 OST"
                 }
             ]
         }

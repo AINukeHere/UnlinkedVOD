@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-08T13:02:38.168757+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-10T12:33:45.226380+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -76,7 +76,7 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260113_4D3234BE_290719816_1_r&column=2&t=1768406055",
-        "noMistake": true,
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       },

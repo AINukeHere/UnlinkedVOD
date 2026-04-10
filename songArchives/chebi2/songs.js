@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-08T02:28:02.763180+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-10T04:08:49.709792+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -649,6 +649,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=6756",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1059,6 +1069,22 @@ const songs = [
     ]
   },
   {
+    "title": "기다린만큼, 더",
+    "artist": "검정치마",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=6166",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "김철수 씨 이야기",
     "artist": "허회경",
     "versions": [
@@ -1094,6 +1120,22 @@ const songs = [
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "끝났다는 것은 다시 시작된다는 것을",
+    "artist": "강아윤 / 산나비 OST",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=7615",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1202,6 +1244,32 @@ const songs = [
         "videoTitle": "MZ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=5747",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "내일 또 보자",
+    "artist": "ENE",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=7204",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1331,13 +1399,7 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "달빛에 그려지는 (미연)\\",
-    "artist": "",
-    "versions": [
+      },
       {
         "date": "2026-04-01",
         "url": "https://vod.sooplive.com/player/191517163?change_second=15049",
@@ -1386,6 +1448,22 @@ const songs = [
         "videoTitle": "MZ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "마음",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=6470",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1618,6 +1696,16 @@ const songs = [
         "videoTitle": "[역팬 & 확정방셀]",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260312_C223FF97_292340033_1_r&column=2&t=1773356935",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=5298",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2117,8 +2205,8 @@ const songs = [
     ]
   },
   {
-    "title": "에잇 (Prod.&Feat. SUGA of BTS)/아이유",
-    "artist": "",
+    "title": "에잇",
+    "artist": "아이유",
     "versions": [
       {
         "date": "2026-04-01",
@@ -2307,6 +2395,22 @@ const songs = [
     ]
   },
   {
+    "title": "첫 키스에 내 심장은 120BPM",
+    "artist": "경서",
+    "versions": [
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192105735?change_second=5006",
+        "videoTitle": "즐찾 5천 찍고 십어요",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "체끼송",
     "artist": "",
     "versions": [
@@ -2365,8 +2469,8 @@ const songs = [
     ]
   },
   {
-    "title": "해요 (2022)/#안녕",
-    "artist": "",
+    "title": "해요 (2022)",
+    "artist": "#안녕",
     "versions": [
       {
         "date": "2026-04-01",

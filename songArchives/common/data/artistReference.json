@@ -14,6 +14,10 @@
         "aliases": []
     },
     {
+        "artist": "검정치마",
+        "aliases": []
+    },
+    {
         "artist": "경서",
         "aliases": []
     },
@@ -64,15 +68,15 @@
         "aliases": []
     },
     {
-        "artist": "상록수",
-        "aliases": []
-    },
-    {
         "artist": "나비",
         "aliases": []
     },
     {
         "artist": "나카시마 미카",
+        "aliases": []
+    },
+    {
+        "artist": "너드 커넥션",
         "aliases": []
     },
     {
@@ -174,6 +178,10 @@
         ]
     },
     {
+        "artist": "민수",
+        "aliases": []
+    },
+    {
         "artist": "바닐라 어쿠스틱",
         "aliases": []
     },
@@ -256,11 +264,22 @@
         "aliases": []
     },
     {
-        "artist": "산나비",
-        "aliases": []
+        "artist": "강아윤 / 산나비 OST",
+        "aliases": [
+            "산나비 OST",
+            "산나비"
+        ]
     },
     {
         "artist": "산들",
+        "aliases": []
+    },
+    {
+        "artist": "상록수",
+        "aliases": []
+    },
+    {
+        "artist": "새소년",
         "aliases": []
     },
     {
@@ -300,6 +319,10 @@
         "aliases": [
             "Sondia"
         ]
+    },
+    {
+        "artist": "송푸름",
+        "aliases": []
     },
     {
         "artist": "수지",
@@ -652,6 +675,10 @@
         "aliases": []
     },
     {
+        "artist": "허회경",
+        "aliases": []
+    },
+    {
         "artist": "헤이즈",
         "aliases": []
     },
@@ -661,6 +688,10 @@
     },
     {
         "artist": "Adele",
+        "aliases": []
+    },
+    {
+        "artist": "Aimer",
         "aliases": []
     },
     {
@@ -674,6 +705,7 @@
     {
         "artist": "Back Number",
         "aliases": [
+            "Back number",
             "백 넘버"
         ]
     },
@@ -703,6 +735,10 @@
     },
     {
         "artist": "Ed Sheeran",
+        "aliases": []
+    },
+    {
+        "artist": "ENE",
         "aliases": []
     },
     {
@@ -767,6 +803,10 @@
     },
     {
         "artist": "Xenesus & 쪽빛아리아",
+        "aliases": []
+    },
+    {
+        "artist": "Yuika",
         "aliases": []
     }
 ]
