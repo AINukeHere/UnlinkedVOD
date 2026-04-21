@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-10T04:08:49.709792+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-21T17:53:51.610771+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -901,6 +901,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-12",
+        "url": "https://vod.sooplive.com/player/192602107?change_second=24485",
+        "videoTitle": "고티어 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_F46AB060_293179485_1_r&column=2&t=1776025830",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1761,6 +1771,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-12",
+        "url": "https://vod.sooplive.com/player/192602107?change_second=23432",
+        "videoTitle": "고티어 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_F46AB060_293179485_1_r&column=2&t=1776025830",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2099,6 +2119,22 @@ const songs = [
     ]
   },
   {
+    "title": "심술",
+    "artist": "볼빨간사춘기",
+    "versions": [
+      {
+        "date": "2026-04-12",
+        "url": "https://vod.sooplive.com/player/192602107?change_second=24264",
+        "videoTitle": "고티어 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_F46AB060_293179485_1_r&column=2&t=1776025830",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "싸운날",
     "artist": "볼빨간사춘기",
     "versions": [
@@ -2262,6 +2298,22 @@ const songs = [
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "예쁘잖아",
+    "artist": "기리보이",
+    "versions": [
+      {
+        "date": "2026-04-12",
+        "url": "https://vod.sooplive.com/player/192602107?change_second=23854",
+        "videoTitle": "고티어 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_F46AB060_293179485_1_r&column=2&t=1776025830",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

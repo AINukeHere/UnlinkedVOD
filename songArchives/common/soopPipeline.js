@@ -527,11 +527,36 @@ async function resolveItemInteractive(rl, ctx, item, caches, interactive, debug)
 
     if (registerNew) {
       appendTitleReferenceFile(titleRefPath, rawTitle);
+      const rawArtistWasNew = rawArtist ? !artistEntryExists(artistRef, rawArtist) : false;
       if (rawArtist) appendArtistReferenceFile(artistRefPath, rawArtist);
       ctx.reloadFromDisk();
       titleRef = ctx.titleRef;
       artistRef = ctx.artistRef;
       canonicalTitle = rawTitle;
+      if (rawArtist) {
+        const canonicalFromRaw =
+          resolveArtistCanonical(artistRef, rawArtist) || String(rawArtist).trim();
+        if (canonicalFromRaw) {
+          let doSetDefault = true;
+          if (interactive && rl && rawArtistWasNew) {
+            const mapKey = `newSongDefault:${canonicalTitle}\t${canonicalFromRaw}`;
+            if (!caches.newSongDefaultMap.has(mapKey)) {
+              const yn = await askYesNo(
+                rl,
+                `[새 노래+새 아티스트] 제목 "${canonicalTitle}" / 가수 "${canonicalFromRaw}"\n` +
+                  `defaultArtistMapping.json에 기본 가수로 저장할까요? [Y/N]: `
+              );
+              caches.newSongDefaultMap.set(mapKey, yn);
+            }
+            doSetDefault = caches.newSongDefaultMap.get(mapKey);
+          }
+          if (doSetDefault) {
+            setDefaultArtistForTitle(defaultMapPath, canonicalTitle, canonicalFromRaw);
+            ctx.reloadFromDisk();
+            artistRef = ctx.artistRef;
+          }
+        }
+      }
     } else {
       canonicalTitle = rawTitle;
     }
@@ -822,12 +847,13 @@ async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee', preloadedV
 
   const ctx = createResolveContext(repoRoot, streamerId);
   ctx.reloadFromDisk();
-    const caches = {
+  const caches = {
       titleNewSong: new Map(),
       artistPick: new Map(),
       updateDefault: new Map(),
       blankArtistAnswer: new Map(),
-    };
+      newSongDefaultMap: new Map(),
+  };
   const resolveOpts = { rl, ctx, caches, interactive };
 
   let songInfo = [];

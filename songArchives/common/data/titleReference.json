@@ -231,6 +231,10 @@
         "aliases": []
     },
     {
+        "title": "눈물샤워",
+        "aliases": []
+    },
+    {
         "title": "눈물이 많아서",
         "aliases": []
     },
@@ -339,6 +343,10 @@
         "aliases": []
     },
     {
+        "title": "미친거니",
+        "aliases": []
+    },
+    {
         "title": "민들레",
         "aliases": []
     },
@@ -352,6 +360,10 @@
     },
     {
         "title": "밤 + 시간을 달려서",
+        "aliases": []
+    },
+    {
+        "title": "밤, 바다",
         "aliases": []
     },
     {
@@ -407,6 +419,10 @@
         ]
     },
     {
+        "title": "봄봄봄",
+        "aliases": []
+    },
+    {
         "title": "부엉이",
         "aliases": []
     },
@@ -416,6 +432,10 @@
     },
     {
         "title": "분홍신",
+        "aliases": []
+    },
+    {
+        "title": "불장난",
         "aliases": []
     },
     {
@@ -513,6 +533,10 @@
         "aliases": []
     },
     {
+        "title": "소격동",
+        "aliases": []
+    },
+    {
         "title": "소나기",
         "aliases": []
     },
@@ -562,6 +586,10 @@
     },
     {
         "title": "시작의 아이",
+        "aliases": []
+    },
+    {
+        "title": "심술",
         "aliases": []
     },
     {
@@ -644,6 +672,10 @@
     },
     {
         "title": "예뻤어",
+        "aliases": []
+    },
+    {
+        "title": "예쁘잖아",
         "aliases": []
     },
     {
@@ -801,10 +833,8 @@
         "aliases": []
     },
     {
-        "title": "천성의 약함(Feat. GUMI)",
-        "aliases": [
-            "천성의 약함"
-        ]
+        "title": "천성의 약함",
+        "aliases": []
     },
     {
         "title": "첫 키스에 내 심장은 120BPM",
@@ -951,6 +981,10 @@
         "aliases": []
     },
     {
+        "title": "Ahoy!! 우리는 호쇼해적단",
+        "aliases": []
+    },
+    {
         "title": "Alcohol-Free",
         "aliases": [
             "알코올 프리"
@@ -976,6 +1010,10 @@
         "aliases": []
     },
     {
+        "title": "Beautiful Liar (Rerecorded)",
+        "aliases": []
+    },
+    {
         "title": "Blueming",
         "aliases": [
             "블루밍",
@@ -991,6 +1029,10 @@
         "aliases": [
             "셀러브리티"
         ]
+    },
+    {
+        "title": "CHEER UP",
+        "aliases": []
     },
     {
         "title": "comethru",
@@ -1020,6 +1062,10 @@
         "aliases": [
             "디토"
         ]
+    },
+    {
+        "title": "Dolphin",
+        "aliases": []
     },
     {
         "title": "Drowning",
@@ -1059,10 +1105,14 @@
         ]
     },
     {
-        "title": "Happy things",
+        "title": "Happy Birthday To You",
+        "aliases": []
+    },
+    {
+        "title": "Happy Things",
         "aliases": [
             "해피 띵스",
-            "Happy Things"
+            "Happy things"
         ]
     },
     {
@@ -1098,6 +1148,10 @@
         ]
     },
     {
+        "title": "I AM",
+        "aliases": []
+    },
+    {
         "title": "I Love You",
         "aliases": [
             "아이 러브 유"
@@ -1126,6 +1180,10 @@
         "aliases": [
             "키싱 유"
         ]
+    },
+    {
+        "title": "Kitsch",
+        "aliases": []
     },
     {
         "title": "Legend Never Die",
@@ -1220,7 +1278,15 @@
         ]
     },
     {
+        "title": "Next Level",
+        "aliases": []
+    },
+    {
         "title": "Nothing",
+        "aliases": []
+    },
+    {
+        "title": "Nxde",
         "aliases": []
     },
     {
@@ -1382,6 +1448,10 @@
         ]
     },
     {
+        "title": "When I Get Old",
+        "aliases": []
+    },
+    {
         "title": "XOXZ",
         "aliases": [
             "엑스오엑스지"
@@ -1397,5 +1467,9 @@
             "유 앤 아이",
             "You and I"
         ]
+    },
+    {
+        "title": "yours",
+        "aliases": []
     }
 ]

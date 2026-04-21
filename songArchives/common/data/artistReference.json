@@ -10,6 +10,13 @@
         ]
     },
     {
+        "artist": "강아윤 / 산나비 OST",
+        "aliases": [
+            "산나비 OST",
+            "산나비"
+        ]
+    },
+    {
         "artist": "거북이",
         "aliases": []
     },
@@ -30,7 +37,15 @@
         "aliases": []
     },
     {
+        "artist": "권진원",
+        "aliases": []
+    },
+    {
         "artist": "그랜드체이스",
+        "aliases": []
+    },
+    {
+        "artist": "기리보이",
         "aliases": []
     },
     {
@@ -92,6 +107,12 @@
     {
         "artist": "다비치",
         "aliases": []
+    },
+    {
+        "artist": "데이먼스 이어",
+        "aliases": [
+            "Damons year"
+        ]
     },
     {
         "artist": "데이식스",
@@ -216,6 +237,10 @@
         ]
     },
     {
+        "artist": "배치기",
+        "aliases": []
+    },
+    {
         "artist": "백예린",
         "aliases": []
     },
@@ -262,13 +287,6 @@
     {
         "artist": "빅마마",
         "aliases": []
-    },
-    {
-        "artist": "강아윤 / 산나비 OST",
-        "aliases": [
-            "산나비 OST",
-            "산나비"
-        ]
     },
     {
         "artist": "산들",
@@ -319,6 +337,10 @@
         "aliases": [
             "Sondia"
         ]
+    },
+    {
+        "artist": "송지은",
+        "aliases": []
     },
     {
         "artist": "송푸름",
@@ -591,6 +613,10 @@
         "aliases": []
     },
     {
+        "artist": "청하",
+        "aliases": []
+    },
+    {
         "artist": "최유리",
         "aliases": []
     },
@@ -683,11 +709,19 @@
         "aliases": []
     },
     {
+        "artist": "호쇼 마린",
+        "aliases": []
+    },
+    {
         "artist": "황가람",
         "aliases": []
     },
     {
         "artist": "Adele",
+        "aliases": []
+    },
+    {
+        "artist": "aespa",
         "aliases": []
     },
     {
@@ -711,6 +745,10 @@
     },
     {
         "artist": "Benson Boone",
+        "aliases": []
+    },
+    {
+        "artist": "BLACKPINK",
         "aliases": []
     },
     {
@@ -750,6 +788,10 @@
         "aliases": []
     },
     {
+        "artist": "I-DLE",
+        "aliases": []
+    },
+    {
         "artist": "IVE",
         "aliases": []
     },
@@ -786,11 +828,19 @@
         "aliases": []
     },
     {
+        "artist": "MONSTA X",
+        "aliases": []
+    },
+    {
         "artist": "QWER",
         "aliases": []
     },
     {
         "artist": "SG워너비 & 브라운아이드걸스",
+        "aliases": []
+    },
+    {
+        "artist": "TWICE",
         "aliases": []
     },
     {

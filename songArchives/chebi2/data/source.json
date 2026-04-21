@@ -1370,6 +1370,34 @@
                     "artist": "강아윤 / 산나비 OST"
                 }
             ]
+        },
+        {
+            "title": "고티어 랜드",
+            "date": "2026-04-12",
+            "url": "https://vod.sooplive.com/player/192602107",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_F46AB060_293179485_1_r&column=2&t=1776025830",
+            "songInfo": [
+                {
+                    "title": "밤, 바다",
+                    "time": "06:30:32",
+                    "artist": "최유리"
+                },
+                {
+                    "title": "예쁘잖아",
+                    "time": "06:37:34",
+                    "artist": "기리보이"
+                },
+                {
+                    "title": "심술",
+                    "time": "06:44:24",
+                    "artist": "볼빨간사춘기"
+                },
+                {
+                    "title": "yours",
+                    "time": "06:48:05",
+                    "artist": "데이먼스 이어"
+                }
+            ]
         }
     ]
 }
