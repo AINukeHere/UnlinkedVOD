@@ -6760,6 +6760,25 @@
                     "recommended": true
                 }
             ]
+        },
+        {
+            "title": "후열 마피아게임(w.강하나 뜨사 산동 야옴 요한)",
+            "date": "2026-04-22",
+            "url": "https://vod.sooplive.com/player/193569365",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_F3197B55_293431483_2_r",
+            "songInfo": [
+                {
+                    "title": "별의 조각",
+                    "time": "3:18:51",
+                    "artist": "윤하"
+                },
+                {
+                    "title": "겨울아이",
+                    "time": "5:50:46",
+                    "artist": "이종용",
+                    "noMistake": true
+                }
+            ]
         }
     ]
 }
