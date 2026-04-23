@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-21T17:53:51.610771+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-23T17:22:34.088428+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -20,6 +20,22 @@ const songs = [
         "videoTitle": "MZ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "0+0",
+    "artist": "한로로",
+    "versions": [
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=18790",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -324,6 +340,22 @@ const songs = [
         "videoTitle": "체비",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_2B9068EE_292934821_1_r&column=2&t=1775235798",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "GoodBoy",
+    "artist": "김필선",
+    "versions": [
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=16773",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -784,6 +816,16 @@ const songs = [
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=18334",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1267,6 +1309,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=17035",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1458,6 +1510,22 @@ const songs = [
         "videoTitle": "MZ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "러브레터(ラブレター)",
+    "artist": "요아소비",
+    "versions": [
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=17720",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2289,6 +2357,22 @@ const songs = [
     ]
   },
   {
+    "title": "여행",
+    "artist": "볼빨간사춘기",
+    "versions": [
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=18003",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "연의 편지",
     "artist": "이수현",
     "versions": [
@@ -2424,6 +2508,22 @@ const songs = [
         "videoTitle": "체비",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "좋아하니까(好きだから)",
+    "artist": "유이카",
+    "versions": [
+      {
+        "date": "2026-04-22",
+        "url": "https://vod.sooplive.com/player/193576481?change_second=17354",
+        "videoTitle": "골골체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

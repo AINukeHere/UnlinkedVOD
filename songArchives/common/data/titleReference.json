@@ -1,5 +1,11 @@
 [
     {
+        "title": "0+0",
+        "aliases": [
+            "0+0 (한로로) / 연습"
+        ]
+    },
+    {
         "title": "11:11",
         "aliases": [
             "11시 11분"
@@ -35,7 +41,9 @@
     },
     {
         "title": "겨울아이",
-        "aliases": ["겨울 아이"]
+        "aliases": [
+            "겨울 아이"
+        ]
     },
     {
         "title": "계절범죄",
@@ -280,6 +288,10 @@
     },
     {
         "title": "들리나요",
+        "aliases": []
+    },
+    {
+        "title": "러브레터(ラブレター)",
         "aliases": []
     },
     {
@@ -807,6 +819,10 @@
         "aliases": []
     },
     {
+        "title": "좋아하니까(好きだから)",
+        "aliases": []
+    },
+    {
         "title": "주옥같다",
         "aliases": []
     },
@@ -1092,6 +1108,10 @@
         "aliases": [
             "골든"
         ]
+    },
+    {
+        "title": "GoodBoy",
+        "aliases": []
     },
     {
         "title": "Gravity",
@@ -1449,6 +1469,10 @@
     },
     {
         "title": "When I Get Old",
+        "aliases": []
+    },
+    {
+        "title": "Why",
         "aliases": []
     },
     {

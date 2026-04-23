@@ -1398,6 +1398,49 @@
                     "artist": "데이먼스 이어"
                 }
             ]
+        },
+        {
+            "title": "골골체비",
+            "date": "2026-04-22",
+            "url": "https://vod.sooplive.com/player/193576481",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
+            "songInfo": [
+                {
+                    "title": "GoodBoy",
+                    "time": "04:39:33",
+                    "artist": "김필선"
+                },
+                {
+                    "title": "난춘",
+                    "time": "04:43:55",
+                    "artist": "새소년"
+                },
+                {
+                    "title": "좋아하니까(好きだから)",
+                    "time": "04:49:14",
+                    "artist": "유이카"
+                },
+                {
+                    "title": "러브레터(ラブレター)",
+                    "time": "04:55:20",
+                    "artist": "요아소비"
+                },
+                {
+                    "title": "여행",
+                    "time": "05:00:03",
+                    "artist": "볼빨간사춘기"
+                },
+                {
+                    "title": "Why",
+                    "time": "05:05:34",
+                    "artist": "태연"
+                },
+                {
+                    "title": "0+0",
+                    "time": "05:13:10",
+                    "artist": "한로로"
+                }
+            ]
         }
     ]
 }
