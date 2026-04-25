@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-23T17:08:49.361500+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-25T19:26:49.692507+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -3049,6 +3049,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-24",
+        "url": "https://vod.sooplive.com/player/193756913?change_second=23147",
+        "videoTitle": "백룸 하빵(w. 꾸름달 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260424_F4D6B139_293481857_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -5257,6 +5267,16 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193869125?change_second=22316",
+        "videoTitle": "감스트 님 노래 대회 최약체입니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -6515,6 +6535,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193869125?change_second=21007",
+        "videoTitle": "감스트 님 노래 대회 최약체입니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -7124,6 +7154,26 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_F3197B55_293431483_2_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193869125?change_second=16389",
+        "videoTitle": "감스트 님 노래 대회 최약체입니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": true
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193869125?change_second=17333",
+        "videoTitle": "감스트 님 노래 대회 최약체입니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -8183,6 +8233,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193869125?change_second=26121",
+        "videoTitle": "감스트 님 노래 대회 최약체입니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -9303,6 +9363,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-24",
+        "url": "https://vod.sooplive.com/player/193756913?change_second=23860",
+        "videoTitle": "백룸 하빵(w. 꾸름달 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260424_F4D6B139_293481857_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -9767,6 +9837,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-24",
+        "url": "https://vod.sooplive.com/player/193756913?change_second=22482",
+        "videoTitle": "백룸 하빵(w. 꾸름달 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260424_F4D6B139_293481857_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10098,6 +10178,16 @@ const songs = [
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r&column=2&t=1775570938",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-24",
+        "url": "https://vod.sooplive.com/player/193756913?change_second=23486",
+        "videoTitle": "백룸 하빵(w. 꾸름달 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260424_F4D6B139_293481857_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -10751,6 +10841,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-24",
+        "url": "https://vod.sooplive.com/player/193756913?change_second=22769",
+        "videoTitle": "백룸 하빵(w. 꾸름달 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260424_F4D6B139_293481857_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10970,6 +11070,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241023_E4C1A7D5_278043774_1_r",
         "noMistake": true,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193869125?change_second=7674",
+        "videoTitle": "감스트 님 노래 대회 최약체입니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]

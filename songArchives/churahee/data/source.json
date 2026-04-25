@@ -6779,6 +6779,89 @@
                     "noMistake": true
                 }
             ]
+        },
+        {
+            "title": "감스트 님 노래 대회 최약체입니다",
+            "date": "2026-04-25",
+            "url": "https://vod.sooplive.com/player/193869125",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
+            "songInfo": [
+                {
+                    "title": "이름에게",
+                    "time": "2:07:54",
+                    "artist": "아이유",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "별의 조각",
+                    "time": "4:33:09",
+                    "artist": "윤하",
+                    "noMistake": true,
+                    "needsReview": true
+                },
+                {
+                    "title": "별의 조각",
+                    "time": "4:48:53",
+                    "artist": "윤하",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "5:50:07",
+                    "artist": "권진아",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "눈사람",
+                    "time": "6:11:56",
+                    "artist": "정승환",
+                    "needsReview": true
+                },
+                {
+                    "title": "서른 즈음에",
+                    "time": "7:15:21",
+                    "artist": "김광석",
+                    "needsReview": true
+                }
+            ]
+        },
+        {
+            "title": "백룸 하빵(w. 꾸름달 카아암)",
+            "date": "2026-04-24",
+            "url": "https://vod.sooplive.com/player/193756913",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260424_F4D6B139_293481857_2_r",
+            "songInfo": [
+                {
+                    "title": "얼음요새",
+                    "time": "6:14:42",
+                    "artist": "김소연"
+                },
+                {
+                    "title": "웃으며",
+                    "time": "6:19:29",
+                    "artist": "신예영"
+                },
+                {
+                    "title": "Track 9",
+                    "time": "6:25:47",
+                    "artist": "이소라",
+                    "recommended": true
+                },
+                {
+                    "title": "오늘 뭐 했는지 말해봐",
+                    "time": "6:31:26",
+                    "artist": "권진아"
+                },
+                {
+                    "title": "아이와 나의 바다",
+                    "time": "6:37:40",
+                    "artist": "아이유",
+                    "recommended": true
+                }
+            ]
         }
     ]
 }
