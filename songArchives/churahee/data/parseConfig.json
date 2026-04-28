@@ -3,7 +3,8 @@
   "parts": {
     "songTitle": "(.+?)",
     "songArtist": "\\s*\\(([^)]*)\\)",
-    "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)"
+    "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
+    "comment": "\\s/(\\*.*?\\*\\/)"
   },
   "regexSequence": "{songTitle}{songArtist?}\\s*{time}"
 }

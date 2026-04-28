@@ -6862,6 +6862,72 @@
                     "recommended": true
                 }
             ]
+        },
+        {
+            "title": "짧게 노래ㅣ님들 저.. 즐찾 5000명 모아보고 싶어요.........",
+            "date": "2026-04-26",
+            "url": "https://vod.sooplive.com/player/193920587",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_C17CB31F_293530825_1_r",
+            "songInfo": [
+                {
+                    "title": "만약에",
+                    "time": "2:53:06",
+                    "artist": "태연",
+                    "noMistake": true
+                },
+                {
+                    "title": "아이와 나의 바다",
+                    "time": "3:02:41",
+                    "artist": "아이유",
+                    "recommended": true
+                },
+                {
+                    "title": "Square",
+                    "time": "3:14:05",
+                    "artist": "백예린"
+                },
+                {
+                    "title": "몽유",
+                    "time": "3:22:25",
+                    "artist": "잇츠",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "위로",
+                    "time": "3:31:48",
+                    "artist": "권진아",
+                    "recommended": true
+                },
+                {
+                    "title": "Rain",
+                    "time": "3:39:48",
+                    "artist": "태연",
+                    "recommended": true
+                },
+                {
+                    "title": "너의 모든 순간",
+                    "time": "3:49:19",
+                    "artist": "성시경"
+                },
+                {
+                    "title": "취기를 빌려",
+                    "time": "3:55:53",
+                    "artist": "산들",
+                    "noMistake": true
+                },
+                {
+                    "title": "마마",
+                    "time": "4:04:59",
+                    "artist": "김필선",
+                    "noMistake": true
+                },
+                {
+                    "title": "INVU",
+                    "time": "4:12:09",
+                    "artist": "태연"
+                }
+            ]
         }
     ]
 }

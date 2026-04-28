@@ -665,16 +665,33 @@ async function parseTimelineLine(line, parseConfig, debug, resolveOpts = null) {
   if (debug) console.error('[DEBUG] parseTimelineLine 입력:', JSON.stringify(line));
   if (!line) return null;
 
-  const needsReview = line.includes('?');
-  const recommended = /[☆★]/.test(line);
-  const noMistake = /[○●]/.test(line);
+  const parts = parseConfig.parts || DEFAULT_PARSE_CONFIG.parts;
+  const commentPattern = parts.comment;
+  let lineWithoutComment = line;
+  if (typeof commentPattern === 'string' && commentPattern.trim() !== '') {
+    try {
+      const commentRegex = new RegExp(commentPattern, 'g');
+      lineWithoutComment = lineWithoutComment.replace(commentRegex, '').trim();
+      if (debug && line !== lineWithoutComment) {
+        console.error('[DEBUG]   comment 제거 후:', JSON.stringify(lineWithoutComment));
+      }
+    } catch (err) {
+      if (debug) {
+        console.error('[DEBUG]   comment 정규식 오류:', err && err.message ? err.message : String(err));
+      }
+    }
+  }
+  if (!lineWithoutComment) return null;
+
+  const needsReview = lineWithoutComment.includes('?');
+  const recommended = /[☆★]/.test(lineWithoutComment);
+  const noMistake = /[○●]/.test(lineWithoutComment);
   if (debug) console.error('[DEBUG]   심볼 → noMistake:', noMistake, 'recommended:', recommended, 'needsReview:', needsReview);
 
-  const cleanLine = line.replace(/[☆★○●□■?]/g, '').trim();
+  const cleanLine = lineWithoutComment.replace(/[☆★○●□■?]/g, '').trim();
   if (debug) console.error('[DEBUG]   심볼 제거 후:', JSON.stringify(cleanLine));
   if (!cleanLine) return null;
 
-  const parts = parseConfig.parts || DEFAULT_PARSE_CONFIG.parts;
   const seq = parseConfig.regexSequence || DEFAULT_PARSE_CONFIG.regexSequence;
   const { regex, groupNames } = buildRegexFromSequence(seq, parts);
   if (debug) console.error('[DEBUG]   regexSequence:', seq, '→ 정규식:', regex.source);
