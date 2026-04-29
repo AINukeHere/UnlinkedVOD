@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-28T20:58:25.361999+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-29T20:22:02.548531+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -1162,13 +1162,13 @@ const songs = [
       },
       {
         "date": "2026-04-28",
-        "url": "https://vod.sooplive.com/player/194092985?change_second=11367",
+        "url": "https://vod.sooplive.com/player/194092985?change_second=11465",
         "videoTitle": "목 풀고 노래뱅ㅣ님들.. 저도 즐찾 5000명 모아보고 싶오요........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -1681,8 +1681,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -2028,9 +2028,9 @@ const songs = [
         "videoTitle": "목 풀고 노래뱅ㅣ님들.. 저도 즐찾 5000명 모아보고 싶오요........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -3830,9 +3830,9 @@ const songs = [
         "videoTitle": "목 풀고 노래뱅ㅣ님들.. 저도 즐찾 5000명 모아보고 싶오요........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -4335,6 +4335,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-29",
+        "url": "https://vod.sooplive.com/player/194235559?change_second=19222",
+        "videoTitle": "게임 스트리머 증명하겠습니다(w. 꾸름달 요한 콧시)ㅣ저도 즐찾 5000명 찍어보고 싶어용....",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_9F552ED7_293610631_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -4693,8 +4703,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -4918,7 +4928,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -5992,6 +6002,16 @@ const songs = [
         "videoTitle": "소통 - 노래책 추가곡 발표회 - 아가리 숲 입주",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251004_5BCBFD2F_288051056_1_r&column=2&t=1759570356",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-29",
+        "url": "https://vod.sooplive.com/player/194235559?change_second=21579",
+        "videoTitle": "게임 스트리머 증명하겠습니다(w. 꾸름달 요한 콧시)ㅣ저도 즐찾 5000명 찍어보고 싶어용....",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_9F552ED7_293610631_2_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -7546,7 +7566,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -8195,6 +8215,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-29",
+        "url": "https://vod.sooplive.com/player/194235559?change_second=19837",
+        "videoTitle": "게임 스트리머 증명하겠습니다(w. 꾸름달 요한 콧시)ㅣ저도 즐찾 5000명 찍어보고 싶어용....",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_9F552ED7_293610631_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -8835,6 +8865,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-29",
+        "url": "https://vod.sooplive.com/player/194235559?change_second=19524",
+        "videoTitle": "게임 스트리머 증명하겠습니다(w. 꾸름달 요한 콧시)ㅣ저도 즐찾 5000명 찍어보고 싶어용....",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_9F552ED7_293610631_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -9054,9 +9094,9 @@ const songs = [
         "videoTitle": "목 풀고 노래뱅ㅣ님들.. 저도 즐찾 5000명 모아보고 싶오요........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -9766,9 +9806,9 @@ const songs = [
         "videoTitle": "목 풀고 노래뱅ㅣ님들.. 저도 즐찾 5000명 모아보고 싶오요........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10487,8 +10527,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -11856,7 +11896,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -12754,7 +12794,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_B9D02C38_293576651_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },

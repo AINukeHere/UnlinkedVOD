@@ -6939,67 +6939,64 @@
                     "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
                     "time": "1:37:36",
                     "artist": "AKMU",
-                    "needsReview": true
+                    "noMistake": true
                 },
                 {
                     "title": "끝이 아닌 것 같아서",
                     "time": "1:47:32",
                     "artist": "바닐라 어쿠스틱",
-                    "needsReview": true
+                    "recommended": true
                 },
                 {
                     "title": "Love poem",
                     "time": "1:56:26",
                     "artist": "아이유",
-                    "needsReview": true
+                    "recommended": true
                 },
                 {
                     "title": "진심이었던 사람만 바보가 돼",
                     "time": "2:06:31",
-                    "artist": "권진아",
-                    "needsReview": true
+                    "artist": "권진아"
                 },
                 {
                     "title": "고백",
                     "time": "2:15:27",
                     "artist": "멜로망스",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true
                 },
                 {
                     "title": "내가 죽으려고 생각한 것은",
                     "time": "2:34:04",
-                    "artist": "나카시마 미카",
-                    "needsReview": true
+                    "artist": "나카시마 미카"
                 },
                 {
                     "title": "오늘도 빛나는 너에게",
                     "time": "2:42:55",
                     "artist": "마크튭",
-                    "needsReview": true
+                    "recommended": true
                 },
                 {
                     "title": "행복하니",
                     "time": "2:58:49",
-                    "artist": "케이시",
-                    "needsReview": true
+                    "artist": "케이시"
                 },
                 {
                     "title": "How Do I Say Goodbye",
-                    "time": "3:09:27",
-                    "artist": "Dean Lewis",
-                    "needsReview": true
+                    "time": "3:11:05",
+                    "artist": "Dean Lewis"
                 },
                 {
                     "title": "숲",
                     "time": "3:20:30",
                     "artist": "최유리",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true
                 },
                 {
                     "title": "북두칠성",
                     "time": "3:30:31",
-                    "artist": "로이킴",
-                    "needsReview": true
+                    "artist": "로이킴"
                 },
                 {
                     "title": "너를 그리는 시간",
@@ -7010,12 +7007,44 @@
                     "title": "Melt Away",
                     "time": "3:42:54",
                     "artist": "아이브",
-                    "needsReview": true
+                    "noMistake": true
                 },
                 {
                     "title": "수고했어, 오늘도",
                     "time": "5:08:05",
                     "artist": "옥상달빛"
+                }
+            ]
+        },
+        {
+            "title": "게임 스트리머 증명하겠습니다(w. 꾸름달 요한 콧시)ㅣ저도 즐찾 5000명 찍어보고 싶어용....",
+            "date": "2026-04-29",
+            "url": "https://vod.sooplive.com/player/194235559",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_9F552ED7_293610631_2_r",
+            "songInfo": [
+                {
+                    "title": "금요일에 만나요",
+                    "time": "5:20:22",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "수고했어, 오늘도",
+                    "time": "5:25:24",
+                    "artist": "옥상달빛"
+                },
+                {
+                    "title": "산책",
+                    "time": "5:30:37",
+                    "artist": "백예린",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "마지막 날처럼",
+                    "time": "5:59:39",
+                    "artist": "유럽",
+                    "noMistake": true,
+                    "recommended": true
                 }
             ]
         }
