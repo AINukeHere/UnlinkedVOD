@@ -6,5 +6,6 @@
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
     "comment": "\\s/(\\*.*?\\*\\/)"
   },
-  "regexSequence": "{songTitle}{songArtist?}\\s*{time}"
+  "regexSequence": "{songTitle}{songArtist?}\\s*{time}",
+  "example": "🎤{곡제목}{(가수명)}{시간}{완곡여부}{추천여부}{검토필요여부}\n파싱하기전 /* */로 둘러쌓인 부분은 무시합니다.\n\n실제 예시:\n🎤뭔가 잘못됐어 (권진아) 04:16:23 ○☆/*최고로 좋아요!*/"
 }

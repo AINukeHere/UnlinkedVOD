@@ -27,14 +27,21 @@
 <body>
 
   <header class="site-header">
-    <div class="site-header-top">
+    <div class="site-header-top site-header-top-three-items">
       <h1 class="site-title">체비의 노래 기록 보관소</h1>
-      <div class="site-header-actions">
+      <div class="data-update-meta">
         <p class="data-last-updated" id="dataLastUpdated" aria-live="polite" title=""></p>
-        <nav class="site-header-nav" aria-label="상위 페이지">
-          <a href="../index.html" class="site-hub-link">목록으로 돌아가기</a>
-        </nav>
+        <button
+          type="button"
+          id="dataUpdateInfoButton"
+          class="data-update-info-button"
+        >
+          데이터는 어떻게 갱신되나요? ❓
+        </button>
       </div>
+      <nav class="site-header-nav" aria-label="상위 페이지">
+        <a href="../index.html" class="site-hub-link">목록으로 돌아가기</a>
+      </nav>
     </div>
     <div class="toolbar">
       <input type="text" id="searchBar" class="search-input" placeholder="노래 검색" autocomplete="off" />
@@ -117,6 +124,37 @@
 
   <script src="songs.js"></script>
   <script src="../common/archive-page.js"></script>
+  <script>
+    (function attachDataUpdateInfoHandler() {
+      var updateInfoButton = document.getElementById('dataUpdateInfoButton');
+      if (!updateInfoButton) return;
+      var parseExample = '';
+
+      fetch('./data/parseConfig.json')
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error('Failed to load parseConfig.json');
+          }
+          return response.json();
+        })
+        .then(function (config) {
+          if (config && typeof config.example === 'string') {
+            parseExample = config.example.trim();
+          }
+        })
+        .catch(function () {
+          parseExample = '';
+        });
+
+      updateInfoButton.addEventListener('click', function () {
+        var updateInfoTemplateMessage = '개발자가 해당 스트리머의 다시보기에 작성된 타임라인 댓글을 기반으로 데이터를 주기적으로 갱신하고 있습니다.';
+        if (parseExample) {
+          updateInfoTemplateMessage += '\n\n현재 이 스트리머에 적용중인 타임라인 파싱 규칙 예시:\n' + parseExample;
+        }
+        alert(updateInfoTemplateMessage);
+      });
+    })();
+  </script>
 
 </body>
 </html>
