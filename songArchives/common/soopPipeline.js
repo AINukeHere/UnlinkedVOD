@@ -876,7 +876,7 @@ async function runPipeline(vodUrl, repoRoot, streamerId = 'churahee', preloadedV
   let songInfo = [];
   try {
     for (const c of comments) {
-      if (!COMMENT_AUTHOR_ID || (c.user_id || '') !== COMMENT_AUTHOR_ID) continue;
+      if (!COMMENT_AUTHOR_ID || !COMMENT_AUTHOR_ID.includes(c.user_id || '')) continue;
       if (debug) console.error('[DEBUG] --- comment_author_id 댓글 파싱 시작 ---');
       const parsedList = await parseCommentHtmlToSongInfo(c.comment, parseConfig, debug, resolveOpts);
       if (debug) console.error('[DEBUG] --- 파싱 완료 → 곡 수:', parsedList.length);

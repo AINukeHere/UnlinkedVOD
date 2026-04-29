@@ -381,6 +381,10 @@
         "aliases": []
     },
     {
+        "artist": "아리아나 그란데",
+        "aliases": []
+    },
+    {
         "artist": "아웃사이더",
         "aliases": []
     },
@@ -489,6 +493,10 @@
         "aliases": []
     },
     {
+        "artist": "유다빈밴드",
+        "aliases": []
+    },
+    {
         "artist": "유럽",
         "aliases": [
             "ULUV"
@@ -514,6 +522,10 @@
     },
     {
         "artist": "윤하",
+        "aliases": []
+    },
+    {
+        "artist": "음율",
         "aliases": []
     },
     {
@@ -856,8 +868,18 @@
         "aliases": []
     },
     {
+        "artist": "TOIL",
+        "aliases": []
+    },
+    {
         "artist": "TWICE",
         "aliases": []
+    },
+    {
+        "artist": "Vaundy",
+        "aliases": [
+            "바운디"
+        ]
     },
     {
         "artist": "VIVIZ",

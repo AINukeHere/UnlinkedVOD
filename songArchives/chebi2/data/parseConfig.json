@@ -5,5 +5,6 @@
     "songArtist": "\\s*\\(([^)]*)\\)",
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)"
   },
-  "regexSequence": "{time}\\s*\\|\\s*체비\\s*-\\s*{songTitle}{songArtist?}\\s*$"
+  "regexSequence": "{time}\\s*\\|\\s*체비\\s*-\\s*{songTitle}{songArtist?}\\s*$",
+  "example": "04:16:23 | 🎤체비 - 0+0 (한로로)"
 }

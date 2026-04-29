@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-29T20:56:30.704523+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-29T21:09:14.271033+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -46,6 +46,16 @@ const songs = [
         "videoTitle": "생일이었ㄲ던 쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=7618",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -220,6 +230,16 @@ const songs = [
         "videoTitle": "[역팬 & 확정방셀] 분내 품멜파티",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260313_E66A0429_292366011_1_r&column=2&t=1773430946",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=21797",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -518,6 +538,22 @@ const songs = [
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Letter",
+    "artist": "유다빈밴드",
+    "versions": [
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=8735",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -907,6 +943,22 @@ const songs = [
     ]
   },
   {
+    "title": "breathin",
+    "artist": "아리아나 그란데",
+    "versions": [
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=21394",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "yours",
     "artist": "데이먼스 이어",
     "versions": [
@@ -979,6 +1031,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=22613",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -992,6 +1054,22 @@ const songs = [
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "검정색하트",
+    "artist": "TOIL",
+    "versions": [
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=21044",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1060,6 +1138,16 @@ const songs = [
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=19656",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1458,6 +1546,16 @@ const songs = [
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=8392",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2193,6 +2291,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=22212",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2453,6 +2561,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=18908",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2508,6 +2626,22 @@ const songs = [
         "videoTitle": "갑자기 불려간 옵치 CK 승",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "입춘",
+    "artist": "한로로",
+    "versions": [
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=20033",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2679,6 +2813,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=19221",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2718,6 +2862,16 @@ const songs = [
         "videoTitle": "체비",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-25",
+        "url": "https://vod.sooplive.com/player/193861355?change_second=7928",
+        "videoTitle": "생일 음주 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

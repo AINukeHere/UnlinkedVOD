@@ -1474,6 +1474,79 @@
                     "artist": "930 / Feat.Bona Zoe"
                 }
             ]
+        },
+        {
+            "title": "생일 음주 노래뱅",
+            "date": "2026-04-25",
+            "url": "https://vod.sooplive.com/player/193861355",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+            "songInfo": [
+                {
+                    "title": "0+0",
+                    "time": "2:06:58",
+                    "artist": "한로로"
+                },
+                {
+                    "title": "히로인",
+                    "time": "2:12:08",
+                    "artist": "Back number"
+                },
+                {
+                    "title": "달과 6펜스",
+                    "time": "2:19:52",
+                    "artist": "심규선"
+                },
+                {
+                    "title": "Letter",
+                    "time": "2:25:35",
+                    "artist": "유다빈밴드"
+                },
+                {
+                    "title": "우주",
+                    "time": "5:15:08",
+                    "artist": "유하"
+                },
+                {
+                    "title": "피차일반",
+                    "time": "5:20:21",
+                    "artist": "음율"
+                },
+                {
+                    "title": "괴수의 꽃노래",
+                    "time": "5:27:36",
+                    "artist": "Vaundy"
+                },
+                {
+                    "title": "입춘",
+                    "time": "5:33:53",
+                    "artist": "한로로"
+                },
+                {
+                    "title": "검정색하트",
+                    "time": "5:50:44",
+                    "artist": "TOIL"
+                },
+                {
+                    "title": "breathin",
+                    "time": "5:56:34",
+                    "artist": "아리아나 그란데"
+                },
+                {
+                    "title": "Discord",
+                    "time": "6:03:17",
+                    "artist": "QWER"
+                },
+                {
+                    "title": "시간과 낙엽",
+                    "time": "6:10:12",
+                    "artist": "AKMU"
+                },
+                {
+                    "title": "yours",
+                    "time": "6:16:53",
+                    "artist": "데이먼스 이어"
+                }
+            ]
         }
     ]
 }
