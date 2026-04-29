@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-23T17:22:34.088428+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-04-29T20:56:30.704523+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -36,6 +36,16 @@ const songs = [
         "videoTitle": "골골체비",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-26",
+        "url": "https://vod.sooplive.com/player/193974065?change_second=15383",
+        "videoTitle": "생일이었ㄲ던 쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -688,6 +698,22 @@ const songs = [
         "videoTitle": "즐찾 5천 찍고 십어요",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Replace You",
+    "artist": "930 / Feat.Bona Zoe",
+    "versions": [
+      {
+        "date": "2026-04-26",
+        "url": "https://vod.sooplive.com/player/193974065?change_second=17095",
+        "videoTitle": "생일이었ㄲ던 쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1761,6 +1787,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-04-26",
+        "url": "https://vod.sooplive.com/player/193974065?change_second=16720",
+        "videoTitle": "생일이었ㄲ던 쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2405,6 +2441,22 @@ const songs = [
     ]
   },
   {
+    "title": "우주",
+    "artist": "유하",
+    "versions": [
+      {
+        "date": "2026-04-26",
+        "url": "https://vod.sooplive.com/player/193974065?change_second=15665",
+        "videoTitle": "생일이었ㄲ던 쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "운이 좋았지",
     "artist": "권진아",
     "versions": [
@@ -2556,6 +2608,16 @@ const songs = [
         "videoTitle": "즐찾 5천 찍고 십어요",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-26",
+        "url": "https://vod.sooplive.com/player/193974065?change_second=16006",
+        "videoTitle": "생일이었ㄲ던 쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

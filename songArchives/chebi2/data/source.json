@@ -1441,6 +1441,39 @@
                     "artist": "한로로"
                 }
             ]
+        },
+        {
+            "title": "생일이었ㄲ던 쳅이",
+            "date": "2026-04-26",
+            "url": "https://vod.sooplive.com/player/193974065",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
+            "songInfo": [
+                {
+                    "title": "0+0",
+                    "time": "04:16:23",
+                    "artist": "한로로"
+                },
+                {
+                    "title": "우주",
+                    "time": "04:21:05",
+                    "artist": "유하"
+                },
+                {
+                    "title": "첫 키스에 내 심장은 120BPM",
+                    "time": "04:26:46",
+                    "artist": "경서"
+                },
+                {
+                    "title": "민들레",
+                    "time": "04:38:40",
+                    "artist": "우효"
+                },
+                {
+                    "title": "Replace You",
+                    "time": "04:44:55",
+                    "artist": "930 / Feat.Bona Zoe"
+                }
+            ]
         }
     ]
 }
