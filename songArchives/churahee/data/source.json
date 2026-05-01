@@ -7045,6 +7045,79 @@
                     "recommended": true
                 }
             ]
+        },
+        {
+            "title": "2026-05-01 [7한이야기] 앙또의 7(Chill)한 이야기 츄라희 편",
+            "date": "2026-05-01",
+            "url": "https://vod.sooplive.com/player/194375541",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_01CAE2F3_293656619_1_r",
+            "songInfo": [
+                {
+                    "title": "이름에게",
+                    "time": "1:17:32",
+                    "artist": "아이유",
+                    "needsReview": true
+                },
+                {
+                    "title": "마마",
+                    "time": "2:20:30",
+                    "artist": "김필선",
+                    "needsReview": true
+                },
+                {
+                    "title": "오늘 뭐 했는지 말해봐",
+                    "time": "2:26:06",
+                    "artist": "권진아",
+                    "needsReview": true
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+            "date": "2026-05-01",
+            "url": "https://vod.sooplive.com/player/194395219",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+            "songInfo": [
+                {
+                    "title": "눈사람",
+                    "time": "56:08",
+                    "artist": "정승환",
+                    "needsReview": true
+                },
+                {
+                    "title": "Rain",
+                    "time": "1:12:47",
+                    "artist": "태연",
+                    "needsReview": true
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "1:40:32",
+                    "artist": "권진아",
+                    "needsReview": true
+                },
+                {
+                    "title": "내일 또 보자",
+                    "time": "1:50:21",
+                    "artist": "하츠네 미쿠"
+                },
+                {
+                    "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
+                    "time": "2:04:22",
+                    "artist": "AKMU",
+                    "needsReview": true
+                },
+                {
+                    "title": "인연",
+                    "time": "2:23:40",
+                    "artist": "이선희"
+                },
+                {
+                    "title": "수고했어, 오늘도",
+                    "time": "4:01:08",
+                    "artist": "옥상달빛"
+                }
+            ]
         }
     ]
 }
