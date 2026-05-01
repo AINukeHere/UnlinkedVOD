@@ -6798,14 +6798,13 @@
                     "time": "4:33:09",
                     "artist": "윤하",
                     "noMistake": true,
-                    "needsReview": true
+                    "recommended": true
                 },
                 {
                     "title": "별의 조각",
                     "time": "4:48:53",
                     "artist": "윤하",
-                    "noMistake": true,
-                    "recommended": true
+                    "noMistake": true
                 },
                 {
                     "title": "뭔가 잘못됐어",
@@ -6818,13 +6817,12 @@
                     "title": "눈사람",
                     "time": "6:11:56",
                     "artist": "정승환",
-                    "needsReview": true
+                    "recommended": true
                 },
                 {
                     "title": "서른 즈음에",
                     "time": "7:15:21",
-                    "artist": "김광석",
-                    "needsReview": true
+                    "artist": "김광석"
                 }
             ]
         },

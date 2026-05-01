@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-04-29T20:22:02.548531+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-01T12:28:50.367079+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -5401,8 +5401,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -7329,8 +7329,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
         "noMistake": true,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       },
       {
         "date": "2026-04-25",
@@ -7339,7 +7339,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
         "noMistake": true,
-        "recommended": true,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -8428,7 +8428,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_938572F3_293512791_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
