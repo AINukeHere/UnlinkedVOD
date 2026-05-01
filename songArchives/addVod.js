@@ -2,6 +2,7 @@
 /**
  * Add or update a VOD from a Soop URL. Archive = match VOD streamer id (API field `writer_id`) to config/folder.
  * Usage (repo root): npm run add -- "https://vod.sooplive.com/player/{videoId}"
+ * 강제 아카이브 지정: npm run add -- "https://vod.sooplive.com/player/{videoId}" --streamer chebi2
  * 비대화형(제목/가수 확인 프롬프트 생략): ADD_VOD_NON_INTERACTIVE=1 npm run add -- "<url>"
  */
 const { spawnSync } = require('child_process');
@@ -12,13 +13,73 @@ const {
   runPipeline,
   loadStreamerConfig,
   findArchiveFolderByVodStreamerId,
+  listConfiguredStreamerIds,
+  normalizeSoopUserId,
 } = require('./common/soopPipeline');
 
 const songArchivesRoot = path.resolve(__dirname);
-const url = process.argv[2];
+const argv = process.argv.slice(2);
+
+function parseCliArgs(args) {
+  let url = '';
+  let forceStreamerId = '';
+
+  for (let i = 0; i < args.length; i++) {
+    const token = args[i];
+    if (!token) continue;
+
+    if (token === '--streamer' || token === '--force-streamer' || token === '-s') {
+      const next = args[i + 1];
+      if (!next || next.startsWith('-')) {
+        throw new Error(`옵션 ${token} 뒤에 스트리머 id를 넣어 주세요. 예: ${token} chebi2`);
+      }
+      forceStreamerId = next.trim();
+      i++;
+      continue;
+    }
+
+    if (!url) {
+      url = token.trim();
+      continue;
+    }
+
+    throw new Error(`알 수 없는 인자 "${token}" 입니다.`);
+  }
+
+  return { url, forceStreamerId };
+}
+
+function formatUsage() {
+  return [
+    'Usage:',
+    '  npm run add -- "<vod_url>"',
+    '  npm run add -- "<vod_url>" --streamer <archiveId>',
+    '  npm run add -- "<vod_url>" -s <archiveId>',
+  ].join('\n');
+}
+
+function resolveForcedStreamerId(songArchivesRootPath, forcedRaw) {
+  const configuredIds = listConfiguredStreamerIds(songArchivesRootPath);
+  const normalizedForced = normalizeSoopUserId(forcedRaw);
+  const matched = configuredIds.find((id) => normalizeSoopUserId(id) === normalizedForced);
+  if (matched) return { streamerId: matched };
+  return { streamerId: null, configuredIds };
+}
+
+let cliArgs;
+try {
+  cliArgs = parseCliArgs(argv);
+} catch (err) {
+  console.error(err.message || err);
+  console.error('');
+  console.error(formatUsage());
+  process.exit(1);
+}
+
+const { url, forceStreamerId } = cliArgs;
 
 if (!url) {
-  console.error('Usage: npm run add -- "https://vod.sooplive.com/player/{videoId}"');
+  console.error(formatUsage());
   process.exit(1);
 }
 
@@ -66,13 +127,29 @@ async function main() {
   }
 
   const vodStreamerId = vodInfo.writer_id;
-  const resolved = findArchiveFolderByVodStreamerId(songArchivesRoot, vodStreamerId);
-  if (!resolved.streamerId) {
-    console.error(formatResolveError(resolved, vodStreamerId));
-    process.exit(1);
+  let streamerId = '';
+  if (forceStreamerId) {
+    const forced = resolveForcedStreamerId(songArchivesRoot, forceStreamerId);
+    if (!forced.streamerId) {
+      const configured = forced.configuredIds.length ? forced.configuredIds.join(', ') : '(없음)';
+      console.error(`강제 지정한 스트리머 id "${forceStreamerId}" 를 찾을 수 없습니다.`);
+      console.error(`사용 가능한 아카이브: ${configured}`);
+      process.exit(1);
+    }
+    streamerId = forced.streamerId;
+    if (normalizeSoopUserId(vodStreamerId) !== normalizeSoopUserId(streamerId)) {
+      console.log(
+        `[override] VOD writer_id="${vodStreamerId}" 이지만 --streamer "${streamerId}" 로 강제 저장합니다.`
+      );
+    }
+  } else {
+    const resolved = findArchiveFolderByVodStreamerId(songArchivesRoot, vodStreamerId);
+    if (!resolved.streamerId) {
+      console.error(formatResolveError(resolved, vodStreamerId));
+      process.exit(1);
+    }
+    streamerId = resolved.streamerId;
   }
-
-  const streamerId = resolved.streamerId;
 
   try {
     const result = await runPipeline(url, songArchivesRoot, streamerId, vodInfo);
