@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-02T14:07:39.061078+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-02T23:33:07.309228+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -2629,12 +2629,12 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=4367",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -4959,9 +4959,9 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=6621",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -5427,12 +5427,12 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=3368",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -6755,12 +6755,12 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=6032",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
-        "noMistake": false,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -8929,9 +8929,9 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=14468",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -9883,12 +9883,12 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=7462",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -11467,9 +11467,9 @@ const songs = [
       {
         "date": "2026-05-01",
         "url": "https://vod.sooplive.com/player/194395219?change_second=8620",
-        "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+        "videoTitle": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

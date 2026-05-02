@@ -7073,28 +7073,29 @@
             ]
         },
         {
-            "title": "[버블란] 안녕하세요 버블란 신입입니다 허허",
+            "title": "앙또 님 7(chill)한 이야기 후열 - 짧노래",
             "date": "2026-05-01",
             "url": "https://vod.sooplive.com/player/194395219",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
             "songInfo": [
                 {
                     "title": "눈사람",
                     "time": "56:08",
                     "artist": "정승환",
-                    "needsReview": true
+                    "noMistake": true,
+                    "recommended": true
                 },
                 {
                     "title": "Rain",
                     "time": "1:12:47",
                     "artist": "태연",
-                    "needsReview": true
+                    "recommended": true
                 },
                 {
                     "title": "뭔가 잘못됐어",
                     "time": "1:40:32",
                     "artist": "권진아",
-                    "needsReview": true
+                    "noMistake": true
                 },
                 {
                     "title": "내일 또 보자",
@@ -7104,8 +7105,7 @@
                 {
                     "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
                     "time": "2:04:22",
-                    "artist": "AKMU",
-                    "needsReview": true
+                    "artist": "AKMU"
                 },
                 {
                     "title": "인연",
