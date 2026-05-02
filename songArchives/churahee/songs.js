@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-01T20:16:53.364876+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-02T14:07:39.061078+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -8932,6 +8932,16 @@ const songs = [
         "videoTitle": "[버블란] 안녕하세요 버블란 신입입니다 허허",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-02",
+        "url": "https://vod.sooplive.com/player/194527905?change_second=33531",
+        "videoTitle": "[버블란] 버블란 들어오자마자 네모네모세상 죄송합니다 하지만 api 도와주신다면 사랑합니다ㅣ픽크타",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260502_E5E1125D_293685595_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
