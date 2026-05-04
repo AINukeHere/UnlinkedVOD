@@ -7131,6 +7131,89 @@
                     "artist": "옥상달빛"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 후열 카페털기",
+            "date": "2026-05-03",
+            "url": "https://vod.sooplive.com/player/194636321",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_65AE2330_293713703_2_r",
+            "songInfo": [
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "52:50",
+                    "artist": "자우림",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "만개화",
+                    "time": "1:12:02",
+                    "artist": "안예은"
+                },
+                {
+                    "title": "어른",
+                    "time": "9:01:38",
+                    "artist": "손디아",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "수고했어, 오늘도",
+                    "time": "9:11:37",
+                    "artist": "옥상달빛"
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+            "date": "2026-05-04",
+            "url": "https://vod.sooplive.com/player/194733695",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+            "songInfo": [
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "1:53:31",
+                    "artist": "한로로",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "끝",
+                    "time": "1:58:55",
+                    "artist": "권진아",
+                    "recommended": true
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "2:06:26",
+                    "artist": "이수현",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "혼자라고 생각말기",
+                    "time": "2:19:25",
+                    "artist": "김보경",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "빌려온 고양이",
+                    "time": "2:32:56",
+                    "artist": "아일릿"
+                },
+                {
+                    "title": "다시 만날까 봐",
+                    "time": "2:41:35",
+                    "artist": "이예준",
+                    "recommended": true
+                },
+                {
+                    "title": "수고했어, 오늘도",
+                    "time": "10:21:31",
+                    "artist": "옥상달빛"
+                }
+            ]
         }
     ]
 }

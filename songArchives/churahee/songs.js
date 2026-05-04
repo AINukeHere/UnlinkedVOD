@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-02T23:36:56.343722+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-04T22:12:33.804149+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -4647,6 +4647,22 @@ const songs = [
     ]
   },
   {
+    "title": "끝",
+    "artist": "권진아",
+    "versions": [
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=7135",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "끝났다는 것은 다시 시작된다는 것을",
     "artist": "산나비",
     "versions": [
@@ -5519,6 +5535,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=9695",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -6088,6 +6114,16 @@ const songs = [
         "videoTitle": "소통 - 해초마을(자작나무 숲 지박령)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251018_304D3D70_288422692_1_r&column=2&t=1761035049",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-03",
+        "url": "https://vod.sooplive.com/player/194636321?change_second=4322",
+        "videoTitle": "[버블란] 후열 카페털기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_65AE2330_293713703_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8099,6 +8135,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=9176",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8182,6 +8228,22 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260113_4D3234BE_290719816_1_r&column=2&t=1768406055",
         "noMistake": true,
         "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "사랑하게 될 거야",
+    "artist": "한로로",
+    "versions": [
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=6811",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -8945,6 +9007,26 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-03",
+        "url": "https://vod.sooplive.com/player/194636321?change_second=33097",
+        "videoTitle": "[버블란] 후열 카페털기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_65AE2330_293713703_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=37291",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -9306,6 +9388,16 @@ const songs = [
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r&column=2&t=1775570938",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-03",
+        "url": "https://vod.sooplive.com/player/194636321?change_second=3170",
+        "videoTitle": "[버블란] 후열 카페털기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_65AE2330_293713703_2_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -9995,6 +10087,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-03",
+        "url": "https://vod.sooplive.com/player/194636321?change_second=32498",
+        "videoTitle": "[버블란] 후열 카페털기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_65AE2330_293713703_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -10272,6 +10374,22 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250712_90E7AACC_285752106_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "연의 편지",
+    "artist": "이수현",
+    "versions": [
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=7586",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -13114,6 +13232,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20241022_B688D942_278017246_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-04",
+        "url": "https://vod.sooplive.com/player/194733695?change_second=8365",
+        "videoTitle": "[버블란] 후열 배그(w.다시바 루루시 초금비)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
