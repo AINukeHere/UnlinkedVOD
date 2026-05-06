@@ -7214,6 +7214,50 @@
                     "artist": "옥상달빛"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 후열 소통",
+            "date": "2026-05-05",
+            "url": "https://vod.sooplive.com/player/194829787",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260505_C5C45D9B_293765673_2_r",
+            "songInfo": [
+                {
+                    "title": "고맙습니다",
+                    "time": "5:16:01",
+                    "artist": "심규선"
+                },
+                {
+                    "title": "You already have",
+                    "time": "5:20:15",
+                    "artist": "권진아",
+                    "recommended": true
+                },
+                {
+                    "title": "얼음요새",
+                    "time": "5:28:16",
+                    "artist": "김소연",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "오늘 뭐 했는지 말해봐",
+                    "time": "6:37:09",
+                    "artist": "권진아",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "Rain",
+                    "time": "7:25:22",
+                    "artist": "태연",
+                    "noMistake": true
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "8:24:01",
+                    "artist": "이수현"
+                }
+            ]
         }
     ]
 }
