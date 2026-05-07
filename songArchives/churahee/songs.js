@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-07T04:52:33.999730+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-07T05:27:54.640450+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -5077,9 +5077,19 @@ const songs = [
     ]
   },
   {
-    "title": "너무 보고 싶어",
+    "title": "너무 보고싶어",
     "artist": "어쿠스틱 콜라보",
     "versions": [
+      {
+        "date": "2024-10-08",
+        "url": "https://vod.sooplive.co.kr/player/138617143?change_second=14576",
+        "videoTitle": "소통 - 버츄얼 노래 맞히기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20241008_654FE77D_277549316_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
       {
         "date": "2024-09-02",
         "url": "https://vod.sooplive.com/player/135110239?change_second=10674",
@@ -5111,52 +5121,6 @@ const songs = [
         "needsReview": false
       },
       {
-        "date": "2026-01-07",
-        "url": "https://vod.sooplive.com/player/183042697?change_second=9952",
-        "videoTitle": "소통 - 팬캐릭터 정하기 - 노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260107_E8BF3096_290555078_1_r&column=2&t=1767862445",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-07-23",
-        "url": "https://vod.sooplive.com/player/166771237?change_second=5604",
-        "videoTitle": "소통 - 노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250723_A7188D84_286048382_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
-        "date": "2025-06-13",
-        "url": "https://vod.sooplive.com/player/162982095?change_second=2212",
-        "videoTitle": "대회 노래 정하기",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250613_B54FAADD_284954870_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "너무 보고싶어",
-    "artist": "어쿠스틱 콜라보",
-    "versions": [
-      {
-        "date": "2024-10-08",
-        "url": "https://vod.sooplive.co.kr/player/138617143?change_second=14576",
-        "videoTitle": "소통 - 버츄얼 노래 맞히기",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20241008_654FE77D_277549316_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      },
-      {
         "date": "2026-02-24",
         "url": "https://vod.sooplive.co.kr/player/187845787?change_second=3259",
         "videoTitle": "소통 - 노래",
@@ -5173,6 +5137,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=183347001_1768039616_1_r&column=2&t=1768405926",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-01-07",
+        "url": "https://vod.sooplive.com/player/183042697?change_second=9952",
+        "videoTitle": "소통 - 팬캐릭터 정하기 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260107_E8BF3096_290555078_1_r&column=2&t=1767862445",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       },
@@ -5197,11 +5171,31 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2025-07-23",
+        "url": "https://vod.sooplive.com/player/166771237?change_second=5604",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250723_A7188D84_286048382_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2025-07-19",
         "url": "https://vod.sooplive.co.kr/player/166420689?change_second=7973",
         "videoTitle": "소통 - 노래 - 마더 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250719_B27DD2CC_285942110_5_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-06-13",
+        "url": "https://vod.sooplive.com/player/162982095?change_second=2212",
+        "videoTitle": "대회 노래 정하기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250613_B54FAADD_284954870_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
