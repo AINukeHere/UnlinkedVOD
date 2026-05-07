@@ -7258,6 +7258,56 @@
                     "artist": "이수현"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 주황머리 그녀와 싱크룸(w.송현)",
+            "date": "2026-05-06",
+            "url": "https://vod.sooplive.com/player/194919679",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260506_E9E77AFF_293795573_2_r",
+            "songInfo": [
+                {
+                    "title": "Love me or Leave me",
+                    "time": "1:24:36",
+                    "artist": "데이식스"
+                },
+                {
+                    "title": "11:11",
+                    "time": "1:30:58",
+                    "artist": "태연"
+                },
+                {
+                    "title": "스토커",
+                    "time": "1:37:18",
+                    "artist": "10CM"
+                },
+                {
+                    "title": "밤양갱",
+                    "time": "1:44:25",
+                    "artist": "비비"
+                },
+                {
+                    "title": "나에게로의 초대",
+                    "time": "1:48:31",
+                    "artist": "정경화",
+                    "recommended": true
+                },
+                {
+                    "title": "comethru",
+                    "time": "2:18:43",
+                    "artist": "Jeremy Zucker"
+                },
+                {
+                    "title": "눈물샤워",
+                    "time": "3:40:37",
+                    "artist": "배치기"
+                },
+                {
+                    "title": "몽유",
+                    "time": "3:55:42",
+                    "artist": "잇츠",
+                    "noMistake": true
+                }
+            ]
         }
     ]
 }
