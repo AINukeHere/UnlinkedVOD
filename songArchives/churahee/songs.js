@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-07T05:27:54.640450+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-07T10:20:34.157495+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -1336,14 +1336,14 @@ const songs = [
   },
   {
     "title": "JANE DOE",
-    "artist": "",
+    "artist": "요네즈 켄시",
     "versions": [
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=13573",
-        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "url": "https://vod.sooplive.com/player/190970809?change_second=13573",
+        "videoTitle": "오덕가왕(w. 콧시) - 후열 더켓몬",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_30F268D5_292737081_1_r&column=2&t=1774878113",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -8711,25 +8711,25 @@ const songs = [
     ]
   },
   {
-    "title": "세상은 사랑에 빠져있어",
-    "artist": "",
+    "title": "세계는 사랑에 빠져있어",
+    "artist": "CHICO with HoneyWorks",
     "versions": [
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=10011",
-        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "url": "https://vod.sooplive.com/player/190970809?change_second=10009",
+        "videoTitle": "오덕가왕(w. 콧시) - 후열 더켓몬",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_30F268D5_292737081_1_r&column=2&t=1774878113",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
       },
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=23647",
-        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "url": "https://vod.sooplive.com/player/190970809?change_second=23647",
+        "videoTitle": "오덕가왕(w. 콧시) - 후열 더켓몬",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_30F268D5_292737081_1_r&column=2&t=1774878113",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -12730,10 +12730,10 @@ const songs = [
       },
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190970809?change_second=6038",
-        "videoTitle": "[오덕가왕 콧&츄] 아싸 3등 !!!! 후열 더켓몬",
+        "url": "https://vod.sooplive.com/player/190970809?change_second=6036",
+        "videoTitle": "오덕가왕(w. 콧시) - 후열 더켓몬",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_6BF62477_292737081_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_30F268D5_292737081_1_r&column=2&t=1774878113",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
