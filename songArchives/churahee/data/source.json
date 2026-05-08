@@ -7092,19 +7092,19 @@
                     "title": "이름에게",
                     "time": "1:17:32",
                     "artist": "아이유",
-                    "needsReview": true
+                    "noMistake": true
                 },
                 {
                     "title": "마마",
                     "time": "2:20:30",
                     "artist": "김필선",
-                    "needsReview": true
+                    "noMistake": true
                 },
                 {
                     "title": "오늘 뭐 했는지 말해봐",
                     "time": "2:26:06",
                     "artist": "권진아",
-                    "needsReview": true
+                    "noMistake": true
                 }
             ]
         },

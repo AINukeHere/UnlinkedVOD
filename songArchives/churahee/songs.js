@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-08T06:39:04.913475+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-08T13:35:16.354245+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -5900,9 +5900,9 @@ const songs = [
         "videoTitle": "2026-05-01 [7한이야기] 앙또의 7(Chill)한 이야기 츄라희 편",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_01CAE2F3_293656619_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
@@ -10792,9 +10792,9 @@ const songs = [
         "videoTitle": "2026-05-01 [7한이야기] 앙또의 7(Chill)한 이야기 츄라희 편",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_01CAE2F3_293656619_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       },
       {
         "date": "2026-05-05",
@@ -11722,9 +11722,9 @@ const songs = [
         "videoTitle": "2026-05-01 [7한이야기] 앙또의 7(Chill)한 이야기 츄라희 편",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_01CAE2F3_293656619_1_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true
+        "needsReview": false
       }
     ]
   },
