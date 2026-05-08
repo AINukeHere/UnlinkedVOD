@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-07T10:20:34.157495+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-08T06:27:40.883014+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -502,14 +502,14 @@ const songs = [
   },
   {
     "title": "Cinderella",
-    "artist": "",
+    "artist": "타이미",
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=13546",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=13546",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -786,10 +786,10 @@ const songs = [
       },
       {
         "date": "2026-03-17",
-        "url": "https://vod.sooplive.co.kr/player/190030491?change_second=20782",
+        "url": "https://vod.sooplive.com/player/190030491?change_second=20782",
         "videoTitle": "더켓몬 달리기 3일차",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_0D8A8DE2_292464615_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_0D8A8DE2_292464615_2_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -980,10 +980,10 @@ const songs = [
       },
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=11369",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=11369",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1304,14 +1304,14 @@ const songs = [
   },
   {
     "title": "IRIS OUT",
-    "artist": "",
+    "artist": "요네즈 켄시",
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=13271",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=13271",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1414,10 +1414,10 @@ const songs = [
       },
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=13429",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=13429",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1984,14 +1984,14 @@ const songs = [
   },
   {
     "title": "Maria",
-    "artist": "",
+    "artist": "김아중",
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=11877",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=11877",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3006,14 +3006,14 @@ const songs = [
   },
   {
     "title": "Tears",
-    "artist": "",
+    "artist": "소찬휘",
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=12148",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=12148",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3572,22 +3572,6 @@ const songs = [
   },
   {
     "title": "illa illa",
-    "artist": "B.I",
-    "versions": [
-      {
-        "date": "2026-04-03",
-        "url": "https://vod.sooplive.com/player/191693311?change_second=2907",
-        "videoTitle": "나비 ck 두개재",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_65A7979C_292926259_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "illa illa",
     "artist": "주니엘",
     "versions": [
       {
@@ -3596,6 +3580,16 @@ const songs = [
         "videoTitle": "소통 - 괴담 읽기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-04-03",
+        "url": "https://vod.sooplive.com/player/191693311?change_second=2907",
+        "videoTitle": "소통 - 오버워치 나비ck",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_C42F605B_292926259_1_r&column=2&t=1775571130",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -6199,6 +6193,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2026-04-03",
+        "url": "https://vod.sooplive.com/player/191693311?change_second=22680",
+        "videoTitle": "소통 - 오버워치 나비ck",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_C42F605B_292926259_1_r&column=2&t=1775571130",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2026-05-03",
         "url": "https://vod.sooplive.com/player/194636321?change_second=4322",
         "videoTitle": "[버블란] 후열 카페털기",
@@ -6318,14 +6322,14 @@ const songs = [
   },
   {
     "title": "말해 Yes or No",
-    "artist": "",
+    "artist": "지코",
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=13676",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=13676",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -7251,6 +7255,22 @@ const songs = [
     ]
   },
   {
+    "title": "벚꽃 엔딩",
+    "artist": "버스커 버스커",
+    "versions": [
+      {
+        "date": "2026-04-03",
+        "url": "https://vod.sooplive.com/player/191693311?change_second=22266",
+        "videoTitle": "소통 - 오버워치 나비ck",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_C42F605B_292926259_1_r&column=2&t=1775571130",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "베짱이 찬가",
     "artist": "써니힐",
     "versions": [
@@ -7602,6 +7622,16 @@ const songs = [
     "title": "봄봄봄",
     "artist": "로이킴",
     "versions": [
+      {
+        "date": "2026-04-03",
+        "url": "https://vod.sooplive.com/player/191693311?change_second=21835",
+        "videoTitle": "소통 - 오버워치 나비ck",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_C42F605B_292926259_1_r&column=2&t=1775571130",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
       {
         "date": "2023-06-29",
         "url": "https://vod.sooplive.com/player/104058136?change_second=6831",
@@ -11802,10 +11832,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=12840",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=12840",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -11948,14 +11978,14 @@ const songs = [
   },
   {
     "title": "전화 한 번 못하니",
-    "artist": "",
+    "artist": "왁스",
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=1951",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=1951",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -12560,10 +12590,10 @@ const songs = [
       },
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=12488",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=12488",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -13392,10 +13422,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-09",
-        "url": "https://vod.sooplive.co.kr/player/189169907?change_second=11028",
-        "videoTitle": "모닝츄",
+        "url": "https://vod.sooplive.com/player/189169907?change_second=11028",
+        "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -13548,6 +13578,22 @@ const songs = [
         "videoTitle": "소통 - 노래 - 기생충 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "흔들리는 꽃들 속에서 네 샴푸 향이 느껴진 거야",
+    "artist": "장범준",
+    "versions": [
+      {
+        "date": "2026-04-03",
+        "url": "https://vod.sooplive.com/player/191693311?change_second=21521",
+        "videoTitle": "소통 - 오버워치 나비ck",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_C42F605B_292926259_1_r&column=2&t=1775571130",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

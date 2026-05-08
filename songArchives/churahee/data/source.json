@@ -1708,54 +1708,65 @@
             ]
         },
         {
-            "title": "모닝츄",
+            "title": "소통",
             "date": "2026-03-09",
-            "url": "https://vod.sooplive.co.kr/player/189169907",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r",
+            "url": "https://vod.sooplive.com/player/189169907",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260309_C83CB016_292240371_1_r&column=2&t=1773754201",
             "songInfo": [
                 {
                     "title": "전화 한 번 못하니",
-                    "time": "32:31"
+                    "time": "32:31",
+                    "artist": "왁스"
                 },
                 {
                     "title": "홀씨",
-                    "time": "3:03:48"
+                    "time": "3:03:48",
+                    "artist": "아이유"
                 },
                 {
                     "title": "Grip!",
-                    "time": "3:09:29"
+                    "time": "3:09:29",
+                    "artist": "서현진"
                 },
                 {
                     "title": "Maria",
-                    "time": "3:17:57"
+                    "time": "3:17:57",
+                    "artist": "김아중"
                 },
                 {
                     "title": "Tears",
-                    "time": "3:22:28"
+                    "time": "3:22:28",
+                    "artist": "소찬휘"
                 },
                 {
                     "title": "체념",
-                    "time": "3:28:08"
+                    "time": "3:28:08",
+                    "artist": "빅마마"
                 },
                 {
                     "title": "잊지 말아요",
-                    "time": "3:34:00"
+                    "time": "3:34:00",
+                    "artist": "백지영"
                 },
                 {
                     "title": "IRIS OUT",
-                    "time": "3:41:11"
+                    "time": "3:41:11",
+                    "artist": "요네즈 켄시"
                 },
                 {
                     "title": "LOCKDOWN",
-                    "time": "3:43:49"
+                    "time": "3:43:49",
+                    "artist": "이세계아이돌"
                 },
                 {
                     "title": "Cinderella",
-                    "time": "3:45:46"
+                    "time": "3:45:46",
+                    "artist": "타이미"
                 },
                 {
                     "title": "말해 Yes or No",
                     "time": "3:47:56",
+                    "artist": "지코",
                     "recommended": true
                 }
             ]
@@ -6189,14 +6200,14 @@
         {
             "title": "더켓몬 달리기 3일차",
             "date": "2026-03-17",
-            "url": "https://vod.sooplive.co.kr/player/190030491",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260317_0D8A8DE2_292464615_2_r",
+            "url": "https://vod.sooplive.com/player/190030491",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_0D8A8DE2_292464615_2_r",
             "songInfo": [
                 {
                     "title": "Ghost Town",
                     "time": "5:46:22",
-                    "noMistake": true,
-                    "artist": "Benson Boone"
+                    "artist": "Benson Boone",
+                    "noMistake": true
                 }
             ]
         },
@@ -6263,15 +6274,35 @@
             ]
         },
         {
-            "title": "나비 ck 두개재",
+            "title": "소통 - 오버워치 나비ck",
             "date": "2026-04-03",
             "url": "https://vod.sooplive.com/player/191693311",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_65A7979C_292926259_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260403_C42F605B_292926259_1_r&column=2&t=1775571130",
             "songInfo": [
                 {
                     "title": "illa illa",
                     "time": "48:27",
-                    "artist": "B.I"
+                    "artist": "주니엘"
+                },
+                {
+                    "title": "흔들리는 꽃들 속에서 네 샴푸 향이 느껴진 거야",
+                    "time": "5:58:41",
+                    "artist": "장범준"
+                },
+                {
+                    "title": "봄봄봄",
+                    "time": "6:03:55",
+                    "artist": "로이킴"
+                },
+                {
+                    "title": "벚꽃 엔딩",
+                    "time": "6:11:06",
+                    "artist": "버스커 버스커"
+                },
+                {
+                    "title": "만개화",
+                    "time": "6:18:00",
+                    "artist": "안예은"
                 }
             ]
         },
