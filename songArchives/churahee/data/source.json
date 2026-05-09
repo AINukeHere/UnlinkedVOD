@@ -1211,7 +1211,7 @@
                 {
                     "title": "Say Yes",
                     "time": "24:05",
-                    "artist": "펀치"
+                    "artist": "로꼬, 펀치"
                 },
                 {
                     "title": "별",
@@ -7422,6 +7422,106 @@
                     "title": "최종화",
                     "time": "2:41:41",
                     "artist": "아이리 칸나"
+                }
+            ]
+        },
+        {
+            "title": "소통 - 노래",
+            "date": "2025-09-02",
+            "url": "https://vod.sooplive.com/player/170733123",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250902_C124930F_287171856_1_r",
+            "songInfo": [
+                {
+                    "title": "사랑은 은하수 다방에서",
+                    "time": "1:33:23",
+                    "artist": "10CM",
+                    "noMistake": true
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "1:40:45",
+                    "artist": "권진아",
+                    "noMistake": true
+                },
+                {
+                    "title": "출항",
+                    "time": "1:50:49",
+                    "artist": "안예은"
+                },
+                {
+                    "title": "소로",
+                    "time": "1:59:51",
+                    "artist": "심규선",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "마음을 드려요",
+                    "time": "2:17:43",
+                    "artist": "아이유",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "오늘 뭐 했는지 말해봐",
+                    "time": "2:29:09",
+                    "artist": "권진아",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "도망가자",
+                    "time": "2:38:12",
+                    "artist": "선우정아"
+                },
+                {
+                    "title": "사랑 그게 뭔데",
+                    "time": "2:48:11",
+                    "artist": "양파",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "Celebrity",
+                    "time": "2:57:00",
+                    "artist": "아이유",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "Almond Chocolate",
+                    "time": "3:05:08",
+                    "artist": "아일릿",
+                    "noMistake": true
+                },
+                {
+                    "title": "빌려온 고양이",
+                    "time": "3:12:40",
+                    "artist": "아일릿",
+                    "noMistake": true
+                },
+                {
+                    "title": "다시 만날까 봐",
+                    "time": "3:22:13",
+                    "artist": "이예준",
+                    "noMistake": true
+                },
+                {
+                    "title": "밤편지",
+                    "time": "3:43:55",
+                    "artist": "아이유",
+                    "noMistake": true
+                },
+                {
+                    "title": "Say Yes",
+                    "time": "3:51:09",
+                    "artist": "로꼬, 펀치",
+                    "noMistake": true
+                },
+                {
+                    "title": "안녕! 디지몬",
+                    "time": "4:01:32",
+                    "artist": "디지몬 OST"
                 }
             ]
         }
