@@ -3933,7 +3933,7 @@
                 {
                     "title": "오랜 날 오랜 밤",
                     "time": "2:04:03",
-                    "artist": "악동뮤지션",
+                    "artist": "AKMU",
                     "recommended": true
                 },
                 {
@@ -3942,7 +3942,7 @@
                     "artist": "헤이즈"
                 },
                 {
-                    "title": "아로아로 봉봉",
+                    "title": "아로아로봉봉",
                     "time": "2:27:55",
                     "artist": "에이몽",
                     "recommended": true
@@ -5400,7 +5400,7 @@
                     "recommended": true
                 },
                 {
-                    "title": "아로아로 봉봉",
+                    "title": "아로아로봉봉",
                     "time": "4:26:24",
                     "artist": "에이몽",
                     "noMistake": true,
@@ -7341,6 +7341,87 @@
                     "time": "3:55:42",
                     "artist": "잇츠",
                     "noMistake": true
+                }
+            ]
+        },
+        {
+            "title": "소통 - 노래",
+            "date": "2025-01-18",
+            "url": "https://vod.sooplive.com/player/148561021",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250118_D6F9DEB3_280552592_1_r",
+            "songInfo": [
+                {
+                    "title": "아로아로봉봉",
+                    "time": "1:01:29",
+                    "artist": "에이몽"
+                },
+                {
+                    "title": "운이 좋았지",
+                    "time": "1:09:58",
+                    "artist": "권진아",
+                    "noMistake": true
+                },
+                {
+                    "title": "고양이 소리를 따라해 보자",
+                    "time": "1:19:14",
+                    "artist": "펑티모",
+                    "noMistake": true
+                },
+                {
+                    "title": "어푸",
+                    "time": "1:26:59",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "하늘바라기",
+                    "time": "1:36:39",
+                    "artist": "정은지"
+                },
+                {
+                    "title": "하루하루",
+                    "time": "1:43:51",
+                    "artist": "김보경",
+                    "recommended": true
+                },
+                {
+                    "title": "시간을 거슬러",
+                    "time": "1:54:08",
+                    "artist": "린",
+                    "noMistake": true
+                },
+                {
+                    "title": "Square",
+                    "time": "2:01:41",
+                    "artist": "백예린",
+                    "noMistake": true
+                },
+                {
+                    "title": "오빠야",
+                    "time": "2:11:35",
+                    "artist": "술제이, 조현영"
+                },
+                {
+                    "title": "여봉봉",
+                    "time": "2:21:17",
+                    "artist": "아율"
+                },
+                {
+                    "title": "사랑 그게 뭔데",
+                    "time": "2:27:56",
+                    "artist": "양파",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "혼자라고 생각말기",
+                    "time": "2:35:57",
+                    "artist": "김보경",
+                    "noMistake": true
+                },
+                {
+                    "title": "최종화",
+                    "time": "2:41:41",
+                    "artist": "아이리 칸나"
                 }
             ]
         }
