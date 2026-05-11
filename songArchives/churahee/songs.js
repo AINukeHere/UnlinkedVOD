@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-09T23:06:26.828915+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-11T11:38:56.022556+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -7692,6 +7692,16 @@ const songs = [
         "videoTitle": "800일🩵 소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250905_08A3120C_287254042_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-12-17",
+        "url": "https://vod.sooplive.com/player/180949383?change_second=8916",
+        "videoTitle": "오리지널 공개) 소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251217_D646EA0F_290019478_1_r&column=2&t=1765955555",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
