@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-11T11:38:56.022556+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-12T00:42:43.413370+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -354,6 +354,16 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250902_C124930F_287171856_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=10516",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -913,6 +923,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250726_67C75DF6_286131474_1_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=4494",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -1786,6 +1806,16 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250728_814A3959_286185420_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=6027",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -4137,6 +4167,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=3982",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -6189,6 +6229,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=8393",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -7096,6 +7146,16 @@ const songs = [
         "videoTitle": "소통 - 괴담 읽기 - 후열 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250426_063F1E05_283421384_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=11505",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8395,6 +8455,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=11020",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8409,6 +8479,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251230_5F13CE17_290351434_1_r&column=2&t=1767614761",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=6850",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -10189,6 +10269,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=10192",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10849,6 +10939,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=7692",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11257,6 +11357,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=9486",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11447,6 +11557,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=4926",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11552,6 +11672,16 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250818_862684A8_286764408_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=8962",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -13069,6 +13199,22 @@ const songs = [
     ]
   },
   {
+    "title": "토요일밤에",
+    "artist": "손담비",
+    "versions": [
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=12691",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "특 S-Class",
     "artist": "스트레이 키즈",
     "versions": [
@@ -13264,6 +13410,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250118_D6F9DEB3_280552592_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2025-08-29",
+        "url": "https://vod.sooplive.com/player/170320567?change_second=7216",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]

@@ -7543,6 +7543,95 @@
                     "noMistake": true
                 }
             ]
+        },
+        {
+            "title": "소통 - 노래",
+            "date": "2025-08-29",
+            "url": "https://vod.sooplive.com/player/170320567",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
+            "songInfo": [
+                {
+                    "title": "곰인형",
+                    "time": "1:06:22",
+                    "artist": "설아"
+                },
+                {
+                    "title": "Golden",
+                    "time": "1:14:54",
+                    "artist": "HUNTR/X",
+                    "noMistake": true
+                },
+                {
+                    "title": "우르릉 쾅쾅쾅",
+                    "time": "1:22:06",
+                    "artist": "스텔라장",
+                    "noMistake": true
+                },
+                {
+                    "title": "Love story",
+                    "time": "1:40:27",
+                    "artist": "볼빨간사춘기"
+                },
+                {
+                    "title": "사계",
+                    "time": "1:54:10",
+                    "artist": "태연"
+                },
+                {
+                    "title": "하늘바라기",
+                    "time": "2:00:16",
+                    "artist": "정은지",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "예뻤어",
+                    "time": "2:08:12",
+                    "artist": "데이식스"
+                },
+                {
+                    "title": "마음을 드려요",
+                    "time": "2:19:53",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "우주를 줄게",
+                    "time": "2:29:22",
+                    "artist": "볼빨간사춘기"
+                },
+                {
+                    "title": "오르트구름",
+                    "time": "2:38:06",
+                    "artist": "윤하"
+                },
+                {
+                    "title": "안녕! 디지몬",
+                    "time": "2:49:52",
+                    "artist": "디지몬 OST"
+                },
+                {
+                    "title": "Almond Chocolate",
+                    "time": "2:55:16",
+                    "artist": "아일릿",
+                    "noMistake": true
+                },
+                {
+                    "title": "빌려온 고양이",
+                    "time": "3:03:40",
+                    "artist": "아일릿",
+                    "noMistake": true
+                },
+                {
+                    "title": "민들레",
+                    "time": "3:11:45",
+                    "artist": "우효"
+                },
+                {
+                    "title": "토요일밤에",
+                    "time": "3:31:31",
+                    "artist": "손담비"
+                }
+            ]
         }
     ]
 }
