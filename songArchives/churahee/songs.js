@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-12T00:42:43.413370+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-12T21:23:32.776729+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -1243,6 +1243,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250905_08A3120C_287254042_1_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-10",
+        "url": "https://vod.sooplive.com/player/195346699?change_second=2207",
+        "videoTitle": "[버블란] 프랫폴(w. 시몽 송현 요한)ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_AF03E102_293900299_2_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -2561,6 +2571,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=3796",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3001,6 +3021,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250118_D6F9DEB3_280552592_1_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=4893",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -4406,6 +4436,16 @@ const songs = [
         "videoTitle": "소통 - 노래 - 살인의 추억 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250712_90E7AACC_285752106_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=5370",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -5893,6 +5933,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=2289",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -6446,6 +6496,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_C17CB31F_293530825_1_r&column=2&t=1777734344",
         "noMistake": true,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=2827",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -7224,6 +7284,16 @@ const songs = [
         "videoTitle": "[버블란] 주황머리 그녀와 싱크룸(w.송현)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260506_E9E77AFF_293795573_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=1438",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8041,6 +8111,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=4296",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8604,6 +8684,26 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_800C3731_293738083_2_r",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-10",
+        "url": "https://vod.sooplive.com/player/195346699?change_second=2010",
+        "videoTitle": "[버블란] 프랫폴(w. 시몽 송현 요한)ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_AF03E102_293900299_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=3272",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -9635,6 +9735,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=6756",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10525,6 +10635,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260509_733F516D_293867961_3_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=6357",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -11933,6 +12053,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=5951",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11968,6 +12098,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_C17CB31F_293530825_1_r&column=2&t=1777734344",
         "noMistake": false,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-12",
+        "url": "https://vod.sooplive.com/player/195504779?change_second=1764",
+        "videoTitle": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]

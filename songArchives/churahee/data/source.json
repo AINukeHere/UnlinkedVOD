@@ -7632,6 +7632,96 @@
                     "artist": "손담비"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 프랫폴(w. 시몽 송현 요한)ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+            "date": "2026-05-10",
+            "url": "https://vod.sooplive.com/player/195346699",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_AF03E102_293900299_2_r",
+            "songInfo": [
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "33:30",
+                    "artist": "한로로"
+                },
+                {
+                    "title": "I",
+                    "time": "36:47",
+                    "artist": "태연"
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 후열 마피아게임ㅣ고래시티 업 한번씩만 해 주세용 감사합니다...",
+            "date": "2026-05-12",
+            "url": "https://vod.sooplive.com/player/195504779",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_CB48D236_293945411_4_r",
+            "songInfo": [
+                {
+                    "title": "밤양갱",
+                    "time": "23:58",
+                    "artist": "비비"
+                },
+                {
+                    "title": "위로",
+                    "time": "29:24",
+                    "artist": "권진아"
+                },
+                {
+                    "title": "도망가자",
+                    "time": "38:09",
+                    "artist": "선우정아",
+                    "recommended": true
+                },
+                {
+                    "title": "만약에",
+                    "time": "47:07",
+                    "artist": "태연",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "54:32",
+                    "artist": "한로로"
+                },
+                {
+                    "title": "Pretender",
+                    "time": "1:03:16",
+                    "artist": "오피셜히게단디즘"
+                },
+                {
+                    "title": "붉은 장미",
+                    "time": "1:11:36",
+                    "artist": "우예린"
+                },
+                {
+                    "title": "Square",
+                    "time": "1:21:33",
+                    "artist": "백예린"
+                },
+                {
+                    "title": "그저 네게 맑아라",
+                    "time": "1:29:30",
+                    "artist": "요루시카"
+                },
+                {
+                    "title": "월하의 그대에게",
+                    "time": "1:39:11",
+                    "artist": "Xenesus & 쪽빛아리아"
+                },
+                {
+                    "title": "어른",
+                    "time": "1:45:57",
+                    "artist": "손디아"
+                },
+                {
+                    "title": "숲의 아이",
+                    "time": "1:52:36",
+                    "artist": "유아",
+                    "noMistake": true
+                }
+            ]
         }
     ]
 }
