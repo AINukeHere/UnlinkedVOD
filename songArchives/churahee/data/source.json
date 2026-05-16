@@ -7809,6 +7809,24 @@
                     "artist": "AKMU"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 키마 필살기 노래자랑 최약체입니다",
+            "date": "2026-05-16",
+            "url": "https://vod.sooplive.com/player/195886621",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_D20CA680_294051659_2_r",
+            "songInfo": [
+                {
+                    "title": "이름에게",
+                    "time": "3:11:07",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "어른",
+                    "time": "6:36:30",
+                    "artist": "손디아"
+                }
+            ]
         }
     ]
 }
