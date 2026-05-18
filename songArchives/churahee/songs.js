@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-16T12:58:33.307767+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-18T15:28:39.037212+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -4858,6 +4858,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_A7F9A950_293738083_1_r&column=2&t=1778841527",
         "noMistake": false,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-18",
+        "url": "https://vod.sooplive.com/player/196106931?change_second=2308",
+        "videoTitle": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -11351,6 +11361,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-18",
+        "url": "https://vod.sooplive.com/player/196106931?change_second=3525",
+        "videoTitle": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -12214,6 +12234,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_0B532A40_293945411_1_r&column=2&t=1778844084",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-18",
+        "url": "https://vod.sooplive.com/player/196106931?change_second=3192",
+        "videoTitle": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+        "noMistake": false,
+        "recommended": true,
         "needsReview": false
       }
     ]

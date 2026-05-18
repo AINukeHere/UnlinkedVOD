@@ -7827,6 +7827,31 @@
                     "artist": "손디아"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+            "date": "2026-05-18",
+            "url": "https://vod.sooplive.com/player/196106931",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+            "songInfo": [
+                {
+                    "title": "끝",
+                    "time": "38:28",
+                    "artist": "권진아"
+                },
+                {
+                    "title": "위로",
+                    "time": "53:12",
+                    "artist": "권진아",
+                    "recommended": true
+                },
+                {
+                    "title": "오늘 뭐 했는지 말해봐",
+                    "time": "58:45",
+                    "artist": "권진아",
+                    "recommended": true
+                }
+            ]
         }
     ]
 }
