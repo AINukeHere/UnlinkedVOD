@@ -165,12 +165,22 @@
         "aliases": []
     },
     {
+        "artist": "로꼬, 펀치",
+        "aliases": []
+    },
+    {
         "artist": "로이킴",
         "aliases": []
     },
     {
         "artist": "루머스",
         "aliases": []
+    },
+    {
+        "artist": "르세라핌",
+        "aliases": [
+            "LE SSERAFIM"
+        ]
     },
     {
         "artist": "린",
@@ -211,6 +221,10 @@
         ]
     },
     {
+        "artist": "미연",
+        "aliases": []
+    },
+    {
         "artist": "민수",
         "aliases": []
     },
@@ -247,6 +261,10 @@
         "aliases": [
             "HYNN"
         ]
+    },
+    {
+        "artist": "박효신",
+        "aliases": []
     },
     {
         "artist": "배치기",
@@ -301,7 +319,18 @@
         ]
     },
     {
+        "artist": "비오(BE'O)",
+        "aliases": [
+            "비오",
+            "BE'O"
+        ]
+    },
+    {
         "artist": "빅마마",
+        "aliases": []
+    },
+    {
+        "artist": "사이버펑크OST",
         "aliases": []
     },
     {
@@ -390,6 +419,10 @@
     },
     {
         "artist": "신예영",
+        "aliases": []
+    },
+    {
+        "artist": "신지훈",
         "aliases": []
     },
     {
@@ -486,8 +519,7 @@
     },
     {
         "artist": "옥상달빛",
-        "aliases": [
-        ]
+        "aliases": []
     },
     {
         "artist": "왁스",
@@ -684,6 +716,10 @@
         "aliases": []
     },
     {
+        "artist": "캔트비블루",
+        "aliases": []
+    },
+    {
         "artist": "케이시",
         "aliases": []
     },
@@ -723,10 +759,6 @@
     },
     {
         "artist": "트와이스",
-        "aliases": []
-    },
-    {
-        "artist": "로꼬, 펀치",
         "aliases": []
     },
     {
@@ -791,6 +823,10 @@
     },
     {
         "artist": "황가람",
+        "aliases": []
+    },
+    {
+        "artist": "히구치 아이",
         "aliases": []
     },
     {
@@ -913,6 +949,10 @@
         "aliases": []
     },
     {
+        "artist": "niki",
+        "aliases": []
+    },
+    {
         "artist": "QWER",
         "aliases": []
     },
@@ -948,6 +988,10 @@
     },
     {
         "artist": "Yuika",
+        "aliases": []
+    },
+    {
+        "artist": "Yyeon",
         "aliases": []
     }
 ]

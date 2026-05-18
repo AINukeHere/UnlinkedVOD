@@ -2,7 +2,7 @@
   "linePrefix": "🎤",
   "parts": {
     "songTitle": "(.+?)",
-    "songArtist": "\\s*\\(([^)]*)\\)",
+    "songArtist": "\\s+\\((.+)\\)\\s*$",
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)"
   },
   "regexSequence": "{time}\\s*\\|\\s*체비\\s*-\\s*{songTitle}{songArtist?}\\s*$",
