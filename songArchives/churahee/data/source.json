@@ -7852,6 +7852,35 @@
                     "recommended": true
                 }
             ]
+        },
+        {
+            "title": "[하데스] 8시 총 상금 300만 원! <버든싱어>",
+            "date": "2026-05-18",
+            "url": "https://vod.sooplive.com/player/196107705",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_7344D20E_294111969_2_r",
+            "songInfo": [
+                {
+                    "title": "진심이었던 사람만 바보가 돼",
+                    "time": "2:32:23",
+                    "artist": "권진아",
+                    "noMistake": true,
+                    "needsReview": true
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "3:05:25",
+                    "artist": "권진아",
+                    "noMistake": true,
+                    "needsReview": true
+                },
+                {
+                    "title": "Lonely Night",
+                    "time": "3:30:18",
+                    "artist": "권진아",
+                    "noMistake": true,
+                    "needsReview": true
+                }
+            ]
         }
     ]
 }

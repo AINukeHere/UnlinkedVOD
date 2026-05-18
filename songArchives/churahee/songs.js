@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-18T15:28:39.037212+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-18T15:37:11.944956+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -1681,6 +1681,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-18",
+        "url": "https://vod.sooplive.com/player/196107705?change_second=12618",
+        "videoTitle": "[하데스] 8시 총 상금 300만 원! <버든싱어>",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_7344D20E_294111969_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -7121,6 +7131,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-18",
+        "url": "https://vod.sooplive.com/player/196107705?change_second=11125",
+        "videoTitle": "[하데스] 8시 총 상금 300만 원! <버든싱어>",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_7344D20E_294111969_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -12993,6 +13013,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-18",
+        "url": "https://vod.sooplive.com/player/196107705?change_second=9143",
+        "videoTitle": "[하데스] 8시 총 상금 300만 원! <버든싱어>",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_7344D20E_294111969_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
