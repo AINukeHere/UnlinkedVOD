@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-18T15:37:11.944956+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-19T15:55:49.392866+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -5901,6 +5901,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-19",
+        "url": "https://vod.sooplive.com/player/196169527?change_second=20046",
+        "videoTitle": "[버블란] 소통소통",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -6375,6 +6385,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-19",
+        "url": "https://vod.sooplive.com/player/196169527?change_second=20456",
+        "videoTitle": "[버블란] 소통소통",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -6772,6 +6792,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250521_9ECE2385_284122262_2_r",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-19",
+        "url": "https://vod.sooplive.com/player/196169527?change_second=20814",
+        "videoTitle": "[버블란] 소통소통",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -9595,6 +9625,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260504_A7F9A950_293738083_1_r&column=2&t=1778841527",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-19",
+        "url": "https://vod.sooplive.com/player/196169527?change_second=24445",
+        "videoTitle": "[버블란] 소통소통",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }

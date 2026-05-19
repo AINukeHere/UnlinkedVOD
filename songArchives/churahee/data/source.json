@@ -7881,6 +7881,37 @@
                     "needsReview": true
                 }
             ]
+        },
+        {
+            "title": "[버블란] 소통소통",
+            "date": "2026-05-19",
+            "url": "https://vod.sooplive.com/player/196169527",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+            "songInfo": [
+                {
+                    "title": "달리기",
+                    "time": "5:34:06",
+                    "artist": "옥상달빛",
+                    "noMistake": true
+                },
+                {
+                    "title": "마지막 날처럼",
+                    "time": "5:40:56",
+                    "artist": "유럽",
+                    "noMistake": true
+                },
+                {
+                    "title": "무릎",
+                    "time": "5:46:54",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "수고했어, 오늘도",
+                    "time": "6:47:25",
+                    "artist": "옥상달빛",
+                    "noMistake": true
+                }
+            ]
         }
     ]
 }
