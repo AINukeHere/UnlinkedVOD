@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-19T15:55:49.392866+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-22T00:44:15.451968+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -4873,9 +4873,9 @@ const songs = [
       {
         "date": "2026-05-18",
         "url": "https://vod.sooplive.com/player/196106931?change_second=2308",
-        "videoTitle": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+        "videoTitle": "버든싱어 후열 방송",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r&column=2&t=1779397871",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -5905,9 +5905,9 @@ const songs = [
       {
         "date": "2026-05-19",
         "url": "https://vod.sooplive.com/player/196169527?change_second=20046",
-        "videoTitle": "[버블란] 소통소통",
+        "videoTitle": "소통 - 야매 노래교실(w. 슈니)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_A241A72C_294129053_1_r&column=2&t=1779398032",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -6389,9 +6389,9 @@ const songs = [
       {
         "date": "2026-05-19",
         "url": "https://vod.sooplive.com/player/196169527?change_second=20456",
-        "videoTitle": "[버블란] 소통소통",
+        "videoTitle": "소통 - 야매 노래교실(w. 슈니)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_A241A72C_294129053_1_r&column=2&t=1779398032",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -6797,9 +6797,9 @@ const songs = [
       {
         "date": "2026-05-19",
         "url": "https://vod.sooplive.com/player/196169527?change_second=20814",
-        "videoTitle": "[버블란] 소통소통",
+        "videoTitle": "소통 - 야매 노래교실(w. 슈니)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_A241A72C_294129053_1_r&column=2&t=1779398032",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -7705,9 +7705,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=13527",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8809,9 +8809,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=10958",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -8911,9 +8911,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=29291",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -9289,9 +9289,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=12975",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -9631,9 +9631,9 @@ const songs = [
       {
         "date": "2026-05-19",
         "url": "https://vod.sooplive.com/player/196169527?change_second=24445",
-        "videoTitle": "[버블란] 소통소통",
+        "videoTitle": "소통 - 야매 노래교실(w. 슈니)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_A241A72C_294129053_1_r&column=2&t=1779398032",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -9717,9 +9717,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=9453",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -10801,9 +10801,9 @@ const songs = [
       {
         "date": "2026-05-16",
         "url": "https://vod.sooplive.com/player/195886621?change_second=23790",
-        "videoTitle": "[버블란] 키마 필살기 노래자랑 최약체입니다",
+        "videoTitle": "소통 - 키마 필살기 노래 자랑 참가",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_D20CA680_294051659_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_0C90B8BC_294051659_1_r&column=2&t=1779397370",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -11425,9 +11425,9 @@ const songs = [
       {
         "date": "2026-05-18",
         "url": "https://vod.sooplive.com/player/196106931?change_second=3525",
-        "videoTitle": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+        "videoTitle": "버든싱어 후열 방송",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r&column=2&t=1779397871",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -12299,9 +12299,9 @@ const songs = [
       {
         "date": "2026-05-18",
         "url": "https://vod.sooplive.com/player/196106931?change_second=3192",
-        "videoTitle": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+        "videoTitle": "버든싱어 후열 방송",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r&column=2&t=1779397871",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -12457,9 +12457,9 @@ const songs = [
       {
         "date": "2026-05-16",
         "url": "https://vod.sooplive.com/player/195886621?change_second=11467",
-        "videoTitle": "[버블란] 키마 필살기 노래자랑 최약체입니다",
+        "videoTitle": "소통 - 키마 필살기 노래 자랑 참가",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_D20CA680_294051659_2_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_0C90B8BC_294051659_1_r&column=2&t=1779397370",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -12607,9 +12607,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=10451",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -13047,9 +13047,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=12249",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -14141,9 +14141,9 @@ const songs = [
       {
         "date": "2026-05-14",
         "url": "https://vod.sooplive.com/player/195740961?change_second=9991",
-        "videoTitle": "[버블란] 24시간 방송",
+        "videoTitle": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

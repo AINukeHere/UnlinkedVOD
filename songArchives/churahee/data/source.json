@@ -7742,10 +7742,10 @@
             ]
         },
         {
-            "title": "[버블란] 24시간 방송",
+            "title": "소통 - 노래 - 버블란 vs 어인섬 가족오락가락관 - 버블어게인(w. 강하나 송현 요한) - 후열 게임 - 33한 대화",
             "date": "2026-05-14",
             "url": "https://vod.sooplive.com/player/195740961",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_BA2AF6A6_293998023_3_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_3CAD628D_293998023_1_r&column=2&t=1779397037",
             "songInfo": [
                 {
                     "title": "수피",
@@ -7811,10 +7811,10 @@
             ]
         },
         {
-            "title": "[버블란] 키마 필살기 노래자랑 최약체입니다",
+            "title": "소통 - 키마 필살기 노래 자랑 참가",
             "date": "2026-05-16",
             "url": "https://vod.sooplive.com/player/195886621",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_D20CA680_294051659_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_0C90B8BC_294051659_1_r&column=2&t=1779397370",
             "songInfo": [
                 {
                     "title": "이름에게",
@@ -7829,10 +7829,10 @@
             ]
         },
         {
-            "title": "[버블란] 쾌진아 칭칭 나네의 정체는 바로바로",
+            "title": "버든싱어 후열 방송",
             "date": "2026-05-18",
             "url": "https://vod.sooplive.com/player/196106931",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r&column=2&t=1779397871",
             "songInfo": [
                 {
                     "title": "끝",
@@ -7883,10 +7883,10 @@
             ]
         },
         {
-            "title": "[버블란] 소통소통",
+            "title": "소통 - 야매 노래교실(w. 슈니)",
             "date": "2026-05-19",
             "url": "https://vod.sooplive.com/player/196169527",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_132BA96D_294129053_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_A241A72C_294129053_1_r&column=2&t=1779398032",
             "songInfo": [
                 {
                     "title": "달리기",
@@ -7912,6 +7912,13 @@
                     "noMistake": true
                 }
             ]
+        },
+        {
+            "title": "jpop 라이브 월드컵 - 33한 대화",
+            "date": "2026-05-15",
+            "url": "https://vod.sooplive.com/player/195748189",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_F4B6A9C1_293998023_6_r&column=2&t=1779397186",
+            "songInfo": []
         }
     ]
 }
