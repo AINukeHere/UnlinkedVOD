@@ -6414,7 +6414,8 @@
                 {
                     "title": "제주도의 푸른 밤",
                     "time": "52:14",
-                    "artist": "태연"
+                    "artist": "태연",
+                    "noMistake": true
                 },
                 {
                     "title": "출항",
@@ -7916,6 +7917,47 @@
             "url": "https://vod.sooplive.com/player/195748189",
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260514_F4B6A9C1_293998023_6_r&column=2&t=1779397186",
             "songInfo": []
+        },
+        {
+            "title": "[버블란] 고래시티 츄베릅 띤띤이 투퍼카 만들기",
+            "date": "2026-05-23",
+            "url": "https://vod.sooplive.com/player/196592289",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_8A38840B_294239381_2_r",
+            "songInfo": [
+                {
+                    "title": "산책",
+                    "time": "22:29",
+                    "artist": "백예린"
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "26:52",
+                    "artist": "이수현"
+                },
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "40:17",
+                    "artist": "한로로",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "산책",
+                    "time": "1:45:09",
+                    "artist": "백예린",
+                    "noMistake": true
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "2:36:13",
+                    "artist": "이수현"
+                },
+                {
+                    "title": "야수",
+                    "time": "2:51:17",
+                    "artist": "김필선"
+                }
+            ]
         }
     ]
 }
