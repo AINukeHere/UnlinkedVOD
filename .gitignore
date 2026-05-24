@@ -20,8 +20,9 @@ yarn-error.log*
 .env.production.local
 
 # song archive — streamer local config (author user ID)
-songArchives/churahee/data/config.json
-songArchives/chebi2/data/config.json
+# songArchives/churahee/data/config.json
+# songArchives/chebi2/data/config.json
+songArchives/**/data/config.json
 
 # Logs
 logs

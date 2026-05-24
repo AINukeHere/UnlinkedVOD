@@ -6,6 +6,10 @@
         ]
     },
     {
+        "title": "1,2,3,4",
+        "aliases": []
+    },
+    {
         "title": "11:11",
         "aliases": [
             "11시 11분"
@@ -13,6 +17,10 @@
     },
     {
         "title": "12:45",
+        "aliases": []
+    },
+    {
+        "title": "1994년 어느 늦은 밤",
         "aliases": []
     },
     {
@@ -28,11 +36,19 @@
         "aliases": []
     },
     {
+        "title": "거리에서",
+        "aliases": []
+    },
+    {
         "title": "거북이",
         "aliases": []
     },
     {
         "title": "거위의 꿈",
+        "aliases": []
+    },
+    {
+        "title": "거짓말",
         "aliases": []
     },
     {
@@ -78,6 +94,14 @@
         "aliases": []
     },
     {
+        "title": "공원여행",
+        "aliases": []
+    },
+    {
+        "title": "관객이 될게",
+        "aliases": []
+    },
+    {
         "title": "괴물이 피는 숲",
         "aliases": []
     },
@@ -86,7 +110,15 @@
         "aliases": []
     },
     {
+        "title": "군청",
+        "aliases": []
+    },
+    {
         "title": "굴뚝마을의 푸펠",
+        "aliases": []
+    },
+    {
+        "title": "귀로",
         "aliases": []
     },
     {
@@ -94,7 +126,21 @@
         "aliases": []
     },
     {
+        "title": "그녀를 만나는곳 100m 전",
+        "aliases": [
+            "그녀를 만나는 곳 100m 전"
+        ]
+    },
+    {
+        "title": "그녀와의 이별",
+        "aliases": []
+    },
+    {
         "title": "그대만 있다면",
+        "aliases": []
+    },
+    {
+        "title": "그래도 나 사랑하지",
         "aliases": []
     },
     {
@@ -138,6 +184,13 @@
         "aliases": []
     },
     {
+        "title": "꽃",
+        "aliases": [
+            "꽃(장윤정)",
+            "꽃 🌼"
+        ]
+    },
+    {
         "title": "꽃길",
         "aliases": []
     },
@@ -178,7 +231,15 @@
         "aliases": []
     },
     {
+        "title": "나는 최강",
+        "aliases": []
+    },
+    {
         "title": "나만 몰랐던 이야기",
+        "aliases": []
+    },
+    {
+        "title": "나만, 봄",
         "aliases": []
     },
     {
@@ -186,7 +247,15 @@
         "aliases": []
     },
     {
+        "title": "나의 노래",
+        "aliases": []
+    },
+    {
         "title": "나의 사춘기에게",
+        "aliases": []
+    },
+    {
+        "title": "나의 옛날이야기",
         "aliases": []
     },
     {
@@ -217,6 +286,14 @@
         ]
     },
     {
+        "title": "너는 록을 듣지 않아",
+        "aliases": []
+    },
+    {
+        "title": "너랑 나",
+        "aliases": []
+    },
+    {
         "title": "너를 그리는 시간",
         "aliases": []
     },
@@ -243,6 +320,12 @@
         "aliases": []
     },
     {
+        "title": "네모의 꿈",
+        "aliases": [
+            "네모의 꿈(화이트)"
+        ]
+    },
+    {
         "title": "노래가 늘었어",
         "aliases": []
     },
@@ -255,6 +338,10 @@
         "aliases": []
     },
     {
+        "title": "누군가의 심장이 될 수 있다면",
+        "aliases": []
+    },
+    {
         "title": "눈물샤워",
         "aliases": []
     },
@@ -264,6 +351,10 @@
     },
     {
         "title": "눈사람",
+        "aliases": []
+    },
+    {
+        "title": "뉴욕에서",
         "aliases": []
     },
     {
@@ -307,6 +398,10 @@
         ]
     },
     {
+        "title": "드라이플라워",
+        "aliases": []
+    },
+    {
         "title": "들리나요",
         "aliases": []
     },
@@ -319,7 +414,25 @@
         "aliases": []
     },
     {
+        "title": "록시",
+        "aliases": [
+            "록시(뮤지컬 시카고)"
+        ]
+    },
+    {
+        "title": "마루노우치 새디스틱",
+        "aliases": []
+    },
+    {
         "title": "마마",
+        "aliases": []
+    },
+    {
+        "title": "마법의 성",
+        "aliases": []
+    },
+    {
+        "title": "마술사",
         "aliases": []
     },
     {
@@ -331,7 +444,21 @@
         "aliases": []
     },
     {
+        "title": "마음을드려요",
+        "aliases": []
+    },
+    {
         "title": "마지막 날처럼",
+        "aliases": []
+    },
+    {
+        "title": "마지막 사랑",
+        "aliases": [
+            "마지막 사랑(박기영)"
+        ]
+    },
+    {
+        "title": "마지막 재회",
         "aliases": []
     },
     {
@@ -345,6 +472,24 @@
     {
         "title": "말해 Yes or No",
         "aliases": []
+    },
+    {
+        "title": "매직 카펫 라이드",
+        "aliases": []
+    },
+    {
+        "title": "맹그로브",
+        "aliases": []
+    },
+    {
+        "title": "멍",
+        "aliases": []
+    },
+    {
+        "title": "메가피스 하모니",
+        "aliases": [
+            "메가 피스 하모니"
+        ]
     },
     {
         "title": "몰라요",
@@ -383,11 +528,19 @@
         "aliases": []
     },
     {
+        "title": "미친소리",
+        "aliases": []
+    },
+    {
         "title": "민들레",
         "aliases": []
     },
     {
         "title": "바람",
+        "aliases": []
+    },
+    {
+        "title": "바보처럼 좋아해",
         "aliases": []
     },
     {
@@ -439,6 +592,10 @@
         ]
     },
     {
+        "title": "벽지무늬",
+        "aliases": []
+    },
+    {
         "title": "변하지 않는 것",
         "aliases": []
     },
@@ -447,7 +604,15 @@
         "aliases": []
     },
     {
+        "title": "별무리 비너스",
+        "aliases": []
+    },
+    {
         "title": "별의 조각",
+        "aliases": []
+    },
+    {
+        "title": "보고싶다",
         "aliases": []
     },
     {
@@ -462,6 +627,14 @@
     },
     {
         "title": "봄봄봄",
+        "aliases": []
+    },
+    {
+        "title": "봄이 왔다",
+        "aliases": []
+    },
+    {
+        "title": "봄이 좋냐",
         "aliases": []
     },
     {
@@ -481,7 +654,15 @@
         "aliases": []
     },
     {
+        "title": "붉은 노을",
+        "aliases": []
+    },
+    {
         "title": "붉은 장미",
+        "aliases": []
+    },
+    {
+        "title": "붉은장미",
         "aliases": []
     },
     {
@@ -498,6 +679,14 @@
     },
     {
         "title": "비밀번호 486",
+        "aliases": []
+    },
+    {
+        "title": "비밀번호486",
+        "aliases": []
+    },
+    {
+        "title": "비밀의 화원",
         "aliases": []
     },
     {
@@ -525,6 +714,18 @@
         "aliases": []
     },
     {
+        "title": "빨간 운동화(박혜경)",
+        "aliases": []
+    },
+    {
+        "title": "빨간맛",
+        "aliases": []
+    },
+    {
+        "title": "사건의 지평선",
+        "aliases": []
+    },
+    {
         "title": "사계",
         "aliases": []
     },
@@ -545,7 +746,15 @@
         ]
     },
     {
+        "title": "사랑비(김태우)",
+        "aliases": []
+    },
+    {
         "title": "사랑은 은하수 다방에서",
+        "aliases": []
+    },
+    {
+        "title": "사랑이 잘",
         "aliases": []
     },
     {
@@ -554,6 +763,10 @@
     },
     {
         "title": "사랑하게 될 거야",
+        "aliases": []
+    },
+    {
+        "title": "사랑하기 때문에",
         "aliases": []
     },
     {
@@ -609,6 +822,10 @@
         "aliases": []
     },
     {
+        "title": "솔직하게 말해서 나",
+        "aliases": []
+    },
+    {
         "title": "수고했어, 오늘도",
         "aliases": []
     },
@@ -630,6 +847,10 @@
     },
     {
         "title": "스토커",
+        "aliases": []
+    },
+    {
+        "title": "슬픔이여 안녕",
         "aliases": []
     },
     {
@@ -657,7 +878,19 @@
         "aliases": []
     },
     {
+        "title": "시시한 청춘에 남기는 노래",
+        "aliases": []
+    },
+    {
+        "title": "시작",
+        "aliases": []
+    },
+    {
         "title": "시작의 아이",
+        "aliases": []
+    },
+    {
+        "title": "심",
         "aliases": []
     },
     {
@@ -687,6 +920,10 @@
         "aliases": []
     },
     {
+        "title": "아잉💛",
+        "aliases": []
+    },
+    {
         "title": "아틀란티스 소녀",
         "aliases": []
     },
@@ -711,11 +948,27 @@
         "aliases": []
     },
     {
+        "title": "양화대교",
+        "aliases": []
+    },
+    {
+        "title": "어디에도",
+        "aliases": []
+    },
+    {
         "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
         "aliases": []
     },
     {
         "title": "어른",
+        "aliases": []
+    },
+    {
+        "title": "어른아이",
+        "aliases": []
+    },
+    {
+        "title": "어릿광대를 보내주오",
         "aliases": []
     },
     {
@@ -733,6 +986,10 @@
         "aliases": [
             "에잇 (Prod.&Feat. SUGA of BTS)/아이유"
         ]
+    },
+    {
+        "title": "에필로그",
+        "aliases": []
     },
     {
         "title": "여래아",
@@ -795,7 +1052,15 @@
         "aliases": []
     },
     {
+        "title": "오늘은 가지마",
+        "aliases": []
+    },
+    {
         "title": "오랜 날 오랜 밤",
+        "aliases": []
+    },
+    {
+        "title": "오렌지",
         "aliases": []
     },
     {
@@ -815,6 +1080,10 @@
         "aliases": []
     },
     {
+        "title": "오아시스",
+        "aliases": []
+    },
+    {
         "title": "외국인의 고백",
         "aliases": []
     },
@@ -824,6 +1093,10 @@
     },
     {
         "title": "요즘 너 말야",
+        "aliases": []
+    },
+    {
+        "title": "우르르 쾅쾅쾅",
         "aliases": []
     },
     {
@@ -856,7 +1129,9 @@
     },
     {
         "title": "월하의 그대에게",
-        "aliases": []
+        "aliases": [
+            "월하의 그대에게(Xenesus,쪽빛아리아)"
+        ]
     },
     {
         "title": "위로",
@@ -871,7 +1146,19 @@
         "aliases": []
     },
     {
+        "title": "이 노래",
+        "aliases": []
+    },
+    {
+        "title": "이 지금",
+        "aliases": []
+    },
+    {
         "title": "이런 엔딩",
+        "aliases": []
+    },
+    {
+        "title": "이럴거면 그러지말지",
         "aliases": []
     },
     {
@@ -900,6 +1187,10 @@
     },
     {
         "title": "있잖아",
+        "aliases": []
+    },
+    {
+        "title": "잊어야 한다는 마음으로",
         "aliases": []
     },
     {
@@ -941,6 +1232,14 @@
         "aliases": []
     },
     {
+        "title": "좋아해(bye)",
+        "aliases": []
+    },
+    {
+        "title": "주문을 걸어",
+        "aliases": []
+    },
+    {
         "title": "주옥같다",
         "aliases": []
     },
@@ -971,6 +1270,10 @@
         "aliases": []
     },
     {
+        "title": "첫 이별 그날 밤",
+        "aliases": []
+    },
+    {
         "title": "첫 키스에 내 심장은 120BPM",
         "aliases": [
             "첫 키스에 내 심장은 120 bpm"
@@ -982,6 +1285,14 @@
     },
     {
         "title": "청개구리",
+        "aliases": []
+    },
+    {
+        "title": "청춘만화",
+        "aliases": []
+    },
+    {
+        "title": "청혼",
         "aliases": []
     },
     {
@@ -1005,7 +1316,19 @@
         "aliases": []
     },
     {
+        "title": "크레파스",
+        "aliases": []
+    },
+    {
         "title": "타상연화",
+        "aliases": []
+    },
+    {
+        "title": "태양물고기",
+        "aliases": []
+    },
+    {
+        "title": "텔레파시",
         "aliases": []
     },
     {
@@ -1025,9 +1348,30 @@
         "aliases": []
     },
     {
+        "title": "팬이야",
+        "aliases": []
+    },
+    {
+        "title": "펑펑",
+        "aliases": []
+    },
+    {
+        "title": "폰서트",
+        "aliases": []
+    },
+    {
+        "title": "퐁당",
+        "aliases": []
+    },
+    {
+        "title": "푸른산호초",
+        "aliases": []
+    },
+    {
         "title": "피날레",
         "aliases": [
-            "Finale."
+            "Finale.",
+            "Finale.(피날레)"
         ]
     },
     {
@@ -1067,7 +1411,19 @@
         ]
     },
     {
+        "title": "행복의 주문",
+        "aliases": []
+    },
+    {
         "title": "행복하니",
+        "aliases": []
+    },
+    {
+        "title": "행복한 나를",
+        "aliases": []
+    },
+    {
+        "title": "행복해져라",
         "aliases": []
     },
     {
@@ -1101,7 +1457,17 @@
         "aliases": []
     },
     {
+        "title": "홍연",
+        "aliases": [
+            "홍연(안예은)"
+        ]
+    },
+    {
         "title": "화조도",
+        "aliases": []
+    },
+    {
+        "title": "환상",
         "aliases": []
     },
     {
@@ -1110,7 +1476,9 @@
     },
     {
         "title": "흔들리는 꽃들 속에서 네 샴푸 향이 느껴진 거야",
-        "aliases": []
+        "aliases": [
+            "흔들리는 꽃들 속에서 네 샴푸향이 느껴진거야"
+        ]
     },
     {
         "title": "희망",
@@ -1141,6 +1509,10 @@
         "aliases": [
             "알코올 프리"
         ]
+    },
+    {
+        "title": "All About That Bass",
+        "aliases": []
     },
     {
         "title": "All I Want For Christmas Is You",
@@ -1207,6 +1579,10 @@
         "aliases": []
     },
     {
+        "title": "Come Back Home",
+        "aliases": []
+    },
+    {
         "title": "comethru",
         "aliases": [
             "컴스루",
@@ -1262,10 +1638,18 @@
         ]
     },
     {
+        "title": "Fire",
+        "aliases": []
+    },
+    {
         "title": "Ghost Town",
         "aliases": [
             "고스트 타운"
         ]
+    },
+    {
+        "title": "Go Away",
+        "aliases": []
     },
     {
         "title": "GODS",
@@ -1276,6 +1660,10 @@
         "aliases": [
             "골든"
         ]
+    },
+    {
+        "title": "Good Goodbye",
+        "aliases": []
     },
     {
         "title": "GoodBoy",
@@ -1291,6 +1679,10 @@
             "그립",
             "Grip"
         ]
+    },
+    {
+        "title": "HAPPI",
+        "aliases": []
     },
     {
         "title": "Happy Birthday To You",
@@ -1323,6 +1715,14 @@
         ]
     },
     {
+        "title": "Hold Me Now",
+        "aliases": []
+    },
+    {
+        "title": "Hot Sauce",
+        "aliases": []
+    },
+    {
         "title": "How Do I Say Goodbye",
         "aliases": [
             "하우 두 아이 세이 굿바이",
@@ -1337,6 +1737,10 @@
     },
     {
         "title": "I AM",
+        "aliases": []
+    },
+    {
+        "title": "I Don`t Care",
         "aliases": []
     },
     {
@@ -1357,6 +1761,10 @@
         ]
     },
     {
+        "title": "instagram",
+        "aliases": []
+    },
+    {
         "title": "INVU",
         "aliases": []
     },
@@ -1367,6 +1775,16 @@
     {
         "title": "JANE DOE",
         "aliases": []
+    },
+    {
+        "title": "Juice",
+        "aliases": []
+    },
+    {
+        "title": "Jump",
+        "aliases": [
+            "Jump(김동률)"
+        ]
     },
     {
         "title": "KIDDING",
@@ -1383,6 +1801,14 @@
     },
     {
         "title": "Kitsch",
+        "aliases": []
+    },
+    {
+        "title": "LaLaLa",
+        "aliases": []
+    },
+    {
+        "title": "Late Love",
         "aliases": []
     },
     {
@@ -1410,6 +1836,10 @@
         ]
     },
     {
+        "title": "Little Star",
+        "aliases": []
+    },
+    {
         "title": "LOCKDOWN",
         "aliases": []
     },
@@ -1419,6 +1849,10 @@
             "론리 나잇",
             "Lonely night"
         ]
+    },
+    {
+        "title": "Love And Hate",
+        "aliases": []
     },
     {
         "title": "Love me or Leave me",
@@ -1459,6 +1893,10 @@
         "aliases": []
     },
     {
+        "title": "Madeleine Love",
+        "aliases": []
+    },
+    {
         "title": "Maniac",
         "aliases": [
             "매니악"
@@ -1466,6 +1904,14 @@
     },
     {
         "title": "Maria",
+        "aliases": []
+    },
+    {
+        "title": "Marry Me",
+        "aliases": []
+    },
+    {
+        "title": "Mela!",
         "aliases": []
     },
     {
@@ -1481,8 +1927,13 @@
         "aliases": []
     },
     {
+        "title": "My Way",
+        "aliases": []
+    },
+    {
         "title": "Never Ending Story",
         "aliases": [
+            "Never Ending Story(부활)",
             "네버 엔딩 스토리",
             "엔딩 없는 이야기"
         ]
@@ -1490,6 +1941,17 @@
     {
         "title": "Next Level",
         "aliases": []
+    },
+    {
+        "title": "Nobody",
+        "aliases": []
+    },
+    {
+        "title": "Not A dream",
+        "aliases": [
+            "Not a Dream(송소희)",
+            "Not A Dream(송소희)"
+        ]
     },
     {
         "title": "Nothing",
@@ -1500,10 +1962,18 @@
         "aliases": []
     },
     {
+        "title": "Obliviate",
+        "aliases": []
+    },
+    {
         "title": "OHAYO MY NIGHT",
         "aliases": [
             "오하요 마이 나이트"
         ]
+    },
+    {
+        "title": "Part of Your World",
+        "aliases": []
     },
     {
         "title": "Pet",
@@ -1525,6 +1995,10 @@
     },
     {
         "title": "Promise",
+        "aliases": []
+    },
+    {
+        "title": "Queendom",
         "aliases": []
     },
     {
@@ -1602,6 +2076,14 @@
         "aliases": []
     },
     {
+        "title": "Strawberry moon",
+        "aliases": []
+    },
+    {
+        "title": "Strawberry Moon",
+        "aliases": []
+    },
+    {
         "title": "STYLE",
         "aliases": []
     },
@@ -1616,7 +2098,15 @@
         "aliases": []
     },
     {
+        "title": "Swing Baby",
+        "aliases": []
+    },
+    {
         "title": "Tears",
+        "aliases": []
+    },
+    {
+        "title": "Teeth",
         "aliases": []
     },
     {
@@ -1638,8 +2128,14 @@
         ]
     },
     {
-        "title": "Villain",
+        "title": "Unlucky",
         "aliases": []
+    },
+    {
+        "title": "Villain",
+        "aliases": [
+            "Villain(빌런)"
+        ]
     },
     {
         "title": "VILLAIN",
@@ -1670,6 +2166,10 @@
         ]
     },
     {
+        "title": "What is Love",
+        "aliases": []
+    },
+    {
         "title": "When I Get Old",
         "aliases": []
     },
@@ -1696,6 +2196,10 @@
     },
     {
         "title": "You already have",
+        "aliases": []
+    },
+    {
+        "title": "You And I",
         "aliases": []
     },
     {
