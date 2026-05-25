@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-24T07:54:33.868301+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-25T19:03:11.573407+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -162,7 +162,7 @@ const songs = [
   },
   {
     "title": "After LIKE",
-    "artist": "",
+    "artist": "IVE",
     "versions": [
       {
         "date": "2025-10-29",
@@ -170,6 +170,16 @@ const songs = [
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=13049",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -4333,6 +4343,22 @@ const songs = [
     ]
   },
   {
+    "title": "귀여워서 미안해",
+    "artist": "나카무라 치즈루",
+    "versions": [
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=4391",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "그 중에 그대를 만나",
     "artist": "이선희",
     "versions": [
@@ -5497,6 +5523,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230629_F6263878_247101041_3_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=4113",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -6803,6 +6839,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=9593",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -7649,6 +7695,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=11451",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8067,6 +8123,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=14958",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -8301,6 +8367,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=7384",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -8944,6 +9020,22 @@ const songs = [
         "videoTitle": "[버블란] 고래시티 츄베릅 띤띤이 투퍼카 만들기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_8A38840B_294239381_2_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "살구송",
+    "artist": "오유",
+    "versions": [
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=13948",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -10253,6 +10345,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=12468",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10705,6 +10807,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_06A96156_293659733_1_r&column=2&t=1777735691",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=13495",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -11739,6 +11851,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=5248",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11937,6 +12059,22 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "우마뾰이 전설",
+    "artist": "우마무스메 프리티 더비",
+    "versions": [
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=3370",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false
       }
@@ -12843,6 +12981,22 @@ const songs = [
     ]
   },
   {
+    "title": "좋은 날",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=6405",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "주옥같다",
     "artist": "고옥희",
     "versions": [
@@ -13435,6 +13589,22 @@ const songs = [
     ]
   },
   {
+    "title": "촛불하나",
+    "artist": "god",
+    "versions": [
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=9925",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "최종화",
     "artist": "아이리 칸나",
     "versions": [
@@ -13719,6 +13889,22 @@ const songs = [
     ]
   },
   {
+    "title": "팬서비스",
+    "artist": "mona",
+    "versions": [
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=6904",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "피날레",
     "artist": "에일",
     "versions": [
@@ -13749,6 +13935,16 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240828_180FD4FE_275836756_2_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=14513",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false
       }
@@ -13862,6 +14058,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=9259",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -14450,6 +14656,26 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230629_F6263878_247101041_3_r",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=5826",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2023-08-23",
+        "url": "https://vod.sooplive.com/player/106253011?change_second=11980",
+        "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
+        "recommended": false,
         "needsReview": false
       }
     ]

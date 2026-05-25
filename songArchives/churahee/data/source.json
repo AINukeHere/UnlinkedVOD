@@ -7958,6 +7958,120 @@
                     "artist": "김필선"
                 }
             ]
+        },
+        {
+            "title": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
+            "date": "2023-08-23",
+            "url": "https://vod.sooplive.com/player/106253011",
+            "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+            "songInfo": [
+                {
+                    "title": "우마뾰이 전설",
+                    "time": "56:10",
+                    "artist": "우마무스메 프리티 더비"
+                },
+                {
+                    "title": "노래하는 다람쥐",
+                    "time": "1:08:33",
+                    "artist": "제이래빗",
+                    "noMistake": true
+                },
+                {
+                    "title": "귀여워서 미안해",
+                    "time": "1:13:11",
+                    "artist": "나카무라 치즈루"
+                },
+                {
+                    "title": "오빠야",
+                    "time": "1:27:28",
+                    "artist": "술제이, 조현영"
+                },
+                {
+                    "title": "화조도",
+                    "time": "1:37:06",
+                    "artist": "심규선",
+                    "noMistake": true
+                },
+                {
+                    "title": "좋은 날",
+                    "time": "1:46:45",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "팬서비스",
+                    "time": "1:55:04",
+                    "artist": "mona",
+                    "noMistake": true
+                },
+                {
+                    "title": "비도 오고 그래서",
+                    "time": "2:03:04",
+                    "artist": "헤이즈",
+                    "noMistake": true
+                },
+                {
+                    "title": "하늘바라기",
+                    "time": "2:34:19",
+                    "artist": "정은지"
+                },
+                {
+                    "title": "무릎",
+                    "time": "2:39:53",
+                    "artist": "아이유",
+                    "recommended": true
+                },
+                {
+                    "title": "촛불하나",
+                    "time": "2:45:25",
+                    "artist": "god"
+                },
+                {
+                    "title": "베텔기우스",
+                    "time": "3:10:51",
+                    "artist": "유우리"
+                },
+                {
+                    "title": "화조도",
+                    "time": "3:19:40",
+                    "artist": "심규선",
+                    "noMistake": true
+                },
+                {
+                    "title": "아라리",
+                    "time": "3:27:48",
+                    "artist": "심규선",
+                    "noMistake": true
+                },
+                {
+                    "title": "After LIKE",
+                    "time": "3:37:29",
+                    "artist": "IVE"
+                },
+                {
+                    "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
+                    "time": "3:44:55",
+                    "artist": "AKMU",
+                    "noMistake": true
+                },
+                {
+                    "title": "살구송",
+                    "time": "3:52:28",
+                    "artist": "오유",
+                    "noMistake": true
+                },
+                {
+                    "title": "피날레",
+                    "time": "4:01:53",
+                    "artist": "에일",
+                    "noMistake": true
+                },
+                {
+                    "title": "부엉이",
+                    "time": "4:09:18",
+                    "artist": "KOKIA",
+                    "noMistake": true
+                }
+            ]
         }
     ]
 }
