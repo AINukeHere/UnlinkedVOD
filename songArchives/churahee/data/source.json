@@ -621,7 +621,7 @@
                 {
                     "title": "비가 오는 날엔",
                     "time": "3:39:32",
-                    "artist": "비스트"
+                    "artist": "헤이즈"
                 },
                 {
                     "title": "노래하는 다람쥐",
@@ -3770,7 +3770,7 @@
                 {
                     "title": "비가 오는 날엔",
                     "time": "1:27:29",
-                    "artist": "비스트"
+                    "artist": "헤이즈"
                 },
                 {
                     "title": "우르릉 쾅쾅쾅",
@@ -3802,7 +3802,7 @@
                 {
                     "title": "오랜 날 오랜 밤",
                     "time": "2:06:17",
-                    "artist": "악동뮤지션"
+                    "artist": "AKMU"
                 },
                 {
                     "title": "소나기",
@@ -4899,7 +4899,7 @@
                 {
                     "title": "비가 오는 날엔",
                     "time": "2:24:30",
-                    "artist": "비스트",
+                    "artist": "헤이즈",
                     "noMistake": true
                 },
                 {
@@ -8069,6 +8069,43 @@
                     "title": "부엉이",
                     "time": "4:09:18",
                     "artist": "KOKIA",
+                    "noMistake": true
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+            "date": "2026-05-26",
+            "url": "https://vod.sooplive.com/player/196874157",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
+            "songInfo": [
+                {
+                    "title": "가끔 내가",
+                    "time": "5:08:29",
+                    "artist": "김나영",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
+                    "title": "흰수염고래",
+                    "time": "5:40:05",
+                    "artist": "정은지",
+                    "noMistake": true
+                },
+                {
+                    "title": "얼음요새",
+                    "time": "6:16:10",
+                    "artist": "김소연"
+                },
+                {
+                    "title": "Track 9",
+                    "time": "6:29:57",
+                    "artist": "이소라"
+                },
+                {
+                    "title": "비가 오는 날엔",
+                    "time": "6:35:39",
+                    "artist": "헤이즈",
                     "noMistake": true
                 }
             ]

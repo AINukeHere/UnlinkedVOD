@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-25T19:03:11.573407+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-27T09:27:17.675801+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -3289,6 +3289,16 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-26",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=23397",
+        "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3738,6 +3748,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250514_CCB8A965_283924764_2_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-26",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=18509",
+        "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false
       }
     ]
@@ -8292,7 +8312,7 @@ const songs = [
   },
   {
     "title": "비가 오는 날엔",
-    "artist": "비스트",
+    "artist": "헤이즈",
     "versions": [
       {
         "date": "2024-09-02",
@@ -8320,6 +8340,16 @@ const songs = [
         "videoTitle": "소통 - 노래 - 노래 깎기(golden)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250716_F506E867_285861350_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-26",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=23739",
+        "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -11153,6 +11183,16 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-26",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=22570",
+        "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -11749,6 +11789,16 @@ const songs = [
         "needsReview": false
       },
       {
+        "date": "2023-08-07",
+        "url": "https://vod.sooplive.com/player/105616031?change_second=7577",
+        "videoTitle": "[유플릭스 인턴] 기차 버스킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
         "date": "2025-05-07",
         "url": "https://vod.sooplive.com/player/159413793?change_second=7443",
         "videoTitle": "소통 - 노래 - 후열 오버워치",
@@ -11772,16 +11822,6 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
         "noMistake": false,
         "recommended": true,
-        "needsReview": false
-      },
-      {
-        "date": "2023-08-07",
-        "url": "https://vod.sooplive.com/player/105616031?change_second=7577",
-        "videoTitle": "[유플릭스 인턴] 기차 버스킹",
-        "views": 1000,
-        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230807_C4CF7238_247673635_2_r",
-        "noMistake": false,
-        "recommended": false,
         "needsReview": false
       }
     ]
@@ -14810,6 +14850,16 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": true,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-26",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=20405",
+        "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
+        "noMistake": true,
+        "recommended": false,
         "needsReview": false
       }
     ]
