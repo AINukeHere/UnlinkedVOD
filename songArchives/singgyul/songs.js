@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-24T18:31:26.609180+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-27T09:31:58.090982+00:00";
 const songs = [
   {
     "title": "1,2,3,4",
@@ -1008,6 +1008,16 @@ const songs = [
         "videoTitle": "[하데스] 후욱..후욱,..후욱..후욱,..후욱..후욱,..후욱..후욱,..후욱..후욱,..후욱..후욱,..",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260419_25C10A77_293350749_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-25",
+        "url": "https://vod.sooplive.com/player/196775809?change_second=24333",
+        "videoTitle": "[하데스] 오 ㅏ 기대된다 두 근 황제배생아",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260525_134E426E_294290859_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
