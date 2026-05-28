@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-27T09:27:17.675801+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-28T16:57:21.383517+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -92,20 +92,20 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=11412",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=11412",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=6037",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=6037",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -166,10 +166,10 @@ const songs = [
     "versions": [
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=5311",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=5311",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -290,10 +290,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=5551",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=5551",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -310,10 +310,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=13026",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=13026",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -796,20 +796,20 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=6858",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=6858",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=3497",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=3497",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -888,10 +888,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=10065",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=10065",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1222,10 +1222,10 @@ const songs = [
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=3143",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=3143",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -1994,10 +1994,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=11894",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=11894",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2346,10 +2346,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=8448",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=8448",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2840,10 +2840,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=9308",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=9308",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2960,10 +2960,10 @@ const songs = [
     "versions": [
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=10917",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=10917",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3222,10 +3222,10 @@ const songs = [
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=5119",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=5119",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -3632,10 +3632,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=10540",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=10540",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3964,10 +3964,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=6651",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=6651",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -4266,10 +4266,10 @@ const songs = [
     "versions": [
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=6250",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=6250",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -4961,6 +4961,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-28",
+        "url": "https://vod.sooplive.com/player/197061281?change_second=20314",
+        "videoTitle": "[버블란] 고래시티 츄베릅 마지막 이야기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260528_2ECFFF3E_294369327_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -5362,10 +5372,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=8573",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=8573",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -5682,10 +5692,10 @@ const songs = [
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=3841",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=3841",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -7110,10 +7120,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=9621",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=9621",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -7308,10 +7318,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=7403",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=7403",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -7525,6 +7535,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-28",
+        "url": "https://vod.sooplive.com/player/197061281?change_second=21250",
+        "videoTitle": "[버블란] 고래시티 츄베릅 마지막 이야기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260528_2ECFFF3E_294369327_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -7590,10 +7610,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=7084",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=7084",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -7856,20 +7876,20 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=10262",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=10262",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=7527",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=7527",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -8786,10 +8806,10 @@ const songs = [
     "versions": [
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=9741",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=9741",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -9536,10 +9556,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=4245",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=4245",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -9662,10 +9682,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=19180",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=19180",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -10733,6 +10753,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-28",
+        "url": "https://vod.sooplive.com/player/197061281?change_second=20918",
+        "videoTitle": "[버블란] 고래시티 츄베릅 마지막 이야기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260528_2ECFFF3E_294369327_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -10878,10 +10908,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=4770",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=4770",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -11186,7 +11216,7 @@ const songs = [
       },
       {
         "date": "2026-05-26",
-        "url": "https://vod.sooplive.com/player/196874157?change_second=22570",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=22568",
         "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
@@ -11365,6 +11395,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-26",
+        "url": "https://vod.sooplive.com/player/196874157?change_second=17825",
+        "videoTitle": "[버블란] 고래시티 츄베릅 배틀로얄 보면더 돈 벌기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -11502,10 +11542,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=6050",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=6050",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -11698,10 +11738,10 @@ const songs = [
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=9946",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=9946",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false
@@ -11759,6 +11799,16 @@ const songs = [
     "artist": "AKMU",
     "versions": [
       {
+        "date": "2026-02-22",
+        "url": "https://vod.sooplive.com/player/187652915?change_second=3256",
+        "videoTitle": "소통 - 싱크룸(w. 강하나 김다나 카아암)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
+      },
+      {
         "date": "2026-01-10",
         "url": "https://vod.sooplive.co.kr/player/183347001?change_second=5606",
         "videoTitle": "소통 - 노래",
@@ -11780,10 +11830,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=5732",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=5732",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -11804,22 +11854,6 @@ const songs = [
         "videoTitle": "소통 - 노래 - 후열 오버워치",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250507_03D12248_283729328_2_r",
-        "noMistake": false,
-        "recommended": true,
-        "needsReview": false
-      }
-    ]
-  },
-  {
-    "title": "오랜 날 오랜 밤",
-    "artist": "악동뮤지션",
-    "versions": [
-      {
-        "date": "2026-02-22",
-        "url": "https://vod.sooplive.com/player/187652915?change_second=3256",
-        "videoTitle": "소통 - 싱크룸(w. 강하나 김다나 카아암)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260222_E91359D4_291828158_1_r&column=2&t=1772465252",
         "noMistake": false,
         "recommended": true,
         "needsReview": false
@@ -12126,10 +12160,10 @@ const songs = [
     "versions": [
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=9396",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=9396",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -12331,6 +12365,16 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-28",
+        "url": "https://vod.sooplive.com/player/197061281?change_second=21563",
+        "videoTitle": "[버블란] 고래시티 츄베릅 마지막 이야기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260528_2ECFFF3E_294369327_2_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false
       }
     ]
   },
@@ -12370,10 +12414,10 @@ const songs = [
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=4653",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=4653",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -12902,10 +12946,10 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=7919",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=7919",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": true,
         "recommended": true,
         "needsReview": false
@@ -14006,10 +14050,10 @@ const songs = [
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=8875",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=8875",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -14722,7 +14766,7 @@ const songs = [
   },
   {
     "title": "후라이의 꿈",
-    "artist": "악동뮤지션",
+    "artist": "AKMU",
     "versions": [
       {
         "date": "2025-12-24",
@@ -14736,30 +14780,30 @@ const songs = [
       },
       {
         "date": "2025-11-15",
-        "url": "https://vod.sooplive.co.kr/player/177943069?change_second=12407",
+        "url": "https://vod.sooplive.com/player/177943069?change_second=12407",
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
       },
       {
         "date": "2025-10-29",
-        "url": "https://vod.sooplive.co.kr/player/176227237?change_second=8050",
+        "url": "https://vod.sooplive.com/player/176227237?change_second=8050",
         "videoTitle": "소통 - 6주만의 노래 재활",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=8265",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=8265",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -14844,10 +14888,10 @@ const songs = [
       },
       {
         "date": "2025-05-06",
-        "url": "https://vod.sooplive.co.kr/player/159315965?change_second=8628",
+        "url": "https://vod.sooplive.com/player/159315965?change_second=8628",
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
         "noMistake": false,
         "recommended": true,
         "needsReview": false

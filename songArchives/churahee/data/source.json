@@ -2005,7 +2005,7 @@
                 {
                     "title": "오랜 날 오랜 밤",
                     "time": "00:54:16",
-                    "artist": "악동뮤지션",
+                    "artist": "AKMU",
                     "recommended": true
                 },
                 {
@@ -2631,7 +2631,7 @@
                 {
                     "title": "후라이의 꿈",
                     "time": "01:58:36",
-                    "artist": "악동뮤지션"
+                    "artist": "AKMU"
                 },
                 {
                     "title": "몽유",
@@ -3219,70 +3219,84 @@
         {
             "title": "🎉생일 방송(소통 - 노래 - 게임)",
             "date": "2025-11-15",
-            "url": "https://vod.sooplive.co.kr/player/177943069",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
+            "url": "https://vod.sooplive.com/player/177943069",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
             "songInfo": [
                 {
                     "title": "Almond Chocolate",
-                    "time": "1:32:31"
+                    "time": "1:32:31",
+                    "artist": "아일릿"
                 },
                 {
                     "title": "오늘 뭐 했는지 말해봐",
                     "time": "1:40:50",
+                    "artist": "권진아",
                     "noMistake": true
                 },
                 {
                     "title": "Ghost Town",
                     "time": "1:54:18",
+                    "artist": "Benson Boone",
                     "recommended": true
                 },
                 {
                     "title": "민들레",
-                    "time": "2:03:23"
+                    "time": "2:03:23",
+                    "artist": "우효"
                 },
                 {
                     "title": "장마",
                     "time": "2:11:59",
+                    "artist": "정인",
                     "noMistake": true,
                     "recommended": true
                 },
                 {
                     "title": "너무 보고싶어",
                     "time": "2:22:53",
+                    "artist": "어쿠스틱 콜라보",
                     "noMistake": true,
                     "recommended": true
                 },
                 {
                     "title": "Rubia",
-                    "time": "2:35:08"
+                    "time": "2:35:08",
+                    "artist": "붕괴 OST"
                 },
                 {
                     "title": "사랑 그게 뭔데",
-                    "time": "2:42:21"
+                    "time": "2:42:21",
+                    "artist": "양파"
                 },
                 {
                     "title": "별의 조각",
-                    "time": "2:51:02"
+                    "time": "2:51:02",
+                    "artist": "윤하"
                 },
                 {
                     "title": "Slow Motion",
-                    "time": "3:01:57"
+                    "time": "3:01:57",
+                    "artist": "Karina"
                 },
                 {
                     "title": "12:45",
-                    "time": "3:10:12"
+                    "time": "3:10:12",
+                    "artist": "Etham"
                 },
                 {
                     "title": "Love=Disaster",
-                    "time": "3:18:14"
+                    "time": "3:18:14",
+                    "artist": "프로미스나인"
                 },
                 {
                     "title": "후라이의 꿈",
-                    "time": "3:26:47"
+                    "time": "3:26:47",
+                    "artist": "AKMU"
                 },
                 {
                     "title": "수고했어, 오늘도",
                     "time": "5:19:40",
+                    "artist": "옥상달빛",
                     "noMistake": true,
                     "recommended": true
                 }
@@ -3453,69 +3467,84 @@
         {
             "title": "소통 - 6주만의 노래 재활",
             "date": "2025-10-29",
-            "url": "https://vod.sooplive.co.kr/player/176227237",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
+            "url": "https://vod.sooplive.com/player/176227237",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251029_2F585298_288716010_1_r&column=2&t=1761726387",
             "songInfo": [
                 {
                     "title": "소로",
-                    "time": "1:10:45"
+                    "time": "1:10:45",
+                    "artist": "심규선"
                 },
                 {
                     "title": "어른",
                     "time": "1:19:30",
+                    "artist": "손디아",
                     "recommended": true
                 },
                 {
                     "title": "After LIKE",
-                    "time": "1:28:31"
+                    "time": "1:28:31",
+                    "artist": "IVE"
                 },
                 {
                     "title": "오랜 날 오랜 밤",
-                    "time": "1:35:32"
+                    "time": "1:35:32",
+                    "artist": "AKMU"
                 },
                 {
                     "title": "괴물이 피는 숲",
-                    "time": "1:44:10"
+                    "time": "1:44:10",
+                    "artist": "미로"
                 },
                 {
                     "title": "계절범죄",
-                    "time": "1:50:51"
+                    "time": "1:50:51",
+                    "artist": "윤하"
                 },
                 {
                     "title": "배웅",
-                    "time": "1:58:04"
+                    "time": "1:58:04",
+                    "artist": "박혜원"
                 },
                 {
                     "title": "별의 조각",
-                    "time": "2:05:27"
+                    "time": "2:05:27",
+                    "artist": "윤하"
                 },
                 {
                     "title": "후라이의 꿈",
-                    "time": "2:14:10"
+                    "time": "2:14:10",
+                    "artist": "AKMU"
                 },
                 {
                     "title": "OHAYO MY NIGHT",
-                    "time": "2:20:48"
+                    "time": "2:20:48",
+                    "artist": "디핵"
                 },
                 {
                     "title": "하나님은 너를 지키시는 자",
-                    "time": "2:27:55"
+                    "time": "2:27:55",
+                    "artist": "조수아"
                 },
                 {
                     "title": "뭔가 잘못됐어",
-                    "time": "2:40:21"
+                    "time": "2:40:21",
+                    "artist": "권진아"
                 },
                 {
                     "title": "Golden",
-                    "time": "2:47:45"
+                    "time": "2:47:45",
+                    "artist": "HUNTR/X"
                 },
                 {
                     "title": "You",
-                    "time": "2:55:40"
+                    "time": "2:55:40",
+                    "artist": "김상민"
                 },
                 {
                     "title": "Almond Chocolate",
                     "time": "3:37:06",
+                    "artist": "아일릿",
                     "noMistake": true
                 }
             ]
@@ -3855,55 +3884,65 @@
         {
             "title": "소통 - 별별랭킹 - 노래",
             "date": "2025-05-06",
-            "url": "https://vod.sooplive.co.kr/player/159315965",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+            "url": "https://vod.sooplive.com/player/159315965",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
             "songInfo": [
                 {
                     "title": "How Do I Say Goodbye",
                     "time": "52:23",
+                    "artist": "Dean Lewis",
                     "recommended": true
                 },
                 {
                     "title": "Ghost Town",
                     "time": "58:17",
+                    "artist": "Benson Boone",
                     "noMistake": true,
                     "recommended": true
                 },
                 {
                     "title": "눈사람",
                     "time": "1:04:01",
+                    "artist": "정승환",
                     "noMistake": true,
                     "recommended": true
                 },
                 {
                     "title": "웃으며",
-                    "time": "1:17:33"
+                    "time": "1:17:33",
+                    "artist": "신예영"
                 },
                 {
                     "title": "Track 9",
                     "time": "1:25:19",
+                    "artist": "이소라",
                     "recommended": true
                 },
                 {
                     "title": "12:45",
-                    "time": "1:40:37"
+                    "time": "1:40:37",
+                    "artist": "Etham"
                 },
                 {
                     "title": "후라이의 꿈",
-                    "time": "2:17:45"
+                    "time": "2:17:45",
+                    "artist": "AKMU"
                 },
                 {
                     "title": "흰수염고래",
                     "time": "2:23:48",
+                    "artist": "정은지",
                     "recommended": true
                 },
                 {
                     "title": "우산",
-                    "time": "2:36:36"
+                    "time": "2:36:36",
+                    "artist": "윤하"
                 },
                 {
                     "title": "오늘 헤어졌어요",
                     "time": "2:45:46",
+                    "artist": "윤하",
                     "noMistake": true
                 }
             ]
@@ -5561,7 +5600,7 @@
                 {
                     "title": "후라이의 꿈",
                     "time": "1:13:55",
-                    "artist": "악동뮤지션"
+                    "artist": "AKMU"
                 },
                 {
                     "title": "거위의 꿈",
@@ -5728,7 +5767,7 @@
                 {
                     "title": "후라이의 꿈",
                     "time": "1:41:43",
-                    "artist": "악동뮤지션"
+                    "artist": "AKMU"
                 },
                 {
                     "title": "Alcohol-Free",
@@ -8080,6 +8119,13 @@
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260526_6854086C_294311925_2_r",
             "songInfo": [
                 {
+                    "title": "연의 편지",
+                    "time": "4:57:05",
+                    "artist": "이수현",
+                    "noMistake": true,
+                    "recommended": true
+                },
+                {
                     "title": "가끔 내가",
                     "time": "5:08:29",
                     "artist": "김나영",
@@ -8094,7 +8140,7 @@
                 },
                 {
                     "title": "얼음요새",
-                    "time": "6:16:10",
+                    "time": "6:16:08",
                     "artist": "김소연"
                 },
                 {
@@ -8107,6 +8153,36 @@
                     "time": "6:35:39",
                     "artist": "헤이즈",
                     "noMistake": true
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 고래시티 츄베릅 마지막 이야기",
+            "date": "2026-05-28",
+            "url": "https://vod.sooplive.com/player/197061281",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260528_2ECFFF3E_294369327_2_r",
+            "songInfo": [
+                {
+                    "title": "끝났다는 것은 다시 시작된다는 것을",
+                    "time": "5:38:34",
+                    "artist": "산나비"
+                },
+                {
+                    "title": "야수",
+                    "time": "5:48:38",
+                    "artist": "김필선"
+                },
+                {
+                    "title": "밤편지",
+                    "time": "5:54:10",
+                    "artist": "아이유",
+                    "recommended": true
+                },
+                {
+                    "title": "운이 좋았지",
+                    "time": "5:59:23",
+                    "artist": "권진아",
+                    "recommended": true
                 }
             ]
         }
