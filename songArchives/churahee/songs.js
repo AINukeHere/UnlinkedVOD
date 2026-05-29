@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-28T16:57:21.383517+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-29T23:48:09.120151+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -6632,6 +6632,22 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260512_0B532A40_293945411_1_r&column=2&t=1778844084",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "만찬가",
+    "artist": "츠키",
+    "versions": [
+      {
+        "date": "2026-05-29",
+        "url": "https://vod.sooplive.com/player/197130343?change_second=14957",
+        "videoTitle": "[버블란] 카페 털면서 고래시티 클립 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260529_59AB5856_294388113_2_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false
       }
     ]
@@ -14928,6 +14944,16 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_4F25F66E_292999001_1_r&column=2&t=1775571572",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-29",
+        "url": "https://vod.sooplive.com/player/197130343?change_second=15231",
+        "videoTitle": "[버블란] 카페 털면서 고래시티 클립 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260529_59AB5856_294388113_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

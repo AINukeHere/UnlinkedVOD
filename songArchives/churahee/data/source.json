@@ -8185,6 +8185,24 @@
                     "recommended": true
                 }
             ]
+        },
+        {
+            "title": "[버블란] 카페 털면서 고래시티 클립 보기",
+            "date": "2026-05-29",
+            "url": "https://vod.sooplive.com/player/197130343",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260529_59AB5856_294388113_2_r",
+            "songInfo": [
+                {
+                    "title": "만찬가",
+                    "time": "4:09:17",
+                    "artist": "츠키"
+                },
+                {
+                    "title": "히로인",
+                    "time": "4:13:51",
+                    "artist": "Back Number"
+                }
+            ]
         }
     ]
 }
