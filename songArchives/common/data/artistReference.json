@@ -309,6 +309,12 @@
         ]
     },
     {
+        "artist": "박보람",
+        "aliases": [
+            "박보람ver"
+        ]
+    },
+    {
         "artist": "박봄",
         "aliases": []
     },
@@ -385,6 +391,10 @@
         ]
     },
     {
+        "artist": "보컬로이드 시유",
+        "aliases": []
+    },
+    {
         "artist": "볼빨간사춘기",
         "aliases": []
     },
@@ -415,7 +425,8 @@
     {
         "artist": "비비",
         "aliases": [
-            "BIBI"
+            "BIBI",
+            "BIBI(비비)"
         ]
     },
     {
@@ -583,7 +594,8 @@
     {
         "artist": "아이오아이",
         "aliases": [
-            "I.O.I"
+            "I.O.I",
+            "I.O.I(아이오아이)"
         ]
     },
     {
@@ -718,6 +730,10 @@
     },
     {
         "artist": "유리이 카논",
+        "aliases": []
+    },
+    {
+        "artist": "유미",
         "aliases": []
     },
     {

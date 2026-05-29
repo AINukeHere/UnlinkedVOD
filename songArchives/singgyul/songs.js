@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-27T09:31:58.090982+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-05-29T21:03:45.509029+00:00";
 const songs = [
   {
     "title": "1,2,3,4",
@@ -90,6 +90,22 @@ const songs = [
         "videoTitle": "[하데스] 이환 쇼케이스 같이보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Fine",
+    "artist": "소찬휘",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=9631",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -283,6 +299,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=12085",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -435,6 +461,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=16981",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -538,6 +574,16 @@ const songs = [
         "videoTitle": "[하데스] 간만의 소소소통노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=11617",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -895,6 +941,22 @@ const songs = [
     ]
   },
   {
+    "title": "가면 무도회",
+    "artist": "비비",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=15026",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "거리에서",
     "artist": "성시경",
     "versions": [
@@ -1164,6 +1226,22 @@ const songs = [
         "videoTitle": "[하데스] 인생여전 노래방 ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "금요일에 만나요",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=13693",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1885,6 +1963,22 @@ const songs = [
     ]
   },
   {
+    "title": "별",
+    "artist": "유미",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=16596",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "별무리 비너스",
     "artist": "Aimer",
     "versions": [
@@ -1984,6 +2078,22 @@ const songs = [
         "videoTitle": "[하데스] 운전왕 김띵귤의 후열 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "비 오는 날 듣기 좋은 노래",
+    "artist": "윤하",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=10737",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2138,6 +2248,38 @@ const songs = [
         "videoTitle": "[하데스] 노래 잠깐만 부르고 갈게요 ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "세월이 가면",
+    "artist": "박보람",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=16228",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "소나기",
+    "artist": "아이오아이",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=11134",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2411,6 +2553,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=12428",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2554,6 +2706,16 @@ const songs = [
         "videoTitle": "[하데스] 후욱..후욱,..후욱..후욱,..후욱..후욱,..후욱..후욱,..후욱..후욱,..후욱..후욱,..",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260419_25C10A77_293350749_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=15825",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2713,6 +2875,22 @@ const songs = [
     ]
   },
   {
+    "title": "우산",
+    "artist": "보컬로이드 시유",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=10365",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "우주를 줄게",
     "artist": "볼빨간사춘기",
     "versions": [
@@ -2754,6 +2932,22 @@ const songs = [
         "videoTitle": "[하데스] 이환 쇼케이스 같이보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "을의 연애",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=14743",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2829,6 +3023,22 @@ const songs = [
     ]
   },
   {
+    "title": "이름에게",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=13124",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "잊어야 한다는 마음으로",
     "artist": "김광석",
     "versions": [
@@ -2867,6 +3077,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=9988",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2880,6 +3100,22 @@ const songs = [
         "videoTitle": "[하데스] 키키..키마야 생일축하해..키마야..키마야생일축하해..키마야생일축하해..키키..키마야 생일축하해..키마야..키마야생일축하해",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_6AB0E15F_293426513_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "좋은일이 있을거야",
+    "artist": "제이래빗",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=14438",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2906,6 +3142,22 @@ const songs = [
         "videoTitle": "[하데스] 무수x하데스 행배(w. 깨박,지상,챈나) ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260408_07F40477_293063835_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "주저하는 연인들을 위해",
+    "artist": "잔나비",
+    "versions": [
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=17636",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3096,6 +3348,16 @@ const songs = [
         "videoTitle": "[하데스] 슬램덩크 너무재미따...",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_EA69D0B4_293006055_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-27",
+        "url": "https://vod.sooplive.com/player/196974651?change_second=9010",
+        "videoTitle": "[하데스] 새벽노래뱅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

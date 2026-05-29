@@ -1505,6 +1505,109 @@
                     "artist": "아이유"
                 }
             ]
+        },
+        {
+            "title": "[하데스] 새벽노래뱅",
+            "date": "2026-05-27",
+            "url": "https://vod.sooplive.com/player/196974651",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+            "songInfo": [
+                {
+                    "title": "텔레파시",
+                    "time": "02:30:10",
+                    "artist": "윤하"
+                },
+                {
+                    "title": "Fine",
+                    "time": "02:40:31",
+                    "artist": "소찬휘"
+                },
+                {
+                    "title": "장마",
+                    "time": "02:46:28",
+                    "artist": "정인"
+                },
+                {
+                    "title": "우산",
+                    "time": "02:52:45",
+                    "artist": "보컬로이드 시유"
+                },
+                {
+                    "title": "비 오는 날 듣기 좋은 노래",
+                    "time": "02:58:57",
+                    "artist": "윤하"
+                },
+                {
+                    "title": "소나기",
+                    "time": "03:05:34",
+                    "artist": "아이오아이"
+                },
+                {
+                    "title": "Never Ending Story",
+                    "time": "03:13:37",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "Jump",
+                    "time": "03:21:25",
+                    "artist": "제이래빗"
+                },
+                {
+                    "title": "어릿광대를 보내주오",
+                    "time": "03:27:08",
+                    "artist": "심규선"
+                },
+                {
+                    "title": "이름에게",
+                    "time": "03:38:44",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "금요일에 만나요",
+                    "time": "03:48:13",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "좋은일이 있을거야",
+                    "time": "04:00:38",
+                    "artist": "제이래빗"
+                },
+                {
+                    "title": "을의 연애",
+                    "time": "04:05:43",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "가면 무도회",
+                    "time": "04:10:26",
+                    "artist": "비비"
+                },
+                {
+                    "title": "오늘 헤어졌어요",
+                    "time": "04:23:45",
+                    "artist": "윤하"
+                },
+                {
+                    "title": "세월이 가면",
+                    "time": "04:30:28",
+                    "artist": "박보람"
+                },
+                {
+                    "title": "별",
+                    "time": "04:36:36",
+                    "artist": "유미"
+                },
+                {
+                    "title": "Love wins all",
+                    "time": "04:43:01",
+                    "artist": "아이유"
+                },
+                {
+                    "title": "주저하는 연인들을 위해",
+                    "time": "04:53:56",
+                    "artist": "잔나비"
+                }
+            ]
         }
     ]
 }
