@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-29T21:03:45.509029+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-04T17:16:06.514887+00:00";
 const songs = [
   {
     "title": "1,2,3,4",
@@ -42,6 +42,32 @@ const songs = [
         "videoTitle": "[하데스] 포장마차 사장님이 되어보겠습니다 ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-06-04",
+        "url": "https://vod.sooplive.com/player/197718401?change_second=6269",
+        "videoTitle": "[하데스] 포켓몬뱃지 언박싱.. 두근",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260604_CE830094_294553483_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Bubble Gum",
+    "artist": "뉴진스",
+    "versions": [
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=15854",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -90,6 +116,16 @@ const songs = [
         "videoTitle": "[하데스] 이환 쇼케이스 같이보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=12587",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -219,6 +255,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=16514",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -280,6 +326,16 @@ const songs = [
         "videoTitle": "[하데스] 간만의 소소소통노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=9081",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -348,6 +404,16 @@ const songs = [
         "videoTitle": "[하데스] 간만의 소소소통노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=10012",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -524,7 +590,7 @@ const songs = [
   },
   {
     "title": "Mela!",
-    "artist": "녹색상사화",
+    "artist": "녹황색사회",
     "versions": [
       {
         "date": "2026-04-05",
@@ -532,6 +598,16 @@ const songs = [
         "videoTitle": "[하데스] 후열 잠깐 하고 가기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=7204",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -584,6 +660,22 @@ const songs = [
         "videoTitle": "[하데스] 새벽노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "Night And Day",
+    "artist": "프랭크 시나트라",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=9725",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -857,6 +949,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=6039",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -918,6 +1020,22 @@ const songs = [
         "videoTitle": "[하데스] 히든싱어 Live 김현정님 편 같이보쟈 ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "You'd Be So Nice To Come Home To",
+    "artist": "Helen Merrill",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=10687",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1061,6 +1179,22 @@ const songs = [
     ]
   },
   {
+    "title": "과제곡",
+    "artist": "이무진",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=10332",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "관객이 될게",
     "artist": "아이유",
     "versions": [
@@ -1177,6 +1311,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=16609",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -1190,6 +1334,22 @@ const songs = [
         "videoTitle": "[하데스] 히든싱어 Live 김현정님 편 같이보쟈 ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "그대라는 시",
+    "artist": "태연",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=8726",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1339,6 +1499,22 @@ const songs = [
     ]
   },
   {
+    "title": "나만 몰랐던 이야기",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=8372",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "나만, 봄",
     "artist": "볼빨간사춘기",
     "versions": [
@@ -1410,6 +1586,22 @@ const songs = [
         "videoTitle": "[하데스] 인스타감성 GTA노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "낮에뜨는 달",
+    "artist": "안예은",
+    "versions": [
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=15417",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1562,6 +1754,22 @@ const songs = [
         "videoTitle": "[하데스] 인스타감성 GTA노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "둘만의 이야기",
+    "artist": "백아연",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=5601",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1739,6 +1947,22 @@ const songs = [
     ]
   },
   {
+    "title": "만약에",
+    "artist": "태연",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=7975",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "매직 카펫 라이드",
     "artist": "자우림",
     "versions": [
@@ -1748,6 +1972,16 @@ const songs = [
         "videoTitle": "[하데스] 운전왕 김띵귤의 후열 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-06-04",
+        "url": "https://vod.sooplive.com/player/197718401?change_second=7292",
+        "videoTitle": "[하데스] 포켓몬뱃지 언박싱.. 두근",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260604_CE830094_294553483_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1806,6 +2040,32 @@ const songs = [
         "videoTitle": "[하데스] 후열 잠깐 하고 가기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=12057",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "묘해, 너와",
+    "artist": "어쿠스틱콜라보",
+    "versions": [
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=14525",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -1959,6 +2219,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197639407?change_second=21658",
+        "videoTitle": "[하데스] 리듬액션 겜? 신작 맛보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2062,6 +2332,22 @@ const songs = [
         "videoTitle": "[하데스] 하데스 후열 싱크룸 ㅎㅎ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "붉은 장미",
+    "artist": "우예린",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=10915",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2175,6 +2461,22 @@ const songs = [
     ]
   },
   {
+    "title": "삐삐",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=6406",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "사건의 지평선",
     "artist": "윤하",
     "versions": [
@@ -2184,6 +2486,16 @@ const songs = [
         "videoTitle": "[하데스] 인스타감성 GTA노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=5190",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -2537,6 +2849,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=9392",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -2836,6 +3158,16 @@ const songs = [
         "videoTitle": "[하데스] 슬램덩크 너무재미따...",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_EA69D0B4_293006055_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=13749",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3145,6 +3477,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197639407?change_second=22509",
+        "videoTitle": "[하데스] 리듬액션 겜? 신작 맛보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3319,6 +3661,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197639407?change_second=21115",
+        "videoTitle": "[하데스] 리듬액션 겜? 신작 맛보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3332,6 +3684,16 @@ const songs = [
         "videoTitle": "[하데스] 처음 뵙겠습니다  ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197639407?change_second=21487",
+        "videoTitle": "[하데스] 리듬액션 겜? 신작 맛보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3445,6 +3807,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=15022",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3484,6 +3856,22 @@ const songs = [
         "videoTitle": "[하데스] 간만의 소소소통노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "하루 끝",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-05-31",
+        "url": "https://vod.sooplive.com/player/197323573?change_second=6847",
+        "videoTitle": "[하데스] 개같이 짖는 게임 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false
@@ -3585,6 +3973,22 @@ const songs = [
     ]
   },
   {
+    "title": "헤픈 우연",
+    "artist": "헤이즈",
+    "versions": [
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=16925",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
     "title": "혜성",
     "artist": "윤하",
     "versions": [
@@ -3607,6 +4011,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=13008",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
       }
     ]
   },
@@ -3620,6 +4034,22 @@ const songs = [
         "videoTitle": "[하데스] 노래 핀볼 데이 김상민 - you 걸림ㅎㅎ 망함",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false
+      }
+    ]
+  },
+  {
+    "title": "홀씨",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-02",
+        "url": "https://vod.sooplive.com/player/197551573?change_second=16221",
+        "videoTitle": "[하데스] 와,,",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false

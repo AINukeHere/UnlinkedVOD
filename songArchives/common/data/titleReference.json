@@ -102,6 +102,10 @@
         "aliases": []
     },
     {
+        "title": "과제곡",
+        "aliases": []
+    },
+    {
         "title": "관객이 될게",
         "aliases": []
     },
@@ -141,6 +145,10 @@
     },
     {
         "title": "그녀와의 이별",
+        "aliases": []
+    },
+    {
+        "title": "그대라는 시",
         "aliases": []
     },
     {
@@ -283,6 +291,12 @@
         "aliases": []
     },
     {
+        "title": "낮에 뜨는 달",
+        "aliases": [
+            "낮에뜨는 달"
+        ]
+    },
+    {
         "title": "내가 죽으려고 생각한 것은",
         "aliases": []
     },
@@ -406,6 +420,10 @@
         ]
     },
     {
+        "title": "둘만의 이야기",
+        "aliases": []
+    },
+    {
         "title": "드라이플라워",
         "aliases": []
     },
@@ -513,6 +531,10 @@
     },
     {
         "title": "몽환의 숲",
+        "aliases": []
+    },
+    {
+        "title": "묘해, 너와",
         "aliases": []
     },
     {
@@ -738,6 +760,10 @@
         "aliases": []
     },
     {
+        "title": "삐삐",
+        "aliases": []
+    },
+    {
         "title": "사건의 지평선",
         "aliases": []
     },
@@ -855,7 +881,10 @@
     },
     {
         "title": "수피",
-        "aliases": []
+        "aliases": [
+            "樹皮",
+            "수피 樹皮"
+        ]
     },
     {
         "title": "숲",
@@ -1439,6 +1468,10 @@
         "aliases": []
     },
     {
+        "title": "하루 끝",
+        "aliases": []
+    },
+    {
         "title": "하루 종일 비가 내렸어",
         "aliases": [
             "하루종일 비가 내렸어"
@@ -1614,6 +1647,10 @@
     },
     {
         "title": "breathin",
+        "aliases": []
+    },
+    {
+        "title": "Bubble Gum",
         "aliases": []
     },
     {
@@ -1999,6 +2036,10 @@
         "aliases": []
     },
     {
+        "title": "Night And Day",
+        "aliases": []
+    },
+    {
         "title": "Nobody",
         "aliases": []
     },
@@ -2256,6 +2297,10 @@
     },
     {
         "title": "You And I",
+        "aliases": []
+    },
+    {
+        "title": "You'd Be So Nice To Come Home To",
         "aliases": []
     },
     {

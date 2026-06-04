@@ -8203,6 +8203,32 @@
                     "artist": "Back Number"
                 }
             ]
+        },
+        {
+            "title": "[버블란] 철권 처음하는 몸...ㅣ챈나룽 서버 업 해 주세요...🥹",
+            "date": "2026-06-03",
+            "url": "https://vod.sooplive.com/player/197640811",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_8160121D_294519161_2_r",
+            "songInfo": [
+                {
+                    "title": "첫 키스에 내 심장은 120BPM",
+                    "time": "35:03",
+                    "artist": "경서",
+                    "needsReview": true
+                },
+                {
+                    "title": "여름이었다",
+                    "time": "41:31",
+                    "artist": "하이키",
+                    "needsReview": true
+                },
+                {
+                    "title": "수피",
+                    "time": "52:17",
+                    "artist": "심규선",
+                    "needsReview": true
+                }
+            ]
         }
     ]
 }

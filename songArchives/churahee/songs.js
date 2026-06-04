@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-05-29T23:48:09.120151+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-04T17:02:27.278794+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -9911,6 +9911,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197640811?change_second=3137",
+        "videoTitle": "[버블란] 철권 처음하는 몸...ㅣ챈나룽 서버 업 해 주세요...🥹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_8160121D_294519161_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -11297,6 +11307,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197640811?change_second=2491",
+        "videoTitle": "[버블란] 철권 처음하는 몸...ㅣ챈나룽 서버 업 해 주세요...🥹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_8160121D_294519161_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },
@@ -13547,6 +13567,16 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false
+      },
+      {
+        "date": "2026-06-03",
+        "url": "https://vod.sooplive.com/player/197640811?change_second=2103",
+        "videoTitle": "[버블란] 철권 처음하는 몸...ㅣ챈나룽 서버 업 해 주세요...🥹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_8160121D_294519161_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true
       }
     ]
   },

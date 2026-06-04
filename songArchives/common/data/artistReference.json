@@ -149,8 +149,10 @@
         "aliases": []
     },
     {
-        "artist": "녹색상사화",
-        "aliases": []
+        "artist": "녹황색사회",
+        "aliases": [
+            "녹색상사화"
+        ]
     },
     {
         "artist": "뉴진스",
@@ -628,6 +630,10 @@
         "aliases": []
     },
     {
+        "artist": "어쿠스틱콜라보",
+        "aliases": []
+    },
+    {
         "artist": "에이몽",
         "aliases": []
     },
@@ -1004,7 +1010,9 @@
     },
     {
         "artist": "프랭크 시나트라",
-        "aliases": []
+        "aliases": [
+            "Frank Sinatra"
+        ]
     },
     {
         "artist": "프로미스나인",
@@ -1162,7 +1170,15 @@
         "aliases": []
     },
     {
+        "artist": "Frank Sinatra",
+        "aliases": []
+    },
+    {
         "artist": "god",
+        "aliases": []
+    },
+    {
+        "artist": "Helen Merrill",
         "aliases": []
     },
     {
