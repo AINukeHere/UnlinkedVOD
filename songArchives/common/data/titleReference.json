@@ -297,6 +297,10 @@
         ]
     },
     {
+        "title": "내가 제일 잘 나가",
+        "aliases": []
+    },
+    {
         "title": "내가 죽으려고 생각한 것은",
         "aliases": []
     },
@@ -377,6 +381,10 @@
     },
     {
         "title": "뉴욕에서",
+        "aliases": []
+    },
+    {
+        "title": "다시 만난 세계",
         "aliases": []
     },
     {
@@ -643,6 +651,10 @@
     },
     {
         "title": "별의 조각",
+        "aliases": []
+    },
+    {
+        "title": "별의 하모니",
         "aliases": []
     },
     {
@@ -1057,6 +1069,10 @@
         "aliases": []
     },
     {
+        "title": "여우비",
+        "aliases": []
+    },
+    {
         "title": "여우야",
         "aliases": []
     },
@@ -1142,6 +1158,10 @@
     },
     {
         "title": "외톨이",
+        "aliases": []
+    },
+    {
+        "title": "외톨이야",
         "aliases": []
     },
     {
@@ -1615,6 +1635,10 @@
         ]
     },
     {
+        "title": "And July",
+        "aliases": []
+    },
+    {
         "title": "ANGELUS",
         "aliases": []
     },
@@ -1847,6 +1871,10 @@
         "aliases": []
     },
     {
+        "title": "If I Ain't Got You",
+        "aliases": []
+    },
+    {
         "title": "illa illa",
         "aliases": [
             "일라 일라",
@@ -1934,6 +1962,10 @@
     },
     {
         "title": "LOCKDOWN",
+        "aliases": []
+    },
+    {
+        "title": "Lonely",
         "aliases": []
     },
     {
@@ -2113,7 +2145,8 @@
     {
         "title": "RE : WIND",
         "aliases": [
-            "리와인드"
+            "리와인드",
+            "RE:WIND"
         ]
     },
     {

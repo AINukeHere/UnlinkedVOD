@@ -287,6 +287,12 @@ body {
   cursor: pointer;
 }
 
+.logic-right-option {
+  margin-left: auto;
+  padding-left: 0.8rem;
+  border-left: 1px solid var(--border);
+}
+
 /* ─── 본문 + 오른쪽 다시보기 패널 ─── */
 .page-layout {
   display: flex;
@@ -750,6 +756,31 @@ a.vod-cal-day:focus-visible {
   align-items: center;
   gap: 0.25rem;
   margin-left: auto;
+}
+
+.version-card-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
+}
+
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.08rem 0.32rem;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.version-badge-syncroom {
+  color: #5f4300;
+  background: color-mix(in srgb, var(--accent) 22%, var(--bg));
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--border));
 }
 
 .version-card-icons .version-icons {

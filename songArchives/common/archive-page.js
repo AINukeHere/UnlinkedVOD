@@ -16,6 +16,10 @@ function getVersionFilters() {
   };
 }
 
+function getExcludeSyncroom() {
+  return document.getElementById('filterExcludeSyncroom')?.checked ?? false;
+}
+
 function getMinVersionCount() {
   const el = document.getElementById('minVersionCount');
   const raw = el?.value;
@@ -157,10 +161,27 @@ function versionIconsHtml(version) {
   return parts.length ? '<span class="version-icons">' + parts.join('') + '</span>' : '';
 }
 
+function syncroomBadgeHtml(version) {
+  if (!isSyncroomVersion(version)) return '';
+  const members = String(version?.groupMembers || '').trim();
+  const titleAttr = members ? ` title="${escapeHtml(members)}"` : '';
+  return `<span class="version-badge version-badge-syncroom"${titleAttr}>싱크룸</span>`;
+}
+
 function escapeHtml(s) {
   const div = document.createElement('div');
   div.textContent = s;
   return div.innerHTML;
+}
+
+function isSyncroomVersion(version) {
+  return version?.groupSong === true;
+}
+
+function filterVersionsBySyncroom(versions, excludeSyncroom) {
+  const list = versions ? [...versions] : [];
+  if (!excludeSyncroom) return list;
+  return list.filter((v) => !isSyncroomVersion(v));
 }
 
 function loadSongs(searchTerm = '') {
@@ -170,6 +191,7 @@ function loadSongs(searchTerm = '') {
   const versionFilters = getVersionFilters();
   const versionSort = getVersionSort();
   const minVersionCount = getMinVersionCount();
+  const excludeSyncroom = getExcludeSyncroom();
 
   const listSort = getListSort();
 
@@ -184,7 +206,7 @@ function loadSongs(searchTerm = '') {
     })
     .map((song) => ({
       song,
-      versions: song.versions || [],
+      versions: filterVersionsBySyncroom(song.versions || [], excludeSyncroom),
     }))
     // 체크박스 필터는 아직 적용하지 않고, 곡 정렬을 위한 기준(최소 버전 수)만 먼저 적용
     .filter(({ versions }) => versions.length >= minVersionCount);
@@ -263,6 +285,7 @@ function loadSongs(searchTerm = '') {
 
     versionsToDisplay.forEach((v) => {
       const icons = versionIconsHtml(v);
+      const syncroomBadge = syncroomBadgeHtml(v);
       const card = document.createElement('a');
       card.href = v.url;
       card.target = '_blank';
@@ -276,6 +299,7 @@ function loadSongs(searchTerm = '') {
         <span class="version-card-info">
           <span class="version-card-meta">
             <span class="version-card-date">${escapeHtml(v.date)}</span>
+            ${syncroomBadge ? `<span class="version-card-badges">${syncroomBadge}</span>` : ''}
             ${icons ? `<span class="version-card-icons">${icons}</span>` : ''}
           </span>
           <span class="version-card-title">${escapeHtml(v.videoTitle || '')}</span>
@@ -296,6 +320,11 @@ function searchSongs() {
 
 function onFilterOrSortChange() {
   loadSongs(document.getElementById('searchBar')?.value ?? '');
+}
+
+function onSyncroomToggleChange() {
+  loadSongs(document.getElementById('searchBar')?.value ?? '');
+  renderVodPanel();
 }
 
 (function setupStripDragScroll() {
@@ -461,6 +490,26 @@ function getVodIndex() {
   return vodIndexCache;
 }
 
+function getFilteredVodEntries() {
+  const { entries } = getVodIndex();
+  const excludeSyncroom = getExcludeSyncroom();
+  if (!excludeSyncroom) return entries;
+  return entries.filter((e) => !isSyncroomVersion(e));
+}
+
+function buildVodByDate(entries) {
+  const byDate = new Map();
+  for (const e of entries) {
+    if (!e.date) continue;
+    if (!byDate.has(e.date)) byDate.set(e.date, []);
+    byDate.get(e.date).push(e);
+  }
+  for (const [, arr] of byDate) {
+    arr.sort((a, b) => (a.pageUrl || '').localeCompare(b.pageUrl || ''));
+  }
+  return byDate;
+}
+
 function getVodPanelDateSort() {
   const el = document.getElementById('vodPanelDateSort');
   return (el && el.value) || 'dateDesc';
@@ -484,7 +533,7 @@ function sortedVodEntries(entries, sortMode) {
 function renderVodPanelList() {
   const ul = document.getElementById('vodPanelList');
   if (!ul) return;
-  const { entries } = getVodIndex();
+  const entries = getFilteredVodEntries();
   const sortMode = getVodPanelDateSort();
   const sorted = sortedVodEntries(entries, sortMode);
 
@@ -571,7 +620,8 @@ function primaryVodForDay(dayEntries, sortMode) {
 function renderVodPanelCalendar() {
   const wrap = document.getElementById('vodPanelCalendarWrap');
   if (!wrap) return;
-  const { entries, byDate } = getVodIndex();
+  const entries = getFilteredVodEntries();
+  const byDate = buildVodByDate(entries);
   if (!entries.length) {
     wrap.innerHTML = '';
     return;
@@ -781,4 +831,5 @@ window.onload = () => {
   ['filterVersionNoMistake', 'filterVersionRecommended', 'filterVersionNeedsReview'].forEach((id) => {
     document.getElementById(id)?.addEventListener('change', onFilterOrSortChange);
   });
+  document.getElementById('filterExcludeSyncroom')?.addEventListener('change', onSyncroomToggleChange);
 };

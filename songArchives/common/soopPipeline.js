@@ -194,6 +194,7 @@ function decodeHtmlEntities(s) {
 
 const DEFAULT_PARSE_CONFIG = {
   linePrefix: '🎤',
+  linePrefixRules: null,
   parts: {
     songTitle: '(.+?)',
     songArtist: '\\s*\\(([^)]*)\\)',
@@ -221,11 +222,59 @@ function buildRegexFromSequence(sequenceStr, parts) {
 }
 
 /**
+ * Build line-prefix based parse rules.
+ * Legacy config (linePrefix + regexSequence) stays supported.
+ * @param {{ linePrefix?: string, linePrefixRules?: Array<Record<string, unknown>>, parts?: Record<string, string>, regexSequence?: string }} parseConfig
+ * @returns {Array<{ linePrefix: string, parts: Record<string, string>, regexSequence: string, staticFields: Record<string, unknown> }>}
+ */
+function getLinePrefixRules(parseConfig) {
+  const cfg = parseConfig || DEFAULT_PARSE_CONFIG;
+  const defaultParts = cfg.parts || DEFAULT_PARSE_CONFIG.parts;
+
+  if (Array.isArray(cfg.linePrefixRules) && cfg.linePrefixRules.length > 0) {
+    const rules = [];
+    for (const rule of cfg.linePrefixRules) {
+      if (!rule || typeof rule !== 'object') continue;
+      const linePrefix = typeof rule.linePrefix === 'string' ? rule.linePrefix : '';
+      if (!linePrefix) continue;
+      const ruleParts =
+        rule.parts && typeof rule.parts === 'object'
+          ? { ...defaultParts, ...rule.parts }
+          : defaultParts;
+      const ruleRegexSequence =
+        typeof rule.regexSequence === 'string'
+          ? rule.regexSequence
+          : typeof cfg.regexSequence === 'string'
+            ? cfg.regexSequence
+            : DEFAULT_PARSE_CONFIG.regexSequence;
+      const staticFields =
+        rule.staticFields && typeof rule.staticFields === 'object' && !Array.isArray(rule.staticFields)
+          ? rule.staticFields
+          : {};
+      rules.push({
+        linePrefix,
+        parts: ruleParts,
+        regexSequence: ruleRegexSequence,
+        staticFields,
+      });
+    }
+    if (rules.length > 0) return rules;
+  }
+
+  const linePrefix = typeof cfg.linePrefix === 'string' ? cfg.linePrefix : DEFAULT_PARSE_CONFIG.linePrefix;
+  const regexSequence =
+    typeof cfg.regexSequence === 'string' ? cfg.regexSequence : DEFAULT_PARSE_CONFIG.regexSequence;
+  return [{ linePrefix, parts: defaultParts, regexSequence, staticFields: {} }];
+}
+
+/**
  * Load streamer/data/parseConfig.json. Missing → defaults (츄라희 스타일).
- * Config: linePrefix, parts (songTitle, songArtist, time regex strings), regexSequence (string or string[]).
+ * Config:
+ * - legacy: linePrefix + parts + regexSequence
+ * - extended: linePrefixRules([{ linePrefix, regexSequence?, parts?, staticFields? }]) + global parts fallback
  * @param {string} repoRoot
  * @param {string} streamerId - e.g. 'churahee', 'chebi'
- * @returns {{ linePrefix: string, parts: Record<string, string>, regexSequence: string }}
+ * @returns {{ linePrefix: string, linePrefixRules: Array<Record<string, unknown>>|null, parts: Record<string, string>, regexSequence: string }}
  */
 function loadParseConfig(repoRoot, streamerId) {
   const p = path.join(repoRoot, streamerId, 'data', 'parseConfig.json');
@@ -241,7 +290,9 @@ function loadParseConfig(repoRoot, streamerId) {
       typeof c.regexSequence === 'string'
         ? c.regexSequence
         : DEFAULT_PARSE_CONFIG.regexSequence;
-    return { linePrefix, parts, regexSequence };
+    const linePrefixRules =
+      Array.isArray(c.linePrefixRules) && c.linePrefixRules.length > 0 ? c.linePrefixRules : null;
+    return { linePrefix, linePrefixRules, parts, regexSequence };
   } catch (_) {
     return { ...DEFAULT_PARSE_CONFIG };
   }
@@ -660,7 +711,7 @@ async function resolveItemInteractive(rl, ctx, item, caches, interactive, debug)
  * @param {null|{ rl: import('readline').Interface | null, ctx: object, caches: object, interactive: boolean }} [resolveOpts]
  * @returns {Promise<object|null>}
  */
-async function parseTimelineLine(line, parseConfig, debug, resolveOpts = null) {
+async function parseTimelineLine(line, parseConfig, debug, resolveOpts = null, staticFields = null) {
   line = line.replace(/\s+/g, ' ').trim();
   if (debug) console.error('[DEBUG] parseTimelineLine 입력:', JSON.stringify(line));
   if (!line) return null;
@@ -724,6 +775,11 @@ async function parseTimelineLine(line, parseConfig, debug, resolveOpts = null) {
     ...(recommended ? { recommended: true } : {}),
     ...(needsReview ? { needsReview: true } : {}),
   };
+  const groupMembers = (result.groupMembers || '').trim();
+  if (groupMembers) preInfo.groupMembers = groupMembers;
+  if (staticFields && typeof staticFields === 'object') {
+    Object.assign(preInfo, staticFields);
+  }
 
   if (resolveOpts) {
     const resolved = await resolveItemInteractive(
@@ -753,27 +809,44 @@ async function parseTimelineLine(line, parseConfig, debug, resolveOpts = null) {
  */
 async function parseCommentHtmlToSongInfo(commentHtml, parseConfig, debug, resolveOpts = null) {
   if (!commentHtml || typeof commentHtml !== 'string') return [];
-  const prefix = (parseConfig && parseConfig.linePrefix) || DEFAULT_PARSE_CONFIG.linePrefix;
+  const rules = getLinePrefixRules(parseConfig || DEFAULT_PARSE_CONFIG);
   const lines = commentHtml
     .replace(/<br\s*\/?>/gi, '\n')
     .split(/\n/)
     .map((s) => s.trim())
     .filter(Boolean);
 
-  if (debug) console.error('[DEBUG] parseCommentHtmlToSongInfo: linePrefix=', JSON.stringify(prefix), '줄 수=', lines.length);
+  if (debug) {
+    const prefixes = rules.map((r) => r.linePrefix);
+    console.error('[DEBUG] parseCommentHtmlToSongInfo: linePrefixes=', JSON.stringify(prefixes), '줄 수=', lines.length);
+  }
 
   const songInfo = [];
   const seen = new Set();
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
-    if (!line.includes(prefix)) {
+    const matchedRule = rules.find((rule) => line.includes(rule.linePrefix));
+    if (!matchedRule) {
       if (debug && line.length < 80) console.error('[DEBUG]   줄', i + 1, '→ linePrefix 없음, 스킵:', JSON.stringify(line.slice(0, 60)));
       continue;
     }
-    const lineWithoutPrefix = line.split(prefix).join('').trim();
-    if (debug) console.error('[DEBUG]   줄', i + 1, '→ linePrefix 제거 후:', JSON.stringify(lineWithoutPrefix.slice(0, 80)));
-    const info = await parseTimelineLine(lineWithoutPrefix, parseConfig || DEFAULT_PARSE_CONFIG, debug, resolveOpts);
+    const lineWithoutPrefix = line.split(matchedRule.linePrefix).join('').trim();
+    if (debug) {
+      console.error(
+        '[DEBUG]   줄',
+        i + 1,
+        `→ linePrefix(${JSON.stringify(matchedRule.linePrefix)}) 제거 후:`,
+        JSON.stringify(lineWithoutPrefix.slice(0, 80))
+      );
+    }
+    const info = await parseTimelineLine(
+      lineWithoutPrefix,
+      { parts: matchedRule.parts, regexSequence: matchedRule.regexSequence },
+      debug,
+      resolveOpts,
+      matchedRule.staticFields
+    );
     const dedupeKey =
       (info && (info.title || '') + '|' + (info.artist == null ? '' : info.artist) + '|' + (info.time || '')) || '';
     if (info && !seen.has(dedupeKey)) {
@@ -943,4 +1016,5 @@ module.exports = {
   listConfiguredStreamerIds,
   collectArchiveStreamerMatchKeys,
   findArchiveFolderByVodStreamerId,
+  getLinePrefixRules,
 };

@@ -78,12 +78,18 @@ for history in json_data["history"]:
         noMistake = False
         recommended = False
         needsReview = False
+        groupSong = False
+        groupMembers = ""
         if "noMistake" in song:
             noMistake = song["noMistake"]
         if "recommended" in song:
             recommended = song["recommended"]
         if "needsReview" in song:
             needsReview = song["needsReview"]
+        if "groupSong" in song:
+            groupSong = bool(song["groupSong"])
+        if "groupMembers" in song and song["groupMembers"] is not None:
+            groupMembers = str(song["groupMembers"]).strip()
 
         ver = {
             "date": date,
@@ -94,6 +100,8 @@ for history in json_data["history"]:
             "noMistake": noMistake,
             "recommended": recommended,
             "needsReview": needsReview,
+            "groupSong": groupSong,
+            "groupMembers": groupMembers,
         }
 
         if bucket_key in songs_dict:

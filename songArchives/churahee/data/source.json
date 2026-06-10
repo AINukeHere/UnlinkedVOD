@@ -7309,38 +7309,58 @@
                 {
                     "title": "고맙습니다",
                     "time": "5:16:01",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "You already have",
                     "time": "5:20:15",
                     "artist": "권진아",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "얼음요새",
                     "time": "5:28:16",
                     "artist": "김소연",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "오늘 뭐 했는지 말해봐",
                     "time": "6:37:09",
                     "artist": "권진아",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "And July",
+                    "time": "6:51:20",
+                    "artist": "헤이즈",
+                    "groupMembers": "제이404",
+                    "groupSong": true
                 },
                 {
                     "title": "Rain",
                     "time": "7:25:22",
                     "artist": "태연",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Lonely",
+                    "time": "7:49:46",
+                    "artist": "투에니원",
+                    "groupMembers": "제이404",
+                    "groupSong": true
                 },
                 {
                     "title": "연의 편지",
                     "time": "8:24:01",
-                    "artist": "이수현"
+                    "artist": "이수현",
+                    "groupSong": false
                 }
             ]
         },
@@ -7353,44 +7373,158 @@
                 {
                     "title": "Love me or Leave me",
                     "time": "1:24:36",
-                    "artist": "데이식스"
+                    "artist": "데이식스",
+                    "groupSong": false
                 },
                 {
                     "title": "11:11",
                     "time": "1:30:58",
-                    "artist": "태연"
+                    "artist": "태연",
+                    "groupSong": false
                 },
                 {
                     "title": "스토커",
                     "time": "1:37:18",
-                    "artist": "10CM"
+                    "artist": "10CM",
+                    "groupSong": false
                 },
                 {
                     "title": "밤양갱",
                     "time": "1:44:25",
-                    "artist": "비비"
+                    "artist": "비비",
+                    "groupSong": false
                 },
                 {
                     "title": "나에게로의 초대",
                     "time": "1:48:31",
                     "artist": "정경화",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "comethru",
                     "time": "2:18:43",
-                    "artist": "Jeremy Zucker"
+                    "artist": "Jeremy Zucker",
+                    "groupSong": false
+                },
+                {
+                    "title": "얼음요새",
+                    "time": "2:25:13",
+                    "artist": "김소연",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "Rainy Day",
+                    "time": "2:32:44",
+                    "artist": "에일리",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "하루하루",
+                    "time": "2:40:18",
+                    "artist": "김보경",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "REBEL HEART",
+                    "time": "2:48:08",
+                    "artist": "아이브",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "흰수염고래",
+                    "time": "2:54:51",
+                    "artist": "정은지",
+                    "recommended": true,
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "이름에게",
+                    "time": "3:01:39",
+                    "artist": "아이유",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "Track 9",
+                    "time": "3:09:21",
+                    "artist": "이소라",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "나에게로의 초대",
+                    "time": "3:19:12",
+                    "artist": "정경화",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "Lonely",
+                    "time": "3:25:17",
+                    "artist": "투에니원",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "괴물이 피는 숲",
+                    "time": "3:32:47",
+                    "artist": "미로",
+                    "groupMembers": "송현",
+                    "groupSong": true
                 },
                 {
                     "title": "눈물샤워",
                     "time": "3:40:37",
-                    "artist": "배치기"
+                    "artist": "배치기",
+                    "groupSong": false
                 },
                 {
                     "title": "몽유",
                     "time": "3:55:42",
                     "artist": "잇츠",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "베텔기우스",
+                    "time": "4:15:49",
+                    "artist": "유우리",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "Golden",
+                    "time": "4:22:27",
+                    "artist": "HUNTR/X",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "별의 하모니",
+                    "time": "4:29:26",
+                    "artist": "QWER",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "I",
+                    "time": "4:35:22",
+                    "artist": "태연",
+                    "groupMembers": "송현",
+                    "groupSong": true
+                },
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "4:41:23",
+                    "artist": "자우림",
+                    "groupMembers": "송현",
+                    "groupSong": true
                 }
             ]
         },
@@ -8214,17 +8348,330 @@
                     "title": "첫 키스에 내 심장은 120BPM",
                     "time": "35:03",
                     "artist": "경서",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "여름이었다",
                     "time": "41:31",
-                    "artist": "하이키"
+                    "artist": "하이키",
+                    "groupSong": false
                 },
                 {
                     "title": "수피",
                     "time": "52:17",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
+                },
+                {
+                    "title": "진심이었던 사람만 바보가 돼",
+                    "time": "1:20:15",
+                    "artist": "권진아",
+                    "groupMembers": "카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "1:43:15",
+                    "artist": "한로로",
+                    "groupMembers": "더블링",
+                    "groupSong": true
+                },
+                {
+                    "title": "수피",
+                    "time": "2:05:25",
+                    "artist": "심규선",
+                    "groupMembers": "강하나",
+                    "groupSong": true
+                },
+                {
+                    "title": "Rain",
+                    "time": "2:21:11",
+                    "artist": "태연",
+                    "groupMembers": "크앙희",
+                    "groupSong": true
+                },
+                {
+                    "title": "눈사람",
+                    "time": "2:37:30",
+                    "artist": "정승환",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "이름에게",
+                    "time": "2:45:21",
+                    "artist": "아이유",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "소나기",
+                    "time": "2:54:35",
+                    "artist": "아이오아이",
+                    "groupMembers": "크앙희, 더블링, 강하나",
+                    "groupSong": true
+                },
+                {
+                    "title": "소로",
+                    "time": "3:01:44",
+                    "artist": "심규선",
+                    "groupMembers": "강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "3:12:40",
+                    "artist": "자우림",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "Dance The Night Away",
+                    "time": "3:19:58",
+                    "artist": "TWICE",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "불장난",
+                    "time": "3:34:23",
+                    "artist": "BLACKPINK",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "화조도",
+                    "time": "3:41:06",
+                    "artist": "심규선",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "비밀정원",
+                    "time": "3:50:24",
+                    "artist": "오마이걸",
+                    "groupMembers": "크앙희, 더블링, 강하나",
+                    "groupSong": true
+                },
+                {
+                    "title": "기억을 걷는 시간",
+                    "time": "4:03:35",
+                    "artist": "넬",
+                    "groupMembers": "크앙희, 더블링, 강하나, 카아암",
+                    "groupSong": true
+                }
+            ]
+        },
+        {
+            "title": "[유플릭스] 소통 - 시그니처사운드 공개 - 노래 - 싱크룸합방(w.김병살 콧씨 해이) - 후열소통[제랄즈]",
+            "date": "2023-10-03",
+            "url": "https://vod.sooplive.com/player/107896711",
+            "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
+            "songInfo": [
+                {
+                    "title": "팬서비스",
+                    "time": "27:47",
+                    "artist": "mona",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "창귀",
+                    "time": "44:27",
+                    "artist": "안예은",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "RE : WIND",
+                    "time": "58:53",
+                    "artist": "이세계아이돌",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Lonely Night",
+                    "time": "1:09:32",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "화조도",
+                    "time": "1:18:49",
+                    "artist": "심규선",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "고양이 소리를 따라해 보자",
+                    "time": "1:28:06",
+                    "artist": "펑티모",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "귀여워서 미안해",
+                    "time": "1:38:18",
+                    "artist": "나카무라 치즈루",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Love poem",
+                    "time": "2:27:58",
+                    "artist": "아이유",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "RE : WIND",
+                    "time": "2:42:37",
+                    "artist": "이세계아이돌",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "팬서비스",
+                    "time": "2:50:29",
+                    "artist": "mona",
+                    "groupMembers": "콧시",
+                    "groupSong": true
+                },
+                {
+                    "title": "아라리",
+                    "time": "2:57:24",
+                    "artist": "심규선",
+                    "groupMembers": "콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "OHAYO MY NIGHT",
+                    "time": "3:07:21",
+                    "artist": "디핵",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "다시 만난 세계",
+                    "time": "3:15:13",
+                    "artist": "소녀시대",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "꽃길",
+                    "time": "3:28:57",
+                    "artist": "김세정",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "베텔기우스",
+                    "time": "4:11:59",
+                    "artist": "유우리",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "내가 죽으려고 생각한 것은",
+                    "time": "4:30:35",
+                    "artist": "나카시마 미카",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "4:41:13",
+                    "artist": "자우림",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "체념",
+                    "time": "4:49:54",
+                    "artist": "빅마마",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "여우비",
+                    "time": "5:02:56",
+                    "artist": "이선희",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "너에게 난 나에게 넌",
+                    "time": "5:11:45",
+                    "artist": "자전거 탄 풍경",
+                    "groupMembers": "김병살, 콧시, 해이",
+                    "groupSong": true
+                },
+                {
+                    "title": "If I Ain't Got You",
+                    "time": "5:38:33",
+                    "artist": "앨리샤 키스",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] [습의시련] 디아블로 어떻게 하는 거임?",
+            "date": "2026-06-02",
+            "url": "https://vod.sooplive.com/player/197550913",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_CC6D5412_294492483_2_r",
+            "songInfo": [
+                {
+                    "title": "나의 사춘기에게",
+                    "time": "2:41:14",
+                    "artist": "볼빨간사춘기",
+                    "groupMembers": "공태연, 슈니",
+                    "groupSong": true
+                },
+                {
+                    "title": "시간을 거슬러",
+                    "time": "2:46:43",
+                    "artist": "린",
+                    "groupMembers": "공태연, 슈니",
+                    "groupSong": true
+                },
+                {
+                    "title": "외톨이야",
+                    "time": "3:05:09",
+                    "artist": "씨엔블루",
+                    "groupMembers": "공태연, 박재박, 슈니, 초금비",
+                    "groupSong": true
+                },
+                {
+                    "title": "나에게로의 초대",
+                    "time": "3:24:41",
+                    "artist": "정경화",
+                    "groupMembers": "공태연",
+                    "groupSong": true
+                },
+                {
+                    "title": "사랑과 우정사이",
+                    "time": "3:29:03",
+                    "artist": "박혜경",
+                    "groupMembers": "박재박",
+                    "groupSong": true
+                },
+                {
+                    "title": "내가 제일 잘 나가",
+                    "time": "3:35:14",
+                    "artist": "투에니원",
+                    "groupMembers": "공태연, 박재박, 슈니, 초금비",
+                    "groupSong": true
+                },
+                {
+                    "title": "다시 만난 세계",
+                    "time": "3:41:23",
+                    "artist": "소녀시대",
+                    "groupMembers": "공태연, 박재박, 슈니, 초금비",
+                    "groupSong": true
                 }
             ]
         }
