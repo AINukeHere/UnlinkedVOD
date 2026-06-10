@@ -1994,24 +1994,91 @@
                 {
                     "title": "오늘 뭐 했는지 말해봐",
                     "time": "00:34:53",
-                    "artist": "권진아"
+                    "artist": "권진아",
+                    "groupSong": false
                 },
                 {
                     "title": "배웅",
                     "time": "00:45:39",
                     "artist": "박혜원",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "오랜 날 오랜 밤",
                     "time": "00:54:16",
                     "artist": "AKMU",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "소로",
+                    "time": "1:15:54",
+                    "artist": "심규선",
+                    "groupMembers": "강하나, 김다나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "운이 좋았지",
+                    "time": "1:24:05",
+                    "artist": "권진아",
+                    "groupMembers": "김다나",
+                    "groupSong": true
+                },
+                {
+                    "title": "만개화",
+                    "time": "1:45:44",
+                    "artist": "안예은",
+                    "groupMembers": "강하나",
+                    "groupSong": true
+                },
+                {
+                    "title": "화조도",
+                    "time": "2:00:23",
+                    "artist": "심규선",
+                    "groupMembers": "카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "A Thousand Years",
+                    "time": "2:13:23",
+                    "artist": "Christina Perri",
+                    "groupMembers": "카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "2:20:02",
+                    "artist": "자우림",
+                    "groupMembers": "강하나",
+                    "groupSong": true
+                },
+                {
+                    "title": "아이와 나의 바다",
+                    "time": "2:36:09",
+                    "artist": "아이유",
+                    "groupMembers": "김다나",
+                    "groupSong": true
+                },
+                {
+                    "title": "마음을 드려요",
+                    "time": "2:48:21",
+                    "artist": "아이유",
+                    "groupMembers": "강하나, 김다나, 카아암",
+                    "groupSong": true
+                },
+                {
+                    "title": "괴물이 피는 숲",
+                    "time": "2:55:31",
+                    "artist": "미로",
+                    "groupMembers": "김다나",
+                    "groupSong": true
                 },
                 {
                     "title": "별의 조각",
                     "time": "3:17:29",
-                    "artist": "윤하"
+                    "artist": "윤하",
+                    "groupSong": false
                 }
             ]
         },
@@ -6854,15 +6921,73 @@
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_9CF02E83_293431483_1_r&column=2&t=1777366368",
             "songInfo": [
                 {
+                    "title": "나의 사춘기에게",
+                    "time": "1:21:53",
+                    "artist": "볼빨간사춘기",
+                    "groupMembers": "야옴",
+                    "groupSong": true
+                },
+                {
+                    "title": "그리워해요",
+                    "time": "1:36:03",
+                    "artist": "투에니원",
+                    "groupMembers": "강하나, 야옴",
+                    "groupSong": true
+                },
+                {
+                    "title": "널 사랑하지 않아",
+                    "time": "1:43:01",
+                    "artist": "어반자카파",
+                    "groupMembers": "요한",
+                    "groupSong": true
+                },
+                {
+                    "title": "스토커",
+                    "time": "2:11:47",
+                    "artist": "10CM",
+                    "groupMembers": "뜨사",
+                    "groupSong": true
+                },
+                {
+                    "title": "수피",
+                    "time": "2:18:02",
+                    "artist": "심규선",
+                    "groupMembers": "강하나",
+                    "groupSong": true
+                },
+                {
+                    "title": "Dream",
+                    "time": "2:45:20",
+                    "artist": "수지, 백현",
+                    "groupMembers": "산동",
+                    "groupSong": true
+                },
+                {
+                    "title": "화조도",
+                    "time": "2:50:27",
+                    "artist": "심규선",
+                    "groupMembers": "강하나, 야옴",
+                    "groupSong": true
+                },
+                {
                     "title": "별의 조각",
                     "time": "3:18:51",
-                    "artist": "윤하"
+                    "artist": "윤하",
+                    "groupSong": false
+                },
+                {
+                    "title": "다시 만난 세계",
+                    "time": "3:34:00",
+                    "artist": "소녀시대",
+                    "groupMembers": "강하나, 뜨사, 산동, 야옴, 요한",
+                    "groupSong": true
                 },
                 {
                     "title": "겨울아이",
                     "time": "5:50:46",
                     "artist": "이종용",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 }
             ]
         },
