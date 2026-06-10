@@ -8214,19 +8214,17 @@
                     "title": "첫 키스에 내 심장은 120BPM",
                     "time": "35:03",
                     "artist": "경서",
-                    "needsReview": true
+                    "noMistake": true
                 },
                 {
                     "title": "여름이었다",
                     "time": "41:31",
-                    "artist": "하이키",
-                    "needsReview": true
+                    "artist": "하이키"
                 },
                 {
                     "title": "수피",
                     "time": "52:17",
-                    "artist": "심규선",
-                    "needsReview": true
+                    "artist": "심규선"
                 }
             ]
         }
