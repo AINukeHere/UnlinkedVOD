@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-04T17:16:06.514887+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-13T19:07:48.474604+00:00";
 const songs = [
   {
     "title": "1,2,3,4",
@@ -12,7 +12,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -28,7 +30,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -44,7 +48,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-04",
@@ -54,7 +60,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260604_CE830094_294553483_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Blue",
+    "artist": "볼빨간사춘기",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=20653",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -70,7 +96,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -86,7 +114,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Delete",
+    "artist": "윤하",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=17660",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -102,7 +150,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Dreams Come True",
+    "artist": "뷰렛",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=18127",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -118,7 +186,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -128,7 +198,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -144,7 +216,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -160,7 +234,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Fly Away",
+    "artist": "권진아",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=21426",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -176,7 +270,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -192,7 +288,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_31655877_294133507_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-05",
@@ -202,7 +300,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -218,7 +318,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -234,7 +336,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-07",
@@ -244,7 +348,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-04",
@@ -254,7 +360,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-02",
@@ -264,7 +372,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -280,7 +390,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -296,7 +408,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260415_250595FB_293236087_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -312,7 +426,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -328,7 +444,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -338,7 +456,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -354,7 +474,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -364,7 +486,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -380,7 +504,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -396,7 +522,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -406,7 +534,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -416,7 +546,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=20926",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -432,7 +576,57 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Lemon Tree",
+    "artist": "박혜경",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=17461",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Lip",
+    "artist": "Dear Cloud(디어클라우드)",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=19425",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=16528",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -448,7 +642,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-18",
@@ -458,7 +654,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-13",
@@ -468,7 +666,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260513_E9D56B16_293974853_4_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-18",
@@ -478,7 +678,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=24867",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -494,7 +708,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -510,7 +726,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=19950",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -526,7 +756,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -536,7 +768,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -552,7 +786,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=17228",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -568,7 +816,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260513_E9D56B16_293974853_4_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -584,7 +834,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -600,7 +852,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -610,7 +864,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Modern Times",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=16582",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -626,7 +900,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -642,7 +918,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -652,7 +930,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -662,7 +942,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -678,7 +960,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -694,7 +978,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -710,7 +996,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-05",
@@ -720,7 +1008,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -736,7 +1026,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -752,7 +1044,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_31655877_294133507_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -768,7 +1062,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -784,7 +1080,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -800,7 +1098,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Red Queen",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=23615",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -816,7 +1134,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-26",
@@ -826,7 +1146,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-08",
@@ -836,7 +1158,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260408_082D7C72_293066515_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -852,7 +1176,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -868,7 +1194,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -884,7 +1212,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -900,7 +1230,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -916,7 +1248,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -932,7 +1266,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -948,7 +1284,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260513_E9D56B16_293974853_4_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -958,7 +1296,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -974,7 +1314,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Vlad",
+    "artist": "자우림",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=18458",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -990,7 +1350,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1006,7 +1368,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1022,7 +1386,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1038,7 +1404,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1054,7 +1422,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1070,7 +1440,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "가을 아침",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=17984",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1086,7 +1476,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_31655877_294133507_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-23",
@@ -1096,7 +1488,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -1106,7 +1500,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1122,7 +1518,39 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "거짓말",
+    "artist": "뷰렛",
+    "versions": [
+      {
+        "date": "2026-06-10",
+        "url": "https://vod.sooplive.com/player/198308181?change_second=10213",
+        "videoTitle": "[하데스] 기계가 고장나 멘탈이 고장난 사람 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260610_A37F7D77_294707837_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=16126",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1138,7 +1566,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1154,7 +1584,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-10",
@@ -1164,7 +1596,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -1174,7 +1608,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1190,7 +1626,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1206,7 +1644,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260419_25C10A77_293350749_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-25",
@@ -1216,7 +1656,39 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260525_134E426E_294290859_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=20395",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "괴물이 피는 숲",
+    "artist": "미로",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=20047",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1232,7 +1704,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1248,7 +1722,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-20",
@@ -1258,7 +1734,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260420_41B218EF_293378195_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-03-31",
@@ -1268,7 +1746,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260331_C5832842_292849699_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1284,7 +1764,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1300,7 +1782,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260513_E9D56B16_293974853_4_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-07",
@@ -1310,7 +1794,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -1320,7 +1806,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=20361",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1336,7 +1836,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1352,7 +1854,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1368,7 +1872,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260501_0C628F2D_293661687_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-14",
@@ -1378,7 +1884,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260414_AEC24F80_293219451_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-04",
@@ -1388,7 +1896,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=22094",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1404,7 +1926,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1420,7 +1944,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1436,7 +1962,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1452,7 +1980,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1468,7 +1998,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "나는 외로움 그대는 그리움",
+    "artist": "뷰렛",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=19581",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1484,7 +2034,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-25",
@@ -1494,7 +2046,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1510,7 +2064,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1526,7 +2082,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-10",
@@ -1536,7 +2094,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-22",
@@ -1546,7 +2106,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_6AB0E15F_293426513_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-04",
@@ -1556,7 +2118,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1572,7 +2136,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1588,7 +2154,45 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "나의 외로움 그대는 그리움",
+    "artist": "뷰렛",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=21633",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "난 너 없이",
+    "artist": "WOODZ",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=15771",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1604,7 +2208,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1620,7 +2226,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-20",
@@ -1630,7 +2238,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260420_41B218EF_293378195_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-18",
@@ -1640,7 +2250,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -1650,7 +2262,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1666,7 +2280,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1682,7 +2298,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1698,7 +2316,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260506_7A6114A8_293793281_4_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -1708,7 +2328,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1724,7 +2346,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1740,7 +2364,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1756,7 +2382,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1772,7 +2400,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "드라마",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=22076",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1788,7 +2436,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1804,7 +2454,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1820,7 +2472,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1836,7 +2490,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1852,7 +2508,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1868,7 +2526,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1884,7 +2544,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1900,7 +2562,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1916,7 +2580,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-03-31",
@@ -1926,7 +2592,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260331_C5832842_292849699_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1942,7 +2610,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1958,7 +2628,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1974,7 +2646,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-04",
@@ -1984,7 +2658,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260604_CE830094_294553483_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2000,7 +2676,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2016,7 +2694,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2032,7 +2712,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-05",
@@ -2042,7 +2724,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -2052,7 +2736,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2068,7 +2754,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2084,7 +2772,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-22",
@@ -2094,7 +2784,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_6AB0E15F_293426513_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-11",
@@ -2104,7 +2796,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2120,7 +2814,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-18",
@@ -2130,7 +2826,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2146,7 +2844,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "밤의 미궁(엘소드 ost)",
+    "artist": "볼빨간사춘기",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=3761",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2162,7 +2880,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2178,7 +2898,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-18",
@@ -2188,7 +2910,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-10",
@@ -2198,7 +2922,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-11",
@@ -2208,7 +2934,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-02",
@@ -2218,7 +2946,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-03",
@@ -2228,7 +2958,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2244,7 +2976,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2260,7 +2994,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2276,7 +3012,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2292,7 +3030,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2308,7 +3048,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-02",
@@ -2318,7 +3060,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2334,7 +3078,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2350,7 +3096,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2366,7 +3114,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2382,7 +3132,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2398,7 +3150,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260408_082D7C72_293066515_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2414,7 +3168,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-10",
@@ -2424,7 +3180,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "빨간 운동화",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=21263",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2440,7 +3216,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260419_25C10A77_293350749_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2456,7 +3234,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2472,7 +3252,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2488,7 +3270,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -2498,7 +3282,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2514,7 +3300,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2530,7 +3318,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2546,7 +3336,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_8124A79E_293601801_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2562,7 +3354,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2578,7 +3372,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2594,7 +3390,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2610,7 +3408,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2626,7 +3426,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-20",
@@ -2636,7 +3438,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260420_41B218EF_293378195_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2652,7 +3456,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2668,7 +3474,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-18",
@@ -2678,7 +3486,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2694,7 +3504,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2710,7 +3522,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2726,7 +3540,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2742,7 +3558,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2758,7 +3576,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260408_07F40477_293063835_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2774,7 +3594,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2790,7 +3612,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-28",
@@ -2800,7 +3624,39 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=18916",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "아파",
+    "artist": "투에니원",
+    "versions": [
+      {
+        "date": "2026-06-10",
+        "url": "https://vod.sooplive.com/player/198308181?change_second=10878",
+        "videoTitle": "[하데스] 기계가 고장나 멘탈이 고장난 사람 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260610_A37F7D77_294707837_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2816,7 +3672,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2832,7 +3690,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2848,7 +3708,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-31",
@@ -2858,7 +3720,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2874,7 +3738,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -2884,7 +3750,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2900,7 +3768,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2916,7 +3786,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2932,7 +3804,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-07",
@@ -2942,7 +3816,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -2952,7 +3828,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-09",
@@ -2962,7 +3840,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260409_5610B039_293077837_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=25313",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2978,7 +3870,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2994,7 +3888,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-29",
@@ -3004,7 +3900,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_8124A79E_293601801_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-06",
@@ -3014,7 +3912,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_EA69D0B4_293006055_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3030,7 +3930,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260419_25C10A77_293350749_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -3040,7 +3942,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=24253",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3056,7 +3972,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_EA69D0B4_293006055_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3072,7 +3990,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-10",
@@ -3082,7 +4002,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-25",
@@ -3092,7 +4014,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-02",
@@ -3102,7 +4026,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=22427",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3118,7 +4056,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3134,7 +4074,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3150,7 +4092,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-06",
@@ -3160,7 +4104,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_EA69D0B4_293006055_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-02",
@@ -3170,7 +4116,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3186,7 +4134,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_A1DC07A7_293713687_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3202,7 +4152,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "우린 제법 잘 어울려요",
+    "artist": "성시경",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=21063",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3218,7 +4188,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3234,7 +4206,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260429_8124A79E_293601801_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3250,7 +4224,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3266,7 +4242,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "으라차차",
+    "artist": "럼블피쉬",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=19169",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3282,7 +4278,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3298,7 +4296,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_A1DC07A7_293713687_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3314,7 +4314,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-07",
@@ -3324,7 +4326,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-05",
@@ -3334,7 +4338,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-10",
+        "url": "https://vod.sooplive.com/player/198308181?change_second=19235",
+        "videoTitle": "[하데스] 기계가 고장나 멘탈이 고장난 사람 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260610_A37F7D77_294707837_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3350,7 +4368,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3366,7 +4386,39 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=26801",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "있잖아",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=16979",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3382,7 +4434,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "잘 부탁 드립니다",
+    "artist": "EX(익스)",
+    "versions": [
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=15462",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3398,7 +4470,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-09",
@@ -3408,7 +4482,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260409_5610B039_293077837_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -3418,7 +4494,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=23184",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3434,7 +4524,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_6AB0E15F_293426513_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3450,7 +4542,51 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=19490",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "좋지 아니한가",
+    "artist": "유다빈밴드",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=26387",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=18796",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3466,7 +4602,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-08",
@@ -3476,7 +4614,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260408_07F40477_293063835_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-03",
@@ -3486,7 +4626,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3502,7 +4644,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3518,7 +4662,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3534,7 +4680,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3550,7 +4698,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3566,7 +4716,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-18",
@@ -3576,7 +4728,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-18",
@@ -3586,7 +4740,63 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=25704",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=21515",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "청록",
+    "artist": "이츠",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=19929",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-08",
+        "url": "https://vod.sooplive.com/player/198123863?change_second=16907",
+        "videoTitle": "[하데스] 귤락도 락이다 l 후열 노래뱅..",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260608_8432E95D_294656447_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3602,7 +4812,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260523_9FFCC89E_294237867_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-18",
@@ -3612,7 +4824,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-11",
+        "url": "https://vod.sooplive.com/player/198399453?change_second=19228",
+        "videoTitle": "[하데스] 마크모드 테스트",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260611_A23DC1E9_294732837_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3628,7 +4854,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3644,7 +4872,27 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "칵테일 사랑",
+    "artist": "옥상달빛",
+    "versions": [
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198582705?change_second=20825",
+        "videoTitle": "[하데스] 후여르 후여르 노래띠",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_4011BEE5_294781117_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3660,7 +4908,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260402_849A8788_292896147_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-03",
@@ -3670,7 +4920,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3686,7 +4938,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-03",
@@ -3696,7 +4950,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260603_7B1FF04D_294522329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3712,7 +4968,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_EA69D0B4_293006055_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-27",
@@ -3722,7 +4980,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260527_13D22A8B_294349033_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-07",
+        "url": "https://vod.sooplive.com/player/198025245?change_second=16206",
+        "videoTitle": "[하데스] 일단 방송을 켜",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260607_C4C0AE92_294631229_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3738,7 +5010,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_9092BBF6_293532255_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3754,7 +5028,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3770,7 +5046,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260418_2DE36F07_293322457_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3786,7 +5064,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-18",
@@ -3796,7 +5076,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-10",
@@ -3806,7 +5088,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260510_3B3AD1D7_293903109_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-02",
@@ -3816,7 +5100,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3832,7 +5118,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-13",
@@ -3842,7 +5130,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260513_E9D56B16_293974853_4_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3858,7 +5148,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3874,7 +5166,21 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260531_7757CE6A_294443987_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-10",
+        "url": "https://vod.sooplive.com/player/198308181?change_second=11557",
+        "videoTitle": "[하데스] 기계가 고장나 멘탈이 고장난 사람 ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260610_A37F7D77_294707837_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3890,7 +5196,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260524_AF189246_294258003_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-25",
@@ -3900,7 +5208,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_E32DE96F_293503329_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3916,7 +5226,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3932,7 +5244,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_A530C286_293584459_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3948,7 +5262,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_6AB0E15F_293426513_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-08",
@@ -3958,7 +5274,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260408_082D7C72_293066515_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-05",
@@ -3968,7 +5286,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260405_83257620_292973433_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -3984,7 +5304,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4000,7 +5322,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260522_A83E3730_294213987_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-07",
@@ -4010,7 +5334,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-06-02",
@@ -4020,7 +5346,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4036,7 +5364,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260507_20485911_293822783_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4052,7 +5382,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260602_E7021650_294496573_1_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4068,7 +5400,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260411_BC8E33AE_293137503_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4084,7 +5418,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_E7F2D5C3_294108257_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-05-03",
@@ -4094,7 +5430,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260503_A1DC07A7_293713687_3_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       },
       {
         "date": "2026-04-12",
@@ -4104,7 +5442,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260412_93F5C0AF_293169489_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4120,7 +5460,9 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_C262F121_292948319_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": false
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   }

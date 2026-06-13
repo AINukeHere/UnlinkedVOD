@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-13T06:43:41.192520+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-13T18:04:53.326432+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -7173,6 +7173,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "크앙희, 더블링, 강하나, 카아암"
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198605781?change_second=32240",
+        "videoTitle": "[버블란] 후열 감놀",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_3F48ADFE_294783907_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -10133,6 +10145,18 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198605781?change_second=2093",
+        "videoTitle": "[버블란] 후열 감놀",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_3F48ADFE_294783907_2_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -16689,6 +16713,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198605781?change_second=2735",
+        "videoTitle": "[버블란] 후열 감놀",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_3F48ADFE_294783907_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -17788,6 +17824,18 @@ const songs = [
         "videoTitle": "소통 - 싱크룸(w.김병살)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250704_8C847820_285538272_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-13",
+        "url": "https://vod.sooplive.com/player/198605781?change_second=3110",
+        "videoTitle": "[버블란] 후열 감놀",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_3F48ADFE_294783907_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,

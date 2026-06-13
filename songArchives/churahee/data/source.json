@@ -8815,6 +8815,38 @@
                     "groupSong": true
                 }
             ]
+        },
+        {
+            "title": "[버블란] 후열 감놀",
+            "date": "2026-06-13",
+            "url": "https://vod.sooplive.com/player/198605781",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260613_3F48ADFE_294783907_2_r",
+            "songInfo": [
+                {
+                    "title": "부엉이",
+                    "time": "34:53",
+                    "artist": "KOKIA",
+                    "groupSong": false
+                },
+                {
+                    "title": "천성의 약함",
+                    "time": "45:35",
+                    "artist": "164",
+                    "groupSong": false
+                },
+                {
+                    "title": "한숨",
+                    "time": "51:50",
+                    "artist": "이하이",
+                    "groupSong": false
+                },
+                {
+                    "title": "눈사람",
+                    "time": "8:57:20",
+                    "artist": "정승환",
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }

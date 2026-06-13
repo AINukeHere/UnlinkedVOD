@@ -104,9 +104,7 @@
     },
     {
         "artist": "김소연",
-        "aliases": [
-            "디어클라우드"
-        ]
+        "aliases": []
     },
     {
         "artist": "김아중",
@@ -281,7 +279,8 @@
     {
         "artist": "미로",
         "aliases": [
-            "Miiro"
+            "Miiro",
+            "Miiro(미로)"
         ]
     },
     {
@@ -413,7 +412,9 @@
     {
         "artist": "뷰렛",
         "aliases": [
-            "뷰렛(Biuret)"
+            "뷰렛(Biuret)",
+            "뷰렛ver",
+            "Biuret(뷰렛)"
         ]
     },
     {
@@ -695,7 +696,9 @@
     },
     {
         "artist": "옥상달빛",
-        "aliases": []
+        "aliases": [
+            "옥상달빛ver"
+        ]
     },
     {
         "artist": "왁스",
@@ -744,7 +747,9 @@
     },
     {
         "artist": "유다빈밴드",
-        "aliases": []
+        "aliases": [
+            "유다빈밴드ver"
+        ]
     },
     {
         "artist": "유럽",
@@ -843,6 +848,12 @@
     {
         "artist": "이종용",
         "aliases": []
+    },
+    {
+        "artist": "이츠",
+        "aliases": [
+            "IT'S(이츠)"
+        ]
     },
     {
         "artist": "이하이",
@@ -1168,6 +1179,12 @@
         "aliases": []
     },
     {
+        "artist": "Dear Cloud(디어클라우드)",
+        "aliases": [
+            "디어클라우드"
+        ]
+    },
+    {
         "artist": "DK(디셈버)",
         "aliases": []
     },
@@ -1185,6 +1202,10 @@
     },
     {
         "artist": "Etham",
+        "aliases": []
+    },
+    {
+        "artist": "EX(익스)",
         "aliases": []
     },
     {
