@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-10T05:19:01.979036+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-13T06:43:41.192520+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -12703,6 +12703,24 @@ const songs = [
     ]
   },
   {
+    "title": "스즈메",
+    "artist": "RADWIMPS",
+    "versions": [
+      {
+        "date": "2026-04-06",
+        "url": "https://vod.sooplive.com/player/191940247?change_second=11889",
+        "videoTitle": "소통 - 노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_4F25F66E_292999001_1_r&column=2&t=1775571572",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "스토커",
     "artist": "10CM",
     "versions": [
@@ -18514,18 +18532,6 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260224_AE6F606B_291880580_1_r&column=2&t=1772465443",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-04-06",
-        "url": "https://vod.sooplive.com/player/191940247?change_second=11889",
-        "videoTitle": "소통 - 노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260406_4F25F66E_292999001_1_r&column=2&t=1775571572",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,

@@ -6521,88 +6521,104 @@
                     "title": "제주도의 푸른 밤",
                     "time": "52:14",
                     "artist": "태연",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "출항",
                     "time": "1:04:16",
-                    "artist": "안예은"
+                    "artist": "안예은",
+                    "groupSong": false
                 },
                 {
                     "title": "나만 몰랐던 이야기",
                     "time": "1:13:14",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "Celebrity",
                     "time": "1:22:57",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "Track 9",
                     "time": "1:33:43",
-                    "artist": "이소라"
+                    "artist": "이소라",
+                    "groupSong": false
                 },
                 {
                     "title": "Blueming",
                     "time": "1:44:38",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "몽유",
                     "time": "1:52:38",
                     "artist": "잇츠",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Rain Drop",
                     "time": "2:04:16",
                     "artist": "아이유",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "별의 조각",
                     "time": "2:15:34",
                     "artist": "윤하",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "위로",
                     "time": "2:23:13",
                     "artist": "권진아",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "서른 즈음에",
                     "time": "2:36:21",
                     "artist": "김광석",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "너의 모든 순간",
                     "time": "2:44:23",
-                    "artist": "성시경"
+                    "artist": "성시경",
+                    "groupSong": false
                 },
                 {
                     "title": "북두칠성",
                     "time": "2:57:05",
-                    "artist": "로이킴"
+                    "artist": "로이킴",
+                    "groupSong": false
                 },
                 {
                     "title": "나는 나를 말하는 사람",
                     "time": "3:32:11",
-                    "artist": "마틸다"
+                    "artist": "마틸다",
+                    "groupSong": false
                 },
                 {
                     "title": "빌려온 고양이",
                     "time": "3:10:11",
-                    "artist": "아일릿"
+                    "artist": "아일릿",
+                    "groupSong": false
                 },
                 {
-                    "title": "히로인",
+                    "title": "스즈메",
                     "time": "3:18:09",
-                    "artist": "Back Number"
+                    "artist": "RADWIMPS",
+                    "groupSong": false
                 }
             ]
         },
