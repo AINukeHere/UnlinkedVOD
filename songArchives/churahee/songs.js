@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-13T18:04:53.326432+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-16T12:46:37.893119+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -1200,7 +1200,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=7456",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=7457",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
@@ -2598,7 +2598,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=6657",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=6659",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
@@ -2832,7 +2832,7 @@ const songs = [
       },
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=12281",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=12282",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
@@ -4152,7 +4152,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=7032",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=7034",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
@@ -5136,10 +5136,10 @@ const songs = [
       },
       {
         "date": "2025-06-02",
-        "url": "https://vod.sooplive.co.kr/player/161920129?change_second=12592",
+        "url": "https://vod.sooplive.com/player/161920129?change_second=12592",
         "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -5440,7 +5440,7 @@ const songs = [
         "videoTitle": "소통 - 노래 - 데바데",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250419_B18FCD3D_283222650_2_r",
-        "noMistake": true,
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -6682,8 +6682,8 @@ const songs = [
         "videoTitle": "🎉생일 방송(소통 - 노래 - 게임)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251115_3ED57726_289175062_1_r&column=2&t=1764231393",
-        "noMistake": true,
-        "recommended": true,
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -7464,11 +7464,11 @@ const songs = [
       },
       {
         "date": "2025-06-02",
-        "url": "https://vod.sooplive.co.kr/player/161920129?change_second=12351",
+        "url": "https://vod.sooplive.com/player/161920129?change_second=12351",
         "videoTitle": "소통",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
-        "noMistake": true,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -7624,7 +7624,7 @@ const songs = [
         "videoTitle": "1일차 노인코래방 근데 목감기인..",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230629_F6263878_247101041_3_r",
-        "noMistake": true,
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -8063,7 +8063,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260519_A241A72C_294129053_1_r&column=2&t=1779398032",
         "noMistake": true,
-        "recommended": false,
+        "recommended": true,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -8610,7 +8610,7 @@ const songs = [
       },
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=5247",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=5248",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
@@ -8626,7 +8626,7 @@ const songs = [
         "videoTitle": "오리지널 공개) 소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20251217_D646EA0F_290019478_1_r&column=2&t=1765955555",
-        "noMistake": true,
+        "noMistake": false,
         "recommended": true,
         "needsReview": false,
         "groupSong": false,
@@ -8891,7 +8891,7 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250610_326643FD_284791562_1_r",
         "noMistake": true,
-        "recommended": true,
+        "recommended": false,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -11026,7 +11026,7 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260113_4D3234BE_290719816_1_r&column=2&t=1768406055",
-        "noMistake": true,
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -15948,7 +15948,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=5832",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=5833",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",
@@ -16506,7 +16506,7 @@ const songs = [
       },
       {
         "date": "2026-01-05",
-        "url": "https://vod.sooplive.com/player/182858141?change_second=6208",
+        "url": "https://vod.sooplive.com/player/182858141?change_second=6209",
         "videoTitle": "소통 - 별별랭킹 - 신곡 발표회 - 노래 깎기(Nothing)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260105_BE3A02C6_290504144_1_r&column=2&t=1767615462",

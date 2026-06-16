@@ -2226,82 +2226,96 @@
                     "title": "사랑은 은하수 다방에서",
                     "time": "00:59:35",
                     "artist": "10CM",
-                    "noMistake": true
+                    "groupSong": false
                 },
                 {
                     "title": "첫 키스에 내 심장은 120BPM",
                     "time": "01:08:04",
-                    "artist": "경서"
+                    "artist": "경서",
+                    "groupSong": false
                 },
                 {
                     "title": "Love story",
                     "time": "01:21:24",
                     "artist": "볼빨간사춘기",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "붉은 장미",
                     "time": "01:30:18",
-                    "artist": "우예린"
+                    "artist": "우예린",
+                    "groupSong": false
                 },
                 {
                     "title": "Almond Chocolate",
                     "time": "01:38:49",
                     "artist": "아일릿",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Pookie",
                     "time": "02:00:06",
-                    "artist": "피프티피프티"
+                    "artist": "피프티피프티",
+                    "groupSong": false
                 },
                 {
                     "title": "Pookie",
                     "time": "02:03:13",
-                    "artist": "피프티피프티"
+                    "artist": "피프티피프티",
+                    "groupSong": false
                 },
                 {
                     "title": "빌려온 고양이",
                     "time": "02:09:54",
-                    "artist": "아일릿"
+                    "artist": "아일릿",
+                    "groupSong": false
                 },
                 {
                     "title": "12:45",
                     "time": "02:30:25",
-                    "artist": "Etham"
+                    "artist": "Etham",
+                    "groupSong": false
                 },
                 {
                     "title": "How Do I Say Goodbye",
                     "time": "02:39:02",
                     "artist": "Dean Lewis",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Rubia",
                     "time": "02:46:55",
                     "artist": "붕괴 OST",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Hello",
                     "time": "02:54:49",
-                    "artist": "Adele"
+                    "artist": "Adele",
+                    "groupSong": false
                 },
                 {
                     "title": "Ghost Town",
                     "time": "03:00:11",
-                    "artist": "Benson Boone"
+                    "artist": "Benson Boone",
+                    "groupSong": false
                 },
                 {
                     "title": "진심이었던 사람만 바보가 돼",
                     "time": "03:06:42",
-                    "artist": "권진아"
+                    "artist": "권진아",
+                    "groupSong": false
                 },
                 {
                     "title": "주옥같다",
                     "time": "03:15:19",
-                    "artist": "고옥희"
+                    "artist": "고옥희",
+                    "groupSong": false
                 }
             ]
         },
@@ -2412,41 +2426,48 @@
             "songInfo": [
                 {
                     "title": "물고기자리",
-                    "time": "01:27:27",
+                    "time": "1:27:28",
                     "artist": "이안",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "있잖아",
-                    "time": "01:37:12",
-                    "artist": "보라미유"
+                    "time": "1:37:13",
+                    "artist": "보라미유",
+                    "groupSong": false
                 },
                 {
                     "title": "진심이었던 사람만 바보가 돼",
-                    "time": "01:43:28",
-                    "artist": "권진아"
+                    "time": "1:43:29",
+                    "artist": "권진아",
+                    "groupSong": false
                 },
                 {
                     "title": "Melt Away",
-                    "time": "01:50:57",
-                    "artist": "아이브"
+                    "time": "1:50:59",
+                    "artist": "아이브",
+                    "groupSong": false
                 },
                 {
                     "title": "VILLAIN",
-                    "time": "01:57:12",
-                    "artist": "K/DA"
+                    "time": "1:57:14",
+                    "artist": "K/DA",
+                    "groupSong": false
                 },
                 {
                     "title": "Gravity",
-                    "time": "02:04:16",
+                    "time": "2:04:17",
                     "artist": "피프티피프티",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Nothing",
-                    "time": "03:24:41",
+                    "time": "3:24:42",
                     "artist": "바밍",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 }
             ]
         },
@@ -2560,79 +2581,92 @@
                 {
                     "title": "고양이",
                     "time": "01:11:51",
-                    "artist": "선우정아"
+                    "artist": "선우정아",
+                    "groupSong": false
                 },
                 {
                     "title": "빌려온 고양이",
                     "time": "01:18:07",
-                    "artist": "아일릿"
+                    "artist": "아일릿",
+                    "groupSong": false
                 },
                 {
                     "title": "Maniac",
                     "time": "01:32:50",
-                    "artist": "Conan Gray"
+                    "artist": "Conan Gray",
+                    "groupSong": false
                 },
                 {
                     "title": "여름이었다",
                     "time": "01:42:35",
-                    "artist": "하이키"
+                    "artist": "하이키",
+                    "groupSong": false
                 },
                 {
                     "title": "Rubia",
                     "time": "01:53:20",
-                    "artist": "붕괴 OST"
+                    "artist": "붕괴 OST",
+                    "groupSong": false
                 },
                 {
                     "title": "comethru",
                     "time": "02:03:29",
-                    "artist": "Jeremy Zucker"
+                    "artist": "Jeremy Zucker",
+                    "groupSong": false
                 },
                 {
                     "title": "Viva La Vida",
                     "time": "02:14:17",
-                    "artist": "콜드플레이"
+                    "artist": "콜드플레이",
+                    "groupSong": false
                 },
                 {
                     "title": "꽃에 망령",
                     "time": "02:22:47",
-                    "artist": "요루시카"
+                    "artist": "요루시카",
+                    "groupSong": false
                 },
                 {
                     "title": "소로",
                     "time": "02:37:57",
                     "artist": "심규선",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "봄 도둑",
                     "time": "2:28:36",
-                    "artist": "요루시카"
+                    "artist": "요루시카",
+                    "groupSong": false
                 },
                 {
                     "title": "수피",
                     "time": "02:44:58",
                     "artist": "심규선",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "물고기자리",
                     "time": "03:19:03",
                     "artist": "이안",
-                    "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "있잖아",
                     "time": "03:25:25",
                     "artist": "보라미유",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "진심이었던 사람만 바보가 돼",
                     "time": "03:30:49",
                     "artist": "권진아",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 }
             ]
         },
@@ -3292,80 +3326,92 @@
                 {
                     "title": "Almond Chocolate",
                     "time": "1:32:31",
-                    "artist": "아일릿"
+                    "artist": "아일릿",
+                    "groupSong": false
                 },
                 {
                     "title": "오늘 뭐 했는지 말해봐",
                     "time": "1:40:50",
                     "artist": "권진아",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Ghost Town",
                     "time": "1:54:18",
                     "artist": "Benson Boone",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "민들레",
                     "time": "2:03:23",
-                    "artist": "우효"
+                    "artist": "우효",
+                    "groupSong": false
                 },
                 {
                     "title": "장마",
                     "time": "2:11:59",
                     "artist": "정인",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "너무 보고싶어",
                     "time": "2:22:53",
                     "artist": "어쿠스틱 콜라보",
-                    "noMistake": true,
-                    "recommended": true
+                    "groupSong": false
                 },
                 {
                     "title": "Rubia",
                     "time": "2:35:08",
-                    "artist": "붕괴 OST"
+                    "artist": "붕괴 OST",
+                    "groupSong": false
                 },
                 {
                     "title": "사랑 그게 뭔데",
                     "time": "2:42:21",
-                    "artist": "양파"
+                    "artist": "양파",
+                    "groupSong": false
                 },
                 {
                     "title": "별의 조각",
                     "time": "2:51:02",
-                    "artist": "윤하"
+                    "artist": "윤하",
+                    "groupSong": false
                 },
                 {
                     "title": "Slow Motion",
                     "time": "3:01:57",
-                    "artist": "Karina"
+                    "artist": "Karina",
+                    "groupSong": false
                 },
                 {
                     "title": "12:45",
                     "time": "3:10:12",
-                    "artist": "Etham"
+                    "artist": "Etham",
+                    "groupSong": false
                 },
                 {
                     "title": "Love=Disaster",
                     "time": "3:18:14",
-                    "artist": "프로미스나인"
+                    "artist": "프로미스나인",
+                    "groupSong": false
                 },
                 {
                     "title": "후라이의 꿈",
                     "time": "3:26:47",
-                    "artist": "AKMU"
+                    "artist": "AKMU",
+                    "groupSong": false
                 },
                 {
                     "title": "수고했어, 오늘도",
                     "time": "5:19:40",
                     "artist": "옥상달빛",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 }
             ]
         },
@@ -3703,50 +3749,58 @@
                     "title": "그 중에 그대를 만나",
                     "time": "50:20",
                     "artist": "이선희",
-                    "noMistake": true
+                    "groupSong": false
                 },
                 {
                     "title": "별의 조각",
                     "time": "1:00:29",
                     "artist": "윤하",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Suddenly",
                     "time": "1:07:49",
-                    "artist": "김보경"
+                    "artist": "김보경",
+                    "groupSong": false
                 },
                 {
                     "title": "여래아",
                     "time": "1:17:41",
-                    "artist": "시드사운드"
+                    "artist": "시드사운드",
+                    "groupSong": false
                 },
                 {
                     "title": "배웅",
                     "time": "1:26:49",
-                    "artist": "박혜원"
+                    "artist": "박혜원",
+                    "groupSong": false
                 },
                 {
                     "title": "나의 사춘기에게",
                     "time": "1:34:32",
-                    "artist": "볼빨간사춘기"
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "사랑했나 봐",
                     "time": "1:44:11",
-                    "artist": "윤도현"
+                    "artist": "윤도현",
+                    "groupSong": false
                 },
                 {
                     "title": "서른 즈음에",
                     "time": "1:53:17",
                     "artist": "김광석",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "하루 종일 비가 내렸어",
                     "time": "2:00:44",
-                    "artist": "디아"
+                    "artist": "디아",
+                    "groupSong": false
                 }
             ]
         },
@@ -4230,52 +4284,60 @@
                     "time": "3:14:39",
                     "artist": "마골피",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "뭔가 잘못됐어",
                     "time": "3:20:50",
                     "artist": "권진아",
                     "noMistake": true,
-                    "recommended": true
+                    "groupSong": false
                 },
                 {
                     "title": "소로",
                     "time": "3:27:31",
                     "artist": "심규선",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "오스카",
                     "time": "3:37:07",
                     "artist": "심규선",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "파탈리테",
                     "time": "3:45:48",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "다시 만날까 봐",
                     "time": "3:52:39",
-                    "artist": "이예준"
+                    "artist": "이예준",
+                    "groupSong": false
                 },
                 {
                     "title": "꿈에",
                     "time": "4:05:21",
-                    "artist": "박정현"
+                    "artist": "박정현",
+                    "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
                     "time": "4:14:14",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "수고했어, 오늘도",
                     "time": "4:35:59",
-                    "artist": "옥상달빛"
+                    "artist": "옥상달빛",
+                    "groupSong": false
                 }
             ]
         },
@@ -5247,17 +5309,20 @@
         {
             "title": "소통",
             "date": "2025-06-02",
-            "url": "https://vod.sooplive.co.kr/player/161920129",
-            "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
+            "url": "https://vod.sooplive.com/player/161920129",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250602_70303145_284460302_1_r",
             "songInfo": [
                 {
                     "title": "고양이 소리를 따라해 보자",
-                    "time": "3:29:52"
+                    "time": "3:29:52",
+                    "artist": "펑티모",
+                    "groupSong": false
                 },
                 {
                     "title": "달리기",
                     "time": "3:25:51",
-                    "noMistake": true
+                    "artist": "옥상달빛",
+                    "groupSong": false
                 }
             ]
         },
@@ -6645,152 +6710,179 @@
                 {
                     "title": "노래하는 다람쥐",
                     "time": "6:27",
-                    "artist": "제이래빗"
+                    "artist": "제이래빗",
+                    "groupSong": false
                 },
                 {
                     "title": "호시아이",
                     "time": "16:15",
-                    "artist": "레프티 몬스터P"
+                    "artist": "레프티 몬스터P",
+                    "groupSong": false
                 },
                 {
                     "title": "천성의 약함",
                     "time": "22:56",
-                    "artist": "164"
+                    "artist": "164",
+                    "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
                     "time": "30:04",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "Viva La Vida",
                     "time": "38:49",
                     "artist": "콜드플레이",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "월하의 그대에게",
                     "time": "48:04",
-                    "artist": "Xenesus & 쪽빛아리아"
+                    "artist": "Xenesus & 쪽빛아리아",
+                    "groupSong": false
                 },
                 {
                     "title": "고양이",
                     "time": "53:04",
                     "artist": "선우정아",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "동경캐스터",
                     "time": "58:55",
                     "artist": "하츠네 미쿠",
-                    "noMistake": true
+                    "groupSong": false
                 },
                 {
                     "title": "아라리",
                     "time": "1:05:00",
                     "artist": "심규선",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "오스카",
                     "time": "1:12:49",
                     "artist": "심규선",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "화조도",
                     "time": "1:19:25",
                     "artist": "심규선",
                     "noMistake": true,
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Ahoy!! 우리는 호쇼해적단",
                     "time": "1:28:16",
-                    "artist": "호쇼 마린"
+                    "artist": "호쇼 마린",
+                    "groupSong": false
                 },
                 {
                     "title": "어푸",
                     "time": "1:36:06",
                     "artist": "아이유",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "출발",
                     "time": "1:43:42",
-                    "artist": "김동률"
+                    "artist": "김동률",
+                    "groupSong": false
                 },
                 {
                     "title": "When I Get Old",
                     "time": "1:48:47",
-                    "artist": "청하"
+                    "artist": "청하",
+                    "groupSong": false
                 },
                 {
                     "title": "봄봄봄",
                     "time": "1:53:51",
                     "artist": "로이킴",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Happy Birthday To You",
                     "time": "2:00:07",
-                    "artist": "권진원"
+                    "artist": "권진원",
+                    "groupSong": false
                 },
                 {
                     "title": "I AM",
                     "time": "2:09:14",
-                    "artist": "IVE"
+                    "artist": "IVE",
+                    "groupSong": false
                 },
                 {
                     "title": "Ditto",
                     "time": "2:10:43",
-                    "artist": "뉴진스"
+                    "artist": "뉴진스",
+                    "groupSong": false
                 },
                 {
                     "title": "Next Level",
                     "time": "2:15:06",
-                    "artist": "aespa"
+                    "artist": "aespa",
+                    "groupSong": false
                 },
                 {
                     "title": "Nxde",
                     "time": "2:16:59",
-                    "artist": "I-DLE"
+                    "artist": "I-DLE",
+                    "groupSong": false
                 },
                 {
                     "title": "불장난",
                     "time": "2:20:40",
-                    "artist": "BLACKPINK"
+                    "artist": "BLACKPINK",
+                    "groupSong": false
                 },
                 {
                     "title": "Kitsch",
                     "time": "2:27:25",
-                    "artist": "IVE"
+                    "artist": "IVE",
+                    "groupSong": false
                 },
                 {
                     "title": "특 S-Class",
                     "time": "2:31:24",
-                    "artist": "스트레이 키즈"
+                    "artist": "스트레이 키즈",
+                    "groupSong": false
                 },
                 {
                     "title": "CHEER UP",
                     "time": "2:38:28",
-                    "artist": "TWICE"
+                    "artist": "TWICE",
+                    "groupSong": false
                 },
                 {
                     "title": "Dolphin",
                     "time": "2:40:11",
-                    "artist": "오마이걸"
+                    "artist": "오마이걸",
+                    "groupSong": false
                 },
                 {
                     "title": "Beautiful Liar (Rerecorded)",
                     "time": "2:47:46",
-                    "artist": "MONSTA X"
+                    "artist": "MONSTA X",
+                    "groupSong": false
                 },
                 {
                     "title": "My way",
                     "time": "2:51:11",
-                    "artist": "M.C The Max"
+                    "artist": "M.C The Max",
+                    "groupSong": false
                 }
             ]
         },
@@ -8204,24 +8296,29 @@
                     "title": "달리기",
                     "time": "5:34:06",
                     "artist": "옥상달빛",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "마지막 날처럼",
                     "time": "5:40:56",
                     "artist": "유럽",
-                    "noMistake": true
+                    "noMistake": true,
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "무릎",
                     "time": "5:46:54",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "수고했어, 오늘도",
                     "time": "6:47:25",
                     "artist": "옥상달빛",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 }
             ]
         },
