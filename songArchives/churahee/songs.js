@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-18T22:18:57.364097+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-18T22:53:17.155484+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -14599,6 +14599,18 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-18",
+        "url": "https://vod.sooplive.com/player/199053721?change_second=26536",
+        "videoTitle": "[버블란] 후열 배그(w. 요한)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
