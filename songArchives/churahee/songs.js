@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-16T12:46:37.893119+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-18T22:18:57.364097+00:00";
 const songs = [
   {
     "title": "11:11",
@@ -7719,6 +7719,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-18",
+        "url": "https://vod.sooplive.com/player/199053721?change_second=2892",
+        "videoTitle": "[버블란] 후열 배그(w. 요한)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -9025,6 +9037,18 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-18",
+        "url": "https://vod.sooplive.com/player/199053721?change_second=5557",
+        "videoTitle": "[버블란] 후열 배그(w. 요한)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -15667,6 +15691,18 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-18",
+        "url": "https://vod.sooplive.com/player/199053721?change_second=6148",
+        "videoTitle": "[버블란] 후열 배그(w. 요한)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }

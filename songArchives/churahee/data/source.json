@@ -8944,6 +8944,35 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 후열 배그(w. 요한)",
+            "date": "2026-06-18",
+            "url": "https://vod.sooplive.com/player/199053721",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
+            "songInfo": [
+                {
+                    "title": "마마",
+                    "time": "48:12",
+                    "artist": "김필선",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "1:32:37",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "위로",
+                    "time": "1:42:28",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
