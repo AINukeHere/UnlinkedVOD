@@ -8955,28 +8955,61 @@
                     "title": "마마",
                     "time": "48:12",
                     "artist": "김필선",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "뭔가 잘못됐어",
                     "time": "1:32:37",
                     "artist": "권진아",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "위로",
                     "time": "1:42:28",
                     "artist": "권진아",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "오늘 뭐 했는지 말해봐",
                     "time": "7:22:16",
                     "artist": "권진아",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 버블란 원랜디ㅣ처음합니다 원피스 모릅니다",
+            "date": "2026-06-22",
+            "url": "https://vod.sooplive.com/player/199397037",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260622_FBBA7608_295010085_2_r",
+            "songInfo": [
+                {
+                    "title": "0+0",
+                    "time": "45:38",
+                    "artist": "한로로",
                     "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "히로인",
+                    "time": "49:31",
+                    "artist": "Back Number",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 감놀 가야대",
+            "date": "2026-06-19",
+            "url": "https://vod.sooplive.com/player/199150465",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260619_E08710ED_294938865_2_r",
+            "songInfo": [
+                {
+                    "title": "소로",
+                    "time": "8:05:49",
+                    "artist": "심규선",
                     "groupSong": false
                 }
             ]

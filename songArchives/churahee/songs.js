@@ -1,5 +1,23 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-18T22:53:17.155484+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-23T10:37:50.929171+00:00";
 const songs = [
+  {
+    "title": "0+0",
+    "artist": "한로로",
+    "versions": [
+      {
+        "date": "2026-06-22",
+        "url": "https://vod.sooplive.com/player/199397037?change_second=2738",
+        "videoTitle": "[버블란] 버블란 원랜디ㅣ처음합니다 원피스 모릅니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260622_FBBA7608_295010085_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
   {
     "title": "11:11",
     "artist": "태연",
@@ -7728,7 +7746,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -9046,9 +9064,9 @@ const songs = [
         "videoTitle": "[버블란] 후열 배그(w. 요한)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -12009,6 +12027,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "강하나, 카아암"
+      },
+      {
+        "date": "2026-06-19",
+        "url": "https://vod.sooplive.com/player/199150465?change_second=29149",
+        "videoTitle": "[버블란] 감놀 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260619_E08710ED_294938865_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -14610,7 +14640,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -15714,7 +15744,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260618_1835B7CC_294911765_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -18643,6 +18673,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-22",
+        "url": "https://vod.sooplive.com/player/199397037?change_second=2971",
+        "videoTitle": "[버블란] 버블란 원랜디ㅣ처음합니다 원피스 모릅니다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260622_FBBA7608_295010085_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
