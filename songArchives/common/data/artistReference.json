@@ -18,6 +18,7 @@
     {
         "artist": "4월은 너의 거짓말",
         "aliases": [
+            "4월은 너의 거짓말 ost",
             "4월은 너의 거짓말ost"
         ]
     },
@@ -231,6 +232,10 @@
         "aliases": []
     },
     {
+        "artist": "로시",
+        "aliases": []
+    },
+    {
         "artist": "로이킴",
         "aliases": []
     },
@@ -274,6 +279,10 @@
     },
     {
         "artist": "명탐정 코난 OST",
+        "aliases": []
+    },
+    {
+        "artist": "모찌멜로디",
         "aliases": []
     },
     {
@@ -433,7 +442,8 @@
         "artist": "비비",
         "aliases": [
             "BIBI",
-            "BIBI(비비)"
+            "BIBI(비비)",
+            "비비(BIBI)"
         ]
     },
     {
@@ -483,7 +493,9 @@
     },
     {
         "artist": "선우정아",
-        "aliases": []
+        "aliases": [
+            "선우정아ver"
+        ]
     },
     {
         "artist": "설아",
@@ -623,6 +635,14 @@
         ]
     },
     {
+        "artist": "아이유x박명수",
+        "aliases": []
+    },
+    {
+        "artist": "아이유x오혁",
+        "aliases": []
+    },
+    {
         "artist": "아일릿",
         "aliases": [
             "ILLIT"
@@ -650,11 +670,9 @@
     },
     {
         "artist": "어쿠스틱 콜라보",
-        "aliases": []
-    },
-    {
-        "artist": "어쿠스틱콜라보",
-        "aliases": []
+        "aliases": [
+            "어쿠스틱콜라보"
+        ]
     },
     {
         "artist": "에이몽",
@@ -856,7 +874,8 @@
     {
         "artist": "이츠",
         "aliases": [
-            "IT'S(이츠)"
+            "IT'S(이츠)",
+            "이츠(IT's)"
         ]
     },
     {
@@ -1153,7 +1172,8 @@
     {
         "artist": "CHEEZE",
         "aliases": [
-            "CHEEZE(치즈)"
+            "CHEEZE(치즈)",
+            "치즈(CHEEZE)"
         ]
     },
     {
@@ -1170,6 +1190,10 @@
     },
     {
         "artist": "Conan Gray",
+        "aliases": []
+    },
+    {
+        "artist": "DATEKEN",
         "aliases": []
     },
     {
@@ -1225,6 +1249,10 @@
         "aliases": []
     },
     {
+        "artist": "HoneyWorks",
+        "aliases": []
+    },
+    {
         "artist": "HUNTR/X",
         "aliases": []
     },
@@ -1265,6 +1293,10 @@
         "aliases": []
     },
     {
+        "artist": "Lisa",
+        "aliases": []
+    },
+    {
         "artist": "Lizzo",
         "aliases": []
     },
@@ -1280,6 +1312,10 @@
     },
     {
         "artist": "MONSTA X",
+        "aliases": []
+    },
+    {
+        "artist": "Nat King Cole",
         "aliases": []
     },
     {
@@ -1299,7 +1335,15 @@
         "aliases": []
     },
     {
+        "artist": "SG워너비",
+        "aliases": []
+    },
+    {
         "artist": "SG워너비 & 브라운아이드걸스",
+        "aliases": []
+    },
+    {
+        "artist": "The cardigans",
         "aliases": []
     },
     {
@@ -1324,13 +1368,15 @@
         "artist": "WOODZ",
         "aliases": [
             "WOODZ(우즈)",
-            "우즈"
+            "우즈",
+            "우즈(WOODZ)"
         ]
     },
     {
         "artist": "Xenesus & 쪽빛아리아",
         "aliases": [
-            "Xenesus,쪽빛아리아"
+            "Xenesus,쪽빛아리아",
+            "Xenesus, 쪽빛아리아"
         ]
     },
     {
