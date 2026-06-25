@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-23T10:37:50.929171+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-25T19:52:56.757686+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -10,6 +10,18 @@ const songs = [
         "videoTitle": "[버블란] 버블란 원랜디ㅣ처음합니다 원피스 모릅니다",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260622_FBBA7608_295010085_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-25",
+        "url": "https://vod.sooplive.com/player/199684771?change_second=2044",
+        "videoTitle": "[버블란] 카페 털깅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -7375,6 +7387,24 @@ const songs = [
     ]
   },
   {
+    "title": "다시 사랑한다면",
+    "artist": "김필",
+    "versions": [
+      {
+        "date": "2026-06-25",
+        "url": "https://vod.sooplive.com/player/199684771?change_second=2389",
+        "videoTitle": "[버블란] 카페 털깅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "달그림자",
     "artist": "안예은",
     "versions": [
@@ -9943,6 +9973,18 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-25",
+        "url": "https://vod.sooplive.com/player/199684771?change_second=2743",
+        "videoTitle": "[버블란] 카페 털깅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -13495,6 +13537,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-25",
+        "url": "https://vod.sooplive.com/player/199684771?change_second=1565",
+        "videoTitle": "[버블란] 카페 털깅",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }

@@ -9013,6 +9013,42 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 카페 털깅",
+            "date": "2026-06-25",
+            "url": "https://vod.sooplive.com/player/199684771",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
+            "songInfo": [
+                {
+                    "title": "야수",
+                    "time": "26:05",
+                    "artist": "김필선",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "0+0",
+                    "time": "34:04",
+                    "artist": "한로로",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "다시 사랑한다면",
+                    "time": "39:49",
+                    "artist": "김필",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "별의 조각",
+                    "time": "45:43",
+                    "artist": "윤하",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
