@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-06-25T19:52:56.757686+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-06-29T19:08:53.654939+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -22,6 +22,18 @@ const songs = [
         "videoTitle": "[버블란] 카페 털깅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=26737",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -4665,6 +4677,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=15785",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -5721,6 +5745,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=15388",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -6205,6 +6241,18 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=16130",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -7215,6 +7263,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=17533",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -7777,6 +7837,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=18301",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -8359,6 +8431,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=14454",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -9099,6 +9183,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=20580",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -9247,6 +9343,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=17034",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -9565,6 +9673,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=16726",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -9982,6 +10102,30 @@ const songs = [
         "videoTitle": "[버블란] 카페 털깅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260625_19BECDBA_295093593_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=1877",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=13759",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -13495,6 +13639,24 @@ const songs = [
     ]
   },
   {
+    "title": "안녕이라고 말하지 마",
+    "artist": "다비치",
+    "versions": [
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=17847",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "애인 있어요",
     "artist": "이은미",
     "versions": [
@@ -13861,6 +14023,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=25242",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -14347,6 +14521,18 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=14889",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -15531,6 +15717,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-28",
+        "url": "https://vod.sooplive.com/player/200002549?change_second=20985",
+        "videoTitle": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -15801,6 +15999,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=17542",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -16011,6 +16221,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "크앙희, 더블링, 강하나, 카아암"
+      }
+    ]
+  },
+  {
+    "title": "이자벨라의 자장가",
+    "artist": "약속의 네버랜드",
+    "versions": [
+      {
+        "date": "2026-06-29",
+        "url": "https://vod.sooplive.com/player/200058679?change_second=13045",
+        "videoTitle": "[버블란] 3주년 3등 기념 33한 대화",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },

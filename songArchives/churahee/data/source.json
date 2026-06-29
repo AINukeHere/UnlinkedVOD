@@ -9049,6 +9049,148 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 봉준 님 가왕대전 후열 싱꾸룸",
+            "date": "2026-06-28",
+            "url": "https://vod.sooplive.com/player/200002549",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260628_318AAA65_295173493_2_r",
+            "songInfo": [
+                {
+                    "title": "별의 조각",
+                    "time": "31:17",
+                    "artist": "윤하",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "별의 조각",
+                    "time": "3:49:19",
+                    "artist": "윤하",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "눈사람",
+                    "time": "4:52:13",
+                    "artist": "정승환",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "뭔가 잘못됐어",
+                    "time": "5:43:00",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "운이 좋았지",
+                    "time": "5:49:45",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "어른",
+                    "time": "7:00:42",
+                    "artist": "손디아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "0+0",
+                    "time": "7:25:37",
+                    "artist": "한로로",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 3주년 3등 기념 33한 대화",
+            "date": "2026-06-29",
+            "url": "https://vod.sooplive.com/player/200058679",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260629_3DCFA1C7_295190641_2_r",
+            "songInfo": [
+                {
+                    "title": "이자벨라의 자장가",
+                    "time": "3:37:25",
+                    "artist": "약속의 네버랜드",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "만찬가",
+                    "time": "4:00:54",
+                    "artist": "츠키",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "4:08:09",
+                    "artist": "이수현",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "금요일에 만나요",
+                    "time": "4:16:28",
+                    "artist": "아이유",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "가끔 내가",
+                    "time": "4:23:05",
+                    "artist": "김나영",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "끝이 아닌 것 같아서",
+                    "time": "4:28:50",
+                    "artist": "바닐라 어쿠스틱",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "배웅",
+                    "time": "4:38:46",
+                    "artist": "박혜원",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "민들레",
+                    "time": "4:43:54",
+                    "artist": "우효",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "위로",
+                    "time": "4:52:22",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "안녕이라고 말하지 마",
+                    "time": "4:57:27",
+                    "artist": "다비치",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "마마",
+                    "time": "5:05:01",
+                    "artist": "김필선",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
