@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-03T04:51:18.147893+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-03T16:21:12.517332+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -11,8 +11,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260622_FBBA7608_295010085_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
@@ -18984,7 +18984,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260622_FBBA7608_295010085_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }

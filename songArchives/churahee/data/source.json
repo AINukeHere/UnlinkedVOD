@@ -8988,14 +8988,13 @@
                     "title": "0+0",
                     "time": "45:38",
                     "artist": "한로로",
-                    "needsReview": true,
+                    "recommended": true,
                     "groupSong": false
                 },
                 {
                     "title": "히로인",
                     "time": "49:31",
                     "artist": "Back Number",
-                    "needsReview": true,
                     "groupSong": false
                 }
             ]
