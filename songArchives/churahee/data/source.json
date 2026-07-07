@@ -9195,6 +9195,42 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
+            "date": "2026-07-06",
+            "url": "https://vod.sooplive.com/player/200754741",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
+            "songInfo": [
+                {
+                    "title": "다시 사랑한다면",
+                    "time": "3:41:49",
+                    "artist": "김필",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "야수",
+                    "time": "3:48:19",
+                    "artist": "김필선",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "히로인",
+                    "time": "3:56:19",
+                    "artist": "Back Number",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "0+0",
+                    "time": "4:03:57",
+                    "artist": "한로로",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }

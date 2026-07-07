@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-03T16:21:12.517332+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-07T13:54:03.419054+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -37,6 +37,18 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-06",
+        "url": "https://vod.sooplive.com/player/200754741?change_second=14637",
+        "videoTitle": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -7461,6 +7473,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-06",
+        "url": "https://vod.sooplive.com/player/200754741?change_second=13309",
+        "videoTitle": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -13713,6 +13737,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-06",
+        "url": "https://vod.sooplive.com/player/200754741?change_second=13699",
+        "videoTitle": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -18985,6 +19021,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-06",
+        "url": "https://vod.sooplive.com/player/200754741?change_second=14179",
+        "videoTitle": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
