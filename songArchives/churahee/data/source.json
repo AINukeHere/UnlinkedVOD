@@ -8711,56 +8711,53 @@
                     "title": "팬서비스",
                     "time": "27:47",
                     "artist": "mona",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "창귀",
                     "time": "44:27",
                     "artist": "안예은",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "RE : WIND",
                     "time": "58:53",
                     "artist": "이세계아이돌",
-                    "needsReview": true,
+                    "recommended": true,
                     "groupSong": false
                 },
                 {
                     "title": "Lonely Night",
                     "time": "1:09:32",
                     "artist": "권진아",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "화조도",
                     "time": "1:18:49",
                     "artist": "심규선",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "고양이 소리를 따라해 보자",
                     "time": "1:28:06",
                     "artist": "펑티모",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "귀여워서 미안해",
-                    "time": "1:38:18",
+                    "time": "1:38:20",
                     "artist": "나카무라 치즈루",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "Love poem",
                     "time": "2:27:58",
                     "artist": "아이유",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
@@ -8849,9 +8846,8 @@
                 },
                 {
                     "title": "If I Ain't Got You",
-                    "time": "5:38:33",
+                    "time": "5:38:44",
                     "artist": "앨리샤 키스",
-                    "needsReview": true,
                     "groupSong": false
                 }
             ]
@@ -9206,26 +9202,60 @@
                     "title": "다시 사랑한다면",
                     "time": "3:41:49",
                     "artist": "김필",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "야수",
                     "time": "3:48:19",
                     "artist": "김필선",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "히로인",
                     "time": "3:56:19",
                     "artist": "Back Number",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "0+0",
                     "time": "4:03:57",
+                    "artist": "한로로",
+                    "noMistake": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 지수의 꿈 가야대",
+            "date": "2026-07-09",
+            "url": "https://vod.sooplive.com/player/201030761",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
+            "songInfo": [
+                {
+                    "title": "눈사람",
+                    "time": "41:09",
+                    "artist": "정승환",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "아이와 나의 바다",
+                    "time": "46:30",
+                    "artist": "아이유",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "내 얘길 들어봐(A-ing)",
+                    "time": "2:51:11",
+                    "artist": "오마이걸",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "7:31:06",
                     "artist": "한로로",
                     "needsReview": true,
                     "groupSong": false

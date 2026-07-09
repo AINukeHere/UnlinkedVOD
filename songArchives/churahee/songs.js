@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-07T13:54:03.419054+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-09T17:27:52.757188+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -46,9 +46,9 @@ const songs = [
         "videoTitle": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1764,13 +1764,13 @@ const songs = [
     "versions": [
       {
         "date": "2023-10-03",
-        "url": "https://vod.sooplive.com/player/107896711?change_second=20313",
+        "url": "https://vod.sooplive.com/player/107896711?change_second=20324",
         "videoTitle": "[유플릭스] 소통 - 시그니처사운드 공개 - 노래 - 싱크룸합방(w.김병살 콧씨 해이) - 후열소통[제랄즈]",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -2176,9 +2176,9 @@ const songs = [
         "videoTitle": "[유플릭스] 소통 - 시그니처사운드 공개 - 노래 - 싱크룸합방(w.김병살 콧씨 해이) - 후열소통[제랄즈]",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -2286,7 +2286,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -3341,8 +3341,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
@@ -5242,9 +5242,9 @@ const songs = [
         "videoTitle": "[유플릭스] 소통 - 시그니처사운드 공개 - 노래 - 싱크룸합방(w.김병살 콧씨 해이) - 후열소통[제랄즈]",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -5460,13 +5460,13 @@ const songs = [
       },
       {
         "date": "2023-10-03",
-        "url": "https://vod.sooplive.com/player/107896711?change_second=5898",
+        "url": "https://vod.sooplive.com/player/107896711?change_second=5900",
         "videoTitle": "[유플릭스] 소통 - 시그니처사운드 공개 - 노래 - 싱크룸합방(w.김병살 콧씨 해이) - 후열소통[제랄즈]",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -6571,6 +6571,24 @@ const songs = [
     ]
   },
   {
+    "title": "내 얘길 들어봐(A-ing)",
+    "artist": "오마이걸",
+    "versions": [
+      {
+        "date": "2026-07-09",
+        "url": "https://vod.sooplive.com/player/201030761?change_second=10271",
+        "videoTitle": "[버블란] 지수의 꿈 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "내가 제일 잘 나가",
     "artist": "투에니원",
     "versions": [
@@ -7287,6 +7305,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-09",
+        "url": "https://vod.sooplive.com/player/201030761?change_second=2469",
+        "videoTitle": "[버블란] 지수의 꿈 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -7482,7 +7512,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -11373,6 +11403,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "더블링"
+      },
+      {
+        "date": "2026-07-09",
+        "url": "https://vod.sooplive.com/player/201030761?change_second=27066",
+        "videoTitle": "[버블란] 지수의 꿈 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -13521,6 +13563,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-09",
+        "url": "https://vod.sooplive.com/player/201030761?change_second=2790",
+        "videoTitle": "[버블란] 지수의 꿈 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -13744,9 +13798,9 @@ const songs = [
         "videoTitle": "[버블란] 지수의 꿈 가야대ㅣapi 도와주세욤........",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -17076,7 +17130,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -17802,7 +17856,7 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
@@ -18796,9 +18850,9 @@ const songs = [
         "videoTitle": "[유플릭스] 소통 - 시그니처사운드 공개 - 노래 - 싱크룸합방(w.김병살 콧씨 해이) - 후열소통[제랄즈]",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20231003_4237D976_248494038_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -19032,7 +19086,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
