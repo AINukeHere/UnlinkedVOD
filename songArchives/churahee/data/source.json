@@ -9236,29 +9236,68 @@
                     "title": "눈사람",
                     "time": "41:09",
                     "artist": "정승환",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
                     "time": "46:30",
                     "artist": "아이유",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "내 얘길 들어봐(A-ing)",
                     "time": "2:51:11",
                     "artist": "오마이걸",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "사랑하게 될 거야",
                     "time": "7:31:06",
                     "artist": "한로로",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 버디오스타 음악 스트리머 편 떨립니다....",
+            "date": "2026-07-10",
+            "url": "https://vod.sooplive.com/player/201074729",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r",
+            "songInfo": [
+                {
+                    "title": "숲",
+                    "time": "2:46:10",
+                    "artist": "최유리",
                     "needsReview": true,
                     "groupSong": false
+                },
+                {
+                    "title": "소원을 말해봐",
+                    "time": "3:28:20",
+                    "artist": "소녀시대",
+                    "groupMembers": "구슬요, 상득, 키마",
+                    "groupSong": true
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 지수의 꿈 가야대",
+            "date": "2026-07-10",
+            "url": "https://vod.sooplive.com/player/201108355",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_E43F2EB1_295461961_3_r",
+            "songInfo": [
+                {
+                    "title": "오늘부터 우리는",
+                    "time": "44:40",
+                    "artist": "여자친구",
+                    "groupSong": false
+                },
+                {
+                    "title": "Butterfly",
+                    "time": "58:00",
+                    "artist": "러브홀릭스",
+                    "groupMembers": "키마",
+                    "groupSong": true
                 }
             ]
         }

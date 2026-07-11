@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-09T17:27:52.757188+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-11T15:10:12.335859+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -627,6 +627,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-10",
+        "url": "https://vod.sooplive.com/player/201108355?change_second=3480",
+        "videoTitle": "[버블란] 지수의 꿈 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_E43F2EB1_295461961_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "키마"
       }
     ]
   },
@@ -6582,7 +6594,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -7314,7 +7326,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -11412,7 +11424,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -12295,6 +12307,24 @@ const songs = [
     ]
   },
   {
+    "title": "소원을 말해봐",
+    "artist": "소녀시대",
+    "versions": [
+      {
+        "date": "2026-07-10",
+        "url": "https://vod.sooplive.com/player/201074729?change_second=12500",
+        "videoTitle": "[버블란] 버디오스타 음악 스트리머 편 떨립니다....",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "구슬요, 상득, 키마"
+      }
+    ]
+  },
+  {
     "title": "수고했어, 오늘도",
     "artist": "옥상달빛",
     "versions": [
@@ -12787,6 +12817,18 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-10",
+        "url": "https://vod.sooplive.com/player/201074729?change_second=9970",
+        "videoTitle": "[버블란] 버디오스타 음악 스트리머 편 떨립니다....",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -13572,7 +13614,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -15090,6 +15132,24 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_F2E91C16_293576651_1_r&column=2&t=1777734501",
         "noMistake": false,
         "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "오늘부터 우리는",
+    "artist": "여자친구",
+    "versions": [
+      {
+        "date": "2026-07-10",
+        "url": "https://vod.sooplive.com/player/201108355?change_second=2680",
+        "videoTitle": "[버블란] 지수의 꿈 가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_E43F2EB1_295461961_3_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
