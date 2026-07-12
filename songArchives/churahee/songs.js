@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-12T01:47:29.212209+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-12T01:59:27.781400+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -6597,36 +6597,6 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "내 얘길 들어봐(A-ing)",
-    "artist": "오마이걸",
-    "versions": [
-      {
-        "date": "2026-07-09",
-        "url": "https://vod.sooplive.com/player/201030761?change_second=10271",
-        "videoTitle": "[버블란] 지수의 꿈 가야대",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": true,
-        "groupMembers": "요한"
-      },
-      {
-        "date": "2026-07-11",
-        "url": "https://vod.sooplive.com/player/201221195?change_second=1052",
-        "videoTitle": "[버블란] 지수의 꿈 후열",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": true,
-        "groupMembers": "요한"
       }
     ]
   },

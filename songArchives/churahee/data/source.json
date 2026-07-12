@@ -9245,13 +9245,6 @@
                     "groupSong": false
                 },
                 {
-                    "title": "내 얘길 들어봐(A-ing)",
-                    "time": "2:51:11",
-                    "artist": "오마이걸",
-                    "groupMembers": "요한",
-                    "groupSong": true
-                },
-                {
                     "title": "사랑하게 될 거야",
                     "time": "7:31:06",
                     "artist": "한로로",
@@ -9308,13 +9301,6 @@
             "url": "https://vod.sooplive.com/player/201221195",
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
             "songInfo": [
-                {
-                    "title": "내 얘길 들어봐(A-ing)",
-                    "time": "17:32",
-                    "artist": "오마이걸",
-                    "groupMembers": "요한",
-                    "groupSong": true
-                },
                 {
                     "title": "Love In The Ice",
                     "time": "53:20",
