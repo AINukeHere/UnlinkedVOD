@@ -3,14 +3,14 @@
   "linePrefixRules": [
     {
       "linePrefix": "🎤",
-      "regexSequence": "{songTitle}{songArtist?}\\s*{time}",
+      "regexSequence": "\\s*{songTitle}\\s*{songArtist?}\\s*{time}",
       "staticFields": {
         "groupSong": false
       }
     },
     {
       "linePrefix": "🎶",
-      "regexSequence": "{songTitle}{songArtist?}\\s*{time}{groupMembers?}",
+      "regexSequence": "\\s*{songTitle}\\s*{songArtist?}\\s*{time}\\s*{groupMembers?}",
       "staticFields": {
         "groupSong": true
       }
@@ -18,11 +18,11 @@
   ],
   "parts": {
     "songTitle": "(.+?)",
-    "songArtist": "\\s*\\(([^)]*)\\)",
+    "songArtist": "\\(([^)]*)\\)",
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
-    "groupMembers": "\\s*\\(([^)]*)\\)\\s*$",
-    "comment": "\\s/(\\*.*?\\*\\/)"
+    "groupMembers": "\\(([^)]*)\\)",
+    "comment": "/(\\*.*?\\*\\/)"
   },
-  "regexSequence": "{songTitle}{songArtist?}\\s*{time}",
+  "regexSequence": "\\s*{songTitle}\\s*{songArtist?}\\s*{time}",
   "example": "🎤가 포함되면 솔로곡, 🎶가 포함되면 단체곡\n솔로곡: 🎤{곡제목}{(가수명)}{시간}{완곡여부}{추천여부}{검토필요여부}\n단체곡: 🎶{곡제목}{(가수명)}{시간}{(같이 부른 사람들)}\n파싱하기전 /* */로 둘러쌓인 부분은 무시합니다.\n\n실제 예시:\n🎤뭔가 잘못됐어 (권진아) 04:16:23 ○☆/*최고로 좋아요!*/\n🎶베텔기우스 (유우리) 4:11:59 (김병살, 콧시, 해이)"
 }
