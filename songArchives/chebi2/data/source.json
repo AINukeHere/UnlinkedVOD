@@ -1758,6 +1758,154 @@
                     "artist": "niki"
                 }
             ]
+        },
+        {
+            "title": "10시) 천타버스 싱크룸 w.모카.하밍.모모.플리",
+            "date": "2026-07-10",
+            "url": "https://vod.sooplive.com/player/201121009",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AE10B705_295473389_2_r",
+            "songInfo": [
+                {
+                    "title": "0+0",
+                    "time": "1:19:20",
+                    "artist": "한로로",
+                    "groupMembers": "체비, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "밤편지",
+                    "time": "1:25:53",
+                    "artist": "아이유",
+                    "groupMembers": "체비, 모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "주저하는 연인들을 위해",
+                    "time": "1:32:02",
+                    "artist": "잔나비",
+                    "groupMembers": "체비, 모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "너의 바다",
+                    "time": "1:39:07",
+                    "artist": "호피폴라",
+                    "groupMembers": "체비, 임하밍",
+                    "groupSong": true
+                },
+                {
+                    "title": "소녀",
+                    "time": "1:46:35",
+                    "artist": "오혁",
+                    "groupMembers": "모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "소로",
+                    "time": "1:52:58",
+                    "artist": "심규선",
+                    "groupMembers": "체비, 임하밍",
+                    "groupSong": true
+                },
+                {
+                    "title": "히로인",
+                    "time": "2:02:27",
+                    "artist": "Back number",
+                    "groupMembers": "체비, 모카, 플리, 임하밍",
+                    "groupSong": true
+                },
+                {
+                    "title": "가질 수 없는 너",
+                    "time": "2:09:10",
+                    "artist": "뱅크",
+                    "groupMembers": "임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "괴수의 꽃노래",
+                    "time": "2:17:49",
+                    "artist": "Vaundy",
+                    "groupMembers": "체비, 모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "이런 엔딩",
+                    "time": "2:39:41",
+                    "artist": "아이유",
+                    "groupSong": false
+                },
+                {
+                    "title": "달과 6펜스",
+                    "time": "2:56:24",
+                    "artist": "심규선",
+                    "groupMembers": "체비, 임하밍",
+                    "groupSong": true
+                },
+                {
+                    "title": "내 마음이 너에게 닿기를",
+                    "time": "3:03:31",
+                    "artist": "경서",
+                    "groupMembers": "모카, 플리",
+                    "groupSong": true
+                },
+                {
+                    "title": "마음짓기",
+                    "time": "3:17:00",
+                    "artist": "하나땅",
+                    "groupMembers": "체비, 모카",
+                    "groupSong": true
+                },
+                {
+                    "title": "귀엽기만 하면 안 되나요?",
+                    "time": "3:25:46",
+                    "artist": "큐티 스트리트",
+                    "needsReview": true,
+                    "groupMembers": "모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "만찬가",
+                    "time": "3:33:27",
+                    "artist": "태연",
+                    "groupMembers": "임하밍",
+                    "groupSong": true
+                },
+                {
+                    "title": "I Really Want to Stay at Your House",
+                    "time": "3:39:36",
+                    "artist": "사이버펑크OST",
+                    "groupMembers": "체비, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "별 보러 갈래?",
+                    "time": "3:46:30",
+                    "artist": "볼빨간사춘기",
+                    "needsReview": true,
+                    "groupMembers": "플리, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "Lonely",
+                    "time": "3:53:33",
+                    "artist": "투에니원",
+                    "groupMembers": "체비, 모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "사랑하게 될 거야",
+                    "time": "3:58:52",
+                    "artist": "한로로",
+                    "groupMembers": "모카, 플리, 임하밍, 문모모",
+                    "groupSong": true
+                },
+                {
+                    "title": "ERROR",
+                    "time": "4:07:39",
+                    "artist": "niki",
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }

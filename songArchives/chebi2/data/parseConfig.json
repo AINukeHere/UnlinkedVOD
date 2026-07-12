@@ -1,9 +1,27 @@
 {
   "linePrefix": "🎤",
+  "linePrefixRules": [
+    {
+      "linePrefix": "🎤",
+      "regexSequence": "{time}\\s*\\|\\s*체비\\s*-\\s*{songTitle}{songArtist?}\\s*$",
+      "staticFields": {
+        "groupSong": false
+      }
+    },
+    {
+      "linePrefix": "🎶",
+      "regexSequence": "{time}\\s*\\|\\s*\\s*{groupMembers}\\s*-\\s*{songTitle}\\s*{songArtist?}\\s*$",
+      "staticFields": {
+        "groupSong": true
+      }
+    }
+  ],
   "parts": {
     "songTitle": "(.+?)",
-    "songArtist": "\\s+\\((.+)\\)\\s*$",
-    "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)"
+    "songArtist": "\\((.+)\\)",
+    "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
+    "groupMembers": "([^-]*)",
+    "comment": "/(\\*.*?\\*\\/)"
   },
   "regexSequence": "{time}\\s*\\|\\s*체비\\s*-\\s*{songTitle}{songArtist?}\\s*$",
   "example": "{시간} | 🎤체비 - {곡제목}{(가수명)}\n\n실제 예시:\n04:16:23 | 🎤체비 - 0+0 (한로로)"

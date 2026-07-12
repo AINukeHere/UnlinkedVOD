@@ -383,6 +383,10 @@
         "aliases": []
     },
     {
+        "artist": "뱅크",
+        "aliases": []
+    },
+    {
         "artist": "버스커 버스커",
         "aliases": []
     },
@@ -729,6 +733,10 @@
         ]
     },
     {
+        "artist": "오혁",
+        "aliases": []
+    },
+    {
         "artist": "옥상달빛",
         "aliases": [
             "옥상달빛ver"
@@ -1018,6 +1026,10 @@
         ]
     },
     {
+        "artist": "큐티 스트리트",
+        "aliases": []
+    },
+    {
         "artist": "키네틱 플로우",
         "aliases": []
     },
@@ -1040,7 +1052,8 @@
     {
         "artist": "태연",
         "aliases": [
-            "TAEYEON"
+            "TAEYEON",
+            "태연ver"
         ]
     },
     {
@@ -1089,6 +1102,10 @@
         ]
     },
     {
+        "artist": "하나땅",
+        "aliases": []
+    },
+    {
         "artist": "하데스",
         "aliases": []
     },
@@ -1122,6 +1139,10 @@
     },
     {
         "artist": "호쇼 마린",
+        "aliases": []
+    },
+    {
+        "artist": "호피폴라",
         "aliases": []
     },
     {
