@@ -334,7 +334,9 @@
     },
     {
         "title": "내 얘길 들어봐(A-ing)",
-        "aliases": []
+        "aliases": [
+            "내 얘길 들어봐"
+        ]
     },
     {
         "title": "내가 제일 잘 나가",
@@ -2167,6 +2169,10 @@
     },
     {
         "title": "Love And Hate",
+        "aliases": []
+    },
+    {
+        "title": "Love In The Ice",
         "aliases": []
     },
     {

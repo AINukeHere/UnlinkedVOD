@@ -9248,7 +9248,8 @@
                     "title": "내 얘길 들어봐(A-ing)",
                     "time": "2:51:11",
                     "artist": "오마이걸",
-                    "groupSong": false
+                    "groupMembers": "요한",
+                    "groupSong": true
                 },
                 {
                     "title": "사랑하게 될 거야",
@@ -9298,6 +9299,42 @@
                     "artist": "러브홀릭스",
                     "groupMembers": "키마",
                     "groupSong": true
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 지수의 꿈 후열",
+            "date": "2026-07-11",
+            "url": "https://vod.sooplive.com/player/201221195",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
+            "songInfo": [
+                {
+                    "title": "내 얘길 들어봐(A-ing)",
+                    "time": "17:32",
+                    "artist": "오마이걸",
+                    "groupMembers": "요한",
+                    "groupSong": true
+                },
+                {
+                    "title": "Love In The Ice",
+                    "time": "53:20",
+                    "artist": "동방신기",
+                    "groupMembers": "구슬요, 상득, 키마",
+                    "groupSong": true
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "1:23:15",
+                    "artist": "이수현",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "연의 편지",
+                    "time": "4:02:59",
+                    "artist": "이수현",
+                    "needsReview": true,
+                    "groupSong": false
                 }
             ]
         }
