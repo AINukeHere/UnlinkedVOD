@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-17T14:21:02.160009+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-17T14:24:44.832981+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -6643,6 +6643,24 @@ const songs = [
     ]
   },
   {
+    "title": "내 얘길 들어봐(A-ing)",
+    "artist": "오마이걸",
+    "versions": [
+      {
+        "date": "2026-07-11",
+        "url": "https://vod.sooplive.com/player/201221195?change_second=1052",
+        "videoTitle": "[버블란] 지수의 꿈 후열",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
     "title": "내가 제일 잘 나가",
     "artist": "투에니원",
     "versions": [
@@ -12379,9 +12397,9 @@ const songs = [
       {
         "date": "2026-07-10",
         "url": "https://vod.sooplive.com/player/201074729?change_second=12500",
-        "videoTitle": "[버블란] 버디오스타 음악 스트리머 편 떨립니다....",
+        "videoTitle": "소통 - 버디오스타 음악 스트리머 편 - 지수의 꿈(1)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r&column=2&t=1784204588",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -12889,12 +12907,12 @@ const songs = [
       {
         "date": "2026-07-10",
         "url": "https://vod.sooplive.com/player/201074729?change_second=9970",
-        "videoTitle": "[버블란] 버디오스타 음악 스트리머 편 떨립니다....",
+        "videoTitle": "소통 - 버디오스타 음악 스트리머 편 - 지수의 꿈(1)",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r&column=2&t=1784204588",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -14766,7 +14784,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
@@ -14778,7 +14796,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }

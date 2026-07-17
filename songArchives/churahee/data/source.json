@@ -9253,16 +9253,17 @@
             ]
         },
         {
-            "title": "[버블란] 버디오스타 음악 스트리머 편 떨립니다....",
+            "title": "소통 - 버디오스타 음악 스트리머 편 - 지수의 꿈(1)",
             "date": "2026-07-10",
             "url": "https://vod.sooplive.com/player/201074729",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AAB863B3_295461961_1_r&column=2&t=1784204588",
             "songInfo": [
                 {
                     "title": "숲",
                     "time": "2:46:10",
                     "artist": "최유리",
-                    "needsReview": true,
+                    "noMistake": true,
+                    "recommended": true,
                     "groupSong": false
                 },
                 {
@@ -9302,6 +9303,13 @@
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260711_44C65AEC_295495931_2_r",
             "songInfo": [
                 {
+                    "title": "내 얘길 들어봐(A-ing)",
+                    "time": "17:32",
+                    "artist": "오마이걸",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
                     "title": "Love In The Ice",
                     "time": "53:20",
                     "artist": "동방신기",
@@ -9312,14 +9320,12 @@
                     "title": "연의 편지",
                     "time": "1:23:15",
                     "artist": "이수현",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "연의 편지",
                     "time": "4:02:59",
                     "artist": "이수현",
-                    "needsReview": true,
                     "groupSong": false
                 }
             ]
