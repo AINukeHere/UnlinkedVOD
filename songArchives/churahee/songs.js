@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-12T01:59:27.781400+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-17T14:21:02.160009+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -48,6 +48,18 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
         "noMistake": true,
         "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=16425",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
+        "recommended": true,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -2523,6 +2535,36 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=12547",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "랑코, 솜주먹"
+      }
+    ]
+  },
+  {
+    "title": "Love wins all 아카펠라ver",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=13454",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "랑코, 솜주먹"
       }
     ]
   },
@@ -10857,6 +10899,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=3820",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -10950,6 +11004,18 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_1D1C8C30_292863969_1_r&column=2&t=1775570938",
         "noMistake": true,
         "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=2848",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -13221,6 +13287,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "공태연, 슈니"
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=3480",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -13841,6 +13919,18 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260706_C55F2491_295363681_2_r",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=16000",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -16491,6 +16581,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=16624",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -18150,6 +18252,18 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-05",
+        "url": "https://vod.sooplive.com/player/200676353?change_second=4166",
+        "videoTitle": "소통 - 걍불러 2일차 - 지수의 꿈",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""

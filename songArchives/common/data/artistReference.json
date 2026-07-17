@@ -168,6 +168,10 @@
         "aliases": []
     },
     {
+        "artist": "달빛천사ost",
+        "aliases": []
+    },
+    {
         "artist": "던파ost",
         "aliases": []
     },
@@ -182,6 +186,14 @@
         "aliases": [
             "DAY6"
         ]
+    },
+    {
+        "artist": "델리스파이스",
+        "aliases": []
+    },
+    {
+        "artist": "도라에몽ost",
+        "aliases": []
     },
     {
         "artist": "동방신기",
@@ -258,6 +270,10 @@
         "aliases": []
     },
     {
+        "artist": "릴파ver",
+        "aliases": []
+    },
+    {
         "artist": "마골피",
         "aliases": []
     },
@@ -297,8 +313,13 @@
         "artist": "미로",
         "aliases": [
             "Miiro",
-            "Miiro(미로)"
+            "Miiro(미로)",
+            "미로(Miiro)"
         ]
+    },
+    {
+        "artist": "미로(Miiro)",
+        "aliases": []
     },
     {
         "artist": "미연",
@@ -318,6 +339,10 @@
     },
     {
         "artist": "바밍",
+        "aliases": []
+    },
+    {
+        "artist": "바보즈",
         "aliases": []
     },
     {
@@ -472,6 +497,10 @@
         ]
     },
     {
+        "artist": "빌리 아일리시",
+        "aliases": []
+    },
+    {
         "artist": "사이버펑크OST",
         "aliases": []
     },
@@ -485,6 +514,10 @@
     },
     {
         "artist": "새소년",
+        "aliases": []
+    },
+    {
+        "artist": "샤프",
         "aliases": []
     },
     {
@@ -661,6 +694,10 @@
         "aliases": []
     },
     {
+        "artist": "안예은,우예린",
+        "aliases": []
+    },
+    {
         "artist": "알리",
         "aliases": []
     },
@@ -784,6 +821,10 @@
         "aliases": []
     },
     {
+        "artist": "위키드ost",
+        "aliases": []
+    },
+    {
         "artist": "윈터플레이",
         "aliases": []
     },
@@ -826,11 +867,19 @@
         "aliases": []
     },
     {
+        "artist": "유하(YOUHA)",
+        "aliases": []
+    },
+    {
         "artist": "윤도현",
         "aliases": []
     },
     {
         "artist": "윤하",
+        "aliases": []
+    },
+    {
+        "artist": "윤하ver",
         "aliases": []
     },
     {
@@ -876,6 +925,10 @@
         "aliases": []
     },
     {
+        "artist": "이승기",
+        "aliases": []
+    },
+    {
         "artist": "이안",
         "aliases": []
     },
@@ -895,7 +948,8 @@
         "artist": "이츠",
         "aliases": [
             "IT'S(이츠)",
-            "이츠(IT's)"
+            "이츠(IT's)",
+            "이츠(It's)"
         ]
     },
     {
@@ -932,6 +986,10 @@
     },
     {
         "artist": "장범준",
+        "aliases": []
+    },
+    {
+        "artist": "장연주",
         "aliases": []
     },
     {
@@ -1008,6 +1066,10 @@
         ]
     },
     {
+        "artist": "카드캡터체리ost",
+        "aliases": []
+    },
+    {
         "artist": "캔트비블루",
         "aliases": []
     },
@@ -1017,6 +1079,14 @@
     },
     {
         "artist": "케이시",
+        "aliases": []
+    },
+    {
+        "artist": "코난ost",
+        "aliases": []
+    },
+    {
+        "artist": "코요태",
         "aliases": []
     },
     {
@@ -1079,6 +1149,10 @@
     },
     {
         "artist": "페퍼톤스",
+        "aliases": []
+    },
+    {
+        "artist": "포켓몬스터ost",
         "aliases": []
     },
     {
@@ -1169,7 +1243,10 @@
     },
     {
         "artist": "aespa",
-        "aliases": []
+        "aliases": [
+            "에스파(aespa)",
+            "에스파"
+        ]
     },
     {
         "artist": "Aimer",
@@ -1255,7 +1332,9 @@
     },
     {
         "artist": "Eill",
-        "aliases": []
+        "aliases": [
+            "eill"
+        ]
     },
     {
         "artist": "ENE",

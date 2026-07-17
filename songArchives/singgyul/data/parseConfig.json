@@ -2,9 +2,9 @@
   "linePrefix": "🎤",
   "parts": {
     "songTitle": "(.+?)",
-    "songArtist": "\\s+(.+)\\s*",
+    "songArtist": "(.+?)",
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
-    "comment": "\\s(\\[.*?\\])"
+    "comment": "(\\[.*?\\])"
   },
   "regexSequence": "{time}\\s*{songArtist}\\s*-\\s*{songTitle}\\s*$",
   "example": "{시간} 🎤{가수명} - {곡제목}\n\n실제 예시:\n 01:08:45  🎤 성시경 - 거리에서"

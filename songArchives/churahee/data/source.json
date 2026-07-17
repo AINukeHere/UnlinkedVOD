@@ -9323,6 +9323,76 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "소통 - 걍불러 2일차 - 지수의 꿈",
+            "date": "2026-07-05",
+            "url": "https://vod.sooplive.com/player/200676353",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
+            "songInfo": [
+                {
+                    "title": "비행소녀",
+                    "time": "47:28",
+                    "artist": "마골피",
+                    "groupSong": false
+                },
+                {
+                    "title": "시간을 거슬러",
+                    "time": "58:00",
+                    "artist": "린",
+                    "noMistake": true,
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "비와 당신",
+                    "time": "1:03:40",
+                    "artist": "럼블피쉬",
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "하늘바라기",
+                    "time": "1:09:26",
+                    "artist": "정은지",
+                    "noMistake": true,
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Love wins all",
+                    "time": "3:29:07",
+                    "artist": "아이유",
+                    "groupMembers": "랑코, 솜주먹",
+                    "groupSong": true
+                },
+                {
+                    "title": "Love wins all 아카펠라ver",
+                    "time": "3:44:14",
+                    "artist": "아이유",
+                    "groupMembers": "랑코, 솜주먹",
+                    "groupSong": true
+                },
+                {
+                    "title": "야수",
+                    "time": "4:26:40",
+                    "artist": "김필선",
+                    "groupSong": false
+                },
+                {
+                    "title": "0+0",
+                    "time": "4:33:45",
+                    "artist": "한로로",
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "입춘",
+                    "time": "4:37:04",
+                    "artist": "한로로",
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
