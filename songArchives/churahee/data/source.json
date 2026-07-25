@@ -9399,6 +9399,114 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 츄하",
+            "date": "2026-07-22",
+            "url": "https://vod.sooplive.com/player/202181523",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
+            "songInfo": [
+                {
+                    "title": "입춘",
+                    "time": "25:21",
+                    "artist": "한로로",
+                    "groupSong": false
+                },
+                {
+                    "title": "Rain",
+                    "time": "32:12",
+                    "artist": "태연",
+                    "groupSong": false
+                },
+                {
+                    "title": "Euphoria",
+                    "time": "55:42",
+                    "artist": "방탄소년단",
+                    "groupSong": false
+                },
+                {
+                    "title": "기억을 걷는 시간",
+                    "time": "58:25",
+                    "artist": "넬",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "MONSTER",
+                    "time": "1:02:20",
+                    "artist": "권진아",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[버블란] 노움강도단이 되었습니다(w. 그녀석들)",
+            "date": "2026-07-21",
+            "url": "https://vod.sooplive.com/player/202116999",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260721_CB8F0E2D_295741163_2_r",
+            "songInfo": [
+                {
+                    "title": "눈사람",
+                    "time": "32:00",
+                    "artist": "정승환",
+                    "groupSong": false
+                },
+                {
+                    "title": "INVU",
+                    "time": "49:06",
+                    "artist": "태연",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+            "date": "2026-07-18",
+            "url": "https://vod.sooplive.com/player/201861839",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+            "songInfo": [
+                {
+                    "title": "0+0",
+                    "time": "5:40:55",
+                    "artist": "한로로",
+                    "groupSong": false
+                },
+                {
+                    "title": "참새",
+                    "time": "6:00:47",
+                    "artist": "스즈메",
+                    "groupMembers": "김병살, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "Pretender",
+                    "time": "6:19:16",
+                    "artist": "오피셜히게단디즘",
+                    "groupMembers": "강하나, 김병살, 뜨사, 요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "Love wins all",
+                    "time": "6:28:46",
+                    "artist": "아이유",
+                    "groupMembers": "강하나, 김병살, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "신호등",
+                    "time": "6:42:14",
+                    "artist": "이무진",
+                    "groupMembers": "강하나, 김병살, 뜨사, 요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "8282",
+                    "time": "6:48:18",
+                    "artist": "다비치",
+                    "groupMembers": "강하나, 김병살, 뜨사, 요한, 츄라희",
+                    "groupSong": true
+                }
+            ]
         }
     ]
 }

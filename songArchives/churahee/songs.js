@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-17T14:24:44.832981+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-25T00:55:26.968611+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -60,6 +60,18 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260705_C491A1AB_295344953_1_r&column=2&t=1784203374",
         "noMistake": false,
         "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-18",
+        "url": "https://vod.sooplive.com/player/201861839?change_second=20455",
+        "videoTitle": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+        "noMistake": false,
+        "recommended": false,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -195,6 +207,24 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "8282",
+    "artist": "다비치",
+    "versions": [
+      {
+        "date": "2026-07-18",
+        "url": "https://vod.sooplive.com/player/201861839?change_second=24498",
+        "videoTitle": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "강하나, 김병살, 뜨사, 요한, 츄라희"
       }
     ]
   },
@@ -970,6 +1000,24 @@ const songs = [
         "videoTitle": "소통 - 별별랭킹 - 싱크룸 합방(w. 클레프)",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20241005_142AD640_277444436_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Euphoria",
+    "artist": "방탄소년단",
+    "versions": [
+      {
+        "date": "2026-07-22",
+        "url": "https://vod.sooplive.com/player/202181523?change_second=3342",
+        "videoTitle": "[버블란] 츄하",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -1761,6 +1809,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-21",
+        "url": "https://vod.sooplive.com/player/202116999?change_second=2946",
+        "videoTitle": "[버블란] 노움강도단이 되었습니다(w. 그녀석들)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260721_CB8F0E2D_295741163_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2547,6 +2607,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "랑코, 솜주먹"
+      },
+      {
+        "date": "2026-07-18",
+        "url": "https://vod.sooplive.com/player/201861839?change_second=23326",
+        "videoTitle": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "강하나, 김병살, 츄라희"
       }
     ]
   },
@@ -2650,6 +2722,24 @@ const songs = [
         "videoTitle": "소통 - 신곡 발표회 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.co.kr/php/SnapshotLoad.php?rowKey=20260221_D95C93F7_291795594_1_r&column=2&t=1771654174",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "MONSTER",
+    "artist": "권진아",
+    "versions": [
+      {
+        "date": "2026-07-22",
+        "url": "https://vod.sooplive.com/player/202181523?change_second=3740",
+        "videoTitle": "[버블란] 츄하",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -3345,6 +3435,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-18",
+        "url": "https://vod.sooplive.com/player/201861839?change_second=22756",
+        "videoTitle": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "강하나, 김병살, 뜨사, 요한, 츄라희"
       }
     ]
   },
@@ -3573,6 +3675,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "크앙희"
+      },
+      {
+        "date": "2026-07-22",
+        "url": "https://vod.sooplive.com/player/202181523?change_second=1932",
+        "videoTitle": "[버블란] 츄하",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -5913,6 +6027,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "크앙희, 더블링, 강하나, 카아암"
+      },
+      {
+        "date": "2026-07-22",
+        "url": "https://vod.sooplive.com/player/202181523?change_second=3505",
+        "videoTitle": "[버블란] 츄하",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -7384,6 +7510,18 @@ const songs = [
         "videoTitle": "[버블란] 지수의 꿈 가야대",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260709_20E183AD_295440463_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-21",
+        "url": "https://vod.sooplive.com/player/202116999?change_second=1920",
+        "videoTitle": "[버블란] 노움강도단이 되었습니다(w. 그녀석들)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260721_CB8F0E2D_295741163_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -13387,6 +13525,24 @@ const songs = [
     ]
   },
   {
+    "title": "신호등",
+    "artist": "이무진",
+    "versions": [
+      {
+        "date": "2026-07-18",
+        "url": "https://vod.sooplive.com/player/201861839?change_second=24134",
+        "videoTitle": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "강하나, 김병살, 뜨사, 요한, 츄라희"
+      }
+    ]
+  },
+  {
     "title": "쓰담쓰담",
     "artist": "10CM",
     "versions": [
@@ -16611,6 +16767,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-22",
+        "url": "https://vod.sooplive.com/player/202181523?change_second=1521",
+        "videoTitle": "[버블란] 츄하",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -17283,6 +17451,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "카아암"
+      }
+    ]
+  },
+  {
+    "title": "참새",
+    "artist": "스즈메",
+    "versions": [
+      {
+        "date": "2026-07-18",
+        "url": "https://vod.sooplive.com/player/201861839?change_second=21647",
+        "videoTitle": "8번 출구 같이보깅(w. 강하나 요한 뜨사)[버블란] ",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260718_66F877E1_295666869_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "김병살, 츄라희"
       }
     ]
   },
