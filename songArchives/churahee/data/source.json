@@ -9507,6 +9507,167 @@
                     "groupSong": true
                 }
             ]
+        },
+        {
+            "title": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+            "date": "2026-07-24",
+            "url": "https://vod.sooplive.com/player/202382963",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+            "songInfo": [
+                {
+                    "title": "만찬가",
+                    "time": "30:15",
+                    "artist": "츠키",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "봄 내음보다 너를",
+                    "time": "40:07",
+                    "artist": "김나영",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "꽃이 피고 지듯이",
+                    "time": "51:08",
+                    "artist": "조승우",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "살다 보면",
+                    "time": "1:12:20",
+                    "artist": "차지연",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "물고기자리",
+                    "time": "1:19:47",
+                    "artist": "이안",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "시든 꽃에 물을 주듯",
+                    "time": "1:26:57",
+                    "artist": "박혜원",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "RE : WIND",
+                    "time": "1:35:54",
+                    "artist": "이세계아이돌",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "기억을 걷는 시간",
+                    "time": "1:45:50",
+                    "artist": "넬",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "You already have",
+                    "time": "1:50:50",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "만찬가",
+                    "time": "3:51:05",
+                    "artist": "츠키",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "끝",
+                    "time": "4:07:43",
+                    "artist": "권진아",
+                    "groupSong": false
+                },
+                {
+                    "title": "Cinderella",
+                    "time": "4:16:44",
+                    "artist": "타이미",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "몽환의 숲",
+                    "time": "4:19:51",
+                    "artist": "키네틱 플로우",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "레베카",
+                    "time": "4:25:16",
+                    "artist": "옥주현",
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "상사화",
+                    "time": "4:30:06",
+                    "artist": "안예은",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "사랑앓이",
+                    "time": "4:41:00",
+                    "artist": "FT아일랜드",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "If I Ain't Got You",
+                    "time": "4:48:51",
+                    "artist": "앨리샤 키스",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "And July",
+                    "time": "4:58:02",
+                    "artist": "헤이즈",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "사랑했지만",
+                    "time": "5:05:18",
+                    "artist": "윤도현",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "비밀번호 486",
+                    "time": "5:11:15",
+                    "artist": "윤하",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "Ghost Town",
+                    "time": "5:18:53",
+                    "artist": "Benson Boone",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "다시 사랑한다면",
+                    "time": "5:25:33",
+                    "artist": "김필",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                }
+            ]
         }
     ]
 }

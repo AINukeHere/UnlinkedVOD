@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-25T00:55:26.968611+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-25T02:36:32.766648+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -567,6 +567,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "제이404"
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=17882",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -793,6 +805,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=15404",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1173,6 +1197,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=19133",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -1857,6 +1893,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=17331",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -3531,6 +3579,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "김병살, 콧시, 해이"
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=5754",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -4771,6 +4831,18 @@ const songs = [
         "noMistake": false,
         "recommended": true,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=6650",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -6039,6 +6111,18 @@ const songs = [
         "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=6350",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -6229,6 +6313,24 @@ const songs = [
     ]
   },
   {
+    "title": "꽃이 피고 지듯이",
+    "artist": "조승우",
+    "versions": [
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=3068",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "꿈빛파티시엘",
     "artist": "아이유",
     "versions": [
@@ -6352,6 +6454,18 @@ const songs = [
         "videoTitle": "버든싱어 후열 방송",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260518_71F91245_294120831_1_r&column=2&t=1779397871",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=14863",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -7725,6 +7839,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=19533",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -8027,6 +8153,24 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250815_6764E628_286683572_1_r",
         "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "레베카",
+    "artist": "옥주현",
+    "versions": [
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=15916",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
         "recommended": true,
         "needsReview": false,
         "groupSong": false,
@@ -8709,6 +8853,30 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=1815",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=13865",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -8895,6 +9063,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=15591",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -9061,6 +9241,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=4787",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -10447,6 +10639,24 @@ const songs = [
     ]
   },
   {
+    "title": "봄 내음보다 너를",
+    "artist": "김나영",
+    "versions": [
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=2407",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "봄 도둑",
     "artist": "요루시카",
     "versions": [
@@ -10983,6 +11193,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=18675",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -11533,6 +11755,24 @@ const songs = [
     ]
   },
   {
+    "title": "사랑앓이",
+    "artist": "FT아일랜드",
+    "versions": [
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=16860",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
     "title": "사랑은 은하수 다방에서",
     "artist": "10CM",
     "versions": [
@@ -11667,6 +11907,24 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "사랑했지만",
+    "artist": "윤도현",
+    "versions": [
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=18318",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -11865,6 +12123,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=4340",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -11907,6 +12177,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=16206",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -13501,6 +13783,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=5217",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
