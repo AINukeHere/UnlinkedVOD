@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-25T02:36:32.766648+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-26T07:29:07.993054+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -316,6 +316,18 @@ const songs = [
         "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=10579",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -941,6 +953,18 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230629_F6263878_247101041_3_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=7596",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -5505,6 +5529,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=6636",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -7151,6 +7187,18 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250613_B54FAADD_284954870_1_r",
         "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=11090",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
+        "noMistake": true,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -9017,6 +9065,18 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260506_DF69F7BE_293795573_1_r&column=2&t=1778842379",
         "noMistake": true,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=8507",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
+        "noMistake": false,
         "recommended": false,
         "needsReview": false,
         "groupSong": false,
@@ -11170,6 +11230,18 @@ const songs = [
         "videoTitle": "[유플릭스 인턴] 오랜만에 낮방 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
+        "noMistake": true,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=8131",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
         "noMistake": true,
         "recommended": false,
         "needsReview": false,
@@ -17491,6 +17563,18 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2025-05-12",
+        "url": "https://vod.sooplive.com/player/159894493?change_second=7180",
+        "videoTitle": "소통 - 노래 - 파워워시 시뮬레이터",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }

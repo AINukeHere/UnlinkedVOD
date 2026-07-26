@@ -9668,6 +9668,61 @@
                     "groupSong": true
                 }
             ]
+        },
+        {
+            "title": "소통 - 노래 - 파워워시 시뮬레이터",
+            "date": "2025-05-12",
+            "url": "https://vod.sooplive.com/player/159894493",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250512_DC7F37F7_283870916_2_r",
+            "songInfo": [
+                {
+                    "title": "고양이 소리를 따라해 보자",
+                    "time": "1:50:36",
+                    "artist": "펑티모",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "주옥같다",
+                    "time": "1:59:40",
+                    "artist": "고옥희",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Ditto",
+                    "time": "2:06:36",
+                    "artist": "뉴진스",
+                    "noMistake": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "비도 오고 그래서",
+                    "time": "2:15:31",
+                    "artist": "헤이즈",
+                    "noMistake": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "몽유",
+                    "time": "2:21:47",
+                    "artist": "잇츠",
+                    "groupSong": false
+                },
+                {
+                    "title": "After LIKE",
+                    "time": "2:56:19",
+                    "artist": "IVE",
+                    "groupSong": false
+                },
+                {
+                    "title": "너무 보고싶어",
+                    "time": "3:04:50",
+                    "artist": "어쿠스틱 콜라보",
+                    "noMistake": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
