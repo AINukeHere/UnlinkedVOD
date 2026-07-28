@@ -414,12 +414,12 @@ function renderDataLastUpdated() {
   }
   const d = new Date(SONGS_DATA_LAST_UPDATED);
   if (Number.isNaN(d.getTime())) {
-    el.textContent = '데이터 갱신: ' + SONGS_DATA_LAST_UPDATED;
+    el.textContent = '정식 데이터 갱신일: ' + SONGS_DATA_LAST_UPDATED;
     el.title = SONGS_DATA_LAST_UPDATED;
     return;
   }
   el.textContent =
-    '데이터 갱신: ' +
+    '정식 데이터 갱신일: ' +
     d.toLocaleString('ko-KR', {
       dateStyle: 'medium',
       timeStyle: 'short',
