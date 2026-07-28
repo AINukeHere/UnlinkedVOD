@@ -1,0 +1,170 @@
+<dialog id="addSongDialog" class="add-song-dialog" aria-labelledby="addSongDialogTitle">
+  <form id="addSongForm" class="add-song-form">
+    <div class="add-song-dialog-header">
+      <h2 id="addSongDialogTitle" class="add-song-dialog-title">노래 기록 추가</h2>
+      <button type="button" class="add-song-dialog-close" data-add-song-close aria-label="닫기">&times;</button>
+    </div>
+
+    <button
+      type="button"
+      id="dataUpdateInfoButton"
+      class="data-update-info-button add-song-data-info-button"
+    >
+      데이터는 어떻게 갱신되나요?
+    </button>
+
+    <div class="add-song-form-grid">
+      <div class="add-song-field add-song-field-full add-song-title-wrap">
+        <span class="add-song-label-row">
+          <span class="add-song-label-text">노래 제목 <abbr title="필수">*</abbr></span>
+          <span class="add-song-label-example">예: 소로</span>
+        </span>
+        <input
+          name="songTitle"
+          id="addSongTitle"
+          type="text"
+          class="add-song-input"
+          required
+          placeholder="제목을 입력해주세요"
+          autocomplete="off"
+          role="combobox"
+          aria-autocomplete="list"
+          aria-expanded="false"
+          aria-controls="addSongTitleSuggest"
+        />
+        <ul id="addSongTitleSuggest" class="add-song-suggest" hidden role="listbox"></ul>
+      </div>
+
+      <div class="add-song-artist-row">
+        <label class="add-song-field add-song-field-grow">
+          <span class="add-song-label-row">
+            <span class="add-song-label-text">가수</span>
+            <span class="add-song-label-example">예: 심규선</span>
+          </span>
+          <input
+            name="artist"
+            id="addSongArtist"
+            type="text"
+            class="add-song-input is-autofilled"
+            readonly
+            placeholder="가수를 입력해주세요"
+            autocomplete="off"
+          />
+        </label>
+        <label class="chip-label add-song-artist-auto-label">
+          <input type="checkbox" id="addSongArtistAuto" name="artistAuto" checked />
+          가수 자동 입력
+        </label>
+      </div>
+
+      <label class="add-song-field add-song-field-full">
+        <span class="add-song-label-row">
+          <span class="add-song-label-text">다시보기 URL <abbr title="필수">*</abbr></span>
+          <span class="add-song-label-example">예:</span><span class="add-song-label-example">https://vod.sooplive.com/player/200754741?change_second=14637</span>
+        </span>
+        <input
+          name="vodUrl"
+          id="addSongVodUrl"
+          type="url"
+          class="add-song-input"
+          required
+          placeholder="https://vod.sooplive.com/player/...?change_second=..."
+          autocomplete="off"
+        />
+      </label>
+
+      <p class="add-song-vod-lookup-status" id="addSongVodLookupStatus" hidden aria-live="polite"></p>
+      <p class="add-song-vod-lookup-status" id="addSongAuthHint" hidden></p>
+
+      <div id="addSongVodMetaFields" class="add-song-vod-meta-fields" hidden>
+        <p class="add-song-manual-meta-lead" id="addSongMetaHint" hidden>
+          자동 조회에 실패했습니다. 방송 날짜·제목을 직접 입력해 주세요.
+        </p>
+        <div class="add-song-vod-meta-row">
+          <div class="add-song-vod-preview" id="addSongVodPreview" hidden>
+            <img id="addSongVodThumb" class="add-song-vod-thumb" alt="" hidden />
+          </div>
+          <div class="add-song-vod-meta-inputs">
+            <label class="add-song-field">
+              <span class="add-song-label-text">방송 날짜 <abbr title="필수">*</abbr></span>
+              <input name="date" id="addSongDate" type="date" class="add-song-input" autocomplete="off" />
+            </label>
+            <label class="add-song-field">
+              <span class="add-song-label-text">방송 제목</span>
+              <input
+                name="vodTitle"
+                id="addSongVodTitle"
+                type="text"
+                class="add-song-input"
+                placeholder="URL 입력 시 자동 입력"
+                autocomplete="off"
+              />
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <label class="add-song-field">
+        <span class="add-song-label-row">
+          <span class="add-song-label-text">시작 시간 <abbr title="필수">*</abbr></span>
+          <span class="add-song-label-example">예: 14637 또는 4:03:57</span>
+        </span>
+        <input
+          name="time"
+          id="addSongTime"
+          type="text"
+          class="add-song-input"
+          required
+          placeholder="초 또는 1:23:45"
+          pattern="\d+|\d{1,2}:\d{1,2}:\d{1,2}|\d{1,2}:\d{1,2}"
+          title="시:분:초, 분:초, 또는 초 단위 숫자"
+          autocomplete="off"
+        />
+      </label>
+
+      <fieldset class="add-song-flags" id="addSongFlags">
+        <legend>표시 플래그</legend>
+        <label class="chip-label"><input type="checkbox" name="noMistake" /> 실수 없음</label>
+        <label class="chip-label"><input type="checkbox" name="recommended" /> 추천</label>
+        <label class="chip-label"><input type="checkbox" name="needsReview" /> 검토 필요</label>
+        <label class="chip-label"><input type="checkbox" name="groupSong" id="addSongGroupSong" /> 싱크룸</label>
+      </fieldset>
+
+      <label class="add-song-field add-song-field-full" id="addSongGroupMembersWrap" hidden>
+        <span class="add-song-label-row">
+          <span class="add-song-label-text">싱크룸 멤버</span>
+          <span class="add-song-label-example">예: 강하나, 김다나</span>
+        </span>
+        <input
+          name="groupMembers"
+          type="text"
+          class="add-song-input"
+          placeholder="쉼표로 구분"
+          autocomplete="off"
+        />
+      </label>
+    </div>
+
+    <p class="add-song-form-status" id="addSongFormStatus" hidden aria-live="polite"></p>
+    <div class="add-song-dialog-actions">
+      <button type="button" class="add-song-btn add-song-btn-secondary" data-add-song-close>취소</button>
+      <button type="button" class="add-song-btn add-song-btn-secondary" id="addSongPreviewBtn">미리보기</button>
+      <button type="submit" class="add-song-btn add-song-btn-primary" id="addSongSubmitBtn">제출</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="addSongCardPreviewDialog" class="add-song-preview-dialog" aria-labelledby="addSongCardPreviewTitle">
+  <div class="add-song-preview-body">
+    <div class="add-song-dialog-header">
+      <h2 id="addSongCardPreviewTitle" class="add-song-dialog-title">카드 미리보기</h2>
+      <button type="button" class="add-song-dialog-close" data-add-song-preview-close aria-label="닫기">&times;</button>
+    </div>
+    <p class="add-song-preview-lead">목록에 이런 형태로 표시됩니다.</p>
+    <div id="addSongCardPreviewMount" class="add-song-preview-mount"></div>
+    <p class="add-song-preview-note" id="addSongCardPreviewNote" hidden></p>
+    <div class="add-song-dialog-actions">
+      <button type="button" class="add-song-btn add-song-btn-secondary" data-add-song-preview-close>닫기</button>
+    </div>
+  </div>
+</dialog>

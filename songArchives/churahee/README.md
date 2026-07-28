@@ -1,3 +1,4 @@
 # 츄라희 보관소 (`churahee/`)
 
-데이터 추가, 설정, 레퍼런스 등 **공통 안내는 저장소 루트 [README.md](../../README.md)** 를 참고하세요.
+- **사용자:** 저장소 루트 [README.md](../../README.md)
+- **개발:** 저장소 루트 [README.dev.md](../../README.dev.md)

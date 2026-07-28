@@ -30,8 +30,14 @@ function getMinVersionCount() {
 
 function parseVodDate(dateStr) {
   if (!dateStr) return 0;
-  const part = String(dateStr).trim().slice(0, 10);
-  const t = new Date(part).getTime();
+  const s = String(dateStr).trim();
+  if (!s) return 0;
+  const ymd = s.match(/(\d{4}-\d{2}-\d{2})/);
+  if (ymd) {
+    const t = new Date(ymd[1] + 'T00:00:00+09:00').getTime();
+    return Number.isNaN(t) ? 0 : t;
+  }
+  const t = new Date(s).getTime();
   return Number.isNaN(t) ? 0 : t;
 }
 
@@ -736,6 +742,17 @@ function renderVodPanel() {
   } else {
     renderVodPanelCalendar();
   }
+}
+
+/** 커뮤니티 데이터 병합 후 목록·VOD 패널을 다시 그린다. */
+function refreshSongArchiveViews() {
+  vodIndexCache = null;
+  loadSongs(document.getElementById('searchBar')?.value ?? '');
+  renderVodPanel();
+}
+
+if (typeof window !== 'undefined') {
+  window.refreshSongArchiveViews = refreshSongArchiveViews;
 }
 
 function setupVodPanel() {
