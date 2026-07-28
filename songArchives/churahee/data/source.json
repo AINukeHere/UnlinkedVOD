@@ -9745,6 +9745,35 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 상식배틀(w. 요한)ㅣ노래 권태기 현재 12% 극복",
+            "date": "2026-07-28",
+            "url": "https://vod.sooplive.com/player/202746135",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
+            "songInfo": [
+                {
+                    "title": "어린 나",
+                    "time": "1:51:16",
+                    "artist": "키마",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "BUMPA",
+                    "time": "2:05:46",
+                    "artist": "비비",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "하루 종일 비가 내렸어",
+                    "time": "4:55:00",
+                    "artist": "디아",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }

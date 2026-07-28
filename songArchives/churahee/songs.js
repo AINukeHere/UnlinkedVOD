@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-28T10:18:53.428668+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-28T22:29:37.753106+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -591,6 +591,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
+    "title": "BUMPA",
+    "artist": "비비",
+    "versions": [
+      {
+        "date": "2026-07-28",
+        "url": "https://vod.sooplive.com/player/202746135?change_second=7546",
+        "videoTitle": "[버블란] 상식배틀(w. 요한)ㅣ노래 권태기 현재 12% 극복",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -14815,6 +14833,24 @@ const songs = [
     ]
   },
   {
+    "title": "어린 나",
+    "artist": "키마",
+    "versions": [
+      {
+        "date": "2026-07-28",
+        "url": "https://vod.sooplive.com/player/202746135?change_second=6676",
+        "videoTitle": "[버블란] 상식배틀(w. 요한)ㅣ노래 권태기 현재 12% 극복",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "어푸",
     "artist": "아이유",
     "versions": [
@@ -18901,6 +18937,18 @@ const songs = [
         "noMistake": true,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-28",
+        "url": "https://vod.sooplive.com/player/202746135?change_second=17700",
+        "videoTitle": "[버블란] 상식배틀(w. 요한)ㅣ노래 권태기 현재 12% 극복",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
