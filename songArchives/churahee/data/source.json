@@ -1186,79 +1186,101 @@
                 {
                     "title": "Love wins all",
                     "time": "10:40",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "Love story",
                     "time": "17:03",
-                    "artist": "볼빨간사춘기"
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "스물다섯, 스물하나",
                     "time": "18:47",
-                    "artist": "자우림"
+                    "artist": "자우림",
+                    "groupSong": false
                 },
                 {
                     "title": "Rain Drop",
                     "time": "20:26",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "You",
                     "time": "22:22",
-                    "artist": "김상민"
+                    "artist": "김상민",
+                    "groupSong": false
                 },
                 {
                     "title": "Say Yes",
                     "time": "24:05",
-                    "artist": "로꼬, 펀치"
+                    "artist": "로꼬, 펀치",
+                    "groupSong": false
                 },
                 {
                     "title": "별",
                     "time": "27:50",
-                    "artist": "유미"
+                    "artist": "유미",
+                    "groupSong": false
                 },
                 {
                     "title": "만약에",
                     "time": "30:45",
-                    "artist": "태연"
+                    "artist": "태연",
+                    "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
                     "time": "35:05",
                     "artist": "아이유",
-                    "recommended": true
+                    "recommended": true,
+                    "groupSong": false
                 },
                 {
                     "title": "첫눈처럼 너에게 가겠다",
                     "time": "1:04:45",
-                    "artist": "에일리"
+                    "artist": "에일리",
+                    "groupSong": false
                 },
                 {
                     "title": "꽃길",
                     "time": "1:06:34",
-                    "artist": "김세정"
+                    "artist": "김세정",
+                    "groupSong": false
                 },
                 {
                     "title": "겨울봄",
                     "time": "1:10:23",
-                    "artist": "이세계아이돌"
+                    "artist": "이세계아이돌",
+                    "groupSong": false
                 },
                 {
                     "title": "만약에",
                     "time": "1:34:26",
-                    "artist": "태연"
+                    "artist": "태연",
+                    "groupSong": false
                 },
                 {
                     "title": "만약에",
                     "time": "05:09:00",
                     "artist": "태연",
-                    "noMistake": true
+                    "noMistake": true,
+                    "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
                     "time": "6:20:38",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
+                },
+                {
+                    "title": "수고했어, 오늘도",
+                    "time": "10:27:23",
+                    "artist": "옥상달빛",
+                    "needsReview": true,
+                    "groupSong": false
                 }
             ]
         },

@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-26T07:29:07.993054+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-28T10:18:53.428668+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -12904,6 +12904,18 @@ const songs = [
     "title": "수고했어, 오늘도",
     "artist": "옥상달빛",
     "versions": [
+      {
+        "date": "2024-04-10",
+        "url": "https://vod.sooplive.com/player/121586183?change_second=37643",
+        "videoTitle": "소통 - 봉준님 노래자랑 참가",
+        "views": 1000,
+        "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20240410_F0A5D9DD_261917110_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
       {
         "date": "2023-11-10",
         "url": "https://vod.sooplive.com/player/109394118?change_second=7988",
