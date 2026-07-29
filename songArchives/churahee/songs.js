@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-28T22:29:37.753106+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-29T16:46:23.578062+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -13677,6 +13677,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "김병살, 콧시, 해이"
+      },
+      {
+        "date": "2026-07-29",
+        "url": "https://vod.sooplive.com/player/202837363?change_second=9580",
+        "videoTitle": "[버블란] 콧시 노래교실 대결 후여루ㅣ메챠 카멜레온",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260729_E99905E1_295946337_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },

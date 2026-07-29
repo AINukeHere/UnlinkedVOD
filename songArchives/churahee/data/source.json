@@ -9774,6 +9774,21 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 콧시 노래교실 대결 후여루ㅣ메챠 카멜레온",
+            "date": "2026-07-29",
+            "url": "https://vod.sooplive.com/player/202837363",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260729_E99905E1_295946337_2_r",
+            "songInfo": [
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "2:39:40",
+                    "artist": "자우림",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
