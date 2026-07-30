@@ -40,7 +40,7 @@
       <input type="text" id="searchBar" class="search-input" placeholder="노래 검색" autocomplete="off" />
       <span class="toolbar-divider" aria-hidden="true"></span>
 
-      <div class="logic-sentence" aria-label="필터링 및 정렬 적용 방식">
+            <div class="logic-sentence" aria-label="필터링 및 정렬 적용 방식">
         <span>기록이 최소</span>
         <input
           type="number"
@@ -57,12 +57,10 @@
           <option value="dateDesc">최신 방송순</option>
           <option value="dateAsc">오래된 방송순</option>
           <option value="versionCountDesc">기록 많은 순</option>
-          <!--  해당 항목 없음
-          <option value="noMistakeRatioDesc">클립 방어 비율 낮은 순</option>
-          <option value="noMistakeRatioAsc">클립 방어 비율 높은 순</option>
-          <option value="noMistakeCountDesc">클립 방어 적은 순</option>
-          <option value="noMistakeCountAsc">클립 방어 많은 순</option> 
-          -->
+          <option value="noMistakeRatioDesc" data-version-flags="on">클립 방지 비율 낮은 순</option>
+          <option value="noMistakeRatioAsc" data-version-flags="on">클립 방지 비율 높은 순</option>
+          <option value="noMistakeCountDesc" data-version-flags="on">클립 방지 적은 순</option>
+          <option value="noMistakeCountAsc" data-version-flags="on">클립 방지 많은 순</option>
         </select>
         <span>으로 정렬합니다.</span>
         <span class="logic-sep" aria-hidden="true">|</span>
@@ -71,13 +69,16 @@
           <option value="dateDesc">최신순</option>
           <option value="dateAsc">오래된순</option>
         </select>
-        <span>으로 정렬합니다.</span>
-        <span class="logic-sep" aria-hidden="true">|</span>
-        <div style="display:none" class="logic-checkbox-group" role="group" aria-label="표시 우선 기준">
-          <label class="chip-label"><input type="checkbox" id="filterVersionNoMistake" /> 클립 방어 실패</label>
+        <span data-version-flags="on">으로 정렬하고</span>
+        <span data-version-flags="off">으로 정렬합니다.</span>
+        <span class="logic-sep" data-version-flags="on" aria-hidden="true">|</span>
+        <div class="logic-checkbox-group" data-version-flags="on" role="group" aria-label="표시 우선 기준">
+          <label class="chip-label"><input type="checkbox" id="filterVersionNoMistake" /> 클립 방지 실패</label>
           <label class="chip-label"><input type="checkbox" id="filterVersionRecommended" /> 추천</label>
           <label class="chip-label"><input type="checkbox" id="filterVersionNeedsReview" /> 검토 필요</label>
         </div>
+        <span data-version-flags="on">를 우선적으로 표시합니다.</span>
+        <label class="chip-label logic-right-option"><input type="checkbox" id="filterExcludeSyncroom" checked /> 싱크룸 제외</label>
       </div>
     </div>
   </header>
@@ -117,6 +118,7 @@
   </div>
 
   <script src="songs.js"></script>
+  <script src="../common/streamerFlags.js"></script>
   <script src="../common/archive-page.js"></script>
   <script src="../common/community-data.js"></script>
 

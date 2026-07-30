@@ -38,8 +38,13 @@
   }
 
   function supportsDisplayFlags() {
-    const streamerId = getPageConfig().streamerId;
-    return ['churahee', 'irumi1523'].includes(streamerId);
+    var streamerId = getPageConfig().streamerId;
+    var api =
+      typeof window !== 'undefined' ? window.SONG_ARCHIVE_STREAMER_FLAGS : null;
+    if (api && typeof api.usesVersionFlags === 'function') {
+      return !!api.usesVersionFlags(streamerId);
+    }
+    return false;
   }
 
   function normalizeDateString(value) {

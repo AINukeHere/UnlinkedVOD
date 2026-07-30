@@ -834,9 +834,54 @@ function applySongArchivePageConfig() {
   link.href = iconHref;
 }
 
+function getArchiveStreamerId() {
+  const c = typeof window !== 'undefined' ? window.SONG_ARCHIVE_PAGE : null;
+  if (!c || typeof c !== 'object') return '';
+  return String(c.archiveId || c.soopChannelId || '').trim();
+}
+
+function archiveUsesVersionFlags() {
+  const api = typeof window !== 'undefined' ? window.SONG_ARCHIVE_STREAMER_FLAGS : null;
+  if (!api || typeof api.usesVersionFlags !== 'function') return false;
+  return !!api.usesVersionFlags(getArchiveStreamerId());
+}
+
+/** streamerFlags.js 기준으로 실수없음/추천/검토 UI·정렬 옵션 표시 */
+function setupVersionFlagsUi() {
+  const enabled = archiveUsesVersionFlags();
+
+  document.querySelectorAll('[data-version-flags="on"]').forEach((el) => {
+    if (el.tagName === 'OPTION') {
+      el.disabled = !enabled;
+      el.hidden = !enabled;
+      return;
+    }
+    el.hidden = !enabled;
+  });
+
+  document.querySelectorAll('[data-version-flags="off"]').forEach((el) => {
+    el.hidden = enabled;
+  });
+
+  if (!enabled) {
+    const listSort = document.getElementById('listSort');
+    if (listSort && String(listSort.value || '').startsWith('noMistake')) {
+      listSort.value = 'title';
+    }
+    ['filterVersionNoMistake', 'filterVersionRecommended', 'filterVersionNeedsReview'].forEach(
+      (id) => {
+        const input = document.getElementById(id);
+        if (input) input.checked = false;
+      }
+    );
+  }
+}
+
 applySongArchivePageConfig();
+setupVersionFlagsUi();
 
 window.onload = () => {
+  setupVersionFlagsUi();
   renderDataLastUpdated();
   loadSongs();
   setupVodPanel();

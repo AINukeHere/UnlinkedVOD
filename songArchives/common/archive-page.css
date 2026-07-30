@@ -664,6 +664,10 @@ body {
   border-radius: 6px;
 }
 
+[data-version-flags][hidden] {
+  display: none !important;
+}
+
 .logic-checkbox-group:focus-within {
   border-color: var(--accent);
 }

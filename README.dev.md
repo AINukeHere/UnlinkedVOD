@@ -108,12 +108,34 @@ npm run add -- "https://vod.sooplive.com/player/{videoId}"
 
 ## 새 스트리머 보관소
 
-1. 기존 스트리머 `index.html`을 `songArchives/{폴더명}/`로 복사  
-2. `window.SONG_ARCHIVE_PAGE`: `siteTitle`, `soopChannelId` (필요 시 `sheetsWebAppUrl`)  
-3. `<title>`·`<h1>`을 `siteTitle`과 맞춤  
-4. `data/` + `songs.js` 준비  
-5. `songArchives/index.html`에 링크 추가  
-6. 스크립트 순서: `songs.js` → `archive-page.js` → `community-data.js`
+스캐폴드 스크립트로 폴더·허브 링크·기본 설정을 한 번에 만듭니다.  
+`parseConfig.json` / `defaultArtistMapping.json` 기본값은 `churahee`를 복사합니다.
+
+```bash
+# 플래그(실수 없음·추천·검토 필요) 쓰는 스트리머
+npm run add-streamer -- --id irumi1523 --title 백시호 --flags
+
+# 플래그 없는 스트리머
+npm run add-streamer -- --id chebi2 --title 체비
+```
+
+생성 후:
+
+1. `songArchives/{id}/data/config.json`의 `comment_author_id` 확인 (gitignore — 로컬 전용)  
+2. `npm run add -- "https://vod.sooplive.com/player/{videoId}"`  
+3. (선택) 사용자 `README.md` 바로가기 링크 추가  
+
+### 버전 플래그 상수
+
+`songArchives/common/streamerFlags.js`의 `STREAMERS_WITH_VERSION_FLAGS`가  
+툴바 정렬/필터·노래 추가 모달의 표시 플래그 노출을 결정합니다.
+
+- `archive-page.js` — `[data-version-flags]` UI 토글  
+- `community-data.js` — 제출 모달 플래그 필드  
+
+`--flags`로 추가하면 이 목록에 id가 들어갑니다. 나중에 수동으로 배열에 id만 넣어도 됩니다.
+
+스크립트 로드 순서: `songs.js` → `streamerFlags.js` → `archive-page.js` → `community-data.js`
 
 ---
 
