@@ -10,7 +10,7 @@ UnlinkedVOD/
 ├── songArchives/
 │   ├── index.html             # 스트리머별 보관소 허브
 │   ├── addVod.js              # CLI: VOD URL → source.json / songs.js
-│   ├── {streamer}/            # churahee, chebi2, singgyul …
+│   ├── {streamer}/            # churahee, irumi1523, chebi2, singgyul …
 │   │   ├── index.html
 │   │   ├── songs.js           # 페이지가 읽는 곡 목록 (생성물)
 │   │   └── data/
@@ -82,7 +82,7 @@ npm run add -- "https://vod.sooplive.com/player/{videoId}"
 - `GET ?action=authorize`
 - `POST { action: "submit_song", … }`
 
-표시 플래그(실수 없음·추천·검토·싱크룸) UI는 현재 `soopChannelId === 'churahee'`일 때만 노출됩니다.  
+표시 플래그(실수 없음·추천·검토·싱크룸) UI는 현재 `churahee`, `irumi1523`에서만 노출됩니다.  
 시트 기록 시 선행 `= + - @` 등은 수식 인젝션 방지를 위해 무력화합니다. 공개 제출 API이므로 `pending` 승인·레이트 리밋 등을 운영에서 검토하세요.
 
 ---

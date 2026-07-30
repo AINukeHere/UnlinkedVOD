@@ -38,7 +38,8 @@
   }
 
   function supportsDisplayFlags() {
-    return getPageConfig().streamerId === 'churahee';
+    const streamerId = getPageConfig().streamerId;
+    return ['churahee', 'irumi1523'].includes(streamerId);
   }
 
   function normalizeDateString(value) {

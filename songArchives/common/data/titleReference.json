@@ -416,6 +416,10 @@
         "aliases": []
     },
     {
+        "title": "너였다면",
+        "aliases": []
+    },
+    {
         "title": "너의 모든 순간",
         "aliases": []
     },
@@ -756,11 +760,19 @@
         "aliases": []
     },
     {
+        "title": "밤의 정원",
+        "aliases": []
+    },
+    {
         "title": "밤편지",
         "aliases": []
     },
     {
         "title": "밤하늘의 별을",
+        "aliases": []
+    },
+    {
+        "title": "방황하는 젊음",
         "aliases": []
     },
     {
@@ -845,6 +857,10 @@
     },
     {
         "title": "봄이 좋냐",
+        "aliases": []
+    },
+    {
+        "title": "부디",
         "aliases": []
     },
     {
@@ -1035,6 +1051,10 @@
     },
     {
         "title": "상상더하기",
+        "aliases": []
+    },
+    {
+        "title": "생각을 멈추다보면",
         "aliases": []
     },
     {
@@ -1234,6 +1254,10 @@
     },
     {
         "title": "애타는 마음",
+        "aliases": []
+    },
+    {
+        "title": "야래향",
         "aliases": []
     },
     {
@@ -1543,6 +1567,10 @@
         "aliases": []
     },
     {
+        "title": "자장가",
+        "aliases": []
+    },
+    {
         "title": "잔혹한 천사의 테제",
         "aliases": []
     },
@@ -1552,6 +1580,10 @@
     },
     {
         "title": "잘 부탁 드립니다",
+        "aliases": []
+    },
+    {
+        "title": "잘 지내자, 우리",
         "aliases": []
     },
     {
@@ -1765,6 +1797,7 @@
     {
         "title": "피날레",
         "aliases": [
+            "Finale",
             "Finale.",
             "Finale.(피날레)"
         ]
@@ -2088,7 +2121,7 @@
         "title": "Euphoria",
         "aliases": []
     },
-    {
+        {
         "title": "Fine",
         "aliases": [
             "파인"
@@ -2672,6 +2705,10 @@
         "aliases": []
     },
     {
+        "title": "To.X",
+        "aliases": []
+    },
+    {
         "title": "Track 9",
         "aliases": [
             "트랙 9"
@@ -2705,6 +2742,10 @@
     },
     {
         "title": "Vlad",
+        "aliases": []
+    },
+    {
+        "title": "Way back home",
         "aliases": []
     },
     {
