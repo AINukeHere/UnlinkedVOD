@@ -235,22 +235,22 @@ function ensureHubLink(streamerId, displayName) {
 
 function registerFlagsStreamer(streamerId) {
   let src = fs.readFileSync(flagsModulePath, 'utf8');
-  const begin = '// BEGIN_STREAMERS_WITH_VERSION_FLAGS';
-  const end = '// END_STREAMERS_WITH_VERSION_FLAGS';
-  const beginIdx = src.indexOf(begin);
-  const endIdx = src.indexOf(end);
-  if (beginIdx < 0 || endIdx < 0 || endIdx <= beginIdx) {
-    throw new Error('streamerFlags.js 마커를 찾지 못했습니다.');
-  }
-  const block = src.slice(beginIdx, endIdx);
-  if (block.includes(`'${streamerId}'`) || block.includes(`"${streamerId}"`)) {
+  if (new RegExp(`['"]${streamerId}['"]`).test(src)) {
     console.log(`[skip] already in STREAMERS_WITH_VERSION_FLAGS: ${streamerId}`);
     return;
   }
-  const insertAt = endIdx;
-  const line = `    '${streamerId}',\n`;
-  src = src.slice(0, insertAt) + line + src.slice(insertAt);
-  fs.writeFileSync(flagsModulePath, src, 'utf8');
+  const next = src.replace(
+    /(var\s+STREAMERS_WITH_VERSION_FLAGS\s*=\s*\[)([^\]]*)(\])/,
+    function (_m, open, body, close) {
+      var trimmed = String(body || '').trim();
+      var entry = trimmed ? trimmed.replace(/\s*$/, '') + `, '${streamerId}'` : `'${streamerId}'`;
+      return open + entry + close;
+    }
+  );
+  if (next === src) {
+    throw new Error('streamerFlags.js 의 STREAMERS_WITH_VERSION_FLAGS 배열을 찾지 못했습니다.');
+  }
+  fs.writeFileSync(flagsModulePath, next, 'utf8');
   console.log(`[ok] flags list ← ${streamerId}`);
 }
 

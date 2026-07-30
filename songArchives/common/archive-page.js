@@ -772,9 +772,11 @@ function setupVodPanel() {
 /** Soop CDN 프로필 로고 (webp). fetch 불필요 — <link rel="icon">은 CORS 제한 없이 로드됨. */
 function soopProfileLogoWebpUrl(channelId) {
   const id = String(channelId).trim().toLowerCase();
-  if (!id) return null;
+  if (id.length < 2) return null;
+  const prefix = id.slice(0, 2);
   const enc = encodeURIComponent(id);
-  return `https://stimg.sooplive.com/LOGO/ch/${enc}/m/${enc}.webp`;
+  const encPrefix = encodeURIComponent(prefix);
+  return `https://stimg.sooplive.com/LOGO/${encPrefix}/${enc}/m/${enc}.webp`;
 }
 
 function guessFaviconMimeType(href) {
@@ -799,7 +801,7 @@ function ensureStimgPreconnect() {
  * 스트리머 폴더 index.html: window.SONG_ARCHIVE_PAGE
  * - siteTitle (선택)
  * - favicon (선택): 절대 URL 또는 스트리머 폴더 기준 상대 경로. 있으면 Soop CDN보다 우선.
- * - soopChannelId (선택): Soop 채널 슬러그(로고 URL 경로의 ch/{id}/m/{id}.webp). stimg에서 webp 파비콘.
+ * - soopChannelId (선택): Soop 채널 슬러그. 로고는 LOGO/{앞2글자}/{id}/m/{id}.webp.
  */
 function applySongArchivePageConfig() {
   const c = typeof window !== 'undefined' ? window.SONG_ARCHIVE_PAGE : null;
