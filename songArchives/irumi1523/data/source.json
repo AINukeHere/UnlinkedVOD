@@ -8,63 +8,63 @@
             "songInfo": [
                 {
                     "title": "숲",
-                    "time": "2:52:25",
+                    "time": "2:52:53",
                     "artist": "최유리",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "내 마음이 너에게 닿기를",
-                    "time": "3:01:09",
+                    "time": "3:00:51",
                     "artist": "경서",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "잊어야 한다는 마음으로",
-                    "time": "3:17:25",
+                    "time": "3:18:01",
                     "artist": "아이유",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "Square",
-                    "time": "3:26:11",
+                    "time": "3:25:43",
                     "artist": "백예린",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "우르릉 쾅쾅쾅",
-                    "time": "3:42:48",
+                    "time": "3:42:18",
                     "artist": "스텔라장",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "입춘",
-                    "time": "4:07:55",
-                    "artist": "한로오",
+                    "time": "4:07:40",
+                    "artist": "한로로",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "밤의 정원",
-                    "time": "5:36:58",
+                    "time": "5:37:07",
                     "artist": "심규선",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "관객이 될게",
-                    "time": "5:44:38",
+                    "time": "5:45:24",
                     "artist": "아이유",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "To.X",
-                    "time": "5:59:17",
+                    "time": "5:59:27",
                     "artist": "태연",
                     "needsReview": true,
                     "groupSong": false
@@ -72,14 +72,14 @@
             ]
         },
         {
-            "title": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+            "title": "소통 노래🤍 뉴아바타 방셀 오픈!",
             "date": "2026-07-30",
             "url": "https://vod.sooplive.com/player/202883393",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
             "songInfo": [
                 {
                     "title": "드라마",
-                    "time": "1:44:50",
+                    "time": "1:44:51",
                     "artist": "아이유",
                     "groupSong": false
                 },
@@ -92,7 +92,7 @@
                 },
                 {
                     "title": "인연",
-                    "time": "2:02:46",
+                    "time": "2:02:47",
                     "artist": "이선희",
                     "needsReview": true,
                     "groupSong": false
@@ -176,22 +176,114 @@
                 },
                 {
                     "title": "상사화",
-                    "time": "4:48:01",
+                    "time": "4:47:50",
                     "artist": "안예은",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "자장가",
-                    "time": "5:22:37",
+                    "time": "5:22:46",
                     "artist": "아이유",
                     "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "생각을 멈추다보면",
-                    "time": "5:43:14",
+                    "time": "5:43:15",
                     "artist": "최유리",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "아침 소통 노래 🤍 T1 경기 같이 보기",
+            "date": "2026-07-31",
+            "url": "https://vod.sooplive.com/player/202999485",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+            "songInfo": [
+                {
+                    "title": "우리의 꿈",
+                    "time": "2:55:02",
+                    "artist": "코요태",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Myself",
+                    "time": "2:59:08",
+                    "artist": "이용신",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Butterfly",
+                    "time": "3:09:24",
+                    "artist": "디지몬 ost",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Every Heart",
+                    "time": "3:11:35",
+                    "artist": "보아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Grow Up",
+                    "time": "3:20:05",
+                    "artist": "학교괴담 ost",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "별의 조각",
+                    "time": "3:32:48",
+                    "artist": "윤하",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Hype Boy",
+                    "time": "5:12:05",
+                    "artist": "뉴진스",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "만찬가",
+                    "time": "6:01:12",
+                    "artist": "츠키",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "말해줘",
+                    "time": "6:10:15",
+                    "artist": "요루시카",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "괴수의 꽃노래",
+                    "time": "6:17:13",
+                    "artist": "Vaundy",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "DINOSAUR",
+                    "time": "6:23:31",
+                    "artist": "AKMU",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "화조도",
+                    "time": "6:33:12",
+                    "artist": "심규선",
                     "needsReview": true,
                     "groupSong": false
                 }

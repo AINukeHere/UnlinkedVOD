@@ -1,12 +1,120 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-30T22:16:32.579613+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-07-31T14:32:31.781240+00:00";
 const songs = [
+  {
+    "title": "Butterfly",
+    "artist": "디지몬 ost",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=11364",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "DINOSAUR",
+    "artist": "AKMU",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=23011",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Every Heart",
+    "artist": "보아",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=11495",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Grow Up",
+    "artist": "학교괴담 ost",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=12005",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Hype Boy",
+    "artist": "뉴진스",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=18725",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Myself",
+    "artist": "이용신",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=10748",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
   {
     "title": "Square",
     "artist": "백예린",
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=12371",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=12343",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -25,9 +133,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=15182",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -42,7 +150,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=21557",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=21567",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -61,9 +169,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=9814",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -78,10 +186,28 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=20678",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=20724",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "괴수의 꽃노래",
+    "artist": "Vaundy",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=22633",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -97,9 +223,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=9067",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -114,7 +240,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=10869",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=10851",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -133,9 +259,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=15690",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -150,13 +276,49 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-30",
-        "url": "https://vod.sooplive.com/player/202883393?change_second=6290",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "url": "https://vod.sooplive.com/player/202883393?change_second=6291",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "만찬가",
+    "artist": "츠키",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=21672",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "말해줘",
+    "artist": "요루시카",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=22215",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -169,9 +331,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=16754",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -186,7 +348,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=20218",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=20227",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -205,9 +367,27 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=6715",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "별의 조각",
+    "artist": "윤하",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=12768",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -223,9 +403,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=8474",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -240,10 +420,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-30",
-        "url": "https://vod.sooplive.com/player/202883393?change_second=17281",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "url": "https://vod.sooplive.com/player/202883393?change_second=17270",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -258,10 +438,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-30",
-        "url": "https://vod.sooplive.com/player/202883393?change_second=20594",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "url": "https://vod.sooplive.com/player/202883393?change_second=20595",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -276,7 +456,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=10345",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=10373",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -295,9 +475,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=14613",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -312,10 +492,28 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=13368",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=13338",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "우리의 꿈",
+    "artist": "코요태",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=10502",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -331,9 +529,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=16028",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -349,9 +547,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=12530",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -366,10 +564,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-30",
-        "url": "https://vod.sooplive.com/player/202883393?change_second=7366",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "url": "https://vod.sooplive.com/player/202883393?change_second=7367",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -380,11 +578,11 @@ const songs = [
   },
   {
     "title": "입춘",
-    "artist": "한로오",
+    "artist": "한로로",
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=14875",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=14860",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -402,7 +600,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=11845",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=11881",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
@@ -420,10 +618,10 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-30",
-        "url": "https://vod.sooplive.com/player/202883393?change_second=19357",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "url": "https://vod.sooplive.com/player/202883393?change_second=19366",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -439,9 +637,9 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=7982",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -457,9 +655,27 @@ const songs = [
       {
         "date": "2026-07-30",
         "url": "https://vod.sooplive.com/player/202883393?change_second=10577",
-        "videoTitle": "소통 노래🤍 뉴아바타 방셀 33/330(11연차)",
+        "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785424487",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "화조도",
+    "artist": "심규선",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/202999485?change_second=23592",
+        "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,

@@ -650,6 +650,10 @@
         "aliases": []
     },
     {
+        "title": "말해줘",
+        "aliases": []
+    },
+    {
         "title": "매직 카펫 라이드",
         "aliases": []
     },
@@ -2121,7 +2125,11 @@
         "title": "Euphoria",
         "aliases": []
     },
-        {
+    {
+        "title": "Every Heart",
+        "aliases": []
+    },
+    {
         "title": "Fine",
         "aliases": [
             "파인"
@@ -2173,6 +2181,10 @@
             "그립",
             "Grip"
         ]
+    },
+    {
+        "title": "Grow Up",
+        "aliases": []
     },
     {
         "title": "HAPPI",
@@ -2234,6 +2246,10 @@
             "하우 두 아이 세이 굿바이",
             "How do I say goodbye"
         ]
+    },
+    {
+        "title": "Hype Boy",
+        "aliases": []
     },
     {
         "title": "I",
@@ -2488,6 +2504,10 @@
     },
     {
         "title": "My Way",
+        "aliases": []
+    },
+    {
+        "title": "Myself",
         "aliases": []
     },
     {
