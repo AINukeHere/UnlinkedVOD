@@ -9789,6 +9789,134 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+            "date": "2026-07-31",
+            "url": "https://vod.sooplive.com/player/203059605",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+            "songInfo": [
+                {
+                    "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
+                    "time": "12:32:39",
+                    "artist": "AKMU",
+                    "noMistake": true,
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "소로",
+                    "time": "12:57:08",
+                    "artist": "심규선",
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "마마",
+                    "time": "13:07:39",
+                    "artist": "김필선",
+                    "noMistake": true,
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "만찬가",
+                    "time": "13:19:23",
+                    "artist": "츠키",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "기억을 걷는 시간",
+                    "time": "13:27:20",
+                    "artist": "넬",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "Dream",
+                    "time": "13:35:43",
+                    "artist": "폴킴",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "And July",
+                    "time": "13:41:02",
+                    "artist": "헤이즈",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "거짓말 거짓말 거짓말",
+                    "time": "13:50:17",
+                    "artist": "이적",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "스물다섯, 스물하나",
+                    "time": "13:54:43",
+                    "artist": "자우림",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "응급실",
+                    "time": "14:01:52",
+                    "artist": "IZI",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "사랑 그게 뭔데",
+                    "time": "14:08:53",
+                    "artist": "양파",
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "마음을 드려요",
+                    "time": "14:27:48",
+                    "artist": "아이유",
+                    "recommended": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "12:45",
+                    "time": "14:43:06",
+                    "artist": "Etham",
+                    "groupSong": false
+                },
+                {
+                    "title": "보고싶다",
+                    "time": "14:56:20",
+                    "artist": "김범수",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "휘파람",
+                    "time": "15:03:38",
+                    "artist": "블랙핑크",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "불장난",
+                    "time": "15:06:10",
+                    "artist": "블랙핑크",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                },
+                {
+                    "title": "휘파람",
+                    "time": "15:15:01",
+                    "artist": "로이킴",
+                    "groupMembers": "요한, 츄라희",
+                    "groupSong": true
+                }
+            ]
         }
     ]
 }

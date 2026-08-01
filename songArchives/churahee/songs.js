@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-29T16:46:23.578062+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-01T04:46:31.626913+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -202,6 +202,18 @@ const songs = [
         "videoTitle": "소통 - 별별랭킹 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250506_5F4CD820_283702230_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=52986",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -586,6 +598,18 @@ const songs = [
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=49262",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -1041,6 +1065,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "산동"
+      }
+    ]
+  },
+  {
+    "title": "Dream",
+    "artist": "폴킴",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=48943",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -5125,6 +5167,24 @@ const songs = [
     ]
   },
   {
+    "title": "거짓말 거짓말 거짓말",
+    "artist": "이적",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=49817",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
     "title": "겨울봄",
     "artist": "이세계아이돌",
     "versions": [
@@ -6177,6 +6237,18 @@ const songs = [
         "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=48440",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -8325,6 +8397,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=47259",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -8604,6 +8688,18 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250829_F628669F_287059962_1_r",
         "noMistake": false,
         "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=52068",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": true,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -8938,6 +9034,18 @@ const songs = [
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=47963",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -10699,6 +10807,24 @@ const songs = [
     ]
   },
   {
+    "title": "보고싶다",
+    "artist": "김범수",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=53780",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
     "title": "보여줄게",
     "artist": "에일리",
     "versions": [
@@ -11055,6 +11181,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "크앙희, 더블링, 강하나, 카아암"
+      }
+    ]
+  },
+  {
+    "title": "불장난",
+    "artist": "블랙핑크",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=54370",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -11783,6 +11927,18 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20250902_C124930F_287171856_1_r",
         "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=50933",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
         "recommended": true,
         "needsReview": false,
         "groupSong": false,
@@ -12897,6 +13053,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=46628",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": true,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -13689,6 +13857,18 @@ const songs = [
         "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=50083",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -14652,6 +14832,18 @@ const songs = [
         "thumbnail": "https://videoimg.afreecatv.com/php/SnapshotLoad.php?rowKey=20230823_A701A967_247909096_1_r",
         "noMistake": true,
         "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=45159",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": true,
+        "recommended": true,
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
@@ -16923,6 +17115,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=50512",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },
@@ -19785,6 +19989,42 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "휘파람",
+    "artist": "로이킴",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=54901",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
+    "title": "휘파람",
+    "artist": "블랙핑크",
+    "versions": [
+      {
+        "date": "2026-07-31",
+        "url": "https://vod.sooplive.com/player/203059605?change_second=54218",
+        "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_37E3ACA8_295995151_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "요한, 츄라희"
       }
     ]
   },

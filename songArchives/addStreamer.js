@@ -159,7 +159,7 @@ function buildIndexHtml({ streamerId, siteTitle }) {
           <label class="chip-label"><input type="checkbox" id="filterVersionNeedsReview" /> 검토 필요</label>
         </div>
         <span data-version-flags="on">를 우선적으로 표시합니다.</span>
-        <label class="chip-label logic-right-option"><input type="checkbox" id="filterExcludeSyncroom" checked /> 싱크룸 제외</label>
+        <label class="chip-label logic-right-option"><input type="checkbox" id="filterExcludeSyncroom" /> 싱크룸 제외</label>
       </div>
     </div>
   </header>
