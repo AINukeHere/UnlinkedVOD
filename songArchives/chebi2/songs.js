@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-01T05:30:17.205552+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-01T22:09:56.832307+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -340,6 +340,24 @@ const songs = [
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Cruel Summer",
+    "artist": "TORI",
+    "versions": [
+      {
+        "date": "2026-08-01",
+        "url": "https://vod.sooplive.com/player/203149763?change_second=26664",
+        "videoTitle": "리캡만 보고 퇴근",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260801_69BA93F8_296027239_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,

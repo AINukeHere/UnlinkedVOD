@@ -2028,6 +2028,20 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "리캡만 보고 퇴근",
+            "date": "2026-08-01",
+            "url": "https://vod.sooplive.com/player/203149763",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260801_69BA93F8_296027239_2_r",
+            "songInfo": [
+                {
+                    "title": "Cruel Summer",
+                    "time": "7:24:24",
+                    "artist": "TORI",
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
