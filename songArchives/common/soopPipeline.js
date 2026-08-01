@@ -407,7 +407,19 @@ function resolveTitleCanonical(titleRef, rawTitle) {
  * @param {Array<{ artist: string, aliases?: string[] }>|null} artistRef
  * @returns {string|null} canonical artist or null
  */
-function resolveArtistCanonical(artistRef, rawArtist) {
+/** 파싱된 가수 문자열을 콤마 기준으로 나눈다. */
+function splitArtistNames(rawArtist) {
+  return String(rawArtist || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+/**
+ * artistReference 에서 단일 가수명(별칭 포함) → 캐노니컬.
+ * @returns {string|null}
+ */
+function resolveOneArtistCanonical(artistRef, rawArtist) {
   const s = (rawArtist || '').trim();
   if (!s || !artistRef || !artistRef.length) return null;
   for (const entry of artistRef) {
@@ -416,6 +428,22 @@ function resolveArtistCanonical(artistRef, rawArtist) {
     if (s === canonical || aliases.some((a) => String(a).trim() === s)) return canonical;
   }
   return null;
+}
+
+/**
+ * @param {Array<{ artist: string, aliases?: string[] }>|null} artistRef
+ * @returns {string|null} 캐노니컬 가수. 콤마로 여러 명이면 각각 조회 후 ", " 로 이어 붙임. 하나라도 없으면 null.
+ */
+function resolveArtistCanonical(artistRef, rawArtist) {
+  const parts = splitArtistNames(rawArtist);
+  if (!parts.length || !artistRef || !artistRef.length) return null;
+  const resolved = [];
+  for (const part of parts) {
+    const canonical = resolveOneArtistCanonical(artistRef, part);
+    if (!canonical) return null;
+    resolved.push(canonical);
+  }
+  return resolved.join(', ');
 }
 
 /** defaultArtistMapping 에서 해당 제목 키의 가수만 조회. */
@@ -450,7 +478,7 @@ function appendTitleReferenceFile(filePath, canonicalTitle) {
   writeJsonData(filePath, list);
 }
 
-function artistEntryExists(list, s) {
+function oneArtistEntryExists(list, s) {
   const x = (s || '').trim();
   if (!x) return false;
   for (const e of list) {
@@ -461,12 +489,24 @@ function artistEntryExists(list, s) {
   return false;
 }
 
+/** 콤마로 나뉜 가수명이면 전원 artistReference(별칭 포함)에 있어야 true */
+function artistEntryExists(list, s) {
+  const parts = splitArtistNames(s);
+  if (!parts.length) return false;
+  return parts.every((part) => oneArtistEntryExists(list, part));
+}
+
 function appendArtistReferenceFile(filePath, canonicalArtist) {
-  const t = (canonicalArtist || '').trim();
-  if (!t) return;
+  const parts = splitArtistNames(canonicalArtist);
+  if (!parts.length) return;
   const list = readJsonArray(filePath);
-  if (artistEntryExists(list, t)) return;
-  list.push({ artist: t, aliases: [] });
+  let changed = false;
+  for (const part of parts) {
+    if (oneArtistEntryExists(list, part)) continue;
+    list.push({ artist: part, aliases: [] });
+    changed = true;
+  }
+  if (!changed) return;
   list.sort((a, b) => (a.artist || '').localeCompare(b.artist || '', 'ko'));
   writeJsonData(filePath, list);
 }
@@ -1007,6 +1047,8 @@ module.exports = {
   loadDefaultArtistMapping,
   reorderDefaultArtistMapping,
   resolveTitleCanonical,
+  splitArtistNames,
+  resolveOneArtistCanonical,
   resolveArtistCanonical,
   parseTimelineLine,
   parseCommentHtmlToSongInfo,

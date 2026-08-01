@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-12T04:52:46.532544+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-01T05:30:17.205552+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -93,6 +93,18 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "체비, 플리, 임하밍, 문모모"
+      },
+      {
+        "date": "2026-07-30",
+        "url": "https://vod.sooplive.com/player/202955427?change_second=40898",
+        "videoTitle": "맞으면서 배우는 2부 랜드야",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_07CD5FD5_295972059_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -241,6 +253,36 @@ const songs = [
     ]
   },
   {
+    "title": "BUMPA",
+    "artist": "비비",
+    "versions": [
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=27239",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=27579",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "Brand",
     "artist": "비오(BE'O)",
     "versions": [
@@ -339,6 +381,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=17495",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -382,6 +436,42 @@ const songs = [
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Dumb Love",
+    "artist": "미미 웹",
+    "versions": [
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=16578",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "ELEVEN",
+    "artist": "IVE",
+    "versions": [
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=25117",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -675,6 +765,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202665983?change_second=24783",
+        "videoTitle": "도황 뒷풀이 ⁽⁽ (˶> ᎑ <˶) ⁾⁾",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_225FFE20_295896663_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -742,6 +844,42 @@ const songs = [
         "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "JANE DOE",
+    "artist": "요네즈 켄시, 우타다 히카루",
+    "versions": [
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=15305",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Joker",
+    "artist": "빅 나티",
+    "versions": [
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=26789",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -1117,6 +1255,24 @@ const songs = [
     ]
   },
   {
+    "title": "Six Feet Under",
+    "artist": "빌리 아일리시",
+    "versions": [
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=16879",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "Six feet under",
     "artist": "Billie Eilish",
     "versions": [
@@ -1419,6 +1575,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=35219",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -1468,6 +1636,24 @@ const songs = [
         "videoTitle": "생일 음주 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "고민중독",
+    "artist": "QWER",
+    "versions": [
+      {
+        "date": "2026-07-30",
+        "url": "https://vod.sooplive.com/player/202955427?change_second=7386",
+        "videoTitle": "맞으면서 배우는 2부 랜드야",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_07CD5FD5_295972059_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -2703,6 +2889,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=24667",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2836,6 +3034,24 @@ const songs = [
         "videoTitle": "보고 싶었어",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260515_5FA22F9C_294038393_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "사랑이라 했던 말 속에서",
+    "artist": "can't be blue",
+    "versions": [
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=16034",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -3250,6 +3466,18 @@ const songs = [
         "videoTitle": "체비",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_4713B9E9_294064815_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=15619",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,

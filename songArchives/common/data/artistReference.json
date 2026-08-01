@@ -332,6 +332,10 @@
         "aliases": []
     },
     {
+        "artist": "미미 웹",
+        "aliases": []
+    },
+    {
         "artist": "미연",
         "aliases": []
     },
@@ -501,6 +505,13 @@
         ]
     },
     {
+        "artist": "빅 나티",
+        "aliases": [
+            "빅나티",
+            "BIG Naughty"
+        ]
+    },
+    {
         "artist": "빅마마",
         "aliases": []
     },
@@ -512,7 +523,9 @@
     },
     {
         "artist": "빌리 아일리시",
-        "aliases": []
+        "aliases": [
+            "BILLIE EILISH"
+        ]
     },
     {
         "artist": "사이버펑크OST",
@@ -830,6 +843,10 @@
     },
     {
         "artist": "우예린",
+        "aliases": []
+    },
+    {
+        "artist": "우타다 히카루",
         "aliases": []
     },
     {
@@ -1319,6 +1336,10 @@
     },
     {
         "artist": "BLACKPINK",
+        "aliases": []
+    },
+    {
+        "artist": "can't be blue",
         "aliases": []
     },
     {

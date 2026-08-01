@@ -1906,6 +1906,128 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "맞으면서 배우는 2부 랜드야",
+            "date": "2026-07-30",
+            "url": "https://vod.sooplive.com/player/202955427",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_07CD5FD5_295972059_2_r",
+            "songInfo": [
+                {
+                    "title": "고민중독",
+                    "time": "2:03:06",
+                    "artist": "QWER",
+                    "groupSong": false
+                },
+                {
+                    "title": "0+0",
+                    "time": "11:21:38",
+                    "artist": "한로로",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "도황 뒷풀이 ⁽⁽ (˶> ᎑ <˶) ⁾⁾",
+            "date": "2026-07-27",
+            "url": "https://vod.sooplive.com/player/202665983",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_225FFE20_295896663_2_r",
+            "songInfo": [
+                {
+                    "title": "INVU",
+                    "time": "6:53:03",
+                    "artist": "태연",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "[MADiSON] 낮에 공겜하는 여자",
+            "date": "2026-07-26",
+            "url": "https://vod.sooplive.com/player/202563829",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+            "songInfo": [
+                {
+                    "title": "밤, 바다",
+                    "time": "6:51:07",
+                    "artist": "최유리",
+                    "groupSong": false
+                },
+                {
+                    "title": "ELEVEN",
+                    "time": "6:58:37",
+                    "artist": "IVE",
+                    "groupSong": false
+                },
+                {
+                    "title": "Joker",
+                    "time": "7:26:29",
+                    "artist": "빅 나티",
+                    "groupSong": false
+                },
+                {
+                    "title": "BUMPA",
+                    "time": "7:33:59",
+                    "artist": "비비",
+                    "groupSong": false
+                },
+                {
+                    "title": "BUMPA",
+                    "time": "7:39:39",
+                    "artist": "비비",
+                    "groupSong": false
+                },
+                {
+                    "title": "yours",
+                    "time": "9:46:59",
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "재미가 있었다",
+            "date": "2026-07-25",
+            "url": "https://vod.sooplive.com/player/202477627",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
+            "songInfo": [
+                {
+                    "title": "JANE DOE",
+                    "time": "4:15:05",
+                    "artist": "요네즈 켄시, 우타다 히카루",
+                    "groupSong": false
+                },
+                {
+                    "title": "시간의 바깥",
+                    "time": "4:20:19",
+                    "artist": "아이유",
+                    "groupSong": false
+                },
+                {
+                    "title": "사랑이라 했던 말 속에서",
+                    "time": "4:27:14",
+                    "artist": "can't be blue",
+                    "groupSong": false
+                },
+                {
+                    "title": "Dumb Love",
+                    "time": "4:36:18",
+                    "artist": "미미 웹",
+                    "groupSong": false
+                },
+                {
+                    "title": "Six Feet Under",
+                    "time": "4:41:19",
+                    "artist": "빌리 아일리시",
+                    "groupSong": false
+                },
+                {
+                    "title": "DINOSAUR",
+                    "time": "4:51:35",
+                    "artist": "AKMU",
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }
