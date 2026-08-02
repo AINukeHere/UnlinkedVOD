@@ -18,7 +18,7 @@
   ],
   "parts": {
     "songTitle": "(.+?)",
-    "songArtist": "\\((.+)\\)",
+    "songArtist": "\\s+\\((.+)\\)",
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
     "groupMembers": "([^-]*)",
     "comment": "/(\\*.*?\\*\\/)"

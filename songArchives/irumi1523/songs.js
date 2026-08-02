@@ -1,5 +1,23 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-02T17:07:04.054388+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-02T17:22:14.945627+00:00";
 const songs = [
+  {
+    "title": "0+0",
+    "artist": "한로로",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=25570",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
   {
     "title": "Butterfly",
     "artist": "디지몬 ost",
@@ -181,6 +199,24 @@ const songs = [
     ]
   },
   {
+    "title": "개화",
+    "artist": "루시",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=24632",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "겨울잠",
     "artist": "아이유",
     "versions": [
@@ -319,6 +355,42 @@ const songs = [
     ]
   },
   {
+    "title": "달과 6펜스",
+    "artist": "심규선",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=23199",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "동그라미",
+    "artist": "최유리",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=25041",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "드라마",
     "artist": "아이유",
     "versions": [
@@ -400,6 +472,36 @@ const songs = [
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=26372",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "바람",
+    "artist": "최유리",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=23718",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -499,6 +601,24 @@ const songs = [
     ]
   },
   {
+    "title": "사랑하게 될 거야",
+    "artist": "한로로",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=22409",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "상사화",
     "artist": "안예은",
     "versions": [
@@ -517,7 +637,7 @@ const songs = [
     ]
   },
   {
-    "title": "생각을 멈추다보면",
+    "title": "생각을 멈추다 보면",
     "artist": "최유리",
     "versions": [
       {
@@ -526,6 +646,18 @@ const songs = [
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=22027",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -544,6 +676,24 @@ const songs = [
         "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "소문의 낙원",
+    "artist": "AKMU",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=21443",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -817,6 +967,24 @@ const songs = [
     ]
   },
   {
+    "title": "편지",
+    "artist": "비비",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=22727",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "피날레",
     "artist": "Eill",
     "versions": [
@@ -826,6 +994,42 @@ const songs = [
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "피차일반",
+    "artist": "음율",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=24111",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "한계",
+    "artist": "백예린",
+    "versions": [
+      {
+        "date": "2026-07-27",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=25963",
+        "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,

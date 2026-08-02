@@ -1451,27 +1451,32 @@
                 {
                     "title": "0+0",
                     "time": "04:16:23",
-                    "artist": "한로로"
+                    "artist": "한로로",
+                    "groupSong": false
                 },
                 {
                     "title": "우주",
                     "time": "04:21:05",
-                    "artist": "유하"
+                    "artist": "YOUHA(유하)",
+                    "groupSong": false
                 },
                 {
                     "title": "첫 키스에 내 심장은 120BPM",
                     "time": "04:26:46",
-                    "artist": "경서"
+                    "artist": "경서",
+                    "groupSong": false
                 },
                 {
                     "title": "민들레",
                     "time": "04:38:40",
-                    "artist": "우효"
+                    "artist": "우효",
+                    "groupSong": false
                 },
                 {
                     "title": "Replace You",
                     "time": "04:44:55",
-                    "artist": "930 / Feat.Bona Zoe"
+                    "artist": "930 / Feat.Bona Zoe",
+                    "groupSong": false
                 }
             ]
         },
@@ -1484,67 +1489,80 @@
                 {
                     "title": "0+0",
                     "time": "2:06:58",
-                    "artist": "한로로"
+                    "artist": "한로로",
+                    "groupSong": false
                 },
                 {
                     "title": "히로인",
                     "time": "2:12:08",
-                    "artist": "Back number"
+                    "artist": "Back number",
+                    "groupSong": false
                 },
                 {
                     "title": "달과 6펜스",
                     "time": "2:19:52",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "LETTER",
                     "time": "2:25:35",
-                    "artist": "유다빈밴드"
+                    "artist": "유다빈밴드",
+                    "groupSong": false
                 },
                 {
-                    "title": "우주",
+                    "title": "우주(UNIVERSE)",
                     "time": "5:15:08",
-                    "artist": "유하"
+                    "artist": "YOUHA(유하)",
+                    "groupSong": false
                 },
                 {
                     "title": "피차일반",
                     "time": "5:20:21",
-                    "artist": "음율"
+                    "artist": "음율",
+                    "groupSong": false
                 },
                 {
                     "title": "괴수의 꽃노래",
                     "time": "5:27:36",
-                    "artist": "Vaundy"
+                    "artist": "Vaundy",
+                    "groupSong": false
                 },
                 {
                     "title": "입춘",
                     "time": "5:33:53",
-                    "artist": "한로로"
+                    "artist": "한로로",
+                    "groupSong": false
                 },
                 {
                     "title": "검정색하트",
                     "time": "5:50:44",
-                    "artist": "TOIL"
+                    "artist": "TOIL",
+                    "groupSong": false
                 },
                 {
                     "title": "breathin",
                     "time": "5:56:34",
-                    "artist": "아리아나 그란데"
+                    "artist": "아리아나 그란데",
+                    "groupSong": false
                 },
                 {
                     "title": "Discord",
                     "time": "6:03:17",
-                    "artist": "QWER"
+                    "artist": "QWER",
+                    "groupSong": false
                 },
                 {
                     "title": "시간과 낙엽",
                     "time": "6:10:12",
-                    "artist": "AKMU"
+                    "artist": "AKMU",
+                    "groupSong": false
                 },
                 {
                     "title": "yours",
                     "time": "6:16:53",
-                    "artist": "데이먼스 이어"
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
                 }
             ]
         },
@@ -1552,210 +1570,249 @@
             "title": "보고 싶었어",
             "date": "2026-05-15",
             "url": "https://vod.sooplive.com/player/195824229",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260515_5FA22F9C_294038393_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260515_040CFAC9_294038393_1_r&column=2&t=1782631384",
             "songInfo": [
                 {
                     "title": "0+0",
                     "time": "01:42:08",
-                    "artist": "한로로"
+                    "artist": "한로로",
+                    "groupSong": false
                 },
                 {
                     "title": "에잇",
                     "time": "01:47:10",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "Antifreeze",
                     "time": "01:51:36",
-                    "artist": "백예린"
+                    "artist": "백예린",
+                    "groupSong": false
                 },
                 {
                     "title": "연의 편지",
                     "time": "01:57:42",
-                    "artist": "이수현"
+                    "artist": "이수현",
+                    "groupSong": false
                 },
                 {
                     "title": "ELEVEN",
                     "time": "02:39:47",
-                    "artist": "아이브"
+                    "artist": "아이브",
+                    "groupSong": false
                 },
                 {
                     "title": "ANTIFRAGILE",
                     "time": "02:44:00",
-                    "artist": "르세라핌"
+                    "artist": "르세라핌",
+                    "groupSong": false
                 },
                 {
                     "title": "Stargazers",
                     "time": "02:48:48",
-                    "artist": "이세계아이돌"
+                    "artist": "이세계아이돌",
+                    "groupSong": false
                 },
                 {
                     "title": "소로",
                     "time": "02:53:49",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "우주",
                     "time": "02:59:23",
-                    "artist": "유하"
+                    "artist": "YOUHA(유하)",
+                    "groupSong": false
                 },
                 {
                     "title": "러브레터(ラブレター)",
                     "time": "03:03:23",
-                    "artist": "요아소비"
+                    "artist": "요아소비",
+                    "groupSong": false
                 },
                 {
                     "title": "이런 엔딩",
                     "time": "03:10:06",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "바람",
                     "time": "03:16:59",
-                    "artist": "송푸름"
+                    "artist": "송푸름",
+                    "groupSong": false
                 },
                 {
                     "title": "시가 될 이야기",
                     "time": "03:23:31",
-                    "artist": "신지훈"
+                    "artist": "신지훈",
+                    "groupSong": false
                 },
                 {
                     "title": "달빛에 그려지는",
                     "time": "03:28:57",
-                    "artist": "미연"
+                    "artist": "미연",
+                    "groupSong": false
                 },
                 {
                     "title": "시간과 낙엽",
                     "time": "03:35:17",
-                    "artist": "AKMU"
+                    "artist": "AKMU",
+                    "groupSong": false
                 },
                 {
                     "title": "DINOSAUR",
                     "time": "03:40:37",
-                    "artist": "AKMU"
+                    "artist": "AKMU",
+                    "groupSong": false
                 },
                 {
                     "title": "yours",
                     "time": "03:46:30",
-                    "artist": "데이먼스 이어"
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
                 },
                 {
                     "title": "I Really Want to Stay at Your House",
                     "time": "03:50:15",
-                    "artist": "사이버펑크OST"
+                    "artist": "사이버펑크OST",
+                    "groupSong": false
                 },
                 {
                     "title": "Brand",
                     "time": "03:58:14",
-                    "artist": "비오(BE'O)"
+                    "artist": "비오(BE'O)",
+                    "groupSong": false
                 },
                 {
                     "title": "피차일반",
                     "time": "04:01:52",
-                    "artist": "음율"
+                    "artist": "음율",
+                    "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
                     "time": "04:08:50",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "이제 우리 꿈에서만 만나",
                     "time": "04:16:01",
-                    "artist": "Yyeon"
+                    "artist": "Yyeon",
+                    "groupSong": false
                 },
                 {
                     "title": "비가 내리는 날에는",
                     "time": "04:21:34",
-                    "artist": "윤하"
+                    "artist": "윤하",
+                    "groupSong": false
                 },
                 {
                     "title": "연인",
                     "time": "04:26:58",
-                    "artist": "박효신"
+                    "artist": "박효신",
+                    "groupSong": false
                 },
                 {
                     "title": "섬",
                     "time": "04:43:19",
-                    "artist": "민수"
+                    "artist": "민수",
+                    "groupSong": false
                 },
                 {
                     "title": "I",
                     "time": "04:47:55",
-                    "artist": "태연"
+                    "artist": "태연",
+                    "groupSong": false
                 },
                 {
                     "title": "밤, 바다",
                     "time": "04:53:38",
-                    "artist": "최유리"
+                    "artist": "최유리",
+                    "groupSong": false
                 },
                 {
                     "title": "이지금",
                     "time": "04:59:36",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "난춘",
                     "time": "05:12:46",
-                    "artist": "새소년"
+                    "artist": "새소년",
+                    "groupSong": false
                 },
                 {
                     "title": "LETTER",
                     "time": "05:26:04",
-                    "artist": "유다빈밴드"
+                    "artist": "유다빈밴드",
+                    "groupSong": false
                 }
             ]
         },
         {
-            "title": "체비",
+            "title": "체비 별별랭킹",
             "date": "2026-05-16",
             "url": "https://vod.sooplive.com/player/195927349",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_4713B9E9_294064815_2_r",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
             "songInfo": [
                 {
                     "title": "좋아하니까(好きだから)",
                     "time": "03:17:55",
-                    "artist": "Yuika"
+                    "artist": "Yuika",
+                    "groupSong": false
                 },
                 {
                     "title": "악마의 아이(悪魔の子)",
                     "time": "03:23:56",
-                    "artist": "히구치 아이"
+                    "artist": "히구치 아이",
+                    "groupSong": false
                 },
                 {
                     "title": "사랑이라 했던 말속에서",
                     "time": "03:29:00",
-                    "artist": "캔트비블루"
+                    "artist": "캔트비블루",
+                    "groupSong": false
                 },
                 {
                     "title": "시간의 바깥",
                     "time": "03:58:32",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "이름에게",
                     "time": "04:05:33",
-                    "artist": "아이유"
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "우주를 줄게",
                     "time": "04:11:52",
-                    "artist": "볼빨간사춘기"
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "우주",
                     "time": "04:27:50",
-                    "artist": "유하"
+                    "artist": "YOUHA(유하)",
+                    "groupSong": false
                 },
                 {
                     "title": "만개화",
                     "time": "04:31:20",
-                    "artist": "안예은"
+                    "artist": "안예은",
+                    "groupSong": false
                 },
                 {
                     "title": "ERROR",
                     "time": "04:38:18",
-                    "artist": "niki"
+                    "artist": "niki",
+                    "groupSong": false
                 }
             ]
         },
@@ -2039,6 +2096,20 @@
                     "title": "Cruel Summer",
                     "time": "7:24:24",
                     "artist": "TORI",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "천타티타임 / 플레이리스트 노래 정하기 ₍꜆ᵔ˶ .  ̫.˶ᵔ₎꜆",
+            "date": "2026-08-02",
+            "url": "https://vod.sooplive.com/player/203232829",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_BEE77DB4_296046975_2_r",
+            "songInfo": [
+                {
+                    "title": "우주(UNIVERSE)",
+                    "time": "7:12:14",
+                    "artist": "YOUHA(유하)",
                     "groupSong": false
                 }
             ]

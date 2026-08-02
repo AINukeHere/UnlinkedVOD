@@ -270,6 +270,10 @@
         "aliases": []
     },
     {
+        "artist": "루시",
+        "aliases": []
+    },
+    {
         "artist": "르세라핌",
         "aliases": [
             "LE SSERAFIM"
@@ -903,14 +907,6 @@
     },
     {
         "artist": "유재하",
-        "aliases": []
-    },
-    {
-        "artist": "유하",
-        "aliases": []
-    },
-    {
-        "artist": "유하(YOUHA)",
         "aliases": []
     },
     {
@@ -1565,6 +1561,14 @@
         "aliases": [
             "Xenesus,쪽빛아리아",
             "Xenesus, 쪽빛아리아"
+        ]
+    },
+    {
+        "artist": "YOUHA(유하)",
+        "aliases": [
+            "YOUHA",
+            "유하",
+            "유하(YOUHA)"
         ]
     },
     {
