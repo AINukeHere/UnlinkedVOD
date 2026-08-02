@@ -746,8 +746,12 @@
         return response.json();
       })
       .then(function (config) {
-        if (config && typeof config.example === 'string') {
-          parseExample = config.example.trim();
+        if (config){
+          if (Array.isArray(config.example)) {
+            parseExample = config.example.join('\n').trim();
+          } else if (typeof config.example === 'string') {
+            parseExample = config.example.trim();
+          }
         }
       })
       .catch(function () {
