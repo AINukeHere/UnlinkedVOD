@@ -94,6 +94,10 @@
         ]
     },
     {
+        "title": "겨울잠",
+        "aliases": []
+    },
+    {
         "title": "계절범죄",
         "aliases": []
     },
@@ -334,6 +338,10 @@
     },
     {
         "title": "나의 외로움 그대는 그리움",
+        "aliases": []
+    },
+    {
+        "title": "나의 X에게",
         "aliases": []
     },
     {
@@ -1127,6 +1135,10 @@
             "樹皮",
             "수피 樹皮"
         ]
+    },
+    {
+        "title": "숨",
+        "aliases": []
     },
     {
         "title": "숲",
@@ -2793,12 +2805,9 @@
         "aliases": []
     },
     {
-        "title": "Way back home",
-        "aliases": []
-    },
-    {
         "title": "Way Back Home",
         "aliases": [
+            "Way back home",
             "웨이 백 홈"
         ]
     },

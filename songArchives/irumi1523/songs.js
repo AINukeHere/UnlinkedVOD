@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-07-31T14:32:31.781240+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-02T17:07:04.054388+00:00";
 const songs = [
   {
     "title": "Butterfly",
@@ -9,7 +9,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=11364",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -27,7 +27,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=23011",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -45,7 +45,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=11495",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -63,7 +63,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=12005",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -81,7 +81,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=18725",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -99,7 +99,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=10748",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -135,7 +135,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=15182",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -163,7 +163,7 @@ const songs = [
     ]
   },
   {
-    "title": "Way back home",
+    "title": "Way Back Home",
     "artist": "숀",
     "versions": [
       {
@@ -171,7 +171,25 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=9814",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "겨울잠",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=12183",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -207,7 +225,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=22633",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -225,7 +243,25 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=9067",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "나의 X에게",
+    "artist": "경서",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=8870",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -240,10 +276,22 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=10851",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=10852",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=7714",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -261,7 +309,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=15690",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -279,7 +327,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=6291",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -297,7 +345,25 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=21672",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "만찬가",
+    "artist": "태연",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=8151",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -315,7 +381,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=22215",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -333,7 +399,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=16754",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -369,7 +435,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=6715",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -387,7 +453,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=12768",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -405,7 +471,25 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=8474",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "사건의 지평선",
+    "artist": "윤하",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=9235",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -423,7 +507,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=17270",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -441,7 +525,43 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=20595",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "소로",
+    "artist": "심규선",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=11329",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "숨",
+    "artist": "박효신",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=12967",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -469,6 +589,24 @@ const songs = [
     ]
   },
   {
+    "title": "아틀란티스 소녀",
+    "artist": "보아",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=10262",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "야래향",
     "artist": "심규선",
     "versions": [
@@ -477,7 +615,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=14613",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -492,10 +630,22 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202697345?change_second=13338",
+        "url": "https://vod.sooplive.com/player/202697345?change_second=13339",
         "videoTitle": "소통 노래 🤍 !노래책 / 100개",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_F2FE47DD_295912555_1_r&column=2&t=1785219629",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=9757",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -513,7 +663,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=10502",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -531,7 +681,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=16028",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -549,7 +699,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=12530",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -567,7 +717,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=7367",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -621,7 +771,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=19366",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -639,7 +789,25 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=7982",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "주저하는 연인들을 위해",
+    "artist": "잔나비",
+    "versions": [
+      {
+        "date": "2026-08-02",
+        "url": "https://vod.sooplive.com/player/203223423?change_second=36650",
+        "videoTitle": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -657,7 +825,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202883393?change_second=10577",
         "videoTitle": "소통 노래🤍 뉴아바타 방셀 오픈!",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -675,7 +843,7 @@ const songs = [
         "url": "https://vod.sooplive.com/player/202999485?change_second=23592",
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,

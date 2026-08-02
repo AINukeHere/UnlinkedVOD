@@ -15,7 +15,7 @@
                 },
                 {
                     "title": "내 마음이 너에게 닿기를",
-                    "time": "3:00:51",
+                    "time": "3:00:52",
                     "artist": "경서",
                     "needsReview": true,
                     "groupSong": false
@@ -36,7 +36,7 @@
                 },
                 {
                     "title": "우르릉 쾅쾅쾅",
-                    "time": "3:42:18",
+                    "time": "3:42:19",
                     "artist": "스텔라장",
                     "needsReview": true,
                     "groupSong": false
@@ -75,7 +75,7 @@
             "title": "소통 노래🤍 뉴아바타 방셀 오픈!",
             "date": "2026-07-30",
             "url": "https://vod.sooplive.com/player/202883393",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785501912",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_B9D1ADCA_295962359_1_r&column=2&t=1785508726",
             "songInfo": [
                 {
                     "title": "드라마",
@@ -119,7 +119,7 @@
                     "groupSong": false
                 },
                 {
-                    "title": "Way back home",
+                    "title": "Way Back Home",
                     "time": "2:43:34",
                     "artist": "숀",
                     "needsReview": true,
@@ -201,7 +201,7 @@
             "title": "아침 소통 노래 🤍 T1 경기 같이 보기",
             "date": "2026-07-31",
             "url": "https://vod.sooplive.com/player/202999485",
-            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785501890",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
             "songInfo": [
                 {
                     "title": "우리의 꿈",
@@ -284,6 +284,84 @@
                     "title": "화조도",
                     "time": "6:33:12",
                     "artist": "심규선",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "밸런스 게임 2부 / KT VS 한화 경기 같이보기 🤍",
+            "date": "2026-08-02",
+            "url": "https://vod.sooplive.com/player/203223423",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260802_023FBFB6_296040935_3_r",
+            "songInfo": [
+                {
+                    "title": "내 마음이 너에게 닿기를",
+                    "time": "2:08:34",
+                    "artist": "경서",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "만찬가",
+                    "time": "2:15:51",
+                    "artist": "태연",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "나의 X에게",
+                    "time": "2:27:50",
+                    "artist": "경서",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "사건의 지평선",
+                    "time": "2:33:55",
+                    "artist": "윤하",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "우르릉 쾅쾅쾅",
+                    "time": "2:42:37",
+                    "artist": "스텔라장",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "아틀란티스 소녀",
+                    "time": "2:51:02",
+                    "artist": "보아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "소로",
+                    "time": "3:08:49",
+                    "artist": "심규선",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "겨울잠",
+                    "time": "3:23:03",
+                    "artist": "아이유",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "숨",
+                    "time": "3:36:07",
+                    "artist": "박효신",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "주저하는 연인들을 위해",
+                    "time": "10:10:50",
+                    "artist": "잔나비",
                     "needsReview": true,
                     "groupSong": false
                 }
