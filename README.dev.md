@@ -82,7 +82,7 @@ npm run add -- "https://vod.sooplive.com/player/{videoId}"
 - `GET ?action=authorize`
 - `POST { action: "submit_song", … }`
 
-표시 플래그(실수 없음·추천·검토·싱크룸) UI는 현재 `churahee`, `irumi1523`에서만 노출됩니다.  
+커뮤니티 제출은 항상 검토 필요(`needsReview`)로 저장됩니다. 모달에서는 싱크룸만 선택할 수 있습니다.  
 시트 기록 시 선행 `= + - @` 등은 수식 인젝션 방지를 위해 무력화합니다. 공개 제출 API이므로 `pending` 승인·레이트 리밋 등을 운영에서 검토하세요.
 
 ---
@@ -128,10 +128,10 @@ npm run add-streamer -- --id chebi2 --title 체비
 ### 버전 플래그 상수
 
 `songArchives/common/streamerFlags.js`의 `STREAMERS_WITH_VERSION_FLAGS`가  
-툴바 정렬/필터·노래 추가 모달의 표시 플래그 노출을 결정합니다.
+보관소 툴바의 실수 없음/추천/검토 관련 정렬·필터 UI 노출을 결정합니다.
 
 - `archive-page.js` — `[data-version-flags]` UI 토글  
-- `community-data.js` — 제출 모달 플래그 필드  
+- 커뮤니티 제출 모달의 평가 플래그는 없고, 제출 시 항상 검토 필요로 저장됩니다. 싱크룸만 모달에서 선택합니다.
 
 `--flags`로 추가하면 이 목록에 id가 들어갑니다. 나중에 수동으로 배열에 id만 넣어도 됩니다.
 

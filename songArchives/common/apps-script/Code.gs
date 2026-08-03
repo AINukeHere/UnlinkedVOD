@@ -271,7 +271,7 @@ function appendSongSubmission_(body) {
     neutralizeSheetFormula_(artist),
     toBool01_(body.noMistake),
     toBool01_(body.recommended),
-    toBool01_(body.needsReview),
+    1, // 커뮤니티 제출은 항상 검토 필요
     toBool01_(body.groupSong),
     neutralizeSheetFormula_(groupMembers),
     neutralizeSheetFormula_(note),

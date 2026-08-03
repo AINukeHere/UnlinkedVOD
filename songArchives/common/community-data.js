@@ -9,7 +9,7 @@
   'use strict';
 
   /** @type {string} Apps Script 웹 앱 배포 URL */
-  const COMMUNITY_SHEETS_APPS_SCRIPT_ID = 'AKfycbyNqQ9Hx_fcVLZOTcmGXNj1dRKwPZPpVAQPZ4rYXf5JQXbZXH6MWO00vZz7CjHDEcIT';
+  const COMMUNITY_SHEETS_APPS_SCRIPT_ID = 'AKfycbwtdMhwl9O-685WtjyNMydULxSB-cqiBLnGJ7l872Rno8TnIdQyhhtxylX97YpMl3L0';
   var COMMUNITY_SHEETS_WEB_APP_URL = `https://script.google.com/macros/s/${COMMUNITY_SHEETS_APPS_SCRIPT_ID}/exec`;
 
   var DIALOG_ID = 'addSongDialog';
@@ -35,16 +35,6 @@
     var webAppUrl = String(page.sheetsWebAppUrl || COMMUNITY_SHEETS_WEB_APP_URL || '').trim();
     var streamerId = String(page.archiveId || page.soopChannelId || '').trim();
     return { webAppUrl: webAppUrl, streamerId: streamerId };
-  }
-
-  function supportsDisplayFlags() {
-    var streamerId = getPageConfig().streamerId;
-    var api =
-      typeof window !== 'undefined' ? window.SONG_ARCHIVE_STREAMER_FLAGS : null;
-    if (api && typeof api.usesVersionFlags === 'function') {
-      return !!api.usesVersionFlags(streamerId);
-    }
-    return false;
   }
 
   function normalizeDateString(value) {
@@ -452,31 +442,19 @@
 
     var groupSong = document.getElementById('addSongGroupSong');
     var membersWrap = document.getElementById('addSongGroupMembersWrap');
-    var flagsFieldset = document.getElementById('addSongFlags');
     var syncGroupMembersVisibility = function () {
       if (!membersWrap) return;
-      var showMembers = supportsDisplayFlags() && groupSong && groupSong.checked;
+      var showMembers = !!(groupSong && groupSong.checked);
       membersWrap.hidden = !showMembers;
       if (!showMembers) {
         var membersInput = membersWrap.querySelector('input[name="groupMembers"]');
         if (membersInput) membersInput.value = '';
       }
     };
-    var syncDisplayFlagsVisibility = function () {
-      var enabled = supportsDisplayFlags();
-      if (flagsFieldset) flagsFieldset.hidden = !enabled;
-      if (!enabled && form) {
-        ['noMistake', 'recommended', 'needsReview', 'groupSong'].forEach(function (name) {
-          var el = form.elements.namedItem(name);
-          if (el && 'checked' in el) el.checked = false;
-        });
-      }
-      syncGroupMembersVisibility();
-    };
     if (groupSong) {
       groupSong.addEventListener('change', syncGroupMembersVisibility);
     }
-    syncDisplayFlagsVisibility();
+    syncGroupMembersVisibility();
 
     var vodUrlInput = document.getElementById('addSongVodUrl');
     if (vodUrlInput) {
@@ -1433,23 +1411,13 @@
       songTitle: String(fd.get('songTitle') || '').trim(),
       artist: String(fd.get('artist') || '').trim(),
       note: '',
-      noMistake:
-        supportsDisplayFlags() &&
-        !!form.elements.namedItem('noMistake') &&
-        form.elements.namedItem('noMistake').checked,
-      recommended:
-        supportsDisplayFlags() &&
-        !!form.elements.namedItem('recommended') &&
-        form.elements.namedItem('recommended').checked,
-      needsReview:
-        supportsDisplayFlags() &&
-        !!form.elements.namedItem('needsReview') &&
-        form.elements.namedItem('needsReview').checked,
+      noMistake: false,
+      recommended: false,
+      // 커뮤니티 제출은 항상 검토 필요로 표시
+      needsReview: true,
       groupSong:
-        supportsDisplayFlags() &&
-        !!form.elements.namedItem('groupSong') &&
-        form.elements.namedItem('groupSong').checked,
-      groupMembers: supportsDisplayFlags() ? String(fd.get('groupMembers') || '').trim() : '',
+        !!form.elements.namedItem('groupSong') && form.elements.namedItem('groupSong').checked,
+      groupMembers: String(fd.get('groupMembers') || '').trim(),
     };
   }
 
