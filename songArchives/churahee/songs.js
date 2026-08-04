@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-04T04:46:35.202763+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-04T11:40:53.419491+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -594,7 +594,7 @@ const songs = [
       },
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=17882",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=17883",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
@@ -9204,7 +9204,7 @@ const songs = [
       },
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=15591",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=15592",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
@@ -9384,7 +9384,7 @@ const songs = [
       },
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=4787",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=4788",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
@@ -12114,7 +12114,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=18318",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=18319",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
@@ -12378,7 +12378,7 @@ const songs = [
       },
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=16206",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=16208",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
