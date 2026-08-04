@@ -458,6 +458,127 @@
                     "groupSong": false
                 }
             ]
+        },
+        {
+            "title": "1부 잔잔 소통 작업뱅 🤍33/330(11연차)",
+            "date": "2026-08-03",
+            "url": "https://vod.sooplive.com/player/203266607",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260803_F9BE557A_296063115_1_r&column=2&t=1785734021",
+            "songInfo": [
+                {
+                    "title": "편지",
+                    "time": "3:50:31",
+                    "artist": "김광진",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "아침 소통 노래🤍 33/330(11연차)",
+            "date": "2026-08-04",
+            "url": "https://vod.sooplive.com/player/203357809",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+            "songInfo": [
+                {
+                    "title": "0+0",
+                    "time": "3:21:03",
+                    "artist": "한로로",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "넌 감동이었어",
+                    "time": "3:26:32",
+                    "artist": "성시경",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "소문의 낙원",
+                    "time": "3:33:50",
+                    "artist": "AKMU",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Bye bye my blue",
+                    "time": "3:43:52",
+                    "artist": "백예린",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "생각을 멈추다 보면",
+                    "time": "3:52:00",
+                    "artist": "최유리",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "Never Ending Story",
+                    "time": "4:00:18",
+                    "artist": "아이유",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "행운을 부탁해",
+                    "time": "4:06:26",
+                    "artist": "보라미유",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "홍연",
+                    "time": "4:15:25",
+                    "artist": "안예은",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "꽃이 피고 지듯이",
+                    "time": "4:24:58",
+                    "artist": "조승우",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "산책",
+                    "time": "4:37:28",
+                    "artist": "백예린",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "위로",
+                    "time": "4:47:37",
+                    "artist": "권진아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "봄 내음보다 너를",
+                    "time": "4:55:19",
+                    "artist": "김나영",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "도망가자",
+                    "time": "5:44:01",
+                    "artist": "선우정아",
+                    "needsReview": true,
+                    "groupSong": false
+                },
+                {
+                    "title": "만약에",
+                    "time": "5:56:45",
+                    "artist": "태연",
+                    "needsReview": true,
+                    "groupSong": false
+                }
+            ]
         }
     ]
 }

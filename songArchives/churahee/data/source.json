@@ -9447,13 +9447,6 @@
                     "groupSong": false
                 },
                 {
-                    "title": "기억을 걷는 시간",
-                    "time": "58:25",
-                    "artist": "넬",
-                    "needsReview": true,
-                    "groupSong": false
-                },
-                {
                     "title": "MONSTER",
                     "time": "1:02:20",
                     "artist": "권진아",
@@ -9537,66 +9530,55 @@
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
             "songInfo": [
                 {
-                    "title": "만찬가",
-                    "time": "30:15",
-                    "artist": "츠키",
-                    "needsReview": true,
-                    "groupSong": false
-                },
-                {
                     "title": "봄 내음보다 너를",
                     "time": "40:07",
                     "artist": "김나영",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "꽃이 피고 지듯이",
-                    "time": "51:08",
+                    "time": "51:07",
                     "artist": "조승우",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "살다 보면",
                     "time": "1:12:20",
                     "artist": "차지연",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "물고기자리",
                     "time": "1:19:47",
                     "artist": "이안",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
                     "title": "시든 꽃에 물을 주듯",
                     "time": "1:26:57",
                     "artist": "박혜원",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 },
                 {
                     "title": "RE : WIND",
                     "time": "1:35:54",
                     "artist": "이세계아이돌",
-                    "needsReview": true,
+                    "noMistake": true,
+                    "recommended": true,
                     "groupSong": false
                 },
                 {
                     "title": "기억을 걷는 시간",
                     "time": "1:45:50",
-                    "artist": "넬",
-                    "needsReview": true,
+                    "artist": "태연",
                     "groupSong": false
                 },
                 {
                     "title": "You already have",
                     "time": "1:50:50",
                     "artist": "권진아",
-                    "needsReview": true,
                     "groupSong": false
                 },
                 {
@@ -9613,25 +9595,11 @@
                     "groupSong": false
                 },
                 {
-                    "title": "Cinderella",
-                    "time": "4:16:44",
-                    "artist": "타이미",
-                    "needsReview": true,
-                    "groupSong": false
-                },
-                {
                     "title": "몽환의 숲",
                     "time": "4:19:51",
                     "artist": "키네틱 플로우",
                     "groupMembers": "요한, 츄라희",
                     "groupSong": true
-                },
-                {
-                    "title": "레베카",
-                    "time": "4:25:16",
-                    "artist": "옥주현",
-                    "recommended": true,
-                    "groupSong": false
                 },
                 {
                     "title": "상사화",
@@ -9670,7 +9638,7 @@
                 },
                 {
                     "title": "비밀번호 486",
-                    "time": "5:11:15",
+                    "time": "5:11:16",
                     "artist": "윤하",
                     "groupMembers": "요한, 츄라희",
                     "groupSong": true
@@ -9753,24 +9721,17 @@
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
             "songInfo": [
                 {
-                    "title": "어린 나",
-                    "time": "1:51:16",
-                    "artist": "키마",
-                    "needsReview": true,
-                    "groupSong": false
-                },
-                {
                     "title": "BUMPA",
                     "time": "2:05:46",
                     "artist": "비비",
-                    "needsReview": true,
+                    "recommended": true,
                     "groupSong": false
                 },
                 {
                     "title": "하루 종일 비가 내렸어",
                     "time": "4:55:00",
                     "artist": "디아",
-                    "needsReview": true,
+                    "noMistake": true,
                     "groupSong": false
                 }
             ]
@@ -9785,7 +9746,8 @@
                     "title": "스물다섯, 스물하나",
                     "time": "2:39:40",
                     "artist": "자우림",
-                    "needsReview": true,
+                    "noMistake": true,
+                    "recommended": true,
                     "groupSong": false
                 }
             ]

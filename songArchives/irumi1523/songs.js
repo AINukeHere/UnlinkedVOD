@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-02T17:22:14.945627+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-04T08:16:50.739860+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -10,6 +10,18 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=12063",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -28,6 +40,24 @@ const songs = [
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Bye bye my blue",
+    "artist": "백예린",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=13432",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -118,6 +148,24 @@ const songs = [
         "videoTitle": "아침 소통 노래 🤍 T1 경기 같이 보기",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260731_63A402B7_295988351_1_r&column=2&t=1785508645",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Never Ending Story",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=14418",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -289,6 +337,24 @@ const songs = [
     ]
   },
   {
+    "title": "꽃이 피고 지듯이",
+    "artist": "조승우",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=15898",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "나의 X에게",
     "artist": "경서",
     "versions": [
@@ -355,6 +421,24 @@ const songs = [
     ]
   },
   {
+    "title": "넌 감동이었어",
+    "artist": "성시경",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=12392",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "달과 6펜스",
     "artist": "심규선",
     "versions": [
@@ -364,6 +448,24 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "도망가자",
+    "artist": "선우정아",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=20641",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -403,6 +505,24 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "만약에",
+    "artist": "태연",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=21405",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -565,6 +685,24 @@ const songs = [
     ]
   },
   {
+    "title": "봄 내음보다 너를",
+    "artist": "김나영",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=17719",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "부디",
     "artist": "심규선",
     "versions": [
@@ -619,6 +757,24 @@ const songs = [
     ]
   },
   {
+    "title": "산책",
+    "artist": "백예린",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=16648",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "상사화",
     "artist": "안예은",
     "versions": [
@@ -663,6 +819,18 @@ const songs = [
         "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=13920",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -694,6 +862,18 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=12830",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,
@@ -841,6 +1021,24 @@ const songs = [
     ]
   },
   {
+    "title": "위로",
+    "artist": "권진아",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=17257",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
     "title": "이름에게",
     "artist": "아이유",
     "versions": [
@@ -968,6 +1166,24 @@ const songs = [
   },
   {
     "title": "편지",
+    "artist": "김광진",
+    "versions": [
+      {
+        "date": "2026-08-03",
+        "url": "https://vod.sooplive.com/player/203266607?change_second=13831",
+        "videoTitle": "1부 잔잔 소통 작업뱅 🤍33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260803_F9BE557A_296063115_1_r&column=2&t=1785734021",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "편지",
     "artist": "비비",
     "versions": [
       {
@@ -1030,6 +1246,42 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "행운을 부탁해",
+    "artist": "보라미유",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=14786",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": true,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "홍연",
+    "artist": "안예은",
+    "versions": [
+      {
+        "date": "2026-08-04",
+        "url": "https://vod.sooplive.com/player/203357809?change_second=15325",
+        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
         "needsReview": true,

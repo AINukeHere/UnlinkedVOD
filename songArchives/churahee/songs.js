@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-01T04:46:31.626913+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-04T04:46:35.202763+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -629,8 +629,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -859,18 +859,6 @@ const songs = [
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=15404",
-        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -3670,9 +3658,9 @@ const songs = [
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -4926,7 +4914,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -6215,30 +6203,6 @@ const songs = [
         "groupMembers": "크앙희, 더블링, 강하나, 카아암"
       },
       {
-        "date": "2026-07-22",
-        "url": "https://vod.sooplive.com/player/202181523?change_second=3505",
-        "videoTitle": "[버블란] 츄하",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260722_5F6FE383_295766487_1_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=6350",
-        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
         "date": "2026-07-31",
         "url": "https://vod.sooplive.com/player/203059605?change_second=48440",
         "videoTitle": "[버블란] 잔잔바리 새벽 싱크룸(w. 요한)ㅣ휴가 전 마지막 방송",
@@ -6249,6 +6213,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "요한, 츄라희"
+      }
+    ]
+  },
+  {
+    "title": "기억을 걷는 시간",
+    "artist": "태연",
+    "versions": [
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=6350",
+        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -6444,13 +6426,13 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=3068",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=3067",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -8299,24 +8281,6 @@ const songs = [
     ]
   },
   {
-    "title": "레베카",
-    "artist": "옥주현",
-    "versions": [
-      {
-        "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=15916",
-        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
-        "recommended": true,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
     "title": "레오",
     "artist": "유우리",
     "versions": [
@@ -9018,18 +8982,6 @@ const songs = [
       },
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=1815",
-        "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-07-24",
         "url": "https://vod.sooplive.com/player/202382963?change_second=13865",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
@@ -9438,7 +9390,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -10854,7 +10806,7 @@ const songs = [
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -11430,7 +11382,7 @@ const songs = [
       },
       {
         "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=18675",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=18676",
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
@@ -12376,9 +12328,9 @@ const songs = [
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -13852,9 +13804,9 @@ const songs = [
         "videoTitle": "[버블란] 콧시 노래교실 대결 후여루ㅣ메챠 카멜레온",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260729_E99905E1_295946337_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
@@ -14086,9 +14038,9 @@ const songs = [
         "videoTitle": "[버블란] 후열 싱꾸룸(w. 그 녀석)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_B1A1B10B_295819295_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -15031,24 +14983,6 @@ const songs = [
         "noMistake": true,
         "recommended": true,
         "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "어린 나",
-    "artist": "키마",
-    "versions": [
-      {
-        "date": "2026-07-28",
-        "url": "https://vod.sooplive.com/player/202746135?change_second=6676",
-        "videoTitle": "[버블란] 상식배틀(w. 요한)ㅣ노래 권태기 현재 12% 극복",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -19162,9 +19096,9 @@ const songs = [
         "videoTitle": "[버블란] 상식배틀(w. 요한)ㅣ노래 권태기 현재 12% 극복",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260728_2248BE80_295918639_2_r",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
