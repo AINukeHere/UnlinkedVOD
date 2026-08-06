@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 /**
- * Add or update a VOD from a Soop URL. Archive = match VOD streamer id (API field `writer_id`) to config/folder.
- * Usage (repo root): npm run add -- "https://vod.sooplive.com/player/{videoId}"
- * 강제 아카이브 지정: npm run add -- "https://vod.sooplive.com/player/{videoId}" --streamer chebi2
- * 비대화형(제목/가수 확인 프롬프트 생략): ADD_VOD_NON_INTERACTIVE=1 npm run add -- "<url>"
+ * Add or update VODs from a Soop URL and/or bare videoIds. Archive = match VOD streamer id (API field `writer_id`) to config/folder.
+ * Usage (repo root):
+ *   npm run add -- "https://vod.sooplive.com/player/{videoId}"
+ *   npm run add -- "https://vod.sooplive.com/player/{videoId}" 189435112 189435113
+ *   npm run add -- 189435111 189435112
+ * 강제 아카이브 지정: npm run add -- "<url|videoId>" [videoId...] --streamer chebi2
+ * 비대화형(제목/가수 확인 프롬프트 생략): ADD_VOD_NON_INTERACTIVE=1 npm run add -- "<url|videoId>" [videoId...]
  */
 const { spawnSync } = require('child_process');
 const path = require('path');
@@ -20,9 +23,23 @@ const {
 const songArchivesRoot = path.resolve(__dirname);
 const argv = process.argv.slice(2);
 
+function isBareVideoId(token) {
+  return /^\d+$/.test(token);
+}
+
+/** @param {string} input @returns {string|null} canonical vod.sooplive.com URL */
+function toVodUrl(input) {
+  const trimmed = String(input || '').trim();
+  if (!trimmed) return null;
+  const parsed = parseVodUrl(trimmed);
+  if (parsed) return `https://vod.sooplive.com/player/${parsed.videoId}`;
+  if (isBareVideoId(trimmed)) return `https://vod.sooplive.com/player/${trimmed}`;
+  return null;
+}
+
 function parseCliArgs(args) {
-  let url = '';
   let forceStreamerId = '';
+  const positionals = [];
 
   for (let i = 0; i < args.length; i++) {
     const token = args[i];
@@ -38,23 +55,56 @@ function parseCliArgs(args) {
       continue;
     }
 
-    if (!url) {
-      url = token.trim();
-      continue;
+    if (token.startsWith('-')) {
+      throw new Error(`알 수 없는 옵션 "${token}" 입니다.`);
     }
 
-    throw new Error(`알 수 없는 인자 "${token}" 입니다.`);
+    positionals.push(token.trim());
   }
 
-  return { url, forceStreamerId };
+  if (!positionals.length) {
+    return { vodUrls: [], forceStreamerId };
+  }
+
+  const firstUrl = toVodUrl(positionals[0]);
+  if (!firstUrl) {
+    throw new Error(
+      `첫 인자는 VOD URL 또는 videoId(숫자)여야 합니다: "${positionals[0]}"`
+    );
+  }
+
+  const vodUrls = [firstUrl];
+  for (let i = 1; i < positionals.length; i++) {
+    const token = positionals[i];
+    if (!isBareVideoId(token)) {
+      throw new Error(`맨 뒤 인자는 videoId(숫자)만 올 수 있습니다: "${token}"`);
+    }
+    vodUrls.push(`https://vod.sooplive.com/player/${token}`);
+  }
+
+  const seen = new Set();
+  const uniqueUrls = [];
+  for (const url of vodUrls) {
+    const videoId = parseVodUrl(url).videoId;
+    if (seen.has(videoId)) continue;
+    seen.add(videoId);
+    uniqueUrls.push(url);
+  }
+
+  return { vodUrls: uniqueUrls, forceStreamerId };
 }
 
 function formatUsage() {
   return [
     'Usage:',
-    '  npm run add -- "<vod_url>"',
-    '  npm run add -- "<vod_url>" --streamer <archiveId>',
-    '  npm run add -- "<vod_url>" -s <archiveId>',
+    '  npm run add -- "<vod_url|videoId>" [videoId...]',
+    '  npm run add -- "<vod_url|videoId>" [videoId...] --streamer <archiveId>',
+    '  npm run add -- "<vod_url|videoId>" [videoId...] -s <archiveId>',
+    '',
+    'Examples:',
+    '  npm run add -- "https://vod.sooplive.com/player/189435111"',
+    '  npm run add -- "https://vod.sooplive.com/player/189435111" 189435112 189435113',
+    '  npm run add -- 189435111 189435112',
   ].join('\n');
 }
 
@@ -76,9 +126,9 @@ try {
   process.exit(1);
 }
 
-const { url, forceStreamerId } = cliArgs;
+const { vodUrls, forceStreamerId } = cliArgs;
 
-if (!url) {
+if (!vodUrls.length) {
   console.error(formatUsage());
   process.exit(1);
 }
@@ -105,38 +155,33 @@ function formatResolveError(res, vodStreamerId) {
   ].join('\n');
 }
 
-async function main() {
+/**
+ * @param {string} url
+ * @param {string|null} forcedStreamerId - already resolved archive id, or null
+ * @returns {Promise<string>} streamerId
+ */
+async function addOneVod(url, forcedStreamerId) {
   const parsed = parseVodUrl(url);
   if (!parsed) {
-    console.error(
+    throw new Error(
       'URL 형식이 올바르지 않습니다. https://vod.sooplive.com/player/{숫자} 또는 .co.kr 도메인을 사용해 주세요.'
     );
-    process.exit(1);
   }
 
   let vodInfo;
   try {
     vodInfo = await getSoopVodInfo(parsed.videoId);
   } catch (err) {
-    console.error(err.message || err);
-    process.exit(1);
+    throw err;
   }
   if (!vodInfo) {
-    console.error(`VOD ${parsed.videoId} 정보를 가져오지 못했습니다.`);
-    process.exit(1);
+    throw new Error(`VOD ${parsed.videoId} 정보를 가져오지 못했습니다.`);
   }
 
   const vodStreamerId = vodInfo.writer_id;
   let streamerId = '';
-  if (forceStreamerId) {
-    const forced = resolveForcedStreamerId(songArchivesRoot, forceStreamerId);
-    if (!forced.streamerId) {
-      const configured = forced.configuredIds.length ? forced.configuredIds.join(', ') : '(없음)';
-      console.error(`강제 지정한 스트리머 id "${forceStreamerId}" 를 찾을 수 없습니다.`);
-      console.error(`사용 가능한 아카이브: ${configured}`);
-      process.exit(1);
-    }
-    streamerId = forced.streamerId;
+  if (forcedStreamerId) {
+    streamerId = forcedStreamerId;
     if (normalizeSoopUserId(vodStreamerId) !== normalizeSoopUserId(streamerId)) {
       console.log(
         `[override] VOD writer_id="${vodStreamerId}" 이지만 --streamer "${streamerId}" 로 강제 저장합니다.`
@@ -145,8 +190,7 @@ async function main() {
   } else {
     const resolved = findArchiveFolderByVodStreamerId(songArchivesRoot, vodStreamerId);
     if (!resolved.streamerId) {
-      console.error(formatResolveError(resolved, vodStreamerId));
-      process.exit(1);
+      throw new Error(formatResolveError(resolved, vodStreamerId));
     }
     streamerId = resolved.streamerId;
   }
@@ -158,17 +202,7 @@ async function main() {
       `VOD ${result.videoId}: "${result.title}" (${result.date}), ${result.songCount} song(s).`
     );
     console.log(`Archive: ${streamerId}`);
-
-    const preprocessPath = path.join(songArchivesRoot, 'common', 'preprocess.py');
-    const py = spawnSync('python', [preprocessPath, streamerId], {
-      cwd: songArchivesRoot,
-      stdio: 'inherit',
-    });
-    if (py.status !== 0) {
-      console.error(`Preprocess failed. From repo root: python songArchives/common/preprocess.py ${streamerId}`);
-      process.exit(1);
-    }
-    console.log(`${streamerId}/songs.js updated.`);
+    return streamerId;
   } catch (err) {
     const { debug } = loadStreamerConfig(songArchivesRoot, streamerId);
     if (debug) {
@@ -177,6 +211,52 @@ async function main() {
       console.error(err.message || err);
     }
     process.exit(1);
+  }
+}
+
+function runPreprocess(streamerId) {
+  const preprocessPath = path.join(songArchivesRoot, 'common', 'preprocess.py');
+  const py = spawnSync('python', [preprocessPath, streamerId], {
+    cwd: songArchivesRoot,
+    stdio: 'inherit',
+  });
+  if (py.status !== 0) {
+    console.error(`Preprocess failed. From repo root: python songArchives/common/preprocess.py ${streamerId}`);
+    process.exit(1);
+  }
+  console.log(`${streamerId}/songs.js updated.`);
+}
+
+async function main() {
+  let forcedStreamerId = null;
+  if (forceStreamerId) {
+    const forced = resolveForcedStreamerId(songArchivesRoot, forceStreamerId);
+    if (!forced.streamerId) {
+      const configured = forced.configuredIds.length ? forced.configuredIds.join(', ') : '(없음)';
+      console.error(`강제 지정한 스트리머 id "${forceStreamerId}" 를 찾을 수 없습니다.`);
+      console.error(`사용 가능한 아카이브: ${configured}`);
+      process.exit(1);
+    }
+    forcedStreamerId = forced.streamerId;
+  }
+
+  const touchedStreamers = new Set();
+  for (let i = 0; i < vodUrls.length; i++) {
+    const url = vodUrls[i];
+    if (vodUrls.length > 1) {
+      console.log(`\n[${i + 1}/${vodUrls.length}] ${url}`);
+    }
+    try {
+      const streamerId = await addOneVod(url, forcedStreamerId);
+      touchedStreamers.add(streamerId);
+    } catch (err) {
+      console.error(err.message || err);
+      process.exit(1);
+    }
+  }
+
+  for (const streamerId of touchedStreamers) {
+    runPreprocess(streamerId);
   }
 }
 

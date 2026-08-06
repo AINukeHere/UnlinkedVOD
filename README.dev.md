@@ -9,7 +9,7 @@ UnlinkedVOD/
 ├── index.html                 # 루트 랜딩 (반응 클립 — 준비 중)
 ├── songArchives/
 │   ├── index.html             # 스트리머별 보관소 허브
-│   ├── addVod.js              # CLI: VOD URL → source.json / songs.js
+│   ├── addVod.js              # CLI: VOD URL·videoId(복수) → source.json / songs.js
 │   ├── {streamer}/            # churahee, irumi1523, chebi2, singgyul …
 │   │   ├── index.html
 │   │   ├── songs.js           # 페이지가 읽는 곡 목록 (생성물)
@@ -46,14 +46,16 @@ UnlinkedVOD/
 
 ### 1) 운영자 CLI (`npm run add`)
 
-저장소 **루트**에서 Soop 다시보기 URL만 넣으면, VOD 메타의 `writer_id`로 `songArchives/{스트리머}/`가 선택됩니다.
+저장소 **루트**에서 Soop 다시보기 URL(또는 `videoId`)을 넣으면, VOD 메타의 `writer_id`로 `songArchives/{스트리머}/`가 선택됩니다. 첫 인자 뒤에 `videoId`를 더 붙이면 여러 VOD를 한 번에 추가할 수 있습니다.
 
 ```bash
 npm install
 npm run add -- "https://vod.sooplive.com/player/{videoId}"
+npm run add -- "https://vod.sooplive.com/player/{videoId}" 189435112 189435113
+npm run add -- 189435111 189435112
 ```
 
-같은 `videoId`가 있으면 교체, 없으면 추가합니다.
+같은 `videoId`가 있으면 교체, 없으면 추가합니다. 배치로 넣은 뒤 preprocess는 건드린 아카이브별로 한 번씩 실행됩니다.
 
 **진행 순서:** Soop API로 VOD·댓글 수집 → `data/parseConfig.json` 파싱 → `titleReference` / `artistReference` 정규화 → `defaultArtistMapping.json` 보강 → `data/source.json` → `python songArchives/common/preprocess.py {스트리머}`로 `songs.js` 재생성.
 
@@ -122,7 +124,7 @@ npm run add-streamer -- --id chebi2 --title 체비
 생성 후:
 
 1. `songArchives/{id}/data/config.json`의 `comment_author_id` 확인 (gitignore — 로컬 전용)  
-2. `npm run add -- "https://vod.sooplive.com/player/{videoId}"`  
+2. `npm run add -- "https://vod.sooplive.com/player/{videoId}"` (뒤에 videoId를 더 붙여 여러 개도 가능)  
 3. (선택) 사용자 `README.md` 바로가기 링크 추가  
 
 ### 버전 플래그 상수
