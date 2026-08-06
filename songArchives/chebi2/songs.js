@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-02T17:32:48.193522+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-06T19:01:23.469017+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -22,6 +22,84 @@ const songs = [
         "videoTitle": "MZ",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260330_B11397DC_292826109_1_r&column=2&t=1774891710",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "-ERROR",
+    "artist": "niki",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "url": "https://vod.sooplive.com/player/190034665?change_second=14527",
+        "videoTitle": "살살노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_F3FB24F6_292476519_1_r&column=2&t=1773864452",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-03-12",
+        "url": "https://vod.sooplive.com/player/189534863?change_second=18417",
+        "videoTitle": "[역팬 & 확정방셀]",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260312_C223FF97_292340033_1_r&column=2&t=1773356935",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-03-20",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=11203",
+        "videoTitle": "쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-03-28",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=16118",
+        "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-05-16",
+        "url": "https://vod.sooplive.com/player/195927349?change_second=16698",
+        "videoTitle": "체비 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-10",
+        "url": "https://vod.sooplive.com/player/201121009?change_second=14859",
+        "videoTitle": "10시) 천타버스 싱크룸 w.모카.하밍.모모.플리",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AE10B705_295473389_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -110,7 +188,7 @@ const songs = [
   },
   {
     "title": "0310",
-    "artist": "무반주 / 백예린",
+    "artist": "백예린",
     "versions": [
       {
         "date": "2026-03-12",
@@ -180,7 +258,7 @@ const songs = [
       },
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=6082",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=6082",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -222,7 +300,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=17262",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=17262",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -236,11 +314,11 @@ const songs = [
   },
   {
     "title": "BAD LOVE",
-    "artist": "BE'O",
+    "artist": "비오(BE'O)",
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=17585",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=17585",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -336,7 +414,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=8366",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=8366",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -446,11 +524,11 @@ const songs = [
   },
   {
     "title": "Drowning",
-    "artist": "우즈",
+    "artist": "WOODZ",
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=9799",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=9799",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -529,84 +607,6 @@ const songs = [
     ]
   },
   {
-    "title": "ERROR",
-    "artist": "niki",
-    "versions": [
-      {
-        "date": "2026-03-17",
-        "url": "https://vod.sooplive.com/player/190034665?change_second=14527",
-        "videoTitle": "살살노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_F3FB24F6_292476519_1_r&column=2&t=1773864452",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-03-12",
-        "url": "https://vod.sooplive.com/player/189534863?change_second=18417",
-        "videoTitle": "[역팬 & 확정방셀]",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260312_C223FF97_292340033_1_r&column=2&t=1773356935",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=11203",
-        "videoTitle": "쳅이",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=16118",
-        "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-05-16",
-        "url": "https://vod.sooplive.com/player/195927349?change_second=16698",
-        "videoTitle": "체비 별별랭킹",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-07-10",
-        "url": "https://vod.sooplive.com/player/201121009?change_second=14859",
-        "videoTitle": "10시) 천타버스 싱크룸 w.모카.하밍.모모.플리",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260710_AE10B705_295473389_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
     "title": "Either Way",
     "artist": "아이브",
     "versions": [
@@ -642,7 +642,7 @@ const songs = [
       },
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=7643",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=7643",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -686,11 +686,11 @@ const songs = [
   },
   {
     "title": "Help",
-    "artist": "10cm",
+    "artist": "10CM",
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=5610",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=5610",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -722,7 +722,7 @@ const songs = [
   },
   {
     "title": "I Really Want to Stay at Your House",
-    "artist": "사이버펑크 OST",
+    "artist": "사이버펑크OST",
     "versions": [
       {
         "date": "2026-03-12",
@@ -735,13 +735,7 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "I Really Want to Stay at Your House",
-    "artist": "사이버펑크OST",
-    "versions": [
+      },
       {
         "date": "2026-05-15",
         "url": "https://vod.sooplive.com/player/195824229?change_second=13815",
@@ -834,7 +828,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=15772",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=15772",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -942,7 +936,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=22335",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=22335",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -1020,7 +1014,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=4645",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=4645",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -1056,7 +1050,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=5087",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=5087",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -1086,7 +1080,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=14522",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=14522",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -1104,7 +1098,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=7962",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=7962",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -1205,29 +1199,23 @@ const songs = [
     "artist": "930 / Feat.Bona Zoe",
     "versions": [
       {
-        "date": "2026-04-26",
-        "url": "https://vod.sooplive.com/player/193974065?change_second=17095",
-        "videoTitle": "생일이었ㄲ던 쳅이",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "Replace You",
-    "artist": "feat. Bona Zoe / 930",
-    "versions": [
-      {
         "date": "2026-03-12",
         "url": "https://vod.sooplive.com/player/189534863?change_second=18882",
         "videoTitle": "[역팬 & 확정방셀]",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260312_C223FF97_292340033_1_r&column=2&t=1773356935",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-04-26",
+        "url": "https://vod.sooplive.com/player/193974065?change_second=17095",
+        "videoTitle": "생일이었ㄲ던 쳅이",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260426_D88EA5BD_293544323_1_r&column=2&t=1777408081",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -1260,7 +1248,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=6116",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=6116",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -1332,7 +1320,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=7425",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=7425",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -1386,7 +1374,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=5025",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=5025",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -1536,7 +1524,7 @@ const songs = [
       },
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=23465",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=23465",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -1614,7 +1602,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=17830",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=17830",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -1699,36 +1687,6 @@ const songs = [
     ]
   },
   {
-    "title": "공주송",
-    "artist": "",
-    "versions": [
-      {
-        "date": "2026-03-17",
-        "url": "https://vod.sooplive.com/player/190034665?change_second=13329",
-        "videoTitle": "살살노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_F3FB24F6_292476519_1_r&column=2&t=1773864452",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
-        "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=11540",
-        "videoTitle": "끄앙",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
     "title": "괴수의 꽃노래",
     "artist": "Vaundy",
     "versions": [
@@ -1746,7 +1704,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=20119",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=20119",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -1838,11 +1796,11 @@ const songs = [
   },
   {
     "title": "그라데이션",
-    "artist": "10cm",
+    "artist": "10CM",
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=6470",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=6470",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -1873,12 +1831,12 @@ const songs = [
     ]
   },
   {
-    "title": "기다린 만큼, 더",
+    "title": "기다린만큼, 더",
     "artist": "검정치마",
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=9452",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=9452",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -1887,13 +1845,7 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "기다린만큼, 더",
-    "artist": "검정치마",
-    "versions": [
+      },
       {
         "date": "2026-04-07",
         "url": "https://vod.sooplive.com/player/192105735?change_second=6166",
@@ -1932,7 +1884,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=6790",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=6790",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -1944,7 +1896,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=18189",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=18189",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -1966,6 +1918,36 @@ const songs = [
         "videoTitle": "즐찾 5천 찍고 십어요",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_9958F6F9_293042885_1_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "나야 나 공주",
+    "artist": "핑크퐁",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "url": "https://vod.sooplive.com/player/190034665?change_second=13329",
+        "videoTitle": "살살노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_F3FB24F6_292476519_1_r&column=2&t=1773864452",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-03-18",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=11540",
+        "videoTitle": "끄앙",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -2052,7 +2034,7 @@ const songs = [
       },
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=10906",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=10906",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -2076,7 +2058,7 @@ const songs = [
       },
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=17465",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=17465",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -2213,6 +2195,18 @@ const songs = [
     "artist": "호피폴라",
     "versions": [
       {
+        "date": "2026-03-18",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=6733",
+        "videoTitle": "끄앙",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
         "date": "2026-07-10",
         "url": "https://vod.sooplive.com/player/201121009?change_second=5947",
         "videoTitle": "10시) 천타버스 싱크룸 w.모카.하밍.모모.플리",
@@ -2223,24 +2217,6 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "체비, 임하밍"
-      }
-    ]
-  },
-  {
-    "title": "너의 바다",
-    "artist": "호피플라",
-    "versions": [
-      {
-        "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=6733",
-        "videoTitle": "끄앙",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
       }
     ]
   },
@@ -2292,7 +2268,7 @@ const songs = [
       },
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=18248",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=18248",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -2346,7 +2322,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=16846",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=16846",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -2388,7 +2364,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=7114",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=7114",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -2480,24 +2456,6 @@ const songs = [
   },
   {
     "title": "마음짓기",
-    "artist": "Rock ver. / GUMI",
-    "versions": [
-      {
-        "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=21884",
-        "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "마음짓기",
     "artist": "하나땅",
     "versions": [
       {
@@ -2511,6 +2469,24 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "체비, 모카"
+      }
+    ]
+  },
+  {
+    "title": "마음짓기(Rock ver.)",
+    "artist": "GUMI",
+    "versions": [
+      {
+        "date": "2026-03-28",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=21884",
+        "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
@@ -2628,7 +2604,7 @@ const songs = [
       },
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=18563",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=18563",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -2642,7 +2618,7 @@ const songs = [
   },
   {
     "title": "모찌송",
-    "artist": "",
+    "artist": "모찌멜로디",
     "versions": [
       {
         "date": "2026-03-17",
@@ -2928,7 +2904,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=7803",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=7803",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -2982,7 +2958,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=18472",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=18472",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -3084,7 +3060,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=20799",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=20799",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -3270,7 +3246,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=19781",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=19781",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -3294,7 +3270,7 @@ const songs = [
       },
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=17725",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=17725",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -3361,8 +3337,8 @@ const songs = [
     ]
   },
   {
-    "title": "숲 (무반주 / 최유리) 1절",
-    "artist": "",
+    "title": "숲",
+    "artist": "최유리",
     "versions": [
       {
         "date": "2026-03-12",
@@ -3510,7 +3486,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=12470",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=12470",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -3522,7 +3498,7 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=21451",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=21451",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -3660,7 +3636,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=5761",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=5761",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -3713,23 +3689,29 @@ const songs = [
     "artist": "아이유",
     "versions": [
       {
-        "date": "2026-04-01",
-        "url": "https://vod.sooplive.com/player/191517163?change_second=15398",
-        "videoTitle": "체비",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      },
-      {
         "date": "2026-05-15",
         "url": "https://vod.sooplive.com/player/195824229?change_second=6430",
         "videoTitle": "보고 싶었어",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260515_040CFAC9_294038393_1_r&column=2&t=1782631384",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "에잇(Prod.&Feat. SUGA of BTS)",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-04-01",
+        "url": "https://vod.sooplive.com/player/191517163?change_second=15398",
+        "videoTitle": "체비",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260401_611FA449_292881249_1_r&column=2&t=1775073332",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -3798,7 +3780,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=9015",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=9015",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -3885,18 +3867,6 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      },
-      {
-        "date": "2026-05-16",
-        "url": "https://vod.sooplive.com/player/195927349?change_second=16070",
-        "videoTitle": "체비 별별랭킹",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
       }
     ]
   },
@@ -3910,6 +3880,18 @@ const songs = [
         "videoTitle": "생일 음주 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-05-16",
+        "url": "https://vod.sooplive.com/player/195927349?change_second=16070",
+        "videoTitle": "체비 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -4110,7 +4092,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-20",
-        "url": "https://vod.sooplive.co.kr/player/190318617?change_second=10293",
+        "url": "https://vod.sooplive.com/player/190318617?change_second=10293",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260320_47631161_292557481_1_r&column=2&t=1774029877",
@@ -4124,7 +4106,7 @@ const songs = [
   },
   {
     "title": "좋아하니까",
-    "artist": "Yuika",
+    "artist": "유이카",
     "versions": [
       {
         "date": "2026-03-12",
@@ -4140,7 +4122,7 @@ const songs = [
       },
       {
         "date": "2026-03-18",
-        "url": "https://vod.sooplive.co.kr/player/190135929?change_second=4066",
+        "url": "https://vod.sooplive.com/player/190135929?change_second=4066",
         "videoTitle": "끄앙",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260318_B960D307_292504093_1_r&column=2&t=1773864460",
@@ -4161,37 +4143,25 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "좋아하니까(好きだから)",
-    "artist": "Yuika",
-    "versions": [
-      {
-        "date": "2026-05-16",
-        "url": "https://vod.sooplive.com/player/195927349?change_second=11875",
-        "videoTitle": "체비 별별랭킹",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "좋아하니까(好きだから)",
-    "artist": "유이카",
-    "versions": [
+      },
       {
         "date": "2026-04-22",
         "url": "https://vod.sooplive.com/player/193576481?change_second=17354",
         "videoTitle": "골골체비",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260422_20AB848F_293435151_1_r&column=2&t=1776890630",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-05-16",
+        "url": "https://vod.sooplive.com/player/195927349?change_second=11875",
+        "videoTitle": "체비 별별랭킹",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -4224,7 +4194,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=21174",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=21174",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -4267,24 +4237,6 @@ const songs = [
     ]
   },
   {
-    "title": "체끼송",
-    "artist": "",
-    "versions": [
-      {
-        "date": "2026-03-17",
-        "url": "https://vod.sooplive.com/player/190034665?change_second=8841",
-        "videoTitle": "살살노래",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_F3FB24F6_292476519_1_r&column=2&t=1773864452",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
     "title": "추억은 한 편의 산문집 되어",
     "artist": "신지훈",
     "versions": [
@@ -4302,10 +4254,28 @@ const songs = [
       },
       {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.co.kr/player/191102103?change_second=16500",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=16500",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "토끼",
+    "artist": "뇌태풍",
+    "versions": [
+      {
+        "date": "2026-03-17",
+        "url": "https://vod.sooplive.com/player/190034665?change_second=8841",
+        "videoTitle": "살살노래",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260317_F3FB24F6_292476519_1_r&column=2&t=1773864452",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -4376,7 +4346,7 @@ const songs = [
   },
   {
     "title": "히로인",
-    "artist": "Back number",
+    "artist": "Back Number",
     "versions": [
       {
         "date": "2026-03-17",
@@ -4401,7 +4371,13 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      },
+      }
+    ]
+  },
+  {
+    "title": "히로인",
+    "artist": "Back number",
+    "versions": [
       {
         "date": "2026-04-25",
         "url": "https://vod.sooplive.com/player/193861355?change_second=7928",

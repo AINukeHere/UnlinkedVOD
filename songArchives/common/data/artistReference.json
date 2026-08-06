@@ -1,14 +1,16 @@
 [
     {
+        "artist": "#안녕",
+        "aliases": []
+    },
+    {
+        "artist": "109",
+        "aliases": []
+    },
+    {
         "artist": "10CM",
         "aliases": [
             "10cm"
-        ]
-    },
-    {
-        "artist": "164",
-        "aliases": [
-            "164 (GUMI)"
         ]
     },
     {
@@ -28,13 +30,16 @@
     },
     {
         "artist": "930 / Feat.Bona Zoe",
-        "aliases": []
+        "aliases": [
+            "feat. Bona Zoe / 930"
+        ]
     },
     {
         "artist": "강아윤 / 산나비 OST",
         "aliases": [
             "산나비 OST",
-            "산나비"
+            "산나비",
+            "산나비 ost"
         ]
     },
     {
@@ -55,6 +60,10 @@
     },
     {
         "artist": "고옥희",
+        "aliases": []
+    },
+    {
+        "artist": "구슬요",
         "aliases": []
     },
     {
@@ -166,6 +175,10 @@
         ]
     },
     {
+        "artist": "뇌태풍",
+        "aliases": []
+    },
+    {
         "artist": "뉴진스",
         "aliases": [
             "NewJeans"
@@ -201,6 +214,10 @@
     },
     {
         "artist": "도라에몽ost",
+        "aliases": []
+    },
+    {
+        "artist": "도쿄구울 OST",
         "aliases": []
     },
     {
@@ -324,6 +341,10 @@
         "aliases": []
     },
     {
+        "artist": "모트",
+        "aliases": []
+    },
+    {
         "artist": "문문",
         "aliases": []
     },
@@ -427,7 +448,9 @@
     },
     {
         "artist": "백예린",
-        "aliases": []
+        "aliases": [
+            "무반주 / 백예린"
+        ]
     },
     {
         "artist": "백지영",
@@ -537,7 +560,9 @@
     },
     {
         "artist": "사이버펑크OST",
-        "aliases": []
+        "aliases": [
+            "사이버펑크 OST"
+        ]
     },
     {
         "artist": "산들",
@@ -549,6 +574,10 @@
     },
     {
         "artist": "새소년",
+        "aliases": []
+    },
+    {
+        "artist": "샘김",
         "aliases": []
     },
     {
@@ -651,6 +680,10 @@
         "aliases": []
     },
     {
+        "artist": "시간을 달리는 소녀 OST",
+        "aliases": []
+    },
+    {
         "artist": "시드사운드",
         "aliases": []
     },
@@ -672,6 +705,10 @@
     },
     {
         "artist": "써니힐",
+        "aliases": []
+    },
+    {
+        "artist": "쏜애플",
         "aliases": []
     },
     {
@@ -907,7 +944,10 @@
     },
     {
         "artist": "유이카",
-        "aliases": []
+        "aliases": [
+            "Yuika",
+            "유이카 (Yuika)"
+        ]
     },
     {
         "artist": "유재하",
@@ -1117,7 +1157,8 @@
     {
         "artist": "츠키",
         "aliases": [
-            "Tuki"
+            "Tuki",
+            "tuki."
         ]
     },
     {
@@ -1131,6 +1172,12 @@
     {
         "artist": "커피소년",
         "aliases": []
+    },
+    {
+        "artist": "케데헌 OST",
+        "aliases": [
+            "케이팝 데몬 헌터즈 OST"
+        ]
     },
     {
         "artist": "케이시",
@@ -1235,6 +1282,10 @@
         ]
     },
     {
+        "artist": "핑크퐁",
+        "aliases": []
+    },
+    {
         "artist": "하나땅",
         "aliases": []
     },
@@ -1280,7 +1331,9 @@
     },
     {
         "artist": "호피폴라",
-        "aliases": []
+        "aliases": [
+            "호피플라"
+        ]
     },
     {
         "artist": "화사",
@@ -1313,6 +1366,10 @@
     },
     {
         "artist": "Aimer",
+        "aliases": []
+    },
+    {
+        "artist": "AiScReam",
         "aliases": []
     },
     {
@@ -1374,6 +1431,10 @@
         "aliases": []
     },
     {
+        "artist": "DAZBEE",
+        "aliases": []
+    },
+    {
         "artist": "DEAN",
         "aliases": [
             "DEAN(딘)"
@@ -1398,11 +1459,16 @@
         "aliases": []
     },
     {
-        "artist": "Eill",
+        "artist": "eill",
         "aliases": [
-            "eill",
-            "에일"
+            "Eill",
+            "에일",
+            "에이루"
         ]
+    },
+    {
+        "artist": "Ellie Goulding",
+        "aliases": []
     },
     {
         "artist": "ENE",
@@ -1429,7 +1495,19 @@
         "aliases": []
     },
     {
+        "artist": "GUMI",
+        "aliases": []
+    },
+    {
+        "artist": "Hebi.",
+        "aliases": []
+    },
+    {
         "artist": "Helen Merrill",
+        "aliases": []
+    },
+    {
+        "artist": "Hikaru Utada",
         "aliases": []
     },
     {
@@ -1459,11 +1537,19 @@
         "aliases": []
     },
     {
+        "artist": "Jorja Smith",
+        "aliases": []
+    },
+    {
         "artist": "K/DA",
         "aliases": []
     },
     {
         "artist": "Karina",
+        "aliases": []
+    },
+    {
+        "artist": "Kenshi Yonezu",
         "aliases": []
     },
     {
@@ -1473,7 +1559,15 @@
         ]
     },
     {
+        "artist": "Lauren Aquilina",
+        "aliases": []
+    },
+    {
         "artist": "League of Legends",
+        "aliases": []
+    },
+    {
+        "artist": "Lennon Stella",
         "aliases": []
     },
     {
@@ -1507,6 +1601,10 @@
         "aliases": []
     },
     {
+        "artist": "NO:EL",
+        "aliases": []
+    },
+    {
         "artist": "Postmodern Jukebox",
         "aliases": []
     },
@@ -1516,6 +1614,14 @@
     },
     {
         "artist": "RADWIMPS",
+        "aliases": []
+    },
+    {
+        "artist": "Ruelle",
+        "aliases": []
+    },
+    {
+        "artist": "Sarah Cothran",
         "aliases": []
     },
     {
@@ -1574,10 +1680,6 @@
             "유하",
             "유하(YOUHA)"
         ]
-    },
-    {
-        "artist": "Yuika",
-        "aliases": []
     },
     {
         "artist": "Yyeon",
