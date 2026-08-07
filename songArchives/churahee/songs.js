@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-05T22:13:36.008896+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-07T20:30:54.078796+00:00";
 const songs = [
   {
     "title": "0+0",
@@ -6205,24 +6205,6 @@ const songs = [
     ]
   },
   {
-    "title": "기억을 걷는 시간",
-    "artist": "태연",
-    "versions": [
-      {
-        "date": "2026-07-24",
-        "url": "https://vod.sooplive.com/player/202382963?change_second=6350",
-        "videoTitle": "소통 - 노래 - 만찬가 깎기 - 싱크룸(w. 요한)",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_283A9E4A_295819295_1_r&column=2&t=1785948952",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
     "title": "기적은 없어도",
     "artist": "서인국",
     "versions": [
@@ -7096,6 +7078,18 @@ const songs = [
         "videoTitle": "소통 - 노래",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260428_F2E91C16_293576651_1_r&column=2&t=1777734501",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-24",
+        "url": "https://vod.sooplive.com/player/202382963?change_second=6350",
+        "videoTitle": "소통 - 노래 - 만찬가 깎기 - 싱크룸(w. 요한)",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260724_283A9E4A_295819295_1_r&column=2&t=1785948952",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
