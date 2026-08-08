@@ -6,6 +6,10 @@
         ]
     },
     {
+        "title": "#첫사랑",
+        "aliases": []
+    },
+    {
         "title": "0+0",
         "aliases": [
             "0+0 (한로로) / 연습"
@@ -35,6 +39,10 @@
     },
     {
         "title": "26",
+        "aliases": []
+    },
+    {
+        "title": "281.31km ( From. )",
         "aliases": []
     },
     {
@@ -140,6 +148,10 @@
         "aliases": []
     },
     {
+        "title": "고쳐주세요",
+        "aliases": []
+    },
+    {
         "title": "곰인형",
         "aliases": []
     },
@@ -229,6 +241,10 @@
     },
     {
         "title": "그래서 나는 음악을 그만두었다",
+        "aliases": []
+    },
+    {
+        "title": "그렇게 살아가는 것",
         "aliases": []
     },
     {
@@ -379,16 +395,18 @@
         "aliases": []
     },
     {
+        "title": "낙하산",
+        "aliases": []
+    },
+    {
         "title": "낙향",
         "aliases": []
     },
     {
         "title": "난 너 없이",
-        "aliases": []
-    },
-    {
-        "title": "난 너없이",
-        "aliases": []
+        "aliases": [
+            "난 너없이"
+        ]
     },
     {
         "title": "난춘",
@@ -434,6 +452,10 @@
             "またあした",
             "내일 또 보자 (またあした)"
         ]
+    },
+    {
+        "title": "너, 너",
+        "aliases": []
     },
     {
         "title": "너는 록을 듣지 않아",
@@ -617,7 +639,9 @@
     },
     {
         "title": "러브레터(ラブレター)",
-        "aliases": []
+        "aliases": [
+            "러브레터"
+        ]
     },
     {
         "title": "레베카",
@@ -762,6 +786,14 @@
         "aliases": []
     },
     {
+        "title": "문득",
+        "aliases": []
+    },
+    {
+        "title": "물 만난 물고기",
+        "aliases": []
+    },
+    {
         "title": "물고기자리",
         "aliases": []
     },
@@ -771,6 +803,10 @@
     },
     {
         "title": "뭔가 잘못됐어",
+        "aliases": []
+    },
+    {
+        "title": "미안해요",
         "aliases": []
     },
     {
@@ -803,6 +839,10 @@
     },
     {
         "title": "반만",
+        "aliases": []
+    },
+    {
+        "title": "반복",
         "aliases": []
     },
     {
@@ -919,6 +959,10 @@
     },
     {
         "title": "봄봄봄",
+        "aliases": []
+    },
+    {
+        "title": "봄이 와도",
         "aliases": []
     },
     {
@@ -1075,11 +1119,9 @@
     },
     {
         "title": "사랑이라 했던 말 속에서",
-        "aliases": []
-    },
-    {
-        "title": "사랑이라 했던 말속에서",
-        "aliases": []
+        "aliases": [
+            "사랑이라 했던 말속에서"
+        ]
     },
     {
         "title": "사랑하게 될 거야",
@@ -1103,6 +1145,10 @@
     },
     {
         "title": "사랑했지만",
+        "aliases": []
+    },
+    {
+        "title": "사막에서 꽃을 피우듯",
         "aliases": []
     },
     {
@@ -1183,6 +1229,10 @@
     },
     {
         "title": "수고했어, 오늘도",
+        "aliases": []
+    },
+    {
+        "title": "수영해",
         "aliases": []
     },
     {
@@ -1281,6 +1331,10 @@
         "aliases": []
     },
     {
+        "title": "싸운날",
+        "aliases": []
+    },
+    {
         "title": "쏘리 쏘리(슈퍼주니어)",
         "aliases": []
     },
@@ -1312,6 +1366,10 @@
     },
     {
         "title": "아잉💛",
+        "aliases": []
+    },
+    {
+        "title": "아직도 나는 너를 그리워만 해",
         "aliases": []
     },
     {
@@ -1719,6 +1777,7 @@
     {
         "title": "좋아하니까",
         "aliases": [
+            "Sukidakara",
             "좋아하니까(好きだから)"
         ]
     },
@@ -2072,7 +2131,10 @@
     },
     {
         "title": "히로인",
-        "aliases": []
+        "aliases": [
+            "ヒロイン",
+            "히로인(ヒロイン)"
+        ]
     },
     {
         "title": "힐링이 필요해",
@@ -2080,6 +2142,10 @@
     },
     {
         "title": "A Thousand Years",
+        "aliases": []
+    },
+    {
+        "title": "abcdefu",
         "aliases": []
     },
     {
@@ -2183,6 +2249,10 @@
         "aliases": []
     },
     {
+        "title": "Can I Love",
+        "aliases": []
+    },
+    {
         "title": "Carry you",
         "aliases": []
     },
@@ -2230,10 +2300,18 @@
         ]
     },
     {
+        "title": "DANCE MONKEY",
+        "aliases": []
+    },
+    {
         "title": "Dance The Night Away",
         "aliases": [
             "댄스 더 나이트 어웨이"
         ]
+    },
+    {
+        "title": "DARLING",
+        "aliases": []
     },
     {
         "title": "Defying Gravity",
@@ -2278,6 +2356,10 @@
         "aliases": []
     },
     {
+        "title": "Either Way",
+        "aliases": []
+    },
+    {
         "title": "ELEVEN",
         "aliases": []
     },
@@ -2287,6 +2369,10 @@
     },
     {
         "title": "Every Heart",
+        "aliases": []
+    },
+    {
+        "title": "Faded",
         "aliases": []
     },
     {
@@ -2471,6 +2557,10 @@
         "aliases": []
     },
     {
+        "title": "It's You",
+        "aliases": []
+    },
+    {
         "title": "JANE DOE",
         "aliases": []
     },
@@ -2569,6 +2659,10 @@
     },
     {
         "title": "Lonely",
+        "aliases": []
+    },
+    {
+        "title": "Lonely heart",
         "aliases": []
     },
     {
@@ -2760,6 +2854,10 @@
         "aliases": []
     },
     {
+        "title": "Paranoid",
+        "aliases": []
+    },
+    {
         "title": "Part of Your World",
         "aliases": []
     },
@@ -2787,6 +2885,10 @@
     },
     {
         "title": "Promise",
+        "aliases": []
+    },
+    {
+        "title": "Puppy Love",
         "aliases": []
     },
     {
@@ -2856,7 +2958,9 @@
     },
     {
         "title": "Six Feet Under",
-        "aliases": []
+        "aliases": [
+            "Six feet under"
+        ]
     },
     {
         "title": "Slow Motion",
@@ -3000,6 +3104,10 @@
         "aliases": []
     },
     {
+        "title": "What Was I Made For",
+        "aliases": []
+    },
+    {
         "title": "When I Get Old",
         "aliases": []
     },
@@ -3034,6 +3142,10 @@
     },
     {
         "title": "You'd Be So Nice To Come Home To",
+        "aliases": []
+    },
+    {
+        "title": "You(=I)",
         "aliases": []
     },
     {

@@ -105,6 +105,10 @@
         "aliases": []
     },
     {
+        "artist": "김뮤지엄",
+        "aliases": []
+    },
+    {
         "artist": "김범수",
         "aliases": []
     },
@@ -553,9 +557,14 @@
         ]
     },
     {
+        "artist": "빈첸",
+        "aliases": []
+    },
+    {
         "artist": "빌리 아일리시",
         "aliases": [
-            "BILLIE EILISH"
+            "BILLIE EILISH",
+            "Billie Eilish"
         ]
     },
     {
@@ -676,6 +685,10 @@
         ]
     },
     {
+        "artist": "스트레이",
+        "aliases": []
+    },
+    {
         "artist": "스트레이 키즈",
         "aliases": []
     },
@@ -689,6 +702,10 @@
     },
     {
         "artist": "시이나 링고",
+        "aliases": []
+    },
+    {
+        "artist": "식케이",
         "aliases": []
     },
     {
@@ -719,7 +736,9 @@
     },
     {
         "artist": "아리아나 그란데",
-        "aliases": []
+        "aliases": [
+            "Ariana Grande"
+        ]
     },
     {
         "artist": "아웃사이더",
@@ -735,10 +754,6 @@
     },
     {
         "artist": "아이묭",
-        "aliases": []
-    },
-    {
-        "artist": "아이브",
         "aliases": []
     },
     {
@@ -869,7 +884,9 @@
     },
     {
         "artist": "요네즈 켄시",
-        "aliases": []
+        "aliases": [
+            "Kenshi Yonezu"
+        ]
     },
     {
         "artist": "요루시카",
@@ -883,6 +900,12 @@
         ]
     },
     {
+        "artist": "우디",
+        "aliases": [
+            "Woody"
+        ]
+    },
+    {
         "artist": "우마무스메 프리티 더비",
         "aliases": []
     },
@@ -892,7 +915,9 @@
     },
     {
         "artist": "우타다 히카루",
-        "aliases": []
+        "aliases": [
+            "Hikaru Utada"
+        ]
     },
     {
         "artist": "우효",
@@ -921,6 +946,10 @@
         "aliases": [
             "유다빈밴드ver"
         ]
+    },
+    {
+        "artist": "유라",
+        "aliases": []
     },
     {
         "artist": "유럽",
@@ -1166,10 +1195,6 @@
         "aliases": []
     },
     {
-        "artist": "캔트비블루",
-        "aliases": []
-    },
-    {
         "artist": "커피소년",
         "aliases": []
     },
@@ -1185,6 +1210,10 @@
     },
     {
         "artist": "코난ost",
+        "aliases": []
+    },
+    {
+        "artist": "코스믹보이",
         "aliases": []
     },
     {
@@ -1224,6 +1253,10 @@
         "aliases": [
             "Takahashi Yoko"
         ]
+    },
+    {
+        "artist": "탑현",
+        "aliases": []
     },
     {
         "artist": "태연",
@@ -1318,6 +1351,10 @@
         "aliases": []
     },
     {
+        "artist": "한요한",
+        "aliases": []
+    },
+    {
         "artist": "허회경",
         "aliases": []
     },
@@ -1381,8 +1418,17 @@
         ]
     },
     {
-        "artist": "Back Number",
+        "artist": "Alan Walker",
+        "aliases": []
+    },
+    {
+        "artist": "ASH ISLAND",
+        "aliases": []
+    },
+    {
+        "artist": "back number",
         "aliases": [
+            "Back Number",
             "Back number",
             "백 넘버"
         ]
@@ -1392,12 +1438,18 @@
         "aliases": []
     },
     {
+        "artist": "Billie Eilish",
+        "aliases": []
+    },
+    {
         "artist": "BLACKPINK",
         "aliases": []
     },
     {
         "artist": "can't be blue",
-        "aliases": []
+        "aliases": [
+            "캔트비블루"
+        ]
     },
     {
         "artist": "Charlie Puth",
@@ -1491,6 +1543,10 @@
         "aliases": []
     },
     {
+        "artist": "GAYLE",
+        "aliases": []
+    },
+    {
         "artist": "god",
         "aliases": []
     },
@@ -1507,10 +1563,6 @@
         "aliases": []
     },
     {
-        "artist": "Hikaru Utada",
-        "aliases": []
-    },
-    {
         "artist": "HoneyWorks",
         "aliases": []
     },
@@ -1524,7 +1576,11 @@
     },
     {
         "artist": "IVE",
-        "aliases": []
+        "aliases": [
+            "아이브",
+            "IVE(아이브)",
+            "아이브(IVE)"
+        ]
     },
     {
         "artist": "IZI",
@@ -1546,10 +1602,6 @@
     },
     {
         "artist": "Karina",
-        "aliases": []
-    },
-    {
-        "artist": "Kenshi Yonezu",
         "aliases": []
     },
     {
@@ -1609,6 +1661,10 @@
         "aliases": []
     },
     {
+        "artist": "Prod.PATEKO / Kid Wine",
+        "aliases": []
+    },
+    {
         "artist": "QWER",
         "aliases": []
     },
@@ -1638,6 +1694,10 @@
     },
     {
         "artist": "TOIL",
+        "aliases": []
+    },
+    {
+        "artist": "TONES AND I",
         "aliases": []
     },
     {

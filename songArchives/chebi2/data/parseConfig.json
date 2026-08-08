@@ -10,7 +10,7 @@
     },
     {
       "linePrefix": "🎶",
-      "regexSequence": "{time}\\s*\\|\\s*\\s*{groupMembers}\\s*-\\s*{songTitle}\\s*{songArtist?}\\s*$",
+      "regexSequence": "{time}\\s*\\|\\s*{groupMembers}\\s*-\\s*{songTitle}{songArtist?}\\s*$",
       "staticFields": {
         "groupSong": true
       }
@@ -18,7 +18,7 @@
   ],
   "parts": {
     "songTitle": "(.+?)",
-    "songArtist": "\\s+\\(([^\\(\\)]+)\\)",
+    "songArtist": "\\s+\\((.+)\\)",
     "time": "(\\d{1,2}:\\d{1,2}(?::\\d{1,2})?)",
     "groupMembers": "([^-]*)",
     "comment": "/(\\*.*?\\*\\/)"

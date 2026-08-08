@@ -8,67 +8,67 @@
             "songInfo": [
                 {
                     "title": "토끼",
-                    "time": "02:27:21",
+                    "time": "2:27:21",
                     "artist": "뇌태풍",
                     "groupSong": false
                 },
                 {
                     "title": "소로",
-                    "time": "02:35:09",
+                    "time": "2:35:09",
                     "artist": "심규선",
                     "groupSong": false
                 },
                 {
                     "title": "이름에게",
-                    "time": "03:01:25",
+                    "time": "3:01:25",
                     "artist": "아이유",
                     "groupSong": false
                 },
                 {
                     "title": "야래향",
-                    "time": "03:22:22",
+                    "time": "3:22:22",
                     "artist": "심규선",
                     "groupSong": false
                 },
                 {
                     "title": "나야 나 공주",
-                    "time": "03:42:09",
+                    "time": "3:42:09",
                     "artist": "핑크퐁",
                     "groupSong": false
                 },
                 {
                     "title": "히로인",
-                    "time": "03:49:22",
-                    "artist": "Back Number",
+                    "time": "3:49:22",
+                    "artist": "back number",
                     "groupSong": false
                 },
                 {
                     "title": "모찌송",
-                    "time": "03:59:51",
+                    "time": "3:59:51",
                     "artist": "모찌멜로디",
                     "groupSong": false
                 },
                 {
                     "title": "-ERROR",
-                    "time": "04:02:07",
+                    "time": "4:02:07",
                     "artist": "niki",
                     "groupSong": false
                 },
                 {
                     "title": "yours",
-                    "time": "04:27:49",
+                    "time": "4:27:49",
                     "artist": "데이먼스 이어",
                     "groupSong": false
                 },
                 {
                     "title": "그것이 당신의 행복일지라도",
-                    "time": "04:44:44",
+                    "time": "4:44:44",
                     "artist": "DAZBEE",
                     "groupSong": false
                 },
                 {
                     "title": "Love wins all",
-                    "time": "04:49:42",
+                    "time": "4:49:42",
                     "artist": "아이유",
                     "groupSong": false
                 }
@@ -82,73 +82,87 @@
             "songInfo": [
                 {
                     "title": "소로",
-                    "time": "01:08:38",
-                    "artist": "심규선"
+                    "time": "1:08:38",
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "Ref:rain",
-                    "time": "01:15:36",
-                    "artist": "Aimer"
+                    "time": "1:15:36",
+                    "artist": "Aimer",
+                    "groupSong": false
                 },
                 {
                     "title": "여우비",
-                    "time": "05:58:00",
-                    "artist": "이선희"
+                    "time": "5:58:00",
+                    "artist": "이선희",
+                    "groupSong": false
                 },
                 {
                     "title": "Either Way",
-                    "time": "06:12:39",
-                    "artist": "아이브"
+                    "time": "6:12:39",
+                    "artist": "IVE",
+                    "groupSong": false
                 },
                 {
                     "title": "그렇게 살아가는 것",
-                    "time": "06:33:49",
-                    "artist": "허회경"
+                    "time": "6:33:49",
+                    "artist": "허회경",
+                    "groupSong": false
                 },
                 {
                     "title": "만개화",
-                    "time": "06:41:27",
-                    "artist": "안예은"
+                    "time": "6:41:27",
+                    "artist": "안예은",
+                    "groupSong": false
                 },
                 {
                     "title": "여봉봉",
-                    "time": "07:17:33",
-                    "artist": ""
+                    "time": "7:17:33",
+                    "artist": "아율",
+                    "groupSong": false
                 },
                 {
                     "title": "yours",
                     "time": "11:38:53",
-                    "artist": "데이먼스 이어"
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
                 },
                 {
                     "title": "난춘",
                     "time": "11:43:09",
-                    "artist": "새소년"
+                    "artist": "새소년",
+                    "groupSong": false
                 },
                 {
                     "title": "소로",
                     "time": "11:48:30",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "JANE DOE",
                     "time": "11:54:48",
-                    "artist": "Kenshi Yonezu, Hikaru Utada"
+                    "artist": "요네즈 켄시, 우타다 히카루",
+                    "groupSong": false
                 },
                 {
                     "title": "Lonely heart",
                     "time": "12:01:12",
-                    "artist": "신지훈"
+                    "artist": "신지훈",
+                    "groupSong": false
                 },
                 {
                     "title": "달과 6펜스",
                     "time": "12:07:35",
-                    "artist": "심규선"
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
                     "title": "아직도 나는 너를 그리워만 해",
                     "time": "12:13:34",
-                    "artist": "송푸름"
+                    "artist": "송푸름",
+                    "groupSong": false
                 }
             ]
         },
@@ -160,59 +174,70 @@
             "songInfo": [
                 {
                     "title": "#첫사랑",
-                    "time": "03:10:42",
-                    "artist": "볼빨간사춘기"
+                    "time": "3:10:42",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "네모의 꿈",
-                    "time": "03:16:22",
-                    "artist": "아이유"
+                    "time": "3:16:22",
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "시가 될 이야기",
-                    "time": "03:26:40",
-                    "artist": "신지훈"
+                    "time": "3:26:40",
+                    "artist": "신지훈",
+                    "groupSong": false
                 },
                 {
                     "title": "낙하산",
-                    "time": "03:33:53",
-                    "artist": "빈첸"
+                    "time": "3:33:53",
+                    "artist": "빈첸",
+                    "groupSong": false
                 },
                 {
-                    "title": "Can i love",
-                    "time": "03:41:07",
-                    "artist": "유라",
-                    "needsReview": true
+                    "title": "Can I Love",
+                    "time": "3:41:07",
+                    "artist": "코스믹보이",
+                    "needsReview": true,
+                    "groupSong": false
                 },
                 {
                     "title": "DARLING",
-                    "time": "03:46:29",
-                    "artist": "식케이"
+                    "time": "3:46:29",
+                    "artist": "식케이",
+                    "groupSong": false
                 },
                 {
                     "title": "수영해",
-                    "time": "03:52:23",
-                    "artist": "유라"
+                    "time": "3:52:23",
+                    "artist": "유라",
+                    "groupSong": false
                 },
                 {
                     "title": "민들레",
-                    "time": "03:59:15",
-                    "artist": "우효"
+                    "time": "3:59:15",
+                    "artist": "우효",
+                    "groupSong": false
                 },
                 {
                     "title": "난춘",
-                    "time": "04:04:32",
-                    "artist": "새소년"
+                    "time": "4:04:32",
+                    "artist": "새소년",
+                    "groupSong": false
                 },
                 {
                     "title": "괴수의 꽃노래",
-                    "time": "04:09:33",
-                    "artist": "Vaundy"
+                    "time": "4:09:33",
+                    "artist": "Vaundy",
+                    "groupSong": false
                 },
                 {
                     "title": "달빛에 그려지는",
-                    "time": "04:15:34",
-                    "artist": "미연"
+                    "time": "4:15:34",
+                    "artist": "미연",
+                    "groupSong": false
                 }
             ]
         },
@@ -224,63 +249,75 @@
             "songInfo": [
                 {
                     "title": "Antifreeze",
-                    "time": "01:52:35",
-                    "artist": "백예린"
+                    "time": "1:52:35",
+                    "artist": "백예린",
+                    "groupSong": false
                 },
                 {
                     "title": "Free",
-                    "time": "04:49:22",
-                    "artist": "케데헌 OST"
+                    "time": "4:49:22",
+                    "artist": "케데헌 OST",
+                    "groupSong": false
                 },
                 {
                     "title": "abcdefu",
-                    "time": "04:54:55",
-                    "artist": "GAYLE"
+                    "time": "4:54:55",
+                    "artist": "GAYLE",
+                    "groupSong": false
                 },
                 {
                     "title": "반복",
-                    "time": "04:59:21",
-                    "artist": "Prod.PATEKO / Kid Wine"
+                    "time": "4:59:21",
+                    "artist": "Prod.PATEKO / Kid Wine",
+                    "groupSong": false
                 },
                 {
                     "title": "Paranoid",
-                    "time": "05:03:46",
-                    "artist": "ASH ISLAND"
+                    "time": "5:03:46",
+                    "artist": "ASH ISLAND",
+                    "groupSong": false
                 },
                 {
                     "title": "Puppy Love",
-                    "time": "05:15:32",
-                    "artist": "BE'O"
+                    "time": "5:15:32",
+                    "artist": "비오(BE'O)",
+                    "groupSong": false
                 },
                 {
-                    "title": "Six feet under",
-                    "time": "05:20:51",
-                    "artist": "Billie Eilish"
+                    "title": "Six Feet Under",
+                    "time": "5:20:51",
+                    "artist": "빌리 아일리시",
+                    "groupSong": false
                 },
                 {
                     "title": "Discord",
-                    "time": "05:35:50",
-                    "artist": "QWER"
+                    "time": "5:35:50",
+                    "artist": "QWER",
+                    "groupSong": false
                 },
                 {
                     "title": "사막에서 꽃을 피우듯",
-                    "time": "05:40:54",
-                    "artist": "우디"
+                    "time": "5:40:54",
+                    "artist": "우디",
+                    "groupSong": false
                 },
                 {
                     "title": "시간과 낙엽",
-                    "time": "05:48:09",
-                    "artist": "AKMU"
+                    "time": "5:48:09",
+                    "artist": "AKMU",
+                    "groupSong": false
                 },
                 {
                     "title": "yours",
-                    "time": "05:54:59",
-                    "artist": "데이먼스 이어"
+                    "time": "5:54:59",
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
                 },
                 {
                     "title": "난춘",
-                    "time": "06:03:42",
-                    "artist": "새소년"
+                    "time": "6:03:42",
+                    "artist": "새소년",
+                    "groupSong": false
                 }
             ]
         },
@@ -292,97 +329,97 @@
             "songInfo": [
                 {
                     "title": "모찌송",
-                    "time": "03:10:45",
+                    "time": "3:10:45",
                     "artist": "모찌멜로디",
                     "groupSong": false
                 },
                 {
                     "title": "별이 되지 않아도 돼",
-                    "time": "03:25:59",
+                    "time": "3:25:59",
                     "artist": "109",
                     "groupSong": false
                 },
                 {
                     "title": "좋아하니까",
-                    "time": "03:31:51",
+                    "time": "3:31:51",
                     "artist": "유이카",
                     "groupSong": false
                 },
                 {
                     "title": "추억은 한 편의 산문집 되어",
-                    "time": "03:46:57",
+                    "time": "3:46:57",
                     "artist": "신지훈",
                     "groupSong": false
                 },
                 {
                     "title": "ELEVEN",
-                    "time": "03:53:14",
-                    "artist": "아이브",
+                    "time": "3:53:14",
+                    "artist": "IVE",
                     "groupSong": false
                 },
                 {
                     "title": "이런 엔딩",
-                    "time": "04:01:24",
+                    "time": "4:01:24",
                     "artist": "아이유",
                     "groupSong": false
                 },
                 {
                     "title": "숲",
-                    "time": "04:13:14",
+                    "time": "4:13:14",
                     "artist": "최유리",
                     "groupSong": false
                 },
                 {
                     "title": "0310",
-                    "time": "04:17:33",
+                    "time": "4:17:33",
                     "artist": "백예린",
                     "groupSong": false
                 },
                 {
                     "title": "아이♡스크림!",
-                    "time": "04:23:34",
+                    "time": "4:23:34",
                     "artist": "AiScReam",
                     "groupSong": false
                 },
                 {
                     "title": "Ride or die",
-                    "time": "04:31:54",
+                    "time": "4:31:54",
                     "artist": "NO:EL",
                     "groupSong": false
                 },
                 {
                     "title": "King",
-                    "time": "04:48:01",
+                    "time": "4:48:01",
                     "artist": "Lauren Aquilina",
                     "groupSong": false
                 },
                 {
                     "title": "I Really Want to Stay at Your House",
-                    "time": "04:54:28",
+                    "time": "4:54:28",
                     "artist": "사이버펑크OST",
                     "groupSong": false
                 },
                 {
                     "title": "Unravel",
-                    "time": "05:00:46",
+                    "time": "5:00:46",
                     "artist": "도쿄구울 OST",
                     "groupSong": false
                 },
                 {
                     "title": "-ERROR",
-                    "time": "05:06:57",
+                    "time": "5:06:57",
                     "artist": "niki",
                     "groupSong": false
                 },
                 {
                     "title": "Replace You",
-                    "time": "05:14:42",
+                    "time": "5:14:42",
                     "artist": "930 / Feat.Bona Zoe",
                     "groupSong": false
                 },
                 {
                     "title": "바람",
-                    "time": "05:40:54",
+                    "time": "5:40:54",
                     "artist": "송푸름",
                     "groupSong": false
                 }
@@ -541,7 +578,7 @@
                 {
                     "title": "JANE DOE",
                     "time": "4:22:52",
-                    "artist": "Kenshi Yonezu, Hikaru Utada",
+                    "artist": "요네즈 켄시, 우타다 히카루",
                     "groupSong": false
                 },
                 {
@@ -605,8 +642,8 @@
                     "groupSong": false
                 },
                 {
-                    "title": "사랑이라 했던 말속에서",
-                    "time": "5:46:39",
+                    "title": "사랑이라 했던 말 속에서",
+                    "time": "5:46:40",
                     "artist": "can't be blue",
                     "groupSong": false
                 },
@@ -639,28 +676,32 @@
         {
             "title": "짧게만",
             "date": "2026-03-27",
-            "url": "https://vod.sooplive.co.kr/player/190977265",
+            "url": "https://vod.sooplive.com/player/190977265",
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_28F68DB3_292748557_1_r&column=2&t=1774626611",
             "songInfo": [
                 {
                     "title": "모찌송",
-                    "time": "02:03:55",
-                    "artist": ""
+                    "time": "2:03:55",
+                    "artist": "모찌멜로디",
+                    "groupSong": false
                 },
                 {
                     "title": "만찬가",
-                    "time": "02:06:27",
-                    "artist": "tuki."
+                    "time": "2:06:27",
+                    "artist": "츠키",
+                    "groupSong": false
                 },
                 {
                     "title": "어른",
-                    "time": "02:12:06",
-                    "artist": "Sondia"
+                    "time": "2:12:06",
+                    "artist": "손디아",
+                    "groupSong": false
                 },
                 {
                     "title": "밤, 바다",
-                    "time": "02:20:43",
-                    "artist": "최유리"
+                    "time": "2:20:43",
+                    "artist": "최유리",
+                    "groupSong": false
                 }
             ]
         },
@@ -680,101 +721,118 @@
         {
             "title": "갑자기 불려간 옵치 CK 승",
             "date": "2026-03-25",
-            "url": "https://vod.sooplive.co.kr/player/190801551",
+            "url": "https://vod.sooplive.com/player/190801551",
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
             "songInfo": [
                 {
                     "title": "난춘",
-                    "time": "05:16:59",
-                    "artist": "새소년"
+                    "time": "5:16:59",
+                    "artist": "새소년",
+                    "groupSong": false
                 },
                 {
                     "title": "이름에게",
-                    "time": "05:22:10",
-                    "artist": "아이유"
+                    "time": "5:22:10",
+                    "artist": "아이유",
+                    "groupSong": false
                 },
                 {
                     "title": "JANE DOE",
-                    "time": "05:29:19",
-                    "artist": "Kenshi Yonezu, Hikaru Utada"
+                    "time": "5:29:19",
+                    "artist": "요네즈 켄시, 우타다 히카루",
+                    "groupSong": false
                 },
                 {
                     "title": "밤, 바다",
-                    "time": "05:34:48",
-                    "artist": "최유리"
+                    "time": "5:34:48",
+                    "artist": "최유리",
+                    "groupSong": false
                 },
                 {
                     "title": "yours",
-                    "time": "05:40:37",
-                    "artist": "데이먼스 이어"
+                    "time": "5:40:37",
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
                 }
             ]
         },
         {
             "title": "쳅이",
             "date": "2026-03-22",
-            "url": "https://vod.sooplive.co.kr/player/190527127",
+            "url": "https://vod.sooplive.com/player/190527127",
             "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
             "songInfo": [
                 {
                     "title": "멀리",
-                    "time": "01:16:47",
-                    "artist": "모트"
+                    "time": "1:16:47",
+                    "artist": "모트",
+                    "groupSong": false
                 },
                 {
                     "title": "봄이 와도",
-                    "time": "01:22:23",
-                    "artist": "로이킴"
+                    "time": "1:22:23",
+                    "artist": "로이킴",
+                    "groupSong": false
                 },
                 {
                     "title": "You(=I)",
-                    "time": "01:27:53",
-                    "artist": "볼빨간사춘기"
+                    "time": "1:27:53",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
-                    "title": "러브레터",
-                    "time": "01:32:55",
-                    "artist": "요아소비"
+                    "title": "러브레터(ラブレター)",
+                    "time": "1:32:55",
+                    "artist": "요아소비",
+                    "groupSong": false
                 },
                 {
                     "title": "나의 사춘기에게",
-                    "time": "01:38:44",
-                    "artist": "볼빨간사춘기"
+                    "time": "1:38:44",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "싸운날",
-                    "time": "01:43:25",
-                    "artist": "볼빨간사춘기"
+                    "time": "1:43:25",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "밤, 바다",
-                    "time": "01:48:31",
-                    "artist": "최유리"
+                    "time": "1:48:31",
+                    "artist": "최유리",
+                    "groupSong": false
                 },
                 {
                     "title": "INVU",
-                    "time": "01:56:18",
-                    "artist": "태연"
+                    "time": "1:56:18",
+                    "artist": "태연",
+                    "groupSong": false
                 },
                 {
                     "title": "물 만난 물고기",
-                    "time": "02:11:21",
-                    "artist": "AKMU"
+                    "time": "2:11:21",
+                    "artist": "AKMU",
+                    "groupSong": false
                 },
                 {
                     "title": "사막에서 꽃을 피우듯",
-                    "time": "02:15:56",
-                    "artist": "우디"
+                    "time": "2:15:56",
+                    "artist": "우디",
+                    "groupSong": false
                 },
                 {
                     "title": "281.31km ( From. )",
-                    "time": "02:22:40",
-                    "artist": "김뮤지엄"
+                    "time": "2:22:40",
+                    "artist": "김뮤지엄",
+                    "groupSong": false
                 },
                 {
                     "title": "소로",
-                    "time": "02:26:51",
-                    "artist": "심규선"
+                    "time": "2:26:51",
+                    "artist": "심규선",
+                    "groupSong": false
                 }
             ]
         },
@@ -1199,7 +1257,7 @@
                 {
                     "title": "히로인",
                     "time": "2:41:34",
-                    "artist": "Back Number",
+                    "artist": "back number",
                     "groupSong": false
                 },
                 {
@@ -1266,28 +1324,33 @@
             "songInfo": [
                 {
                     "title": "만찬가",
-                    "time": "01:23:10",
-                    "artist": "tuki."
+                    "time": "1:23:10",
+                    "artist": "츠키",
+                    "groupSong": false
                 },
                 {
                     "title": "난춘",
-                    "time": "01:35:34",
-                    "artist": "새소년"
+                    "time": "1:35:34",
+                    "artist": "새소년",
+                    "groupSong": false
                 },
                 {
-                    "title": "러브레터",
-                    "time": "04:48:04",
-                    "artist": "요아소비"
+                    "title": "러브레터(ラブレター)",
+                    "time": "4:48:04",
+                    "artist": "요아소비",
+                    "groupSong": false
                 },
                 {
                     "title": "#첫사랑",
-                    "time": "05:04:47",
-                    "artist": "볼빨간사춘기"
+                    "time": "5:04:47",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "yours",
-                    "time": "05:09:46",
-                    "artist": "데이먼스 이어"
+                    "time": "5:09:46",
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
                 }
             ]
         },
@@ -1299,49 +1362,58 @@
             "songInfo": [
                 {
                     "title": "별이 되지 않아도 돼",
-                    "time": "01:16:20",
-                    "artist": "109"
+                    "time": "1:16:20",
+                    "artist": "109",
+                    "groupSong": false
                 },
                 {
                     "title": "시가 될 이야기",
-                    "time": "01:21:10",
-                    "artist": "신지훈"
+                    "time": "1:21:10",
+                    "artist": "신지훈",
+                    "groupSong": false
                 },
                 {
                     "title": "문득",
-                    "time": "01:27:03",
-                    "artist": "BE'O"
+                    "time": "1:27:03",
+                    "artist": "비오(BE'O)",
+                    "groupSong": false
                 },
                 {
                     "title": "breathin",
-                    "time": "01:31:39",
-                    "artist": "Ariana Grande"
+                    "time": "1:31:39",
+                    "artist": "아리아나 그란데",
+                    "groupSong": false
                 },
                 {
                     "title": "What Was I Made For",
-                    "time": "01:36:35",
+                    "time": "1:36:35",
                     "artist": "Billie Eilish",
-                    "needsReview": true
+                    "needsReview": true,
+                    "groupSong": false
                 },
                 {
                     "title": "Free",
-                    "time": "01:43:33",
-                    "artist": "케데헌 OST"
+                    "time": "1:43:33",
+                    "artist": "케데헌 OST",
+                    "groupSong": false
                 },
                 {
                     "title": "미안해요",
-                    "time": "01:48:04",
-                    "artist": "탑현"
+                    "time": "1:48:04",
+                    "artist": "탑현",
+                    "groupSong": false
                 },
                 {
                     "title": "Mermaid",
-                    "time": "01:53:31",
-                    "artist": "볼빨간사춘기"
+                    "time": "1:53:31",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 },
                 {
                     "title": "고쳐주세요",
-                    "time": "02:00:52",
-                    "artist": "볼빨간사춘기"
+                    "time": "2:00:52",
+                    "artist": "볼빨간사춘기",
+                    "groupSong": false
                 }
             ]
         },
@@ -1353,13 +1425,85 @@
             "songInfo": [
                 {
                     "title": "JANE DOE",
-                    "time": "00:24:44",
-                    "artist": "Kenshi Yonezu, Hikaru Utada"
+                    "time": "24:44",
+                    "artist": "요네즈 켄시, 우타다 히카루",
+                    "groupSong": false
+                },
+                {
+                    "title": "0310",
+                    "time": "37:55",
+                    "artist": "백예린",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "금요일에 만나요",
+                    "time": "52:17",
+                    "artist": "아이유",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "이름에게",
+                    "time": "57:53",
+                    "artist": "아이유",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "난춘",
+                    "time": "1:07:12",
+                    "artist": "새소년",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "Faded",
+                    "time": "1:12:38",
+                    "artist": "Alan Walker",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "DANCE MONKEY",
+                    "time": "1:20:00",
+                    "artist": "TONES AND I",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "너, 너",
+                    "time": "1:27:18",
+                    "artist": "스트레이",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "달빛에 그려지는",
+                    "time": "1:34:03",
+                    "artist": "미연",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
+                },
+                {
+                    "title": "Love wins all",
+                    "time": "1:43:10",
+                    "artist": "아이유",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
                 },
                 {
                     "title": "아직도 나는 너를 그리워만 해",
-                    "time": "01:56:56",
-                    "artist": "송푸름"
+                    "time": "1:56:56",
+                    "artist": "송푸름",
+                    "groupSong": false
+                },
+                {
+                    "title": "이런 엔딩",
+                    "time": "2:03:40",
+                    "artist": "아이유",
+                    "groupMembers": "체비, 유나기",
+                    "groupSong": true
                 }
             ]
         },
@@ -1371,39 +1515,46 @@
             "songInfo": [
                 {
                     "title": "Antifreeze",
-                    "time": "03:51:40",
-                    "artist": "백예린"
+                    "time": "3:51:40",
+                    "artist": "백예린",
+                    "groupSong": false
                 },
                 {
                     "title": "Rain",
-                    "time": "03:58:45",
-                    "artist": "태연"
+                    "time": "3:58:45",
+                    "artist": "태연",
+                    "groupSong": false
                 },
                 {
-                    "title": "히로인(ヒロイン)",
-                    "time": "04:07:46",
-                    "artist": "back number"
+                    "title": "히로인",
+                    "time": "4:07:46",
+                    "artist": "back number",
+                    "groupSong": false
                 },
                 {
                     "title": "소로",
-                    "time": "04:15:13",
-                    "artist": "심규선"
+                    "time": "4:15:13",
+                    "artist": "심규선",
+                    "groupSong": false
                 },
                 {
-                    "title": "Can i love",
-                    "time": "04:21:16",
-                    "artist": "유라",
-                    "needsReview": true
+                    "title": "Can I Love",
+                    "time": "4:21:16",
+                    "artist": "코스믹보이",
+                    "needsReview": true,
+                    "groupSong": false
                 },
                 {
                     "title": "소녀",
-                    "time": "04:26:53",
-                    "artist": "우예린"
+                    "time": "4:26:53",
+                    "artist": "우예린",
+                    "groupSong": false
                 },
                 {
                     "title": "It's You",
-                    "time": "04:33:07",
-                    "artist": "한요한"
+                    "time": "4:33:07",
+                    "artist": "한요한",
+                    "groupSong": false
                 }
             ]
         },
@@ -1541,31 +1692,31 @@
             "songInfo": [
                 {
                     "title": "0+0",
-                    "time": "04:16:23",
+                    "time": "4:16:23",
                     "artist": "한로로",
                     "groupSong": false
                 },
                 {
-                    "title": "우주",
-                    "time": "04:21:05",
+                    "title": "우주(UNIVERSE)",
+                    "time": "4:21:05",
                     "artist": "YOUHA(유하)",
                     "groupSong": false
                 },
                 {
                     "title": "첫 키스에 내 심장은 120BPM",
-                    "time": "04:26:46",
+                    "time": "4:26:46",
                     "artist": "경서",
                     "groupSong": false
                 },
                 {
                     "title": "민들레",
-                    "time": "04:38:40",
+                    "time": "4:38:40",
                     "artist": "우효",
                     "groupSong": false
                 },
                 {
                     "title": "Replace You",
-                    "time": "04:44:55",
+                    "time": "4:44:55",
                     "artist": "930 / Feat.Bona Zoe",
                     "groupSong": false
                 }
@@ -1586,7 +1737,7 @@
                 {
                     "title": "히로인",
                     "time": "2:12:08",
-                    "artist": "Back number",
+                    "artist": "back number",
                     "groupSong": false
                 },
                 {
@@ -1665,181 +1816,181 @@
             "songInfo": [
                 {
                     "title": "0+0",
-                    "time": "01:42:08",
+                    "time": "1:42:08",
                     "artist": "한로로",
                     "groupSong": false
                 },
                 {
                     "title": "에잇",
-                    "time": "01:47:10",
+                    "time": "1:47:10",
                     "artist": "아이유",
                     "groupSong": false
                 },
                 {
                     "title": "Antifreeze",
-                    "time": "01:51:36",
+                    "time": "1:51:36",
                     "artist": "백예린",
                     "groupSong": false
                 },
                 {
                     "title": "연의 편지",
-                    "time": "01:57:42",
+                    "time": "1:57:42",
                     "artist": "이수현",
                     "groupSong": false
                 },
                 {
                     "title": "ELEVEN",
-                    "time": "02:39:47",
-                    "artist": "아이브",
+                    "time": "2:39:47",
+                    "artist": "IVE",
                     "groupSong": false
                 },
                 {
                     "title": "ANTIFRAGILE",
-                    "time": "02:44:00",
+                    "time": "2:44:00",
                     "artist": "르세라핌",
                     "groupSong": false
                 },
                 {
                     "title": "Stargazers",
-                    "time": "02:48:48",
+                    "time": "2:48:48",
                     "artist": "이세계아이돌",
                     "groupSong": false
                 },
                 {
                     "title": "소로",
-                    "time": "02:53:49",
+                    "time": "2:53:49",
                     "artist": "심규선",
                     "groupSong": false
                 },
                 {
-                    "title": "우주",
-                    "time": "02:59:23",
+                    "title": "우주(UNIVERSE)",
+                    "time": "2:59:23",
                     "artist": "YOUHA(유하)",
                     "groupSong": false
                 },
                 {
                     "title": "러브레터(ラブレター)",
-                    "time": "03:03:23",
+                    "time": "3:03:23",
                     "artist": "요아소비",
                     "groupSong": false
                 },
                 {
                     "title": "이런 엔딩",
-                    "time": "03:10:06",
+                    "time": "3:10:06",
                     "artist": "아이유",
                     "groupSong": false
                 },
                 {
                     "title": "바람",
-                    "time": "03:16:59",
+                    "time": "3:16:59",
                     "artist": "송푸름",
                     "groupSong": false
                 },
                 {
                     "title": "시가 될 이야기",
-                    "time": "03:23:31",
+                    "time": "3:23:31",
                     "artist": "신지훈",
                     "groupSong": false
                 },
                 {
                     "title": "달빛에 그려지는",
-                    "time": "03:28:57",
+                    "time": "3:28:57",
                     "artist": "미연",
                     "groupSong": false
                 },
                 {
                     "title": "시간과 낙엽",
-                    "time": "03:35:17",
+                    "time": "3:35:17",
                     "artist": "AKMU",
                     "groupSong": false
                 },
                 {
                     "title": "DINOSAUR",
-                    "time": "03:40:37",
+                    "time": "3:40:37",
                     "artist": "AKMU",
                     "groupSong": false
                 },
                 {
                     "title": "yours",
-                    "time": "03:46:30",
+                    "time": "3:46:30",
                     "artist": "데이먼스 이어",
                     "groupSong": false
                 },
                 {
                     "title": "I Really Want to Stay at Your House",
-                    "time": "03:50:15",
+                    "time": "3:50:15",
                     "artist": "사이버펑크OST",
                     "groupSong": false
                 },
                 {
                     "title": "Brand",
-                    "time": "03:58:14",
+                    "time": "3:58:14",
                     "artist": "비오(BE'O)",
                     "groupSong": false
                 },
                 {
                     "title": "피차일반",
-                    "time": "04:01:52",
+                    "time": "4:01:52",
                     "artist": "음율",
                     "groupSong": false
                 },
                 {
                     "title": "아이와 나의 바다",
-                    "time": "04:08:50",
+                    "time": "4:08:50",
                     "artist": "아이유",
                     "groupSong": false
                 },
                 {
                     "title": "이제 우리 꿈에서만 만나",
-                    "time": "04:16:01",
+                    "time": "4:16:01",
                     "artist": "Yyeon",
                     "groupSong": false
                 },
                 {
                     "title": "비가 내리는 날에는",
-                    "time": "04:21:34",
+                    "time": "4:21:34",
                     "artist": "윤하",
                     "groupSong": false
                 },
                 {
                     "title": "연인",
-                    "time": "04:26:58",
+                    "time": "4:26:58",
                     "artist": "박효신",
                     "groupSong": false
                 },
                 {
                     "title": "섬",
-                    "time": "04:43:19",
+                    "time": "4:43:19",
                     "artist": "민수",
                     "groupSong": false
                 },
                 {
                     "title": "I",
-                    "time": "04:47:55",
+                    "time": "4:47:55",
                     "artist": "태연",
                     "groupSong": false
                 },
                 {
                     "title": "밤, 바다",
-                    "time": "04:53:38",
+                    "time": "4:53:38",
                     "artist": "최유리",
                     "groupSong": false
                 },
                 {
                     "title": "이지금",
-                    "time": "04:59:36",
+                    "time": "4:59:36",
                     "artist": "아이유",
                     "groupSong": false
                 },
                 {
                     "title": "난춘",
-                    "time": "05:12:46",
+                    "time": "5:12:46",
                     "artist": "새소년",
                     "groupSong": false
                 },
                 {
                     "title": "LETTER",
-                    "time": "05:26:04",
+                    "time": "5:26:04",
                     "artist": "유다빈밴드",
                     "groupSong": false
                 }
@@ -1864,9 +2015,9 @@
                     "groupSong": false
                 },
                 {
-                    "title": "사랑이라 했던 말속에서",
+                    "title": "사랑이라 했던 말 속에서",
                     "time": "03:29:00",
-                    "artist": "캔트비블루",
+                    "artist": "can't be blue",
                     "groupSong": false
                 },
                 {
@@ -1958,7 +2109,7 @@
                 {
                     "title": "히로인",
                     "time": "2:02:27",
-                    "artist": "Back number",
+                    "artist": "back number",
                     "groupMembers": "체비, 모카, 플리, 임하밍",
                     "groupSong": true
                 },
@@ -2068,7 +2219,7 @@
                     "groupSong": false
                 },
                 {
-                    "title": "0+0",
+                    "title": "입춘",
                     "time": "11:21:38",
                     "artist": "한로로",
                     "groupSong": false
@@ -2201,6 +2352,34 @@
                     "title": "우주(UNIVERSE)",
                     "time": "7:12:14",
                     "artist": "YOUHA(유하)",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": "휴방인ㄷ ㅔ 발로란트와 롤 w. 왁천코뽀체 + 한결 웅니",
+            "date": "2026-08-07",
+            "url": "https://vod.sooplive.com/player/203607283",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260807_60B32824_296165149_1_r",
+            "songInfo": [
+                {
+                    "title": "yours",
+                    "time": "3:19:21",
+                    "artist": "데이먼스 이어",
+                    "groupSong": false
+                }
+            ]
+        },
+        {
+            "title": " ASMR 하면서 소통^^",
+            "date": "2026-08-05",
+            "url": "https://vod.sooplive.com/player/203513001",
+            "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260805_A7CE32CA_296125059_2_r",
+            "songInfo": [
+                {
+                    "title": "좋아하니까",
+                    "time": "3:48:13",
+                    "artist": "유이카",
                     "groupSong": false
                 }
             ]

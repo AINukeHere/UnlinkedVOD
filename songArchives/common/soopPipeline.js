@@ -455,6 +455,16 @@ function defaultArtistForCanonicalTitle(mapping, canonicalTitle) {
   return v != null && String(v).trim() !== '' ? String(v).trim() : '';
 }
 
+/**
+ * defaultArtistMapping 값을 조회한 뒤, artistReference 별칭이면 정식명으로 치환.
+ * 레퍼런스에 없으면 매핑 문자열 그대로 반환.
+ */
+function resolveMappedDefaultArtist(artistRef, mapping, canonicalTitle) {
+  const def = defaultArtistForCanonicalTitle(mapping, canonicalTitle);
+  if (!def) return '';
+  return resolveArtistCanonical(artistRef, def) || def;
+}
+
 function readJsonArray(filePath) {
   try {
     const list = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -658,7 +668,7 @@ async function resolveItemInteractive(rl, ctx, item, caches, interactive, debug)
   }
 
   if (!hadRawArtistInComment) {
-    const defBlank = defaultArtistForCanonicalTitle(ctx.defaultMap, canonicalTitle);
+    const defBlank = resolveMappedDefaultArtist(ctx.artistRef, ctx.defaultMap, canonicalTitle);
     if (defBlank) {
       return mergeSongMeta(item, canonicalTitle, defBlank);
     }
@@ -696,9 +706,12 @@ async function resolveItemInteractive(rl, ctx, item, caches, interactive, debug)
     return mergeSongMeta(item, canonicalTitle, canonicalArtist);
   }
 
-  const def = defaultArtistForCanonicalTitle(ctx.defaultMap, canonicalTitle);
+  const defMapped = defaultArtistForCanonicalTitle(ctx.defaultMap, canonicalTitle);
+  const def = defMapped
+    ? resolveArtistCanonical(artistRef, defMapped) || defMapped
+    : '';
 
-  if (def && rawArtist === def) {
+  if (defMapped && (rawArtist === defMapped || rawArtist === def)) {
     return mergeSongMeta(item, canonicalTitle, def);
   }
 
@@ -707,9 +720,9 @@ async function resolveItemInteractive(rl, ctx, item, caches, interactive, debug)
     return mergeSongMeta(item, canonicalTitle, pick || null);
   }
 
-  const pickKey = `${canonicalTitle}\t${rawArtist}\t${def}`;
+  const pickKey = `${canonicalTitle}\t${rawArtist}\t${defMapped}`;
   if (!caches.artistPick.has(pickKey)) {
-    const choice = await askArtistChoice(rl, def || '(없음)', rawArtist);
+    const choice = await askArtistChoice(rl, def || defMapped || '(없음)', rawArtist);
     caches.artistPick.set(pickKey, choice);
   }
   const choice = caches.artistPick.get(pickKey);

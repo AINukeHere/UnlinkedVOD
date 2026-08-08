@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-06T19:01:23.469017+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-08T06:58:21.426563+00:00";
 const songs = [
   {
     "title": "#첫사랑",
@@ -171,18 +171,6 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "체비, 플리, 임하밍, 문모모"
-      },
-      {
-        "date": "2026-07-30",
-        "url": "https://vod.sooplive.com/player/202955427?change_second=40898",
-        "videoTitle": "맞으면서 배우는 2부 랜드야",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_07CD5FD5_295972059_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
       }
     ]
   },
@@ -201,6 +189,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=2275",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       }
     ]
   },
@@ -210,7 +210,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=8560",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=8560",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -379,8 +379,8 @@ const songs = [
     ]
   },
   {
-    "title": "Can i love",
-    "artist": "유라",
+    "title": "Can I Love",
+    "artist": "코스믹보이",
     "versions": [
       {
         "date": "2026-03-14",
@@ -441,6 +441,24 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "DANCE MONKEY",
+    "artist": "TONES AND I",
+    "versions": [
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=4800",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       }
     ]
   },
@@ -563,24 +581,6 @@ const songs = [
     "artist": "IVE",
     "versions": [
       {
-        "date": "2026-07-26",
-        "url": "https://vod.sooplive.com/player/202563829?change_second=25117",
-        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "ELEVEN",
-    "artist": "아이브",
-    "versions": [
-      {
         "date": "2026-03-12",
         "url": "https://vod.sooplive.com/player/189534863?change_second=13994",
         "videoTitle": "[역팬 & 확정방셀]",
@@ -603,12 +603,24 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-07-26",
+        "url": "https://vod.sooplive.com/player/202563829?change_second=25117",
+        "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
       }
     ]
   },
   {
     "title": "Either Way",
-    "artist": "아이브",
+    "artist": "IVE",
     "versions": [
       {
         "date": "2026-03-15",
@@ -621,6 +633,24 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      }
+    ]
+  },
+  {
+    "title": "Faded",
+    "artist": "Alan Walker",
+    "versions": [
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=4358",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       }
     ]
   },
@@ -768,7 +798,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=6978",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=6978",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -812,7 +842,7 @@ const songs = [
   },
   {
     "title": "JANE DOE",
-    "artist": "Kenshi Yonezu, Hikaru Utada",
+    "artist": "요네즈 켄시, 우타다 히카루",
     "versions": [
       {
         "date": "2026-03-15",
@@ -840,7 +870,7 @@ const songs = [
       },
       {
         "date": "2026-03-25",
-        "url": "https://vod.sooplive.co.kr/player/190801551?change_second=19759",
+        "url": "https://vod.sooplive.com/player/190801551?change_second=19759",
         "videoTitle": "갑자기 불려간 옵치 CK 승",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
@@ -861,13 +891,7 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "JANE DOE",
-    "artist": "요네즈 켄시, 우타다 히카루",
-    "versions": [
+      },
       {
         "date": "2026-07-25",
         "url": "https://vod.sooplive.com/player/202477627?change_second=15305",
@@ -1041,6 +1065,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=6190",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       }
     ]
   },
@@ -1130,7 +1166,7 @@ const songs = [
   },
   {
     "title": "Puppy Love",
-    "artist": "BE'O",
+    "artist": "비오(BE'O)",
     "versions": [
       {
         "date": "2026-03-13",
@@ -1265,29 +1301,23 @@ const songs = [
     "artist": "빌리 아일리시",
     "versions": [
       {
-        "date": "2026-07-25",
-        "url": "https://vod.sooplive.com/player/202477627?change_second=16879",
-        "videoTitle": "재미가 있었다",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "Six feet under",
-    "artist": "Billie Eilish",
-    "versions": [
-      {
         "date": "2026-03-13",
         "url": "https://vod.sooplive.com/player/189628799?change_second=19251",
         "videoTitle": "[역팬 & 확정방셀] 분내 품멜파티",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260313_E66A0429_292366011_1_r&column=2&t=1773430946",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=16879",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -1404,7 +1434,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=5273",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=5273",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -1436,7 +1466,7 @@ const songs = [
   },
   {
     "title": "breathin",
-    "artist": "Ariana Grande",
+    "artist": "아리아나 그란데",
     "versions": [
       {
         "date": "2026-04-03",
@@ -1449,13 +1479,7 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "breathin",
-    "artist": "아리아나 그란데",
-    "versions": [
+      },
       {
         "date": "2026-04-25",
         "url": "https://vod.sooplive.com/player/193861355?change_second=21394",
@@ -1512,7 +1536,7 @@ const songs = [
       },
       {
         "date": "2026-03-25",
-        "url": "https://vod.sooplive.co.kr/player/190801551?change_second=20437",
+        "url": "https://vod.sooplive.com/player/190801551?change_second=20437",
         "videoTitle": "갑자기 불려간 옵치 CK 승",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
@@ -1588,6 +1612,18 @@ const songs = [
         "videoTitle": "[MADiSON] 낮에 공겜하는 여자",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260726_B3360AFA_295866307_2_r",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-08-07",
+        "url": "https://vod.sooplive.com/player/203607283?change_second=11961",
+        "videoTitle": "휴방인ㄷ ㅔ 발로란트와 롤 w. 왁천코뽀체 + 한결 웅니",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260807_60B32824_296165149_1_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -1831,6 +1867,24 @@ const songs = [
     ]
   },
   {
+    "title": "금요일에 만나요",
+    "artist": "아이유",
+    "versions": [
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=3137",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
+      }
+    ]
+  },
+  {
     "title": "기다린만큼, 더",
     "artist": "검정치마",
     "versions": [
@@ -1962,7 +2016,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=5924",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=5924",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -2046,7 +2100,7 @@ const songs = [
       },
       {
         "date": "2026-03-25",
-        "url": "https://vod.sooplive.co.kr/player/190801551?change_second=19019",
+        "url": "https://vod.sooplive.com/player/190801551?change_second=19019",
         "videoTitle": "갑자기 불려간 옵치 CK 승",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
@@ -2079,6 +2133,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=4032",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       },
       {
         "date": "2026-04-07",
@@ -2169,6 +2235,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=5238",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       }
     ]
   },
@@ -2345,6 +2423,18 @@ const songs = [
         "groupMembers": ""
       },
       {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=5643",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
+      },
+      {
         "date": "2026-05-15",
         "url": "https://vod.sooplive.com/player/195824229?change_second=12537",
         "videoTitle": "보고 싶었어",
@@ -2377,12 +2467,12 @@ const songs = [
     ]
   },
   {
-    "title": "러브레터",
+    "title": "러브레터(ラブレター)",
     "artist": "요아소비",
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=5575",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=5575",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -2403,13 +2493,7 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "러브레터(ラブレター)",
-    "artist": "요아소비",
-    "versions": [
+      },
       {
         "date": "2026-04-22",
         "url": "https://vod.sooplive.com/player/193576481?change_second=17720",
@@ -2540,11 +2624,11 @@ const songs = [
   },
   {
     "title": "만찬가",
-    "artist": "tuki.",
+    "artist": "츠키",
     "versions": [
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190977265?change_second=7587",
+        "url": "https://vod.sooplive.com/player/190977265?change_second=7587",
         "videoTitle": "짧게만",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_28F68DB3_292748557_1_r&column=2&t=1774626611",
@@ -2592,7 +2676,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=4607",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=4607",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -2646,7 +2730,7 @@ const songs = [
       },
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190977265?change_second=7435",
+        "url": "https://vod.sooplive.com/player/190977265?change_second=7435",
         "videoTitle": "짧게만",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_28F68DB3_292748557_1_r&column=2&t=1774626611",
@@ -2660,7 +2744,7 @@ const songs = [
   },
   {
     "title": "문득",
-    "artist": "BE'O",
+    "artist": "비오(BE'O)",
     "versions": [
       {
         "date": "2026-04-03",
@@ -2682,7 +2766,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=7881",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=7881",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -2826,7 +2910,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190977265?change_second=8443",
+        "url": "https://vod.sooplive.com/player/190977265?change_second=8443",
         "videoTitle": "짧게만",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_28F68DB3_292748557_1_r&column=2&t=1774626611",
@@ -2838,7 +2922,7 @@ const songs = [
       },
       {
         "date": "2026-03-25",
-        "url": "https://vod.sooplive.co.kr/player/190801551?change_second=20088",
+        "url": "https://vod.sooplive.com/player/190801551?change_second=20088",
         "videoTitle": "갑자기 불려간 옵치 CK 승",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
@@ -2850,7 +2934,7 @@ const songs = [
       },
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=6511",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=6511",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -3006,7 +3090,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=4943",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=4943",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -3041,26 +3125,8 @@ const songs = [
     "artist": "can't be blue",
     "versions": [
       {
-        "date": "2026-07-25",
-        "url": "https://vod.sooplive.com/player/202477627?change_second=16034",
-        "videoTitle": "재미가 있었다",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "사랑이라 했던 말속에서",
-    "artist": "can't be blue",
-    "versions": [
-      {
         "date": "2026-03-28",
-        "url": "https://vod.sooplive.com/player/191102103?change_second=20799",
+        "url": "https://vod.sooplive.com/player/191102103?change_second=20800",
         "videoTitle": "치치런너 2등 + 더켓몬 섭종콘 + 옵치 듀오 W.달묘",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260328_1A66CC11_292767915_1_r&column=2&t=1774727747",
@@ -3069,19 +3135,25 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "사랑이라 했던 말속에서",
-    "artist": "캔트비블루",
-    "versions": [
+      },
       {
         "date": "2026-05-16",
         "url": "https://vod.sooplive.com/player/195927349?change_second=12540",
         "videoTitle": "체비 별별랭킹",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-25",
+        "url": "https://vod.sooplive.com/player/202477627?change_second=16034",
+        "videoTitle": "재미가 있었다",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260725_E313655F_295842571_3_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -3126,7 +3198,7 @@ const songs = [
       },
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=8156",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=8156",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -3258,7 +3330,7 @@ const songs = [
       },
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=8811",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=8811",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -3534,7 +3606,7 @@ const songs = [
     "versions": [
       {
         "date": "2026-03-22",
-        "url": "https://vod.sooplive.co.kr/player/190527127?change_second=6205",
+        "url": "https://vod.sooplive.com/player/190527127?change_second=6205",
         "videoTitle": "쳅이",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260322_507F8D60_292613145_1_r&column=2&t=1774209910",
@@ -3668,11 +3740,11 @@ const songs = [
   },
   {
     "title": "어른",
-    "artist": "Sondia",
+    "artist": "손디아",
     "versions": [
       {
         "date": "2026-03-27",
-        "url": "https://vod.sooplive.co.kr/player/190977265?change_second=7926",
+        "url": "https://vod.sooplive.com/player/190977265?change_second=7926",
         "videoTitle": "짧게만",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260327_28F68DB3_292748557_1_r&column=2&t=1774626611",
@@ -3722,7 +3794,7 @@ const songs = [
   },
   {
     "title": "여봉봉",
-    "artist": "",
+    "artist": "아율",
     "versions": [
       {
         "date": "2026-03-15",
@@ -3841,7 +3913,7 @@ const songs = [
     ]
   },
   {
-    "title": "우주",
+    "title": "우주(UNIVERSE)",
     "artist": "YOUHA(유하)",
     "versions": [
       {
@@ -3857,29 +3929,23 @@ const songs = [
         "groupMembers": ""
       },
       {
-        "date": "2026-05-15",
-        "url": "https://vod.sooplive.com/player/195824229?change_second=10763",
-        "videoTitle": "보고 싶었어",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260515_040CFAC9_294038393_1_r&column=2&t=1782631384",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "우주(UNIVERSE)",
-    "artist": "YOUHA(유하)",
-    "versions": [
-      {
         "date": "2026-04-25",
         "url": "https://vod.sooplive.com/player/193861355?change_second=18908",
         "videoTitle": "생일 음주 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-05-15",
+        "url": "https://vod.sooplive.com/player/195824229?change_second=10763",
+        "videoTitle": "보고 싶었어",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260515_040CFAC9_294038393_1_r&column=2&t=1782631384",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -3965,6 +4031,18 @@ const songs = [
         "groupMembers": ""
       },
       {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=7420",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
+      },
+      {
         "date": "2026-05-15",
         "url": "https://vod.sooplive.com/player/195824229?change_second=11406",
         "videoTitle": "보고 싶었어",
@@ -4008,7 +4086,7 @@ const songs = [
       },
       {
         "date": "2026-03-25",
-        "url": "https://vod.sooplive.co.kr/player/190801551?change_second=19330",
+        "url": "https://vod.sooplive.com/player/190801551?change_second=19330",
         "videoTitle": "갑자기 불려간 옵치 CK 승",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260325_09C6776F_292695261_1_r&column=2&t=1774466355",
@@ -4017,6 +4095,18 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
+      },
+      {
+        "date": "2026-04-04",
+        "url": "https://vod.sooplive.com/player/191817915?change_second=3473",
+        "videoTitle": "싱크룸 w. 유나기 + 옵치 내전 + 2부 옵치 랜드",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260404_5D1709B2_292957923_1_r&column=2&t=1775340461",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": true,
+        "groupMembers": "체비, 유나기"
       },
       {
         "date": "2026-05-16",
@@ -4078,6 +4168,18 @@ const songs = [
         "videoTitle": "생일 음주 노래뱅",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260425_2FF3F030_293511553_1_r&column=2&t=1777408071",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-07-30",
+        "url": "https://vod.sooplive.com/player/202955427?change_second=40898",
+        "videoTitle": "맞으면서 배우는 2부 랜드야",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260730_07CD5FD5_295972059_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -4162,6 +4264,18 @@ const songs = [
         "videoTitle": "체비 별별랭킹",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260516_9DEE1CA0_294064815_1_r&column=2&t=1782631408",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
+      {
+        "date": "2026-08-05",
+        "url": "https://vod.sooplive.com/player/203513001?change_second=13693",
+        "videoTitle": " ASMR 하면서 소통^^",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260805_A7CE32CA_296125059_2_r",
         "noMistake": false,
         "recommended": false,
         "needsReview": false,
@@ -4346,7 +4460,7 @@ const songs = [
   },
   {
     "title": "히로인",
-    "artist": "Back Number",
+    "artist": "back number",
     "versions": [
       {
         "date": "2026-03-17",
@@ -4371,13 +4485,19 @@ const songs = [
         "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
-      }
-    ]
-  },
-  {
-    "title": "히로인",
-    "artist": "Back number",
-    "versions": [
+      },
+      {
+        "date": "2026-04-07",
+        "url": "https://vod.sooplive.com/player/192016805?change_second=14866",
+        "videoTitle": "노래 하고 가야대가야대",
+        "views": 1000,
+        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
+        "noMistake": false,
+        "recommended": false,
+        "needsReview": false,
+        "groupSong": false,
+        "groupMembers": ""
+      },
       {
         "date": "2026-04-25",
         "url": "https://vod.sooplive.com/player/193861355?change_second=7928",
@@ -4401,24 +4521,6 @@ const songs = [
         "needsReview": false,
         "groupSong": true,
         "groupMembers": "체비, 모카, 플리, 임하밍"
-      }
-    ]
-  },
-  {
-    "title": "히로인(ヒロイン)",
-    "artist": "back number",
-    "versions": [
-      {
-        "date": "2026-04-07",
-        "url": "https://vod.sooplive.com/player/192016805?change_second=14866",
-        "videoTitle": "노래 하고 가야대가야대",
-        "views": 1000,
-        "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260407_4CD3B49A_293021593_1_r&column=2&t=1775568225",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": false,
-        "groupSong": false,
-        "groupMembers": ""
       }
     ]
   }

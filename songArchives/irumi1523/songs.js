@@ -1,4 +1,4 @@
-const SONGS_DATA_LAST_UPDATED = "2026-08-06T18:08:06.492295+00:00";
+const SONGS_DATA_LAST_UPDATED = "2026-08-08T01:37:10.245153+00:00";
 const songs = [
   {
     "title": "-ERROR",
@@ -28,21 +28,21 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=12063",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -91,12 +91,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=13432",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -247,12 +247,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=14418",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -354,13 +354,13 @@ const songs = [
     "versions": [
       {
         "date": "2026-07-27",
-        "url": "https://vod.sooplive.com/player/202615727?change_second=24632",
+        "url": "https://vod.sooplive.com/player/202615727?change_second=24628",
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -481,12 +481,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=15898",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -601,12 +601,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=12392",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -622,9 +622,9 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -637,12 +637,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=20641",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -659,8 +659,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -691,12 +691,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=21405",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -790,9 +790,9 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -808,9 +808,9 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -907,12 +907,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=17719",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -982,9 +982,9 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -997,12 +997,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=16648",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1048,21 +1048,21 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=13920",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1097,20 +1097,20 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=12830",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1375,12 +1375,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=17257",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       },
@@ -1594,9 +1594,9 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
+        "noMistake": true,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1649,8 +1649,8 @@ const songs = [
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
         "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1666,9 +1666,9 @@ const songs = [
         "videoTitle": "숲 버추얼 라이브 월드컵 / 후열 노래 🤍",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260727_CA689E89_295888459_1_r&column=2&t=1785183559",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1699,12 +1699,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=14786",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
-        "noMistake": false,
-        "recommended": false,
-        "needsReview": true,
+        "noMistake": true,
+        "recommended": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
@@ -1717,12 +1717,12 @@ const songs = [
       {
         "date": "2026-08-04",
         "url": "https://vod.sooplive.com/player/203357809?change_second=15325",
-        "videoTitle": "아침 소통 노래🤍 33/330(11연차)",
+        "videoTitle": "아침 소통 노래 🤍 33/330(11연차)",
         "views": 1000,
         "thumbnail": "https://videoimg.sooplive.com/php/SnapshotLoad.php?rowKey=20260804_0377251E_296087091_1_r&column=2&t=1785829382",
         "noMistake": false,
         "recommended": false,
-        "needsReview": true,
+        "needsReview": false,
         "groupSong": false,
         "groupMembers": ""
       }
