@@ -51,18 +51,17 @@ body {
   flex: 0 0 auto;
 }
 
-.site-hub-link {
-  display: inline-block;
-  font-size: 0.85rem;
+.site-archive-nav {
+  max-width: 14rem;
   font-weight: 600;
   color: var(--accent);
-  text-decoration: none;
-  white-space: nowrap;
+  border-color: var(--accent);
 }
 
-.site-hub-link:hover {
+.site-archive-nav:hover,
+.site-archive-nav:focus {
   color: var(--accent-hover);
-  text-decoration: underline;
+  border-color: var(--accent-hover);
 }
 
 .site-header-top {

@@ -842,6 +842,54 @@ function getArchiveStreamerId() {
   return String(c.archiveId || c.soopChannelId || '').trim();
 }
 
+function getArchiveStreamerEntries() {
+  const api = typeof window !== 'undefined' ? window.SONG_ARCHIVE_STREAMER_LIST : null;
+  const list = api && Array.isArray(api.SONG_ARCHIVE_STREAMERS) ? api.SONG_ARCHIVE_STREAMERS : [];
+  return list
+    .map((entry) => {
+      if (!entry || typeof entry !== 'object') return null;
+      const id = String(entry.id || '').trim();
+      const name = String(entry.name || '').trim();
+      if (!id || !name) return null;
+      return { id, name };
+    })
+    .filter(Boolean);
+}
+
+/** 헤더 드롭다운: 허브·다른 스트리머 보관소로 이동 */
+function setupArchiveNav() {
+  const select = document.getElementById('archiveNav');
+  if (!select) return;
+
+  const currentId = getArchiveStreamerId();
+  const hubValue = '../index.html';
+  const options = [
+    { value: hubValue, label: '목록으로 돌아가기', id: '' },
+    ...getArchiveStreamerEntries().map((entry) => ({
+      value: `../${entry.id}/`,
+      label: entry.name,
+      id: entry.id,
+    })),
+  ];
+
+  select.textContent = '';
+  let selectedValue = hubValue;
+  options.forEach((opt) => {
+    const el = document.createElement('option');
+    el.value = opt.value;
+    el.textContent = opt.label;
+    if (opt.id && opt.id === currentId) selectedValue = opt.value;
+    select.appendChild(el);
+  });
+  select.value = selectedValue;
+
+  select.addEventListener('change', () => {
+    const href = String(select.value || '').trim();
+    if (!href) return;
+    window.location.assign(href);
+  });
+}
+
 function archiveUsesVersionFlags() {
   const api = typeof window !== 'undefined' ? window.SONG_ARCHIVE_STREAMER_FLAGS : null;
   if (!api || typeof api.usesVersionFlags !== 'function') return false;
@@ -881,6 +929,7 @@ function setupVersionFlagsUi() {
 
 applySongArchivePageConfig();
 setupVersionFlagsUi();
+setupArchiveNav();
 
 window.onload = () => {
   setupVersionFlagsUi();

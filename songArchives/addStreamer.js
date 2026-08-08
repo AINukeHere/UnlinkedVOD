@@ -19,6 +19,7 @@ const songArchivesRoot = path.resolve(__dirname);
 const repoRoot = path.resolve(__dirname, '..');
 const templateStreamerId = 'churahee';
 const flagsModulePath = path.join(songArchivesRoot, 'common', 'streamerFlags.js');
+const streamerListPath = path.join(songArchivesRoot, 'common', 'streamerList.js');
 
 function parseArgs(argv) {
   let id = '';
@@ -113,8 +114,8 @@ function buildIndexHtml({ streamerId, siteTitle }) {
       <div class="data-update-meta">
         <p class="data-last-updated" id="dataLastUpdated" aria-live="polite" title=""></p>
       </div>
-      <nav class="site-header-nav" aria-label="상위 페이지">
-        <a href="../index.html" class="site-hub-link">목록으로 돌아가기</a>
+      <nav class="site-header-nav" aria-label="보관소 이동">
+        <select id="archiveNav" class="select site-archive-nav" aria-label="보관소 이동"></select>
       </nav>
     </div>
     <div class="toolbar">
@@ -199,6 +200,7 @@ function buildIndexHtml({ streamerId, siteTitle }) {
   </div>
 
   <script src="songs.js"></script>
+  <script src="../common/streamerList.js"></script>
   <script src="../common/streamerFlags.js"></script>
   <script src="../common/archive-page.js"></script>
   <script src="../common/community-data.js"></script>
@@ -252,6 +254,26 @@ function registerFlagsStreamer(streamerId) {
   }
   fs.writeFileSync(flagsModulePath, next, 'utf8');
   console.log(`[ok] flags list ← ${streamerId}`);
+}
+
+function ensureStreamerListEntry(streamerId, displayName) {
+  let src = fs.readFileSync(streamerListPath, 'utf8');
+  if (new RegExp(`id:\\s*['"]${streamerId}['"]`).test(src)) {
+    console.log(`[skip] already in SONG_ARCHIVE_STREAMERS: ${streamerId}`);
+    return;
+  }
+  const entry = `  { id: ${JSON.stringify(streamerId)}, name: ${JSON.stringify(displayName)} },\n`;
+  const next = src.replace(
+    /(var\s+SONG_ARCHIVE_STREAMERS\s*=\s*\[[\s\S]*?)(\n\];)/,
+    function (_m, body, close) {
+      return body + entry + close;
+    }
+  );
+  if (next === src) {
+    throw new Error('streamerList.js 의 SONG_ARCHIVE_STREAMERS 배열을 찾지 못했습니다.');
+  }
+  fs.writeFileSync(streamerListPath, next, 'utf8');
+  console.log(`[ok] streamer list ← ${streamerId}`);
 }
 
 function main() {
@@ -334,6 +356,7 @@ function main() {
   );
 
   ensureHubLink(streamerId, hubLabel);
+  ensureStreamerListEntry(streamerId, hubLabel);
 
   if (args.flags) {
     registerFlagsStreamer(streamerId);
